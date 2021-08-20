@@ -1,0 +1,85 @@
+alienDeployments:
+  - type: STR_LARGE_SCOUT
+    height: 9
+    width: 50
+    length: 50
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK2
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE

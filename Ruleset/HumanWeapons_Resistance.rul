@@ -1,0 +1,352 @@
+items:
+################################
+##### AMERICAN WEAPONS ########
+##############################
+  - type: STR_M1911_COLT
+    categories: [STR_HUMAN_WEAPONS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
+    size: 0.1
+    costBuy: 750
+    costSell: 600
+    weight: 5
+    bigSprite: 100
+    floorSprite: 100
+    handSprite: 100
+    fireSound: 4
+#    reloadSound: 304
+    compatibleAmmo:
+      - STR_M1911_COLT_CLIP
+    accuracyCloseQuarters: 130
+    accuracySnap: 75
+    accuracyAimed: 80
+    tuSnap: 18
+    tuAimed: 32
+    tuLoad: 15
+    aimRange: 20
+    kneelBonus: 105
+    costThrow:
+      energy: 10
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    attraction: 12
+    bulletSpeed: 5
+    listOrder: 2000
+  - type: STR_M1911_COLT_CLIP
+    categories: [STR_HUMAN_WEAPONS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    size: 0.025
+    costBuy: 75
+    costSell: 55
+    weight: 2
+    bigSprite: 105
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    bulletSprite: 1
+    damageAlter:
+      ArmorEffectiveness: 0.3
+    clipSize: 7
+    costThrow:
+      energy: 4
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+    listOrder: 2005
+
+  - type: STR_M5A2_FOLSOM_CARBINE
+    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_AMERICAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 120
+    floorSprite: 120
+    handSprite: 116
+    fireSound: 4
+    bulletSpeed: 5
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_303_RIFLE_AMMO ]
+      1:
+        tuLoad: 20
+        tuUnload: 20
+        compatibleAmmo: [ STR_40MM_FRAG ]
+    confAimed:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAuto: 70
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuAuto: 30
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2020
+  - type: STR_303_RIFLE_AMMO
+    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 125
+    floorSprite: 4
+    bulletSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    armor: 12
+    listOrder: 2025
+
+  - type: STR_40MM_FRAG
+    categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    size: 0.1
+    costBuy: 500
+    costSell: 470
+    weight: 1
+    bigSprite: 126
+    floorSprite: 4
+    hitSound: 0
+    hitAnimation: 0
+    power: 70
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 1.0
+      RandomWound: true
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 3
+    bulletSprite: 4
+    listOrder: 2026
+
+################################
+##### BRITISH WEAPONS #########
+##############################
+
+  - type: STR_L23_FAREYE_SNIPER_RIFLE
+    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 170
+    floorSprite: 170
+    handSprite: 156
+    fireSound: 4
+    bulletSpeed: 5
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_303_SNIPER_AMMO
+    accuracyCloseQuarters: 65
+    confAuto:
+      shots: 1
+      name: STR_HEADSHOT
+    accuracySnap: 75
+    accuracyAimed: 90
+    accuracyAuto: 200
+    tuSnap: 20
+    tuAimed: 35
+    tuAuto: 50
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.8
+      reactions: 1.5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2070
+
+  - type: STR_303_SNIPER_AMMO
+    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 175
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 3
+    power: 40
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+    listOrder: 2075
+
+################################
+###### MAQUIS WEAPONS #########
+##############################
+  - type: STR_STORM_RIFLE
+    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
+    size: 0.3
+    costSell: 3500
+    weight: 6
+    bigSprite: 230
+    floorSprite: 230
+    handSprite: 204
+    fireSound: 4
+    bulletSpeed: 5
+#    reloadSound: 302
+    compatibleAmmo:
+      - STR_303_RIFLE_AMMO
+    accuracyCloseQuarters: 70
+    accuracySnap: 55
+    accuracyAimed: 65
+    tuSnap: 18
+    tuAimed: 35
+    tuLoad: 13
+    snapRange: 16
+    aimRange: 24
+    dropoff: 6
+    powerRangeThreshold: 20
+    powerRangeReduction: 1
+    damageBonus:
+      firing: 1.3
+      reactions: 1.4
+    accuracyMultiplier:
+      firing: 1.2
+      reactions: 1.6
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    attraction: 8
+    battleType: 1
+    listOrder: 2130
+
+
+################################
+###### JAPANESE WEAPONS #######
+##############################
+
+ufopaedia:
+########################################
+######## AMMO CLIPS & MAGAZINES ########
+########################################
+  - id: STR_M1911_COLT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M1911_COLT_UFOPEDIA
+    listOrder: 2000
+  - id: STR_M1911_COLT_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M5A2_FOLSOM_CARBINE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M5A2_FOLSOM_CARBINE_UFOPEDIA
+    listOrder: 2000
+  - id: STR_303_RIFLE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_40MM_FRAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_L23_FAREYE_SNIPER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 2000
+  - id: STR_303_SNIPER_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_STORM_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STORM_RIFLE_UFOPEDIA
+    listOrder: 2000
+
+
+extraSprites:
+#########################################
+########### HUMAN WEAPONS ###############
+#########################################
+  - type: BIGOBS.PCK
+    files:
+      100: Resources/AmericanWeapons/BigM1911.png
+      105: Resources/Ammo/Big45PistolAmmo.png
+      120: Resources/AmericanWeapons/BigM5A2Folsom.png
+      125: Resources/Ammo/Big303RifleAmmo.png
+      126: Resources/Ammo/Big40mmFragAmmo.png
+      170: Resources/BritishWeapons/BigL23Fareye.png
+      175: Resources/Ammo/Big303SniperAmmo.png
+      230: Resources/MaquisWeapons/BigStormRifle.png
+
+  - type: FLOOROB.PCK
+    files:
+      100: Resources/AmericanWeapons/FloorM1911.png
+#      105: Resources/Ammo/Big45PistolAmmo.png
+      120: Resources/AmericanWeapons/FloorM5A2Folsom.png
+#      125: Resources/Ammo/Big303RifleAmmo.png
+#      126: Resources/Ammo/Big40mmFragAmmo.png
+      170: Resources/BritishWeapons/FloorL23Fareye.png
+#      175: Resources/Ammo/Big303SniperAmmo.png
+      230: Resources/MaquisWeapons/FloorStormRifle.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      100: Resources/AmericanWeapons/HandM1911.png
+      116: Resources/AmericanWeapons/HandM5A2Folsom.png
+      156: Resources/BritishWeapons/HandL23Fareye.png
+      204: Resources/MaquisWeapons/HandStormRifle.png
+  
+extraStrings:
+  - type: en-US
+    strings:
+      STR_FIRE_GRENADE: "Fire Grenade"
+      STR_M1911_COLT: "M1911 Colt"
+      STR_M1911_COLT_CLIP: ".45 ACP Magazine (x7)"
+      STR_M1911_COLT_CLIP_UFOPEDIA: "Standard sidearm of SPRA and US Army units, it is reliable and easy to use. It's stopping power is enough to kill a Hybrid or two at point-blank."
+
+      STR_M5A2_FOLSOM_CARBINE: "M5A2 Folsom Carbine"
+      STR_303_RIFLE_AMMO: ".303 Rifle Ammo (x30)"
+      STR_40MM_FRAG: "40mm Frag Grenade"
+      STR_M5A2_FOLSOM_CARBINE_UFOPEDIA: "Powerful rifle of US design, used by all the US Armed Forces. It is produced under-licence by the British Army as Mk.6 Carbine and some European countries had their own variants of this weapon as well. However, it's very heavy and cumbersome due the wood furniture and integrated grenade launcher. Alt fire: Launch Grenade"
+
+      STR_L23_FAREYE_SNIPER_RIFLE: "L23 Fareye"
+      STR_303_SNIPER_AMMO: ".303 Mk 10 Sniper Ammo"
+      STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA: "A personal favorite of many British Royal Marine Commando sniper teams, it includes a small electromagnetic-pulsing device meant to increase the neural activity, thus increasing the accuracy of the sharpshooters. Alt fire: Headshot"
+
+      STR_STORM_RIFLE: "Storm Rifle"
+      STR_STORM_RIFLE_UFOPEDIA: "Battle rifle designed by the German Armed Forces, was the standard rifle of the United European Defense (mostly used by Germans, French and Italians). Currently used by Maquis, most of them were recovered from a supply ship sunk near Olso. It's official name was '.303 Sturmgewehr'"

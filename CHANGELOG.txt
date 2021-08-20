@@ -1,0 +1,15 @@
+X-Jul-2021: World Resistance v0.1
+Changes made:
+*Added Chimeran Hybrid
+*Added Chimeran Weapons
+    - Bullseye Mk.1
+    - Bullseye Mk.2
+    - Auger Mk.1
+    - Auger Mk.2
+*Added US Army Soldier
+*Added Human weapons
+    - M5A2 Folsom Carbine (US)
+    - M1911 Colt (US)
+    - L23 Fareye (UK)
+    - Storm Rifle (Maquis)
+*Added background menu image, by LegoLiam1803

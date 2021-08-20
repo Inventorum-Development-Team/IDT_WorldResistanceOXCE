@@ -1,0 +1,124 @@
+﻿
+items:
+  - type: STR_HYBRID_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 20
+    bigSprite: 3050
+    floorSprite: 3050
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+
+
+  - type: STR_TERRORIST_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 14401
+
+
+armors:
+  - type: STR_HYBRID_ARMOR
+    spriteSheet: HYBRID_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    spriteInv: HYBRID_INVENTORY
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 5
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+
+units:
+  - type: STR_HYBRID_SOLDIER
+    race: STR_HYBRID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_HYBRID_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 6
+    canSurrender: false
+
+alienRaces:
+#Race Rank Reference
+#alienRank: 5 - Soldier
+#alienRank: 4 - Navigator
+#alienRank: 3 - Medic
+#alienRank: 2 - Engineer
+#alienRank: 1 - Leader
+#alienRank: 0 - Commander
+  - id: STR_HYBRID_SQUAD
+    members:
+      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SOLDIER
+
+
+extraSprites:
+  - type: HYBRID_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ChimeraUnits/HYBRID_SPRITESHEET.png
+
+  - type: BIGOBS.PCK
+    files:
+      3050: Resources/ChimeraUnits/HYBRID_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3050: Resources/ChimeraUnits/HYBRID_CORPSE_FLOOROB.png
+
+  - type: HYBRID_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ChimeraUnits/Inventory/HYBRID_INVENTORY.png
+
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_HYBRID_SQUAD: Hybrid Squad
+      STR_HYBRID_SOLDIER: Hybrid Soldier
+      STR_HYBRID_CORPSE: Hybrid Corpse

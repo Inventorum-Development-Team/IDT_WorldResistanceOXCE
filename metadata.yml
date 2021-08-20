@@ -1,0 +1,9 @@
+name: "World Resistance"
+version: "0.1"
+author: "efrenespartano + IDT"
+description: "Set on the Chimeran War, lead a multinational team tasked to recover Gray Tech and turning the tide on the war!"
+id: World_Resistance
+master: xcom1
+reservedSpace: 7
+requiredExtendedVersion: "6.8"
+resourceConfig: transparency.rul

@@ -1,0 +1,359 @@
+items:
+################################
+###### CHIMERAN WEAPONS #######
+##############################
+  - type: STR_BULLSEYE_MK1
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 340
+    floorSprite: 340
+    handSprite: 292
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK1_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 40
+    accuracyAimed: 50
+    accuracyAuto: 35
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    listOrder: 2240
+
+  - type: STR_BULLSEYE_MK1_BATTERY
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 345
+    floorSprite: 4
+    hitSound: 19
+    bulletSprite: 27 # 35*27=945
+    hitAnimation: 90
+    power: 40
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    armor: 12
+    listOrder: 2245
+
+  - type: STR_BULLSEYE_MK2
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 350
+    floorSprite: 350
+    handSprite: 300
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK2_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 50
+    accuracyAimed: 60
+    accuracyAuto: 45
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2250
+
+  - type: STR_BULLSEYE_MK2_BATTERY
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 355
+    floorSprite: 4
+    bulletSprite: 28 # 35*28=980
+    hitAnimation: 100
+    power: 50
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    armor: 12
+    listOrder: 2255
+
+  - type: STR_AUGER_MK1
+    categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 360
+    floorSprite: 360
+    handSprite: 308
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_AUGER_MK1_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageAlter:
+      ToTile: 3.0
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2260
+
+  - type: STR_AUGER_MK1_BATTERY
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 365
+    floorSprite: 4
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
+    hitSound: 19
+    power: 30
+    damageType: 5
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    listOrder: 2265
+
+  - type: STR_AUGER_MK2
+    categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 370
+    floorSprite: 370
+    handSprite: 316
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_AUGER_MK2_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 85
+    accuracyAimed: 100
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageAlter:
+      ToTile: 4.0
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2270
+
+  - type: STR_AUGER_MK2_BATTERY
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 375
+    floorSprite: 4
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
+    hitSound: 19
+    power: 40
+    damageType: 5
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    listOrder: 2275
+
+  - type: STR_HEDGEHOG_GRENADE
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 39
+    floorSprite: 38
+    power: 90
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 5
+    listOrder: 2330
+
+ufopaedia:
+########################################
+######## AMMO CLIPS & MAGAZINES ########
+########################################
+  - id: STR_BULLSEYE_MK1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLSEYE_MK1_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_BULLSEYE_MK1_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_BULLSEYE_MK2
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLSEYE_MK2_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_BULLSEYE_MK2_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_AUGER_MK1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUGER_MK1_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_AUGER_MK1_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_AUGER_MK2
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUGER_MK2_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_AUGER_MK2_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HEDGEHOG_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEDGEHOG_GRENADE_UFOPEDIA
+#    listOrder: 2002
+
+extraSprites:
+#########################################
+########## CHIMERAN WEAPONS #############
+#########################################
+  - type: BIGOBS.PCK
+    files:
+      340: Resources/ChimeraWeapons/BigBullseyeMk1.png
+      345: Resources/Ammo/BigBullseyeMk1Battery.png
+      350: Resources/ChimeraWeapons/BigBullseyeMk2.png
+      355: Resources/Ammo/BigBullseyeMk2Battery.png
+      360: Resources/ChimeraWeapons/BigAugerMk1.png
+      365: Resources/Ammo/BigAugerMk1Battery.png
+      370: Resources/ChimeraWeapons/BigAugerMk2.png
+      375: Resources/Ammo/BigAugerMk2Battery.png
+
+  - type: FLOOROB.PCK
+    files:
+      340: Resources/ChimeraWeapons/BigBullseyeMk1.png
+#      345: Resources/ChimeraWeapons/BigBullseyeMk1Battery.png
+      350: Resources/ChimeraWeapons/BigBullseyeMk2.png
+#      355: Resources/ChimeraWeapons/BigBullseyeMk2Battery.png
+      360: Resources/ChimeraWeapons/BigAugerMk1.png
+#      365: Resources/ChimeraWeapons/BigAugerMk1Battery.png
+      370: Resources/ChimeraWeapons/BigAugerMk2.png
+#      375: Resources/ChimeraWeapons/BigAugerMk2Battery.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      292: Resources/ChimeraWeapons/HandBullseyeMk1.png
+      300: Resources/ChimeraWeapons/HandBullseyeMk2.png
+      308: Resources/ChimeraWeapons/HandAugerMk1.png
+      316: Resources/ChimeraWeapons/HandAugerMk2.png
+
+  - type: SMOKE.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
+      90: Resources/HitAnimations/Bullseye_Hit_Red.png
+      100: Resources/HitAnimations/Bullseye_Hit_Blue.png
+      110: Resources/HitAnimations/Auger_Hit_Yellow.png
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      805: Resources/BulletSprites/FlameProjectile.png # 23
+      840: Resources/BulletSprites/Ion_Projectile_Yellow.png # 24
+      945: Resources/BulletSprites/Bullseye_Projectile_Red.png # 27
+      980: Resources/BulletSprites/Bullseye_Projectile_Blue.png # 28
+      1015: Resources/BulletSprites/Auger_Projectile_Yellow.png # 29
+
+  
+extraStrings:
+  - type: en-US
+    strings:
+      STR_BULLSEYE_MK1: "Bullseye Mk.1"
+      STR_BULLSEYE_MK1_BATTERY: "Bullseye Mk.1 Battery"
+      STR_BULLSEYE_MK1_UFOPEDIA: "Main combat rifle of Chimera infantry. It has a high rate of fire, although its accuracy is limited and it is not effective beyond close-range combat. It fires red plasma projectiles."
+
+      STR_BULLSEYE_MK2: "Bullseye Mk.2"
+      STR_BULLSEYE_MK2_BATTERY: "Bullseye Mk.2 Battery"
+      STR_BULLSEYE_MK2_UFOPEDIA: "Improved version of the standard Chimera infantry combat rifle. The heavy barrel allows for greater accuracy, but it is still a weapon focused on close combat. Its blue plasma projectiles cause more wounds than other weapons."
+
+      STR_AUGER_MK1: "Auger Mk.1"
+      STR_AUGER_MK1_BATTERY: "Auger Mk.1 Battery"
+      STR_AUGER_MK1_UFOPEDIA: "Heavy sniper rifle, emits ionizing radiation projectiles that cause considerable damage to the terrain. Its medium range sight makes it easy to attack enemies hidden behind cover."
+
+      STR_AUGER_MK2: "Auger Mk.2"
+      STR_AUGER_MK2_BATTERY: "Auger Mk.2 Battery"
+      STR_AUGER_MK2_UFOPEDIA: "Improved version of the heavy sniper rifle used by Chimera snipers, it has a long-range sight and an ionizing radiation generator with greater capacity to emit energy. Its ability to penetrate terrain is substantially increased."
+
+      STR_HEDGEHOG_GRENADE: "Hedgehog Grenade"
+      STR_HEDGEHOG_GRENADE_UFOPEDIA: "..."
