@@ -70,6 +70,8 @@ items:
     invHeight: 3
     armor: 30
     recover: false
+    battleType: 11
+
 
 armors:
   - type: STR_BDU_UC
