@@ -1,0 +1,90 @@
+
+ufopaedia:
+########################################
+######## AMMO CLIPS & MAGAZINES ########
+########################################
+  - id: STR_M1911_COLT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M1911_COLT_UFOPEDIA
+    listOrder: 2000
+  - id: STR_M1911_COLT_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M5A2_FOLSOM_CARBINE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M5A2_FOLSOM_CARBINE_UFOPEDIA
+    listOrder: 2000
+  - id: STR_303_RIFLE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_40MM_FRAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_L23_FAREYE_SNIPER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 2000
+  - id: STR_303_SNIPER_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_STORM_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STORM_RIFLE_UFOPEDIA
+    listOrder: 2000
+
+  - id: STR_BULLSEYE_MK1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLSEYE_MK1_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_BULLSEYE_MK1_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_BULLSEYE_MK2
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLSEYE_MK2_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_BULLSEYE_MK2_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_AUGER_MK1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUGER_MK1_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_AUGER_MK1_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_AUGER_MK2
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUGER_MK2_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_AUGER_MK2_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HEDGEHOG_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEDGEHOG_GRENADE_UFOPEDIA
+#    listOrder: 2002
+
+
+################
+
+
+  - id: STR_BDU_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 2
+    text: STR_BDU_UC_UFOPEDIA
+

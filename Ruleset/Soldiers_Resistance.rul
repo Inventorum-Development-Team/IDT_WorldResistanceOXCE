@@ -115,12 +115,7 @@ armors:
     units:
       - STR_US_ARMY_SOLDIER
 
-ufopaedia:
-  - id: STR_BDU_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 2
-    text: STR_BDU_UC_UFOPEDIA
+
 
 extraSprites:
   - type: MAN_BDUF0.SPK
