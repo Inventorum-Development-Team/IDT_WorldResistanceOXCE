@@ -1,0 +1,154 @@
+research:
+#######################################
+### WEAPONS AND SOLDIERS RESEARCH ####
+#####################################
+  - name: STR_EXPANDING_FRONTIERS
+    cost: 50
+    points: 10
+
+  - name: STR_REESTABLISH_DIPLOMATIC_TIES
+    cost: 180
+    points: 20
+    dependencies:
+      - STR_EXPANDING_FRONTIERS
+  - name: STR_BRITISH_COOPERATION_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_REESTABLISH_DIPLOMATIC_TIES
+  - name: STR_MAQUIS_COOPERATION_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_REESTABLISH_DIPLOMATIC_TIES
+
+  - name: STR_EXTENDING_WIDEBAND_TRANSMISSIONS
+    cost: 180
+    points: 20
+    dependencies:
+      - STR_REESTABLISH_DIPLOMATIC_TIES
+  - name: STR_JAPANESE_COOPERATION_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_EXTENDING_WIDEBAND_TRANSMISSIONS
+
+  - name: STR_CODEBREAKER_TRANSMISSIONS
+    cost: 180
+    points: 20
+    dependencies:
+      - STR_EXTENDING_WIDEBAND_TRANSMISSIONS
+  - name: STR_RUSSIAN_COOPERATION_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_CODEBREAKER_TRANSMISSIONS
+  - name: STR_SIBERIAN_COOPERATION_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_CODEBREAKER_TRANSMISSIONS
+
+##########################
+####### END GAME ########
+########################
+
+  - name: STR_ELERIUM_115
+    cost: 450
+    points: 60
+    needItem: true
+  - name: STR_ALIEN_ALLOYS
+    cost: 600
+    points: 25
+    needItem: true
+
+  - name: STR_GRAY_TECH_INTRODUCTION
+    cost: 800
+    points: 30
+
+  - name: STR_GRAY_TECH_ITEM
+    cost: 100
+    points: 30
+    needItem: true    
+    
+  - name: STR_GRAY_TECH_THEORY
+    cost: 800
+    points: 30
+    dependencies:
+      - STR_GRAY_TECH_ITEM
+      - STR_GRAY_TECH_INTRODUCTION
+
+  - name: STR_GRAY_TECH_APPLICATIONS
+    cost: 800
+    points: 30
+    dependencies:
+      - STR_GRAY_TECH_THEORY
+
+  - name: STR_PROJECT_PROMETHEUS
+    cost: 800
+    points: 30
+    dependencies:
+      - STR_GRAY_TECH_APPLICATIONS
+      - STR_ALIEN_ALLOYS
+
+  - name: STR_PROMETHEUS_WEAPON
+    cost: 800
+    points: 30
+    dependencies:
+      - STR_PROJECT_PROMETHEUS
+
+  - name: STR_LAUNCH_OPERATION_OLYMPIC
+    cost: 1000
+    points: 30
+    dependencies:
+      - STR_PROMETHEUS_WEAPON
+
+###############################
+###### CHIMERAN WEAPONS ######
+#############################
+
+  - name: STR_BULLSEYE_MK1
+    cost: 700
+    points: 25
+    needItem: true
+  - name: STR_BULLSEYE_MK1_BATTERY
+    cost: 400
+    points: 6
+    needItem: true
+  - name: STR_BULLSEYE_MK2
+    cost: 600
+    points: 20
+    needItem: true
+  - name: STR_BULLSEYE_MK2_BATTERY
+    cost: 400
+    points: 5
+    needItem: true
+  - name: STR_AUGER_MK1
+    cost: 900
+    points: 10
+    needItem: true
+  - name: STR_AUGER_MK1_BATTERY
+    cost: 300
+    points: 10
+    needItem: true
+  - name: STR_AUGER_MK2
+    cost: 550
+    points: 30
+    needItem: true
+  - name: STR_AUGER_MK2_BATTERY
+    cost: 180
+    points: 10
+    needItem: true
+  - name: STR_HEDGEHOG_GRENADE
+    cost: 200
+    points: 20
+    needItem: true
+
+items:
+  - type: STR_GRAY_TECH_ITEM
+    size: 0.1
+    costSell: 10000
+    weight: 3
+    bigSprite: 345
+    floorSprite: 4
+
