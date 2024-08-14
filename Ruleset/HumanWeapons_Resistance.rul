@@ -330,23 +330,3 @@ extraSprites:
       116: Resources/AmericanWeapons/HandM5A2Folsom.png
       156: Resources/BritishWeapons/HandL23Fareye.png
       204: Resources/MaquisWeapons/HandStormRifle.png
-  
-extraStrings:
-  - type: en-US
-    strings:
-      STR_FIRE_GRENADE: "Fire Grenade"
-      STR_M1911_COLT: "M1911 Colt"
-      STR_M1911_COLT_CLIP: ".45 ACP Magazine (x7)"
-      STR_M1911_COLT_CLIP_UFOPEDIA: "Standard sidearm of SPRA and US Army units, it is reliable and easy to use. It's stopping power is enough to kill a Hybrid or two at point-blank."
-
-      STR_M5A2_FOLSOM_CARBINE: "M5A2 Folsom Carbine"
-      STR_303_RIFLE_AMMO: ".303 Rifle Ammo (x30)"
-      STR_40MM_FRAG: "40mm Frag Grenade"
-      STR_M5A2_FOLSOM_CARBINE_UFOPEDIA: "Powerful rifle of US design, used by all the US Armed Forces. It is produced under-licence by the British Army as Mk.6 Carbine and some European countries had their own variants of this weapon as well. However, it's very heavy and cumbersome due the wood furniture and integrated grenade launcher. Alt fire: Launch Grenade"
-
-      STR_L23_FAREYE_SNIPER_RIFLE: "L23 Fareye"
-      STR_303_SNIPER_AMMO: ".303 Mk 10 Sniper Ammo"
-      STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA: "A personal favorite of many British Royal Marine Commando sniper teams, it includes a small electromagnetic-pulsing device meant to increase the neural activity, thus increasing the accuracy of the sharpshooters. Alt fire: Headshot"
-
-      STR_STORM_RIFLE: "Storm Rifle"
-      STR_STORM_RIFLE_UFOPEDIA: "Battle rifle designed by the German Armed Forces, was the standard rifle of the United European Defense (mostly used by Germans, French and Italians). Currently used by Maquis, most of them were recovered from a supply ship sunk near Olso. It's official name was '.303 Sturmgewehr'"

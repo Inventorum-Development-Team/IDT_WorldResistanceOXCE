@@ -192,27 +192,3 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Flags/00-USArmy.png
-extraStrings:
-  - type: en-US
-    strings:
-      STR_US_ARMY_SOLDIER: "US Army Volunteer"
-      STR_PRIVATE: "Private"
-      STR_CORPORAL: "Corporal"
-      STR_ASSISTANT_AGENT_IN_CHARGE: "Assist. Agent-in-Charge"
-      STR_AGENT_IN_CHARGE: "Agent-in-Charge"
-      STR_DEPUTY_DIRECTOR: "Deputy Director"
-      STR_ASSISTANT_DIRECTOR: "Assistant Director"
-      STR_SERGEANT: "Sergeant"
-      STR_STAFF_SERGEANT: "Staff Sergeant"
-      STR_SERGEANT_FIRST_CLASS: "Sergeant First Class"
-      STR_MASTER_SERGEANT: "Master Sergeant"
-      STR_SERGEANT_MAJOR: "Sergeant Major"
-      STR_WARRANT_OFFICER: "Warrant Officer"
-      STR_LIEUTENANT: "Lieutenant"
-      STR_CAPTAIN: "Captain"
-      STR_MAJOR: "Major"
-      STR_LT_COLONEL: "Lt. Colonel"
-      STR_COLONEL: "Colonel"
-
-      STR_BDU_UC: ARMY UNIFORM
-      STR_BDU_UC_UFOPEDIA: Standard issue military uniform.

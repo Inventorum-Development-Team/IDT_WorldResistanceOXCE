@@ -335,25 +335,4 @@ extraSprites:
       980: Resources/BulletSprites/Bullseye_Projectile_Blue.png # 28
       1015: Resources/BulletSprites/Auger_Projectile_Yellow.png # 29
 
-  
-extraStrings:
-  - type: en-US
-    strings:
-      STR_BULLSEYE_MK1: "Bullseye Mk.1"
-      STR_BULLSEYE_MK1_BATTERY: "Bullseye Mk.1 Battery"
-      STR_BULLSEYE_MK1_UFOPEDIA: "Main combat rifle of Chimera infantry. It has a high rate of fire, although its accuracy is limited and it is not effective beyond close-range combat. It fires red plasma projectiles."
-
-      STR_BULLSEYE_MK2: "Bullseye Mk.2"
-      STR_BULLSEYE_MK2_BATTERY: "Bullseye Mk.2 Battery"
-      STR_BULLSEYE_MK2_UFOPEDIA: "Improved version of the standard Chimera infantry combat rifle. The heavy barrel allows for greater accuracy, but it is still a weapon focused on close combat. Its blue plasma projectiles cause more wounds than other weapons."
-
-      STR_AUGER_MK1: "Auger Mk.1"
-      STR_AUGER_MK1_BATTERY: "Auger Mk.1 Battery"
-      STR_AUGER_MK1_UFOPEDIA: "Heavy sniper rifle, emits ionizing radiation projectiles that cause considerable damage to the terrain. Its medium range sight makes it easy to attack enemies hidden behind cover."
-
-      STR_AUGER_MK2: "Auger Mk.2"
-      STR_AUGER_MK2_BATTERY: "Auger Mk.2 Battery"
-      STR_AUGER_MK2_UFOPEDIA: "Improved version of the heavy sniper rifle used by Chimera snipers, it has a long-range sight and an ionizing radiation generator with greater capacity to emit energy. Its ability to penetrate terrain is substantially increased."
-
-      STR_HEDGEHOG_GRENADE: "Hedgehog Grenade"
-      STR_HEDGEHOG_GRENADE_UFOPEDIA: "..."
+      
