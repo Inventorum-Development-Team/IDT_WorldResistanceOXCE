@@ -193,11 +193,11 @@ extraSprites:
 #      137: Resources/Crafts/Shinen_base.png
 #      138: Resources/Crafts/Yakolev_base.png
 
-      248: Resources/Crafts/CraftWeapon/Sidewinder_basebits.png
-      249: Resources/Crafts/CraftWeapon/20mmCannon_basebits.png
-      279: Resources/Crafts/CraftWeapon/50calMG_basebits.png
-      280: Resources/Crafts/CraftWeapon/FuelTank_basebits.png
-      281: Resources/Crafts/CraftWeapon/AlloyPlates_basebits.png
+      248: Resources/Crafts/CraftWeapons/Sidewinder_basebits.png
+      249: Resources/Crafts/CraftWeapons/20mmCannon_basebits.png
+      279: Resources/Crafts/CraftWeapons/50calMG_basebits.png
+      280: Resources/Crafts/CraftWeapons/FuelTank_basebits.png
+      281: Resources/Crafts/CraftWeapons/AlloyPlates_basebits.png
 
   - type: INTICON.PCK
     files:
@@ -218,11 +218,11 @@ extraSprites:
 #      104: Resources/Crafts/Shinen_minimised.png
 #      105: Resources/Crafts/Yakolev_minimised.png
 
-      205: Resources/Crafts/CraftWeapon/Sidewinder_basebits.png
-      206: Resources/Crafts/CraftWeapon/20mmCannon_basebits.png
-      236: Resources/Crafts/CraftWeapon/50calMG_basebits.png
-      237: Resources/Crafts/CraftWeapon/FuelTank_basebits.png
-      238: Resources/Crafts/CraftWeapon/AlloyPlates_basebits.png
+      205: Resources/Crafts/CraftWeapons/Sidewinder_basebits.png
+      206: Resources/Crafts/CraftWeapons/20mmCannon_basebits.png
+      236: Resources/Crafts/CraftWeapons/50calMG_basebits.png
+      237: Resources/Crafts/CraftWeapons/FuelTank_basebits.png
+      238: Resources/Crafts/CraftWeapons/AlloyPlates_basebits.png
 
 ##################################
 #### AIRCRAFT UFOPEDIA IMAGES ####
@@ -274,29 +274,29 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/CraftWeapon/SIDEWINDER.gif
+      0: Resources/Crafts/CraftWeapons/SIDEWINDER.gif
   - type: 20MM_CANNON
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/CraftWeapon/20MM_CANNON.png
+      0: Resources/Crafts/CraftWeapons/20MM_CANNON.png
   - type: 50CAL_MG
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/CraftWeapon/50CAL_MG.png
+      0: Resources/Crafts/CraftWeapons/50CAL_MG.png
   - type: FUEL_TANK
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/CraftWeapon/FUEL_TANK.png
+      0: Resources/Crafts/CraftWeapons/FUEL_TANK.png
   - type: ALLOY_PLATES
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/CraftWeapon/ALLOY_PLATES.png
+      0: Resources/Crafts/CraftWeapons/ALLOY_PLATES.png
 
