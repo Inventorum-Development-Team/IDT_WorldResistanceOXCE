@@ -290,11 +290,11 @@ extraSprites:
 #      137: Resources/Crafts/Shinen_base.png
 #      138: Resources/Crafts/Yakolev_base.png
 
-      248: Resources/Crafts/CraftWeapons/Sidewinder_basebits.png
-      249: Resources/Crafts/CraftWeapons/20mmCannon_basebits.png
-      279: Resources/Crafts/CraftWeapons/50calMG_basebits.png
-      280: Resources/Crafts/CraftWeapons/FuelTank_basebits.png
-      281: Resources/Crafts/CraftWeapons/AlloyPlates_basebits.png
+      349: Resources/Crafts/CraftWeapons/Sidewinder_basebits.png
+      350: Resources/Crafts/CraftWeapons/20mmCannon_basebits.png
+      351: Resources/Crafts/CraftWeapons/50calMG_basebits.png
+      352: Resources/Crafts/CraftWeapons/FuelTank_basebits.png
+      353: Resources/Crafts/CraftWeapons/AlloyPlates_basebits.png
 
   - type: INTICON.PCK
     files:
