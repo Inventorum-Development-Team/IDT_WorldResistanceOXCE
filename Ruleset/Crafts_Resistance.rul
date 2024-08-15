@@ -12,40 +12,29 @@ items:
     costBuy: 21000
     costSell: 18000
     transferTime: 48
-  - type: STR_SIDEWINDER_MISSILES
-    categories: [STR_VEHICLES, STR_BVRAAM]
-    size: 0.4
-    costBuy: 6000
-    costSell: 4000
-    transferTime: 48
-    clipSize: 1
-  - type: STR_20MM_CANNON
+
+  - type: STR_20MM_CANNON_LAUNCHER
     categories: [STR_VEHICLES, STR_AUTOCANNON]
     size: 1.5
     costBuy: 37500
     costSell: 35000
     transferTime: 48
-  - type: STR_20MM_CANNON_ROUNDS_X50
-    categories: [STR_VEHICLES, STR_AUTOCANNON]
-    size: 0.1
-    costBuy: 2000
-    costSell: 1600
-    transferTime: 96
-    clipSize: 50
-  - type: STR_50CAL_MACHINEGUN
+
+  - type: STR_30MM_CANNON_LAUNCHER
     categories: [STR_VEHICLES, STR_AUTOCANNON]
     size: 1.5
     costBuy: 37500
     costSell: 35000
     transferTime: 48
-  - type: STR_50CAL_MACHINEGUN_ROUNDS_X50
+
+  - type: STR_50CAL_MACHINEGUN_LAUNCHER
     categories: [STR_VEHICLES, STR_AUTOCANNON]
-    size: 0.1
-    costBuy: 2000
-    costSell: 1600
-    transferTime: 96
-    clipSize: 50
-  - type: STR_FUEL_TANK
+    size: 1.5
+    costBuy: 37500
+    costSell: 35000
+    transferTime: 48
+
+  - type: STR_FUEL_TANK_LAUNCHER
     categories: [STR_VEHICLES, STR_AUXILLARY]
     size: 0.8
     costSell: 13000
@@ -55,6 +44,120 @@ items:
     size: 0.8
     costSell: 13000
     transferTime: 48
+
+craftWeapons:
+#Delete
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+#modders: the corresponding extrasprites file id 
+#for INTICON.PCK is sprite+5 
+#and sprite+48 for BASEBITS.PCK
+
+  - type: STR_20MM_CANNON_UC
+    sprite: 301
+    sound: 4
+    damage: 20
+    shieldDamageModifier: 90
+    range: 10
+    accuracy: 25
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 5
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_20MM_CANNON_LAUNCHER
+    projectileType: 2
+    projectileSpeed: 7
+  - type: STR_30MM_CANNON_UC
+    sprite: 301
+    sound: 4
+    damage: 30
+    shieldDamageModifier: 90
+    range: 10
+    accuracy: 25
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 5
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_30MM_CANNON_LAUNCHER
+    projectileType: 2
+    projectileSpeed: 7
+  - type: STR_50CAL_MACHINEGUN_UC
+    sprite: 302
+    sound: 4
+    damage: 25
+    shieldDamageModifier: 90
+    range: 15
+    accuracy: 35
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_50CAL_MACHINEGUN_LAUNCHER
+    projectileType: 2
+    projectileSpeed: 15
+
+  - type: STR_SIDEWINDER_UC
+    sprite: 306
+    sound: 5
+    damage: 200
+    shieldDamageModifier: 30
+    range: 60
+    accuracy: 50
+    reloadCautious: 48
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 26
+    rearmRate: 13
+    launcher: STR_SIDEWINDER_LAUNCHER
+    projectileType: 1
+    projectileSpeed: 12
+
+# Auxilary
+  - type: STR_FUEL_TANK_UC
+    weaponType: 1
+    hidePediaInfo: true
+    sprite: 231
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_FUEL_TANK
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      fuelMax: 150
+      accel: -1
+      avoidBonus: -5
+
+  - type: STR_AFTERBURNER_UC
+    weaponType: 1
+    sprite: 232
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_AFTERBURNER
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      accel: 5
+      speedMax: 150
+      fuelMax: -15
 
 crafts:
   - type: STR_VTOL
@@ -114,16 +217,10 @@ crafts:
     speedMax: 1258
     accel: 4
     weapons: 4
-    weaponTypes: 
-      - 1
-      - 2
-      - 2
-      - 3
     weaponStrings:
-      - STR_CRAFT_CANNON_ONE
-      - STR_CRAFT_LIGHT_MISSILE_TWO
-      - STR_CRAFT_LIGHT_MISSILE_THREE
-      - STR_CRAFT_AUX_FOUR
+      - STR_50CAL_MACHINEGUN_STRING
+      - STR_50CAL_MACHINEGUN_STRING
+    fixedWeapons: ["STR_50CAL_MACHINEGUN_UC", "STR_50CAL_MACHINEGUN_UC"]
     allowLanding: false
     costBuy: 750000
     costSell: 600000
