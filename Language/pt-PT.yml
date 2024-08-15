@@ -118,7 +118,7 @@ pt-PT:
   STR_BDU_UC_UFOPEDIA: "Uniforme militar padrão usado pelas Forças Armadas dos EUA."
 
 ####################
-AERONAVES
+#AERONAVES
   STR_VTOL: "VTOL"
   STR_VTOL_UFOPEDIA: "VTOL - Transporte de carga rápido e resistente, destinado a transportar tropas por longas distâncias. Várias forças de resistência humana usam."
 
