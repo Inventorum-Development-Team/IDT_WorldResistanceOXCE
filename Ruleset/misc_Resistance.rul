@@ -232,10 +232,7 @@ startingBase:
       engineers: 8
 
   randomSoldiers:
-    STR_UNEXCOM_LEGIONARY: 8
-    STR_ASTRONAUT: 2
-    STR_EURONAUT: 2
-    STR_COSMONAUT: 2
+    STR_US_ARMY_SOLDIER: 8
     
   crafts:
     - type: STR_SABRE
@@ -243,29 +240,28 @@ startingBase:
       fuel: 950
       damage: 0
       weapons:
-        - type: STR_50CAL_MACHINEGUN
+        - type: STR_50CAL_MACHINEGUN_UC
           ammo: 200
-        - type: STR_50CAL_MACHINEGUN
+        - type: STR_50CAL_MACHINEGUN_UC
           ammo: 200
-        - type: STR_SIDEWINDER_LAUNCHER
+        - type: STR_SIDEWINDER_UC
           ammo: 2
     - type: STR_SABRE
       id: 2
       fuel: 950
       damage: 0
       weapons:
-        - type: STR_50CAL_MACHINEGUN
+        - type: STR_50CAL_MACHINEGUN_UC
           ammo: 200
-        - type: STR_50CAL_MACHINEGUN
+        - type: STR_50CAL_MACHINEGUN_UC
           ammo: 200
-        - type: STR_SIDEWINDER_LAUNCHER
+        - type: STR_SIDEWINDER_UC
           ammo: 2
     - type: STR_VTOL
       id: 1
       fuel: 9999
       damage: 0
       items:
-        STR_GRENADE: 8
         STR_M1911_COLT: 4
         STR_M1911_COLT_CLIP: 2
         STR_M5A2_FOLSOM_CARBINE: 4
@@ -275,8 +271,7 @@ startingBase:
         STR_303_SNIPER_AMMO: 4
       status: STR_READY
   items:
-    STR_FUEL_TANK: 2
-    STR_GRENADE: 15
+    STR_FUEL_TANK_LAUNCHER: 2
     STR_M1911_COLT: 1
     STR_M1911_COLT_CLIP: 8
     STR_M5A2_FOLSOM_CARBINE: 2

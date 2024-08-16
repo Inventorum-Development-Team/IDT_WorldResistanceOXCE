@@ -37,11 +37,19 @@ items:
   - type: STR_FUEL_TANK_LAUNCHER
     categories: [STR_VEHICLES, STR_AUXILLARY]
     size: 0.8
+    costBuy: 14000
     costSell: 13000
     transferTime: 48
-  - type: STR_AFTERBURNER
+  - type: STR_AFTERBURNER_LAUNCHER
     categories: [STR_VEHICLES, STR_AUXILLARY]
     size: 0.8
+    costBuy: 14000
+    costSell: 13000
+    transferTime: 48
+  - type: STR_ARMOR_PLATES_LAUNCHER
+    categories: [STR_VEHICLES, STR_AUXILLARY]
+    size: 0.8
+    costBuy: 14000
     costSell: 13000
     transferTime: 48
 
@@ -70,7 +78,7 @@ craftWeapons:
     projectileType: 2
     projectileSpeed: 7
   - type: STR_30MM_CANNON_UC
-    sprite: 301
+    sprite: 302
     sound: 4
     damage: 30
     shieldDamageModifier: 90
@@ -85,7 +93,7 @@ craftWeapons:
     projectileType: 2
     projectileSpeed: 7
   - type: STR_50CAL_MACHINEGUN_UC
-    sprite: 302
+    sprite: 303
     sound: 4
     damage: 25
     shieldDamageModifier: 90
@@ -101,7 +109,7 @@ craftWeapons:
     projectileSpeed: 15
 
   - type: STR_SIDEWINDER_UC
-    sprite: 306
+    sprite: 304
     sound: 5
     damage: 200
     shieldDamageModifier: 30
@@ -120,7 +128,7 @@ craftWeapons:
   - type: STR_FUEL_TANK_UC
     weaponType: 1
     hidePediaInfo: true
-    sprite: 231
+    sprite: 305
     sound: 0
     damage: 0
     range: 0
@@ -130,7 +138,7 @@ craftWeapons:
     reloadAggressive: 0
     ammoMax: 0
     rearmRate: 0
-    launcher: STR_FUEL_TANK
+    launcher: STR_FUEL_TANK_LAUNCHER
     projectileType: 0
     projectileSpeed: 0
     stats:
@@ -138,9 +146,9 @@ craftWeapons:
       accel: -1
       avoidBonus: -5
 
-  - type: STR_AFTERBURNER_UC
+  - type: STR_ARMOR_PLATES_UC
     weaponType: 1
-    sprite: 232
+    sprite: 306
     hidePediaInfo: true
     sound: 0
     damage: 0
@@ -151,7 +159,28 @@ craftWeapons:
     reloadAggressive: 0
     ammoMax: 0
     rearmRate: 0
-    launcher: STR_AFTERBURNER
+    launcher: STR_ARMOR_PLATES_LAUNCHER
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      accel: -3
+      speedMax: -25
+      damageMax: 40
+
+  - type: STR_AFTERBURNER_UC
+    weaponType: 1
+    sprite: 307
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_AFTERBURNER_LAUNCHER
     projectileType: 0
     projectileSpeed: 0
     stats:
@@ -211,7 +240,7 @@ crafts:
 # 4 3 2
 
   - type: STR_SABRE
-    sprite: 104
+    sprite: 101
     fuelMax: 192
     damageMax: 130
     speedMax: 1258
@@ -220,7 +249,9 @@ crafts:
     weaponStrings:
       - STR_50CAL_MACHINEGUN_STRING
       - STR_50CAL_MACHINEGUN_STRING
-    fixedWeapons: ["STR_50CAL_MACHINEGUN_UC", "STR_50CAL_MACHINEGUN_UC"]
+      - STR_50CAL_MACHINEGUN_STRING
+      - STR_AUX_STRING
+    fixedWeapons: ["STR_50CAL_MACHINEGUN_UC", "STR_50CAL_MACHINEGUN_UC", "STR_50CAL_MACHINEGUN_UC"]
     allowLanding: false
     costBuy: 750000
     costSell: 600000
@@ -290,11 +321,14 @@ extraSprites:
 #      137: Resources/Crafts/Shinen_base.png
 #      138: Resources/Crafts/Yakolev_base.png
 
-      349: Resources/Crafts/CraftWeapons/Sidewinder_basebits.png
-      350: Resources/Crafts/CraftWeapons/20mmCannon_basebits.png
+      349: Resources/Crafts/CraftWeapons/20mmCannon_basebits.png
+      350: Resources/Crafts/CraftWeapons/30mmCannon_basebits.png
       351: Resources/Crafts/CraftWeapons/50calMG_basebits.png
-      352: Resources/Crafts/CraftWeapons/FuelTank_basebits.png
-      353: Resources/Crafts/CraftWeapons/AlloyPlates_basebits.png
+      352: Resources/Crafts/CraftWeapons/Sidewinder_basebits.png
+      353: Resources/Crafts/CraftWeapons/FuelTank_basebits.png
+      354: Resources/Crafts/CraftWeapons/AlloyPlates_basebits.png
+      355: Resources/Crafts/CraftWeapons/Afterburner_basebits.png
+
 
   - type: INTICON.PCK
     files:
@@ -315,11 +349,13 @@ extraSprites:
 #      104: Resources/Crafts/Shinen_minimised.png
 #      105: Resources/Crafts/Yakolev_minimised.png
 
-      205: Resources/Crafts/CraftWeapons/Sidewinder_basebits.png
-      206: Resources/Crafts/CraftWeapons/20mmCannon_basebits.png
-      236: Resources/Crafts/CraftWeapons/50calMG_basebits.png
-      237: Resources/Crafts/CraftWeapons/FuelTank_basebits.png
-      238: Resources/Crafts/CraftWeapons/AlloyPlates_basebits.png
+      306: Resources/Crafts/CraftWeapons/20mmCannon_dogfight.png
+      307: Resources/Crafts/CraftWeapons/30mmCannon_dogfight.png
+      308: Resources/Crafts/CraftWeapons/50calMG_dogfight.png
+      309: Resources/Crafts/CraftWeapons/Sidewinder_dogfight.png
+      310: Resources/Crafts/CraftWeapons/FuelTank_dogfight.png
+      311: Resources/Crafts/CraftWeapons/AlloyPlates_dogfight.png
+      312: Resources/Crafts/CraftWeapons/Afterburner_dogfight.png
 
 ##################################
 #### AIRCRAFT UFOPEDIA IMAGES ####
@@ -396,4 +432,11 @@ extraSprites:
     height: 200
     files:
       0: Resources/Crafts/CraftWeapons/ALLOY_PLATES.png
+  - type: AFTERBURNER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/CraftWeapons/AFTERBURNER.png
+
 

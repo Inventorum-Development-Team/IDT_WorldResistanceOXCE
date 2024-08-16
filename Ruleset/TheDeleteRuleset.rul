@@ -68,7 +68,6 @@ research:
   - delete: STR_STUN_BOMB
   - delete: STR_MIND_PROBE
   - delete: STR_ALIEN_GRENADE
-  - delete: STR_ELERIUM_115
   - delete: STR_MIND_PROBE
   - delete: STR_UFO_POWER_SOURCE
   - delete: STR_UFO_NAVIGATION
@@ -78,7 +77,6 @@ research:
   - delete: STR_ALIEN_ENTERTAINMENT
   - delete: STR_ALIEN_SURGERY
   - delete: STR_EXAMINATION_ROOM
-  - delete: STR_ALIEN_ALLOYS 
   - delete: STR_ULTIMATE_CRAFT
   - delete: STR_NEW_FIGHTER_TRANSPORTER
   - delete: STR_NEW_FIGHTER_CRAFT
@@ -282,7 +280,6 @@ manufacture:
   - delete: STR_PERSONAL_ARMOR
   - delete: STR_POWER_SUIT
   - delete: STR_FLYING_SUIT
-  - delete: STR_ALIEN_ALLOYS
   - delete: STR_UFO_POWER_SOURCE
   - delete: STR_UFO_NAVIGATION
   - delete: STR_FIRESTORM
@@ -330,7 +327,6 @@ ufopaedia:
   - delete: STR_STUN_BOMB
   - delete: STR_MIND_PROBE
   - delete: STR_ALIEN_GRENADE
-  - delete: STR_ELERIUM_115
   - delete: STR_AVENGER
   - delete: STR_LIGHTNING
   - delete: STR_SKYRANGER
