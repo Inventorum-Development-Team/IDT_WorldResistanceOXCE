@@ -1,7 +1,7 @@
 items:
-################################
-##### AMERICAN WEAPONS ########
-##############################
+###################################
+##### PISTOLS AND SIDEARS ########
+#################################
   - type: STR_M1911_COLT
     categories: [STR_HUMAN_WEAPONS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
     size: 0.1
@@ -56,6 +56,10 @@ items:
     armor: 35
     listOrder: 2005
 
+##################################
+######## ASSAULT RIFLES #########
+#################################
+
   - type: STR_M5A2_FOLSOM_CARBINE
     categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_AMERICAN_EQUIPMENT]
     size: 0.2
@@ -100,6 +104,46 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2020
+    
+ - type: STR_STORM_RIFLE
+    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
+    size: 0.3
+    costSell: 3500
+    weight: 6
+    bigSprite: 230
+    floorSprite: 230
+    handSprite: 204
+    fireSound: 4
+    bulletSpeed: 5
+#    reloadSound: 302
+    compatibleAmmo:
+      - STR_303_RIFLE_AMMO
+    accuracyCloseQuarters: 70
+    accuracySnap: 55
+    accuracyAimed: 65
+    tuSnap: 18
+    tuAimed: 35
+    tuLoad: 13
+    snapRange: 16
+    aimRange: 24
+    dropoff: 6
+    powerRangeThreshold: 20
+    powerRangeReduction: 1
+    damageBonus:
+      firing: 1.3
+      reactions: 1.4
+    accuracyMultiplier:
+      firing: 1.2
+      reactions: 1.6
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    attraction: 8
+    battleType: 1
+    listOrder: 2130    
+    
   - type: STR_303_RIFLE_AMMO
     categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -143,122 +187,6 @@ items:
     bulletSprite: 4
     listOrder: 2026
 
-################################
-##### BRITISH WEAPONS #########
-##############################
-
-  - type: STR_L23_FAREYE_SNIPER_RIFLE
-    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 170
-    floorSprite: 170
-    handSprite: 156
-    fireSound: 4
-    bulletSpeed: 5
-#    reloadSound: 301
-    compatibleAmmo:
-      - STR_303_SNIPER_AMMO
-    accuracyCloseQuarters: 65
-    confAuto:
-      shots: 1
-      name: STR_HEADSHOT
-    accuracySnap: 75
-    accuracyAimed: 90
-    accuracyAuto: 200
-    tuSnap: 20
-    tuAimed: 35
-    tuAuto: 50
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
-    damageBonus:
-      firing: 1.6
-      reactions: 1.3
-    accuracyMultiplier:
-      firing: 1.8
-      reactions: 1.5
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    listOrder: 2070
-
-  - type: STR_303_SNIPER_AMMO
-    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 175
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    bulletSprite: 3
-    power: 40
-    damageType: 1
-    clipSize: 5
-    battleType: 2
-    armor: 12
-    listOrder: 2075
-
-################################
-###### MAQUIS WEAPONS #########
-##############################
-  - type: STR_STORM_RIFLE
-    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
-    size: 0.3
-    costSell: 3500
-    weight: 6
-    bigSprite: 230
-    floorSprite: 230
-    handSprite: 204
-    fireSound: 4
-    bulletSpeed: 5
-#    reloadSound: 302
-    compatibleAmmo:
-      - STR_303_RIFLE_AMMO
-    accuracyCloseQuarters: 70
-    accuracySnap: 55
-    accuracyAimed: 65
-    tuSnap: 18
-    tuAimed: 35
-    tuLoad: 13
-    snapRange: 16
-    aimRange: 24
-    dropoff: 6
-    powerRangeThreshold: 20
-    powerRangeReduction: 1
-    damageBonus:
-      firing: 1.3
-      reactions: 1.4
-    accuracyMultiplier:
-      firing: 1.2
-      reactions: 1.6
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 15
-    attraction: 8
-    battleType: 1
-    listOrder: 2130
-
-
-################################
-###### JAPANESE WEAPONS #######
-##############################
-
-################################
-###### CHIMERAN WEAPONS #######
-##############################
   - type: STR_BULLSEYE_MK1
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
     size: 0.2
@@ -368,6 +296,87 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2255
+    
+
+################################
+######## SNIPER RIFLES #########
+##############################
+
+  - type: STR_L23_FAREYE_SNIPER_RIFLE
+    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 170
+    floorSprite: 170
+    handSprite: 156
+    fireSound: 4
+    bulletSpeed: 5
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_303_SNIPER_AMMO
+    accuracyCloseQuarters: 65
+    confAuto:
+      shots: 1
+      name: STR_HEADSHOT
+    accuracySnap: 75
+    accuracyAimed: 90
+    accuracyAuto: 200
+    tuSnap: 20
+    tuAimed: 35
+    tuAuto: 50
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.8
+      reactions: 1.5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2070
+
+  - type: STR_303_SNIPER_AMMO
+    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 175
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 3
+    power: 40
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+    listOrder: 2075
+
+################################
+###### MAQUIS WEAPONS #########
+##############################
+ 
+
+
+################################
+###### JAPANESE WEAPONS #######
+##############################
+
+################################
+###### CHIMERAN WEAPONS #######
+##############################
 
   - type: STR_AUGER_MK1
     categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
