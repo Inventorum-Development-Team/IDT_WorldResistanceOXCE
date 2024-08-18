@@ -3,7 +3,7 @@ items:
 ##### PISTOLS AND SIDEARS ########
 #################################
   - type: STR_M1911_COLT
-    categories: [STR_HUMAN_WEAPONS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
     size: 0.1
     costBuy: 750
     costSell: 600
@@ -31,9 +31,9 @@ items:
     armor: 35
     attraction: 12
     bulletSpeed: 5
-    listOrder: 2000
+    #listOrder: 2000
   - type: STR_M1911_COLT_CLIP
-    categories: [STR_HUMAN_WEAPONS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     size: 0.025
     costBuy: 75
     costSell: 55
@@ -54,14 +54,14 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 35
-    listOrder: 2005
+    #listOrder: 2005
 
 ##################################
 ######## ASSAULT RIFLES #########
 #################################
 
   - type: STR_M5A2_FOLSOM_CARBINE
-    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_AMERICAN_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -103,10 +103,10 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2020
-    
- - type: STR_STORM_RIFLE
-    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
+    #listOrder: 2020
+
+  - type: STR_STORM_RIFLE
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
     size: 0.3
     costSell: 3500
     weight: 6
@@ -142,10 +142,10 @@ items:
     autoRange: 15
     attraction: 8
     battleType: 1
-    listOrder: 2130    
+    #listOrder: 2130    
     
   - type: STR_303_RIFLE_AMMO
-    categories: [STR_HUMAN_WEAPONS, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -160,7 +160,7 @@ items:
     clipSize: 30
     battleType: 2
     armor: 12
-    listOrder: 2025
+    #listOrder: 2025
 
   - type: STR_40MM_FRAG
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
@@ -185,7 +185,7 @@ items:
     armor: 20
     blastRadius: 3
     bulletSprite: 4
-    listOrder: 2026
+    #listOrder: 2026
 
   - type: STR_BULLSEYE_MK1
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
@@ -222,7 +222,7 @@ items:
     invWidth: 1
     invHeight: 3
     attraction: 8
-    listOrder: 2240
+    #listOrder: 2240
 
   - type: STR_BULLSEYE_MK1_BATTERY
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
@@ -240,7 +240,7 @@ items:
     clipSize: 35
     battleType: 2
     armor: 12
-    listOrder: 2245
+    #listOrder: 2245
 
   - type: STR_BULLSEYE_MK2
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
@@ -276,9 +276,8 @@ items:
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
-    listOrder: 2250
+    #listOrder: 2250
 
   - type: STR_BULLSEYE_MK2_BATTERY
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
@@ -295,7 +294,7 @@ items:
     clipSize: 35
     battleType: 2
     armor: 12
-    listOrder: 2255
+    #listOrder: 2255
     
 
 ################################
@@ -303,7 +302,7 @@ items:
 ##############################
 
   - type: STR_L23_FAREYE_SNIPER_RIFLE
-    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -344,10 +343,10 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2070
+    #listOrder: 2070
 
   - type: STR_303_SNIPER_AMMO
-    categories: [STR_HUMAN_WEAPONS, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -362,21 +361,11 @@ items:
     clipSize: 5
     battleType: 2
     armor: 12
-    listOrder: 2075
+    #listOrder: 2075
 
-################################
-###### MAQUIS WEAPONS #########
-##############################
- 
-
-
-################################
-###### JAPANESE WEAPONS #######
-##############################
-
-################################
-###### CHIMERAN WEAPONS #######
-##############################
+####################################
+###### BATTLE RIFLES / DMR ########
+##################################
 
   - type: STR_AUGER_MK1
     categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
@@ -411,7 +400,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2260
+    #listOrder: 2260
 
   - type: STR_AUGER_MK1_BATTERY
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
@@ -429,7 +418,7 @@ items:
     clipSize: 20
     battleType: 2
     armor: 12
-    listOrder: 2265
+    #listOrder: 2265
 
   - type: STR_AUGER_MK2
     categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
@@ -464,7 +453,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2270
+    #listOrder: 2270
 
   - type: STR_AUGER_MK2_BATTERY
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
@@ -482,7 +471,10 @@ items:
     clipSize: 20
     battleType: 2
     armor: 12
-    listOrder: 2275
+    #listOrder: 2275
+
+
+
 
   - type: STR_HEDGEHOG_GRENADE
     size: 0.1
@@ -495,7 +487,7 @@ items:
     battleType: 4
     recoveryPoints: 1
     blastRadius: 5
-    listOrder: 2330
+    #listOrder: 2330
 
 
 

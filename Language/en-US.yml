@@ -16,6 +16,8 @@ en-US:
 ######################
 # ITEM CATEGORY STRINGS
 
+  STR_AIRCRAFT_WEAPONS: "Aircraft Weapons"
+  STR_AUXILLARY: "Auxiliary Equipment"
   STR_WEAPONS: "Weapons"
   STR_FIREARMS: "Firearms"
   STR_HANDGUNS: "Handguns"
