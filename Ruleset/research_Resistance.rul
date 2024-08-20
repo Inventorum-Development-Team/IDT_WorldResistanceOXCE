@@ -11,43 +11,70 @@ research:
     points: 20
     dependencies:
       - STR_EXPANDING_FRONTIERS
-  - name: STR_BRITISH_COOPERATION_RESEARCH
+      
+  - name: STR_BRITISH_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
     dependencies:
       - STR_REESTABLISH_DIPLOMATIC_TIES
-  - name: STR_MAQUIS_COOPERATION_RESEARCH
+  - name: STR_BRITISH_COOPERATION_2_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_BRITISH_COOPERATION_1_RESEARCH
+      
+  - name: STR_MAQUIS_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
     dependencies:
       - STR_REESTABLISH_DIPLOMATIC_TIES
+  - name: STR_MAQUIS_COOPERATION_2_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_MAQUIS_COOPERATION_1_RESEARCH
 
   - name: STR_EXTENDING_WIDEBAND_TRANSMISSIONS
     cost: 180
     points: 20
     dependencies:
       - STR_REESTABLISH_DIPLOMATIC_TIES
-  - name: STR_JAPANESE_COOPERATION_RESEARCH
+  - name: STR_JAPANESE_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
     dependencies:
       - STR_EXTENDING_WIDEBAND_TRANSMISSIONS
+  - name: STR_JAPANESE_COOPERATION_2_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_JAPANESE_COOPERATION_1_RESEARCH
 
   - name: STR_CODEBREAKER_TRANSMISSIONS
     cost: 180
     points: 20
     dependencies:
       - STR_EXTENDING_WIDEBAND_TRANSMISSIONS
-  - name: STR_RUSSIAN_COOPERATION_RESEARCH
+  - name: STR_RUSSIAN_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
     dependencies:
       - STR_CODEBREAKER_TRANSMISSIONS
-  - name: STR_SIBERIAN_COOPERATION_RESEARCH
+  - name: STR_RUSSIAN_COOPERATION_2_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_SIBERIAN_COOPERATION_1_RESEARCH      
+  - name: STR_SIBERIAN_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
     dependencies:
       - STR_CODEBREAKER_TRANSMISSIONS
+  - name: STR_SIBERIAN_COOPERATION_2_RESEARCH
+    cost: 500
+    points: 20
+    dependencies:
+      - STR_SIBERIAN_COOPERATION_1_RESEARCH
 
 ##########################
 ####### END GAME ########
