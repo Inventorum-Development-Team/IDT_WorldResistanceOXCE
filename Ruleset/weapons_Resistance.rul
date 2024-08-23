@@ -531,15 +531,16 @@ extraSprites:
       #384: Resources/HumanWeapons/MachineGuns/BigMG42_nomag.png
       #392: Resources/HumanWeapons/MachineGuns/BigMG42_ammo1.png
       #400: Resources/HumanWeapons/Ammo/BigMG42AmmoDrum.png
-      408: Resources/HumanWeapons/MachineGuns/BigIWAOR_nomag.png
-      416: Resources/HumanWeapons/MachineGuns/BigIWAOR_ammo1.png
-      424: Resources/HumanWeapons/Ammi/BigIWAORAmmoDrum.png
-      432: Resources/HumanWeapons/MachineGuns/BigWinchesterM1915_ammo1.png
-      440: Resources/HumanWeapons/MachineGuns/BigWinchesterM1915_ammo1.png
-      448: Resources/HumanWeapons/Rifles/BigMosinNagant_Clip.png
-      456: Resources/HumanWeapons/Rifles/BigMosinNagant_Clip_KMM.png
-      464: Resources/HumanWeapons/Rifles/BigBerdanII_nomag.png
-      472: Resources/HumanWeapons/Rifles/BigBerdanII_ammo1.png
+      #408: Resources/HumanWeapons/MachineGuns/BigIWAOR_nomag.png
+      #416: Resources/HumanWeapons/MachineGuns/BigIWAOR_ammo1.png
+      #424: Resources/HumanWeapons/Ammi/BigIWAORAmmoDrum.png
+      432: Resources/HumanWeapons/MachineGuns/BigDP28_nomag.png
+      440: Resources/HumanWeapons/MachineGuns/BigDP28_ammo1.png
+      448: Resources/HumanWeapons/MachineGuns/BigDP28_ammo2.png
+      456: Resources/HumanWeapons/Ammo/BigDP28AmmoPan.png
+      464: Resources/HumanWeapons/Ammo/BigDP28AmmoBox.png
+   # Sniper Rifles   
+      472: Resources/HumanWeapons/SniperRifles/BigBerdanII_ammo1.png
       480: Resources/HumanWeapons/Rifles/BigBerdanII_ammo1.png
       488: Resources/HumanWeapons/Rifles/BigBerdanII_Ammo.png
       496: Resources/HumanWeapons/Rifles/BigBerdanII_Ammo_KMM.png
