@@ -527,15 +527,15 @@ extraSprites:
   # Machine Guns    
       360: Resources/HumanWeapons/MachineGuns/BigHVAP_nomag.png
       368: Resources/HumanWeapons/MachineGuns/BigHVAP_ammo1.png
-      376: Resources/HumanWeapons/Rifles/BigLebel_Clip.png
-      384: Resources/HumanWeapons/Rifles/BigLebel_Clip_KMM.png
-      392: Resources/HumanWeapons/Rifles/BigMosinNagant_nomag.png
-      400: Resources/HumanWeapons/Rifles/BigMosinNagant_ammo1.png
-      408: Resources/HumanWeapons/Rifles/BigMosinNagant_ammo1.png
-      416: Resources/HumanWeapons/Rifles/BigMosinNagant_riflegrenade.png
-      424: Resources/HumanWeapons/Rifles/BigWinchesterM1915_nomag.png
-      432: Resources/HumanWeapons/Rifles/BigWinchesterM1915_ammo1.png
-      440: Resources/HumanWeapons/Rifles/BigWinchesterM1915_ammo1.png
+      376: Resources/HumanWeapons/Ammo/BigHVAPAmmoDrum.png
+      #384: Resources/HumanWeapons/MachineGuns/BigMG42_nomag.png
+      #392: Resources/HumanWeapons/MachineGuns/BigMG42_ammo1.png
+      #400: Resources/HumanWeapons/Ammo/BigMG42AmmoDrum.png
+      408: Resources/HumanWeapons/MachineGuns/BigIWAOR_nomag.png
+      416: Resources/HumanWeapons/MachineGuns/BigIWAOR_ammo1.png
+      424: Resources/HumanWeapons/Ammi/BigIWAORAmmoDrum.png
+      432: Resources/HumanWeapons/MachineGuns/BigWinchesterM1915_ammo1.png
+      440: Resources/HumanWeapons/MachineGuns/BigWinchesterM1915_ammo1.png
       448: Resources/HumanWeapons/Rifles/BigMosinNagant_Clip.png
       456: Resources/HumanWeapons/Rifles/BigMosinNagant_Clip_KMM.png
       464: Resources/HumanWeapons/Rifles/BigBerdanII_nomag.png
