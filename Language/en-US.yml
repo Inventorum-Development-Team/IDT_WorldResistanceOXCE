@@ -84,7 +84,117 @@ en-US:
 
   STR_HEDGEHOG_GRENADE: "Hedgehog Grenade"
   STR_HEDGEHOG_GRENADE_UFOPEDIA: "..."
-      
+
+
+  STR_HUNTER_DMR: "Hunter DMR"
+  STR_HUNTER_DMR_BATTERY: "Hunter DMR Battery"
+  STR_HUNTER_DMR_UFOPEDIA: "Specialized heavy rifle issued to elite Chimeran sharpshooters. First seen in action during the enemy incursion last year in New York. The ion beams emitted in short bursts make it a lethal weapon in the correct hands, destroying cover and foes alike."
+
+  STR_BRUTE_MINIGUN: "Brute Minigun"
+  STR_BRUTE_MINIGUN_CELL: "Brute Minigun Cell"
+  STR_BRUTE_MINIGUN_UFOPEDIA: "The heaviest infantry weapon in the enemy arsenal, used by shock troopers. The continued energy stream unleashed by this weapon can even disintegrate some poorly armored targets. Its extreme weight makes it very uncomfortable to carry and use by regular sized humans."
+
+  STR_PLASMA_REPEATER_PISTOL: "Plasma Repeater Pistol"
+  STR_PLASMA_REPEATER_PISTOL_BATTERY: "Plasma Repeater Pistol Battery"
+  STR_PLASMA_REPEATER_PISTOL_UFOPEDIA: "Similar to the human machine pistols, this Chimera sidearm is seen in service with recon units. The intense rate of fire can quickly discharge a full battery in seconds."
+
+  STR_HE44_MAGNUM: "HE.44 Magnum"
+  STR_HE44_MAGNUM_AMMO: ".44 Rounds"
+  STR_HE44_MAGNUM_UFOPEDIA: "Powerful and robust sidearm field by SRPA special forces operatives. The large .44 Magnum round fired by this revolver uses a special glycerin compound to explode on contact."
+
+  STR_THOMPSON_SMG: "Thompson M1 SMG"
+  STR_THOMPSON_SMG_MAG: "Thompson SMG Mag"
+  STR_THOMPSON_SMG_UFOPEDIA: "The first firearm commercialized as a “submachine gun”, it quickly gained notoriety for its robust design and firepower, firing .45 ACP rounds. Used by most American law enforcement units, some were sold to the UK as well."
+
+  STR_M2A1_CLOVIS: "M2A1 Clovis AR"
+  STR_M2A1_CLOVIS_UFOPEDIA: "Automatic rifle based on the Folsom Carbine, chambered in .303 ammunition. Features a heavier barrel, charging handle and synthetic furniture. Meant to be used to provide light support “walking fire”, similarly how the BAR was used in the 1920s."
+
+  STR_HVAP_CHAINGUN: "HVAP Wraith Minigun"
+  STR_HVAP_CHAINGUN_DRUM: "HVAP Ammo Drum"
+  STR_HVAP_CHAINGUN_UFOPEDIA:  "High-Velocity, Armor-Piercing. A powerful and cumbersome fully automatic minigun, firing 1200 full metal jacket rounds per minute. The kinetic force is able to rip apart lightly armored targets with ease. It”s better to use it from a static position, as its weight and poor handling are its disadvantages."
+
+  STR_MARKSMAN_DMR: "Marksman-B DMR"
+  STR_MARKSMAN_DMR_UFOPEDIA: "Reverse-engineered ion sniper rifle, based on the design of an enemy weapon captured in Scotland. Suitable for medium range engagements and configured for burst fire, balancing firepower and ammo economy. It employs Hunter batteries."
+
+  STR_MK6_CARBINE: "Mk.6 Carbine"
+  STR_MK6_CARBINE_UFOPEDIA: "License-build version of the Folsom family of carbines, the Enfield No.6, Mark 6 Carbine serves as the standard service rifle of the British forces. It features a different wood furniture for improved ergonomics and a bayonet lug instead of the built-in grenade launcher."
+  STR_303_AMMO: ".303 Rifle Ammo (x20)"
+  STR_303_AMMO_LARGE: ".303 Rifle Ammo (x30)"
+
+  STR_L206_LAARK: "L206 LAARK Launcher" 
+  STR_L206_LAARK_ROCKET: "Mk.48 AT Rocket"
+  STR_L206_LAARK_UFOPEDIA: "L209 LAARK (Light Anti-Armor RocKet) made by the British Armed Forces, with the purpose of engaging enemy armored vehicles. A major improvement over the older PIAT launchers, the Mk.48 rockets fired by this heavy support weapon can quickly change its path mid air thanks to smaller thrusters."
+
+  STR_ROSSMORE_COMBAT_SHOTGUN: "Rossmore 238 Combat Shotgun"
+  STR_ROSSMORE_COMBAT_SHOTGUN_MAG: ".12 Gauge Shotgun Mag"
+  STR_ROSSMORE_COMBAT_SHOTGUN_UFOPEDIA: "The latest development of the Rossmore Armory, the Model 238 lacks the solid stock of the previous models. Despite this, the recoil remains within the expected parameters. Magazine-fed for quicker reloads."
+
+  STR_WELGUN_SMG: "Welgun SMG"
+  STR_WELGUN_SMG_UFOPEDIA: "Manufactured by the Birmingham Small Arms in an effort to equip the field intelligence operatives of the Special Operations Executive with a light and accurate automatic weapon. Less expensive than the Thompson SMGs in service with the regular Army and compact enough to carry it concealed. Uses the same 9mm magazines as other European models."
+
+  STR_RAZOR_BM001: "Razor BM001"
+  STR_RAZOR_BM001_UFOPEDIA: "Made by the Royal Small Arms Factory by using captured Bullseye rifles left behind in the aftermath of the Battle of London and the subsequent liberation of the British Isles. The “Bullseye Modified 001” fires disc-shaped plasma bolts, with the option to supercharge a single shot and depleting the half the battery for extra damage."
+
+  STR_LONGBOW_1S1K: "Longbow 1S-1K"
+  STR_LONGBOW_1S1K_FLECHETTES: "Longbow Flechette Mag"
+  STR_LONGBOW_1S1K_UFOPEDIA: "Created by the Military Defense Commission (MDC) with the explicit purpose of countering the Chimeran threat, it's a powerful railgun firing iron flechettes at incredible speed. Capable of penetrating several inches of steel with ease. Too few were available when Europe fell in 1950, but since then, several models have been created by the remaining MDC armorers in Luxembourg."
+
+  STR_BERETTA_MAB38: "Beretta MAB-38 SMG"
+  STR_9MM_SMG_MAG: "9mm SMG Mag"
+  STR_BERETTA_MAB38_UFOPEDIA: "A finely crafted Italian submachine gun, almost handmade. Its rugged and strong wooden frame makes it a heavy yet sturdy and accurate weapon. Used and appreciated by special forces all over Europe, it was an icon of the Regio Esercito. Very few Berettas remain, with some recovered from the ruins of Genoa and Naples."
+
+  STR_ERMA_EMP44: "Erma EMP-44 SMG"
+  STR_ERMA_EMP44_UFOPEDIA: "Extremely cheap and easy to make, if somewhat awkward to use, submachine gun. Originally meant to be used by reserve troops as complement of the MP-40 in case of a sudden Russian invasion. When the Chimera came instead and most of the modern weapon stockpiles were lost or destroyed, this crude design was put in service. Eventually the Maquis found its blueprints outside Munich and rushed it into production again. Uses 9mm magazines."
+
+  STR_SCHROTFLINTE_SHOTGUN: "Schlonflinte Combat Shotgun"
+  STR_SCHROTFLINTE_SHOTGUN_SHELLS: ".12 Gauge Shotgun Shells"
+  STR_SCHROTFLINTE_SHOTGUN_UFOPEDIA: "12. Gauge shotgun made by Schroeder Kampfwerk GmbH. Popular with law enforcement and military forces, especially in northern Europe. It shares some similarities with the British Rossmore line of shotguns, with the notable difference of the feeding mechanism and a wider buckshot spread."
+
+  STR_ARISAKA_TYPE_99: "Arisaka Type-99 Rifle"
+  STR_ARISAKA_TYPE_99_CLIP: "Arisaka Ammo Clip"
+  STR_ARISAKA_TYPE_99_UFOPEDIA: "The Japanese engagements in China led to the introduction of the Type-99 service rifle, completely replacing older Type-38 designs. Very solid, although the more powerful cartridge and lighter frame weight led to increased recoil. Most servicemen attached a “good luck flag”, the yosegaki hinomaru, as a traditional gift. "
+
+  STR_XR24_SPITTER: "XR-24 Spitter Scattergun"
+  STR_XR24_SPITTER_BATTERY: "Spitter Energy Cell"
+  STR_XR24_SPITTER_UFOPEDIA: "Developed by SRPA Japanese Corps branch in Nagoya. Designed with special protections for the humid, hot weather prevalent in most of South East Asia and amphibious operations. The Spitter functions as an automatic shotgun, emitting terrain-destroying ion beams in a wide arc. Its reactor was developed from captured Auger heavy rifles."
+
+  STR_NAMBU_TYPE_2: "Nambu Type-2 SMG"
+  STR_NAMBU_TYPE_2_MAG: "Type-2 SMG Mag"
+  STR_NAMBU_TYPE_2_UFOPEDIA: "Japan didn't divert resources to the development of submachine guns until the later stages of the war with China. Its main indigenous design (after using several European weapons) was made by Kijiro Nambu, chambered in 8mm Nambu and including a special recoil dampener. Used mostly by the elite Special Naval Landing Forces."
+
+  STR_IWAOR_TYPE_105: "IWAO-R Type-105 Chaingun"
+  STR_IWAOR_TYPE_105_DRUM: "IWAO-R Ammo Drum"
+  STR_IWAOR_TYPE_105_UFOPEDIA: "The chaingun designed by Iwao Ryusaki was initially mounted on fixed turrets on planes, very much appreciated by its reliability. Featuring a specialized muzzle break to quickly dissipate exceeding heat. A cache was purchased by the UED before the breaching of the Red Curtain in the “49. Further purchases were impossible due to losing contact with Japan."
+
+  STR_FEDOROV_AVTOMAT: "Fedorov Avtomat FA Rifle"
+  STR_FEDOROV_AVTOMAT_MAG: "6.5mm Fedorov Mag"
+  STR_FEDOROV_AVTOMAT_UFOPEDIA: "The Fedorov Avtomat is a select-fire, crew-served automatic rifle and also one of the world's first operational automatic rifles, designed by Vladimir Grigoryevich Fyodorov in 1915 and produced in the Russian Empire. It quickly proved to be an effective weapon in the Great War and would eventually become a name stay of the Russian Army with it seeing mass production shortly after the failed civil war; during the Chimera War, several Russian units were equipped with the Fedorov. However as the war dragged on, Russia due to a lack of factories was forced to cease production of the Federov near entirely causing the army to begin primarily relying on the Mosin-Nagant."
+
+  STR_MOSIN_NAGANT: "Mosin-Nagant M1891 Rifle"
+  STR_MOSIN_NAGANT_CLIP: "Mosin-Nagant Ammo Clip"
+  STR_MOSIN_NAGANT_UFOPEDIA: "Main service rifle of the Russian Empire since its induction in 1891 and the most numerous in the entire arsenal. This variant is outfitted with a telescopic scope and cloth wrapping to help with its concealing, it could be used for long-range shooting."
+
+  STR_SIMONOV_AVTOMAT: "Simonov AS-25P Rifle"
+  STR_SIMONOV_AVTOMAT_UFOPEDIA: "Avtomat Simonova of 1925 Pehotnuy (Simonov”s Rifle of 1925, Infantry). Developed in 1925, to replace the Fedorov Avtomat of 1916 and its modernized variant of 1920. The AS-25P was presented as more reliable, accurate and modern. But the start of war with the Chimeras in 1927, effectively halted the rearmament of the Russian Imperial Army and very few army corps were equipped with this type of weapon. Fires the same 6.5mm cartridge as the FA."
+
+  STR_KOROVIN_PISTOL: "Korovin KPK-29 Pistol"
+  STR_KOROVIN_PISTOL_MAG: "Korovin Pistol Mag"
+  STR_KOROVIN_PISTOL_UFOPEDIA: "Standard officer”s high caliber pistol (chambered in 10 mm), created by Sergey Korovin. Albeit heavy, the decent grip and handling made it a weapon of choice for the Imperial Army officer corps."
+
+  STR_TOKAREV_MACHINE_PISTOL: "Tokarev APBT Auto pistol"
+  STR_TOKAREV_MACHINE_PISTOL_MAG: "APBT Short Mag"
+  STR_TOKAREV_MACHINE_PISTOL_LONG_MAG: "APBT Large Mag"
+  STR_TOKAREV_MACHINE_PISTOL_UFOPEDIA: "The Siberians were quick to adapt all the scarce Tokarev sidearms remaining in the Far East armories into the automatic pistol, selective fire variant. Outfitted with a prototype sound suppressor and a handmade wooden stock, the Tokarev is mostly used in hit and run raids on abandoned depots and bases."
+
+  STR_DEGTYARYOV_LMG: "Degtyaryov DP-28 MG"
+  STR_DEGTYARYOV_LMG_PAN: "DP-28 Ammo Pan"
+  STR_DEGTYARYOV_LMG_BELT: "DP-28 Ammo Box"
+  STR_DEGTYARYOV_LMG_UFOPEDIA: "The Degtyaryov infantry machine gun was rushed into deployment to the frontlines when the first Chimera attacks were reported. Over the course of the years, it became the main machine gun in the Russian arsenal. The last improvement was the adaptation of a belt-fed mechanism, both easy to adapt in the battlefield."
+
+  STR_FEDOROV_GROM: "Fedorov EVF-31 “Grom” Rifle"
+  STR_FEDOROV_GROM_UFOPEDIA: "Energy weapon made from the Bullseye, by Imperial Russia in an attempt to even the playing field with the Chimera. Its production costs were considerable and it was available in limited numbers. Despite this, most of the prototypes were sent to the Siberian armies so as to give them a fighting chance, then a few hundred managed to be successfully evacuated to Provideniya where the Siberian Guard was formed. ”Grom” means thunder in Russian."
+
+
   STR_FIRE_GRENADE: "Fire Grenade"
   STR_M1911_COLT: "M1911 Colt"
   STR_M1911_COLT_CLIP: ".45 ACP Magazine (x7)"
@@ -120,9 +230,6 @@ en-US:
   STR_LT_COLONEL: "Lt. Colonel"
   STR_COLONEL: "Colonel"
 
-  STR_BDU_UC: "US ARMY UNIFORM"
-  STR_BDU_UC_UFOPEDIA: "Standard issue military uniform used by the US Armed Forces."
-
 ######################
 # AIRCRAFTS
 
@@ -149,6 +256,263 @@ en-US:
   STR_AFTERBURNER_UC: "EXPERIMENTAL JET THURSTER"
   STR_AFTERBURNER_UFOPEDIA: "This prototype jet motor is used to greatly increase the acceleration and speed of the vehicle where it is mounted. However, the stress put on the motor reduces it's autonomy. accel: 5, speedMax: 150, fuelMax: -15"
   STR_AFTERBURNER: "Experimental Jet Thurster"
+
+
+  STR_METEOR: "METEOR"
+  STR_METEOR_UFOPEDIA: "Long-range British Gloster Meteor escort fighter, meant to protect VTOLs and bombers deep inside Europe."
+
+  STR_HORTEN: "HORTEN"
+  STR_HORTEN_UFOPEDIA: "Prototype Ho-229 fighter, its superb maneuverability allows it to outperform heavier planes in close combat."
+
+  STR_SHINDEN: "SHINDEN"
+  STR_SHINDEN_UFOPEDIA: "Heavy Japanese J7W fighter. Its strong and durable airframe could theoretically withstand attacks even from gigantic mutant lifeforms… if they existed."
+
+  STR_YAK: "YAKOLEV"
+  STR_YAK_UFOPEDIA: "The Yak-9 is a versatile multirole aircraft, albeit outdated by current standards. Mostly used by the Siberian pilots in recon and light attack roles."
+
+  STR_SUPER_SABRE: "SUPER SABRE"
+  STR_SUPER_SABRE_UFOPEDIA: "The improved F-100 interceptor flies higher, faster and is considerably more deadly. The better powerplant allows longer patrol times."
+
+  STR_VAMPIRE: "VAMPIRE"
+  STR_VAMPIRE_UFOPEDIA: "Long-range all-weather fighter. The unusual shape of the airframe houses large armored fuel tanks for extensive operational range."
+
+
+######################
+# SOLDIER ARMORS
+
+
+  STR_SRPA_BLACK_OPS_UNIFORM_UC: "BLACK OPS TACTICAL SUIT"
+  STR_SRPA_BLACK_OPS_UNIFORM: "Black Ops Tactical Suit"
+  STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA: "Main battle dress of the Black Ops, the special operators of the SRPA. Includes a reinforced vest and special enclosed NBC (nuclear-biological-chemical) helmet to prevent infections by Chimeran airborne pathogens."
+
+  STR_BDU_UC: "AMERICAN M1943 UNIFORM"
+  STR_BDU_UC_UFOPEDIA: "Combat uniform for the US Armed Forces, introduced in 1943. Made in weather-proof cloth, it was warm in cold seasons and fresh in hot regions. Issued with a M1 “pot” helmet." 
+
+  STR_BRITISH_FIELD_UNIFORM_UC: "BRITISH BATTLEDRESS"
+  STR_BRITISH_FIELD_UNIFORM: "British Battledress"
+  STR_BRITISH_FIELD_UNIFORM_UFOPEDIA: "Practical and comfortable uniform, introduced in the late 30s and widely copied by armies all around the globe. The green variant saw use mostly in Europe, while the khaki variant was employed by Commonwealth forces."
+
+  STR_MAQUIS_FIELD_UNIFORM_UC: "MAQUIS COMBAT OUTFIT"
+  STR_MAQUIS_FIELD_UNIFORM: "Maquis Combat Outfit"
+  STR_MAQUIS_FIELD_UNIFORM_UFOPEDIA: "Due its status as a clandestine resistance movement, the Maquis had issues getting a conventional standardized uniform. The closest they could get was a mix-up of industrial and outdated reserve military leftovers."
+
+  STR_JAPANESE_FIELD_UNIFORM_UC: "IMPERIAL JAPANESE UNIFORM"
+  STR_JAPANESE_FIELD_UNIFORM_UFOPEDIA: "The M98 (98 Shiki-Gun-i) uniform worn by the Japanese troops is an update made in 1938 for the continued family of khaki combat uniforms. The “tetsukabuto” (steel helmet) is issued with a fabric piece to protect the neck from heat and sun."
+
+  STR_RUSSIAN_FIELD_UNIFORM_UC: "RUSSIAN SERVICE DRESS"
+  STR_RUSSIAN_FIELD_UNIFORM_UFOPEDIA: "The combat uniform for the Russian Imperial Army remained pretty much the same since the end of the Great War. It consists of a khaki “gymnastyorka”, knee trousers and reinforced boots, plus SSh-30 steel helmet."
+
+  STR_SIBERIAN_FIELD_UNIFORM_UC: "SIBERIAN WINTER OVERCOAT"
+  STR_SIBERIAN_FIELD_UNIFORM_UFOPEDIA: "Worn over the standard Imperial uniform, the overcoat made of thick wool is used by the Guards to protect themselves from the harsh climate. Used along with a “papakha” hat. A rudimentary gas mask is used to protect the soldier from Crawlers and poisonous gasses."
+
+
+######################
+# ALLIED SUPPORT
+
+
+  STR_AMERICAN_VOLUNTEERS_RESEARCH: "American Volunteers"
+  STR_AMERICAN_VOLUNTEERS_RESEARCH_UFOPEDIA: "The initial rooster of the project was restricted only to SRPA personnel, but it was reconsidered to include volunteers from the regular armed forces. After signing a special disclosure contract, they were inducted into the team. Additional weaponry was requested as well to be able to equip the newcomers. We need as many hands and rifles in the field as possible."
+
+  STR_EXPANDING_FRONTIERS: "Expanding Frontiers"
+  STR_EXPANDING_FRONTIERS_UFOPEDIA: "The SRPA provides us with enough equipment to equip our task force for recovery operations and we count on the support of the USAF to engage hostile craft near our bases. However, we could always attend the radio for additional help of allied forces fighting elsewhere. This may take a while, however. Overseas prospecting may be required to be restricted to ensure the high quality of the deployed teams, as we need the best of the best."
+
+  STR_REESTABLISH_DIPLOMATIC_TIES: "Reestablish Diplomatic Ties"
+  STR_REESTABLISH_DIPLOMATIC_TIES_UFOPEDIA: "We have managed to get in contact with friendly forces in Europe, after a minor comms blackout (most likely thanks to Chimera jamming equipment). We could extend an invitation to either the British forces or the Maquis resistance movement to join our recovery efforts in exchange for tech and supplies."
+
+  STR_BRITISH_COOPERATION_1_RESEARCH: "British Cooperation I"
+  STR_BRITISH_COOPERATION_1_RESEARCH_UFOPEDIA: "Our recent success with the Operation Morning Star meant the eradication of the enemy forces in the British islands and they are more than willing to join us. They have allowed volunteers from elite corps like the Royal Marine Commandos and Paratroopers to be recruited into our forces, forming the {ALT}Ghost Team{ALT}."
+
+  STR_BRITISH_COOPERATION_2_RESEARCH: "British Cooperation II"
+  STR_BRITISH_COOPERATION_2_RESEARCH_UFOPEDIA: "Additional talks resulted in more British-made available for our forces. Additionally, now we have the blueprints for the Razor energy rifle, the improved version of the Chimeran main infantry weapon. Any captured Bullseye could be re-manufactured into the Razor, with an additional amount of Gray Tech."
+
+  STR_MAQUIS_COOPERATION_1_RESEARCH: "Maquis Cooperation I"
+  STR_MAQUIS_COOPERATION_1_RESEARCH_UFOPEDIA: "While we don't have an open diplomacy with the Maquis, the European resistance group, we did have trade and technological exchange with its predecessor, the UED. Certain intelligence operatives, like Colonel James Grayson, have previously worked with us tracking and recovering alien assets. By tending a much needed helping hand, they have agreed on providing volunteers (often with their own weaponry) in exchange for supplies and resources. They are now part of {ALT}Fantasma Team{ALT}."
+
+  STR_MAQUIS_COOPERATION_2_RESEARCH: "Maquis Cooperation II"
+  STR_MAQUIS_COOPERATION_2_RESEARCH_UFOPEDIA: "The reason behind the initial constraints and reticence to support our endeavor is most likely due the fact the Grace Administration cut off the lend-lease program enacted by former president Roosevelt. Our current efforts in a joint collaboration have been successful and more types of weaponry are now available to equip our task force. Additionally, we can begin manufacturing the prototype Longbow railgun using captured Gray Tech."
+
+
+  STR_EXTENDING_WIDEBAND_TRANSMISSIONS: "Extending Wideband Transmissions" 
+  STR_EXTENDING_WIDEBAND_TRANSMISSIONS_UFOPEDIA: "Extensive efforts are under way to increase the effective range of our listening posts. We are sure there are still human forces fighting in other parts of the world. We just need to find them."
+
+  STR_JAPANESE_COOPERATION_1_RESEARCH: "Japanese Cooperation I"
+  STR_JAPANESE_COOPERATION_1_RESEARCH_UFOPEDIA: "By applying additional effort in the search for human radio transmissions in the Pacific area, we have captured the signal emitted by the SRPA Japanese Corps, long reported as M.I.A. They reported their ongoing fighting on mainland Asia, plus several incursions over the Japanese home islands. We have agreed on helping them and in turn, elements from the elite Navy and Army units will join our task force. They will be assigned to {ALT}Yokai Team{ALT}."
+
+  STR_JAPANESE_COOPERATION_2_RESEARCH: "Japanese Cooperation II"
+  STR_JAPANESE_COOPERATION_2_RESEARCH_UFOPEDIA: "The collaboration between our forces and the Japan defenders have been successful. There are certain concerns in close circles here, though, as the Imperialist approach they took on Asia was not very tolerated back in the Roosevelt Administration. Despite this, they have agreed to share more assets to support our recovery efforts in Asia. Also, our SRPA station in Japan has successfully created a new weapon using Gray Tech, we are now able to produce it."
+
+  STR_CODEBREAKER_TRANSMISSIONS: "Codebreaker Transmissions"
+  STR_CODEBREAKER_TRANSMISSIONS_UFOPEDIA: "After we got word of faint radio waves coming from Russia, we focused all our available listening posts towards that geographical zone in order to gather any sign of life. After several tries, we caught not one but two signals, on opposite sides of the country. We could choose any of both to begin diplomatic talks."
+
+  STR_RUSSIAN_COOPERATION_1_RESEARCH: "Russian Cooperation I"
+  STR_RUSSIAN_COOPERATION_1_RESEARCH_UFOPEDIA: "We have established a stable link with Russian Imperial Army remnants in several sectors. They seem to be grouped around Sevastopol, Leningrad and the Caspian Sea. The Maquis had offered to provide a liaison between them and our forces, although we are wary of the distrust between each party… you can not erase 30 years of animosity in a couple of months, after all. Despite this, they have agreed on providing volunteers with their equipment in exchange for supplies and tech. They are now part of {ALT}Prizrak Team{ALT}."
+
+  STR_RUSSIAN_COOPERATION_2_RESEARCH: "Russian Cooperation II"
+  STR_RUSSIAN_COOPERATION_2_RESEARCH_UFOPEDIA: "The Russians fighting alongside us have proven to be resourceful in tactics and strategy. They have been fighting the Chimera since 1927, after all. Many have thanked not being limited in ammunition and weaponry, as they were forced to wage a guerrilla war with barely equipment the last decade. For this reason, they have shared their blueprints for a reverse-engineered energy rifle based on a captured Chimera weapon. We're now able to manufacture it on our workshops, using Gray Tech."
+
+  STR_SIBERIAN_COOPERATION_1_RESEARCH: "Siberian Cooperation I"
+  STR_SIBERIAN_COOPERATION_1_RESEARCH_UFOPEDIA: "A hidden enclave of Imperial Army remnants was found in the Far East, closer to Alaska. How they managed to remain active after so many years, especially considering how heavily infested are the Siberian wastelands, its almost a miracle. We have offered them military support and equipment to help them in their guerrilla warfare. In turn, several veteran soldiers have volunteered to join our project. They are now part of {ALT}Fantom Team{ALT}."
+
+  STR_SIBERIAN_COOPERATION_2_RESEARCH: "Siberian Cooperation II"
+  STR_SIBERIAN_COOPERATION_2_RESEARCH_UFOPEDIA: "So many years of isolation deep in the Siberian forests made the Guards very suspicious of any foreign forces, no matter if they come from their own species. We got their trust and they have allowed us templates of their custom made “Grom” Bullseye-based energy rifle, an older prototype we could improve using modern knowledge and additional Gray Tech."
+
+
+######################
+# ENDGAME
+
+  STR_ELERIUM_115: "Nuclear Reactor Fuel"
+  STR_ELERIUM_115_UFOPEDIA: "Radioactive elements within a containment chamber. Standing near them without special protection may be dangerous, but so far we have not found any issue. Some of them make pretty glassware that is bright under UV light!"
+
+  STR_UFO_POWER_SOURCE: "Alien Nuclear Reactor"
+  STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
+
+  STR_ALIEN_ALLOYS: "Chimera steel"
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Lightweight steel alloy plating, used by the Chimera to construct a large range of utilities and weaponry. Easily moldable with the right tools, but impervious to all kinds of damage. First found and classified by RAF personnel on Gibraltar, its delivery and intel report on how to use it was intercepted by rouge Maquis agents and became lost until recently."
+
+  STR_GRAY_TECH_ITEM: "Gray Tech Item"
+  STR_GRAY_TECH_ITEM_UFOPEDIA: "Exceedingly powerful piece of alien tech. It doesn't correspond to any design made by the Chimera so far. It emits a vibrant light and what could be described as “hot air around it”, most likely radiation. Handle with caution."
+
+  STR_GRAY_TECH_RECOVERY_TEAM: "Recovery and Salvage Operations"
+  STR_GRAY_TECH_RECOVERY_TEAM_UFOPEDIA: "The so-called “Gray Tech” is often located behind enemy lines, deep inside their fortresses and redoubts. In order to gather them for our own technological progress, we must raid them and forcefully extract them. The Chimera seems to amass them too, for purposes yet to be understood… we can not allow them to outmatch us. Major Richard Blake, with the direct authorization by President McCullen, has approved the creation of an elite task force with the explicit purpose of infiltration, gathering, recovery, protection and application of these alien tech assets. The best members of the SRPA Advanced Tactical Operations were called to join the {ALT}Spectre Team{ALT}."
+
+
+  STR_GRAY_TECH_INTRODUCTION: "Gray Tech' Introduction"
+  STR_GRAY_TECH_INTRODUCTION_UFOPEDIA: "“Gray Tech” (GT) is a term recently coined by Dr. Malikov to name the previously unknown alien tech, built or assembled by a third, undisclosed faction. More research is needed on the matter, to understand it and how it could be used in the war effort."
+
+  STR_GRAY_TECH_THEORY: "Gray Tech Theory"
+  STR_GRAY_TECH_THEORY_UFOPEDIA: "A growing theoretical approach on the extraterrestrial pieces point to certain physical and energetic characteristics that could be used on our own technology, as some kind of “booster” or improvement. The GT is shown capable of transmitting large amounts of energy, which is further increased by the addition of more of those items. If we continue researching more Gray Tech, we could refine a practical use for our troops on the field."
+
+  STR_GRAY_TECH_APPLICATIONS: "Gray Tech Applications"
+  STR_GRAY_TECH_APPLICATIONS_UFOPEDIA: "The continued investigation on the matter has finally led to something very much needed for our military forces: weapons. By adding small amounts of GT to already existent human-designed energy weapons (often incorporating alien assets), we could greatly improve them. Other developments like craft energy weapons are planned as well. We must continue to work on the recovered extraterrestrial samples."
+
+  STR_PROJECT_PROMETHEUS: "Project Prometheus"
+  STR_PROJECT_PROMETHEUS_UFOPEDIA: "Dr. Julia Cathcart has taken the lead on the investigation on alien technology. She has theorized the Gray Tech individual items all belong to a larger mechanism or machine, taking in account how the emitted electromagnetic radiation becomes more and more intense with a larger number of GT pieces nearby one from another. We must continue researching this topic to refine our understanding."
+
+  STR_PROMETHEUS_WEAPON: "Prometheus Weapon"
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "A groundbreaking development by Dr. Cathcart”s team was made on the investigation. It confirmed the theory about how each GT item was a piece of a larger puzzle. By adding more and more items, more intense electromagnetic radiation is emitted, which could be used as a high yield explosive device. It is believed by combining 100 pieces, a powerful bomb could be assembled, which could cause a major blackout in the Chimera hub network. We must assemble it as soon as possible, as we have intel on the leader of the enemy, Daedalus, who seems to pursue a similar objective as us with the purpose of wiping out mankind, instead. Once the bomb is ready, we could prepare an offensive to deploy it."
+
+  STR_OPERATION_OLYMPIC_DEPENDENCY: "Operation Olympic Dependency"
+
+  STR_LAUNCH_OPERATION_OLYMPIC: "Launch Operation Olympic" 
+  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "A major planning is done for the mission to infiltrate the very first Hub Tower: Tunguska. Site of the initial landing of the Chimera in 1908, it is believed to be the source of the alien corruption. A major coordinate strike to deliver Dr. Cathcart”s bomb against it will result in a domino effect - one by one, each Hub Tower will fall, and the whole grid with it. Once ready, click on the TUNGUSKA button to begin the final mission."
+
+  STR_ARE_YOU_SURE_CYDONIA: "Are you sure you want to send this craft on a mission to Tunguska?"
+  STR_CYDONIA: "TUNGUSKA"
+
+  STR_CONVERSION_CENTER_MISSION: "Conversion Center Raid"
+  STR_CONVERSION_CENTER_DEPLOYMENT: "CONVERSION CENTER RAID"
+  STR_CONVERSION_CENTER_DESCRIPTION: "Allied forces have spotted a Chimera conversion center, used to create powerful alien strains. We must seize it, recover any valuable alien tech asset and destroy the central reactors to disable the structure permanently. Be careful, there may be a small garrison guarding it."
+  STR_CONVERSION_CENTER_MARKER_NAME: "Conversion Center Detected"
+  STR_CONVERSION_CENTER_ALERT: "Conversion Center"
+
+  STR_CHIMERAN_TOWER_MISSION: "Chimeran Tower Assault"
+  STR_CHIMERAN_TOWER_DEPLOYMENT: "CHIMERAN TOWER ASSAULT"
+  STR_CHIMERAN_TOWER_DESCRIPTION: "Allied forces have spotted a Chimeran Tower, main logistical staging area and base of operations. We must seize it, recover any valuable alien tech asset and destroy the central reactors to disable the structure permanently. Be careful, there may be a considerable garrison guarding it."
+  STR_CHIMERAN_TOWER_MARKER_NAME: "Chimeran Tower Detected"
+  STR_CHIMERAN_TOWER_ALERT: "Chimeran Tower"
+
+  STR_CHIMERAN_HUB_TOWER_MISSION: "Chimeran Hub Tower Offensive"
+  STR_CHIMERAN_HUB_TOWER_DEPLOYMENT: "CHIMERAN HUB TOWER OFFENSIVE"
+  STR_CHIMERAN_HUB_TOWER_DESCRIPTION: "Allied forces have spotted a Chimeran Hub Tower, major enemy headquarters and control node over a large area. We must seize it, recover any valuable alien tech asset and destroy the central reactors to disable the structure permanently. Be careful, there may be a large reinforced garrison guarding it."
+  STR_CHIMERAN_HUB_TOWER_MARKER_NAME: "Chimeran Hub Tower Detected"
+  STR_CHIMERAN_HUB_TOWER_ALERT: "Chimeran Hub Tower"
+
+
+  STR_OPERATION_OLYMPIC_MISSION: "Operation Olympic"
+  STR_OPERATION_OLYMPIC_DEPLOYMENT: "OPERATION OLYMPIC - PHASE I"
+  STR_OPERATION_OLYMPIC_DESCRIPTION: "The last push to win the war, once and for all. After the manufacturing of the Prometheus Bomb, we are able to directly engage the enemy in their main stronghold. After landing, we must rush the entry of the suspected underground facility. Once all the SRPA personnel are in the elevator “green tiles”, you must click on {ALT}Abort button{ALT}, to proceed to the next stage."
+  STR_OPERATION_OLYMPIC_MARKER_NAME: "Operation Olympic Underway"
+  STR_OPERATION_OLYMPIC_ALERT: "Operation Olympic"
+
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERATION OLYMPIC - PHASE II"
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Below the Tunguska Hub Tower, lies a complex maze of corridors and rooms. In order to safely place the Prometheus Bomb, we must disable all the energy reactors in the base. This will cut the power, so the enemy can”t send a S.O.S beacon and request for reinforcements. After doing so, extract all the task force personnel and head towards the elevator zone and click on {ALT}Abort button{ALT}. We have just one chance."
+
+
+######################
+# ENEMY FORCES
+
+  STR_HYBRID_SQUAD: Hybrid Squad
+  STR_HYBRID_SOLDIER: Hybrid Soldier
+  STR_HYBRID_CORPSE: Hybrid Corpse
+  
+  STR_STEELHEAD_SQUAD: "Medium Chimera Platoon"
+  STR_ADVANCED_HYBRID_SQUAD: "Heavy Chimera Platoon"
+  STR_MIXED: "Mixed Chimera Platoon"
+
+  STR_HYBRID_ARMOR: "Basic implants + light armor"
+  STR_HYBRID_DESCRIPTION: "Hybrid Intel"
+  STR_HYBRID_DESCRIPTION_UFOPEDIA: "The regular foot soldiers of the enemy, the Hybrids are former humans infected by the Chimeran virus and mutilated into a mindless and fearless warrior with the only objective of killing any human on sight."
+
+  STR_HAMMER_UNIT: "Hammer"
+  STR_HAMMER_ARMOR: "Bipedal Exoframe"
+  STR_HAMMER_CORPSE: "Hammer Wreck"
+  STR_HAMMER_DESCRIPTION: "Hammer Intel"
+  STR_HAMMER_DESCRIPTION_UFOPEDIA: "The Hammer is a heavy mechanized assault unit, often used in close quarters combat inside urban centers. First seen in the Fall of Arnhem, where a full squad wiped out the German-Dutch defenders on both sides of the bridge. Equipped with an advanced chaingun, similar to the Brute Minigun"
+
+  STR_STEELHEAD_SOLDIER: "Steelhead" 
+  STR_STEELHEAD_ARMOR: "Improved armored implants"
+  STR_STEELHEAD_CORPSE: "Steelhead Corpse"
+  STR_STEELHEAD_DESCRIPTION: "Steelhead Intel"
+  STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "The commanding officers of the enemy ground forces. Their nickname was coined after their armored headgear. A larger and better cooling unit in the back, plus reinforced plates in the front, allows it to withstand more damage than their lesser brethren."
+
+  STR_ADVANCED_HYBRID_SOLDIER: "Advanced Hybrid" 
+  STR_ADVANCED_HYBRID_ARMOR: "Full body armor + implants"
+  STR_ADVANCED_HYBRID_CORPSE: "Adv. Hybrid Corpse"
+  STR_ADVANCED_HYBRID_DESCRIPTION: "Advanced Hybrid Intel"
+  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Something we could name a “commando” for the alien warriors, the Advanced Hybrids are high ranking enemy forces, seen only guarding important locations. Their full body armor makes them impervious to most damage, often requiring larger barrages of focused rifle fire in order to kill one."
+
+  STR_RAVAGER_SOLDIER: "Ravager"
+  STR_RAVAGER_SOLDIER_ARMOR: "Mutated musculoskeletal"
+  STR_RAVAGER_SOLDIER_CORPSE: "Ravager Corpse"
+  STR_RAVAGER_SOLDIER_DESCRIPTION: "Ravager Intel"
+  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "The most powerful strain of the Chimera, its large and muscular appearance often intimidates any human soldier unfortunate enough to find one in the battlefield. Extremely resistant and strong, they are the shock troopers of the enemy and carry heavy automatic weapons."
+
+######################
+# LORE
+
+
+  STR_JET_POWER_LORE: "Jet Power"
+  STR_JET_POWER_LORE_UFOPEDIA: "Germany put a strong emphasis on newer and better propulsion methods for aircraft. The fear of high-altitude Russian bombers led to the development of Me-262, the first successful jet-powered fighter. Officially deployed  in 1942, it became the premier interceptor force of the UED. Soon after, the British and Americans rushed their own projects, but were always behind the Luftwaffe's designs. The era of the piston-powered aircrafts was coming to an end."
+
+  STR_FALLEN_KNIGHTS_LORE: "Fallen Knights"
+  STR_FALLEN_KNIGHTS_LORE_UFOPEDIA: "Despite the German air prowess, most of the Luftwaffe and the European air forces were quickly destroyed with the initial stages of the Chimeran onslaught. In the East, many pilots didn't even get to board their planes, as Spire missiles blanketed all the military bases they found on their pass. Western European squadrons fared slightly better and some air victories were scored over the Benelux. UED fighter wings were decimated by the extensive numbers of Chimeran combat crafts. The so-called 'Knights of the Air' were reduced to molten wrecks."
+
+  STR_UED_FORCES_LORE: "UED Forces"
+  STR_UED_FORCES_LORE_UFOPEDIA: "The bulk of the United European Defense forces were composed of French, Polish, Germans and Italians, plus reduced brigades from smaller countries. Equipped with German cutting-edge equipment, it was trained to fend off Russian mass-wave attacks. However, the UED's reliance on static defenses and trench warfare ala Great War made it poorly suited to the Chimeran mechanized breakthroughs. Political infighting and low morale shattered the alliance even before the enemy reached their borders."
+
+
+  STR_ACES_HIGH_LORE: "Aces High"
+  STR_ACES_HIGH_LORE_UFOPEDIA: "Opposed to most European powers, the Royal Air Force focused primarily on a large fleet of efficient Kingfisher VTOLs to project airpower further inland. Despite being in development since 1937, it was only after the announcement of the Me-262 in the '42 that the Fighter Command opted to replace its fleet of Spitfires with the Meteor. Although slower and less armed than most of its peers, the Gloster-made fighter had a longer operational range. As most were lost in sorties over Czechoslovakia in support of the Bratislava Line, the last remaining few were engaged in air defense on Britain."
+
+  STR_MAGNIFICENT_LIGHTNING_LORE: "Magnificent Lightning"
+  STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA: "Despite the lack of sufficient aerial opposition during the Second Sino-Japanese War, the Imperial Japanese Navy requested the development of a high-performance, high-altitude combat craft with the explicit purpose of engaging enemy bombers. The need to protect the main islands from foreign aggression motivated the project. The result was the J7W Shinden, a heavily armored and up-gunned craft. When the Chimera began pushing towards the Far East, even the Mitsubishi 'Zero' fighters struggled to keep the enemy crafts at bay and the Shinden became the elite naval interceptor."
+
+
+  STR_EURO_AMERICAN_COLLABORATION_LORE: "Euro-American Collaboration"
+  STR_EURO_AMERICAN_COLLABORATION_LORE_UFOPEDIA: "During the Roosevelt administration, there was a notorious diplomatic approach between the European organizations and the US. This led to several technological and technical agreements between both blocs, among them the “Strategic Ammunition Standardization Agreement (SATANAG)”, where the .303 British round was adopted as the general small arms chambering for all service rifles. Also, SRPA and MDC exchanged blueprints and research. This eventually became less public during the Grace Administration, as the diplomatic ties were strained with the growing US isolationism."
+
+  
+  STR_THE_TUNGUSKA_TOWER: "The Tunguska Tower"
+  STR_THE_TUNGUSKA_TOWER_UFOPEDIA: "The Tower was the first ever Chimeran   STRucture to be excavated and it is believed to not only be the largest known tower but also be the Hub Tower of Russia and possibly Eastern Europe. Given it's unimaginable importance, it is extremely well protected; in fact, no one has ever got within 1,200 yards of the tower… except for Dr. Malikov, who managed to extract a Pure Chimera DNA sample directly in situ."
+
+  STR_THE_SIBERIAN_GUARD: "The Siberian Guard"
+  STR_THE_SIBERIAN_GUARD_UFOPEDIA: "The Guard was established sometime in the early 40s, shortly after the fall of Imperial Russia and is often considered to be the last remnants of resistance in the Russian Far East. The Guard consists of three military bases spread out across Siberia, along with a single coastal village in the Pacific shoreline known as 'Provideniya', which houses several thousand Russian survivors. They take pride in being the sole protector of Siberia and have proven that through its ruthless guerrilla campaign against the Chimera."
+
+  STR_VALERY_SABLIN: "Valery Sablin"
+  STR_VALERY_SABLIN_UFOPEDIA: "A high ranking Russian Naval officer who was heavily involved in the evacuations of the Operation Kerensky, Once finished, he remained stationed on Wrangel Island until 1948, where he and his crew chose to leave the island on his ship, the 'Storozhevoy', planning on arriving at Alaska, However, due a lack of food, they were forced to dock in the coastal town of Provideniya, where they met the remnants of a Russian infantry division who had been stationed at the location. Instead of leaving for Alaska, Sablin and his crew choose to stay and fight for the Motherland. He quickly began to rise through the ranks and establish himself as leader after the untimely demise of the division's commanding officer. He would soon officially form the 'Siberian Guard'"
+
+  STR_OPERATION_KERENSKY_1: "Operationi Kerensky"
+  STR_OPERATION_KERENSKY_1_UFOPEDIA: "The operation, named after Premier Kerensky, was put in action in April 10th, 1930 as it became clear to the Russian Government that the military wouldn't be able to withstand the Chimera. It authorized the systematic evacuation of civilians into the islands of Sevemaya Zemlya, Novaya Zemlya, Wrangel Island and the New Siberian Islands. The evacuation was mostly handled by the Navy, with a minor role of the Russian Imperial Air Force."
+
+  STR_OPERATION_KERENSKY_2: "Operationi Kerensky"
+  STR_OPERATION_KERENSKY_2_UFOPEDIA: "Around 1,500,000 people were successfully extracted with operations still taking place as late as 1936. Despite escaping the Chimera, those who were evacuated didn't fare much better, as supply lines began to break down in 1937; a major shortage of food, medicine and other supplies caused famine and disease to run rampant in the poorly constructed camps that the refugees had been placed into."
+
+  STR_YAGODA_SOLUTION_1: "The Yagoda Solution"
+  STR_YAGODA_SOLUTION_1_UFOPEDIA: "Named after Chief Executive of the Secret Police, Genrikh Yagoda, was put into place some time after 1937 to prevent the Chimera from infecting anymore of the Russian population and eventually transforming them into the alien species. This would be done through humane termination of any civilians believed to be infected by the virus."
+
+  STR_YAGODA_SOLUTION_2: "The Yagoda Solution"
+  STR_YAGODA_SOLUTION_2_UFOPEDIA: "This would also extend to any civilian in enemy territory and eventually entire refugee camps if they were deemed too difficult to protect. The mass killings caused heavy distrust and even fear between the Russian people and the military. The Yagoda Solution would remain in effect from 1937 until the end of the war, resulting in nearly 4 million deaths and would be unsuccessful in stopping the Chimera."
+
 
 ######################
 # CHANGED MENU TEXT
@@ -209,7 +573,6 @@ en-US:
   STR_UFO_COMPONENTS: "CHIMERAN CRAFT COMPONENTS"
   STR_UFOS: "CHIMERAN VEHICLES"
   STR_UFO_COMPONENT: "Chimera Craft component"
-  STR_UFO_POWER_SOURCE: "Chimera Craft Reactor"
   STR_UFO_NAVIGATION: "Chimera Craft Navigation"
   STR_UFO_CONSTRUCTION: "Chimera Craft Construction"
   STR_INTERNATIONAL_RELATIONS: "Frontlines"
@@ -233,7 +596,6 @@ en-US:
   STR_MONTHLY_RATING: "Monthly Rating> {ALT}{0}{ALT} {1}"
   STR_FUNDING_CHANGE: "Changes in supply flow> {ALT}{0}"
   STR_COUNCIL_REDUCE_DEBTS: "Our supply system is on the verge of collapse, it is recommended to ration weapons and ammunition. Otherwise, we will not have enough equipment to continue the fight."
-  STR_ELERIUM_115: "Nuclear Fuel"
   STR_THE_ALIENS_HAVE_DESTROYED_THE_UNDEFENDED_BASE: "The Chimera have destroyed the undefended base {0}"
   STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "SRPA agents have located an alien base in {0}"
   STR_UFO_HIT: "CHIMERAN CRAFT HIT!"

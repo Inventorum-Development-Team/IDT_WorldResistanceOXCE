@@ -114,11 +114,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/ChimeraUnits/Inventory/HYBRID_INVENTORY.png
-
-
-extraStrings:
-  - type: en-US
-    strings:
-      STR_HYBRID_SQUAD: Hybrid Squad
-      STR_HYBRID_SOLDIER: Hybrid Soldier
-      STR_HYBRID_CORPSE: Hybrid Corpse
