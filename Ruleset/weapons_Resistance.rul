@@ -583,43 +583,45 @@ extraSprites:
       768: Resources/HumanWeapons/Pistols/BigHE44Magnum_ammo1.png
       776: Resources/HumanWeapons/Ammo/BigMagnumAmmo.png
       784: Resources/HumanWeapons/Pistols/BigM1911_nomag.png
-      792: Resources/HumanWeapons/SelfLoading/BigRSC17_Mag.png
-      800: Resources/HumanWeapons/SelfLoading/BigRSC17_Mag_KMM.png
-      808: Resources/HumanWeapons/SelfLoading/BigFedorovAvtomat_nomag.png
-      816: Resources/HumanWeapons/SelfLoading/BigFedorovAvtomat_ammo1.png
-      824: Resources/HumanWeapons/SelfLoading/BigFedorovAvtomat_ammo2.png
-      832: Resources/HumanWeapons/SelfLoading/BigFedorovAvtomat_Mag.png
-      840: Resources/HumanWeapons/SelfLoading/BigFedorovAvtomat_Mag_KMM.png
-      848: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_nomag.png
-      856: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo1.png
-      864: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo2.png
-      872: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_Clip.png
-      880: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_Clip_KMM.png
-      #888: Resources/HumanWeapons/SelfLoading/BigGeneralLiu_nomag.png
-      #896: Resources/HumanWeapons/SelfLoading/BigGeneralLiu_ammo1.png
-      #904: Resources/HumanWeapons/SelfLoading/BigGeneralLiu_ammo2.png
-      #912: Resources/HumanWeapons/SelfLoading/BigGeneralLiu_Clip.png
-      #920: Resources/HumanWeapons/SelfLoading/BigGeneralLiu_Clip_KMM.png
-      928: Resources/HumanWeapons/SelfLoading/BigPhlogistonBattleRifle_nomag.png
-      936: Resources/HumanWeapons/SelfLoading/BigPhlogistonBattleRifle_ammo1.png
-      944: Resources/HumanWeapons/SelfLoading/BigPhlogistonBattleRifle_MediumBattery.png
-      #952: Resources/HumanWeapons/SelfLoading/BigGaussRifle_nomag.png
-      #960: Resources/HumanWeapons/SelfLoading/BigGaussRifle_ammo1.png
-      #968: Resources/HumanWeapons/SelfLoading/BigGaussRifle_HeavyFlechetteMag.png
-      976: Resources/HumanWeapons/Handgun/BigAutomaticRevolver_nomag.png
-      984: Resources/HumanWeapons/Handgun/BigAutomaticRevolver_ammo1.png
-      992: Resources/HumanWeapons/Handgun/BigAutomaticRevolver_ammo2.png
-      1000: Resources/HumanWeapons/Handgun/BigAutomaticRevolver_ammo3.png
+      792: Resources/HumanWeapons/Pistols/BigM1911_ammo1.png
+      800: Resources/HumanWeapons/Ammo/Big45PistolAmmo.png
+      #808: Resources/HumanWeapons/Pistols/BigKorovinKPK26_nomag.png
+      #816: Resources/HumanWeapons/Pistols/BigKorovinKPK26_ammo1.png
+      #824: Resources/HumanWeapons/Ammo/BigKorovinKPK26Mag.png
+  # Artillery 
+      832: Resources/HumanWeapons/Launcher/BigL209LAARK.png
+      840: Resources/HumanWeapons/Launcher/BigL209LAARK.png
+      848: Resources/HumanWeapons/Ammo/BigL209LAARK_Rocket.png
+      #856: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo1.png
+      #864: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo2.png
+      #872: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_Clip.png
+  # Chimera
+      880: Resources/ChimeraWeapons/BigBullseyeMk1_nomag.png
+      888: Resources/ChimeraWeapons/BigBullseyeMk1_nomag.png
+      896: Resources/ChimeraWeapons/Ammo/BigBullseyeMk1Battery.png
+      904: Resources/ChimeraWeapons/BigBullseyeMk2_nomag.png
+      912: Resources/ChimeraWeapons/BigBullseyeMk2_ammo1.png
+      920: Resources/ChimeraWeapons/Ammo/BigBullseyeMk2Battery.png
+      928: Resources/ChimeraWeapons/BigAugerMk1_nomag.png
+      936: Resources/ChimeraWeapons/BigAugerMk1_ammo1.png
+      944: Resources/ChimeraWeapons/Ammo/BigAugerMk1Battery.png
+      952: Resources/ChimeraWeapons/BigAugerMk2_nomag.png
+      960: Resources/ChimeraWeapons/BigAugerMk2_ammo1.png
+      968: Resources/ChimeraWeapons/Ammo/BigAugerMk2Battery.png
+      976: Resources/ChimeraWeapons/BigRepeaterPistol_nomag.png
+      984: Resources/ChimeraWeapons/BigRepeaterPistol_ammo1.png
+      992: Resources/ChimeraWeapons/Ammo/BigRepeaterPistolBattery.png
+      1000: Resources/ChimeraWeapons/BigHunterDMR_nomag.png
+      1008: Resources/ChimeraWeapons/BigHunterDMR_ammo1.png
+      1016: Resources/ChimeraWeapons/Ammo/BigHunterDMRBattery.png
+      1024: Resources/ChimeraWeapons/BigBruteMinigun_nomag.png
+      1032: Resources/ChimeraWeapons/BigBruteMinigun_ammo1.png
+      1040: Resources/ChimeraWeapons/Ammo/BigBruteMinigunBattery.png
       
-
-      100: Resources/AmericanWeapons/BigM1911.png
-      105: Resources/Ammo/Big45PistolAmmo.png
-      120: Resources/AmericanWeapons/BigM5A2Folsom.png
-      125: Resources/Ammo/Big303RifleAmmo.png
-      126: Resources/Ammo/Big40mmFragAmmo.png
-      170: Resources/BritishWeapons/BigL23Fareye.png
-      175: Resources/Ammo/Big303SniperAmmo.png
-      230: Resources/MaquisWeapons/BigStormRifle.png
+      #1048: Resources/ChimeraWeapons/BigReaperCarbine_nomag.png
+      #1056: Resources/ChimeraWeapons/BigReaperCarbine_ammo1.png
+      #1064: Resources/ChimeraWeapons/Ammo/BigReaperCarbineBattery.png
+      
 
   - type: FLOOROB.PCK
     files:
@@ -646,16 +648,6 @@ extraSprites:
 #########################################
 ########## CHIMERAN WEAPONS #############
 #########################################
-  - type: BIGOBS.PCK
-    files:
-      340: Resources/ChimeraWeapons/BigBullseyeMk1.png
-      345: Resources/Ammo/BigBullseyeMk1Battery.png
-      350: Resources/ChimeraWeapons/BigBullseyeMk2.png
-      355: Resources/Ammo/BigBullseyeMk2Battery.png
-      360: Resources/ChimeraWeapons/BigAugerMk1.png
-      365: Resources/Ammo/BigAugerMk1Battery.png
-      370: Resources/ChimeraWeapons/BigAugerMk2.png
-      375: Resources/Ammo/BigAugerMk2Battery.png
 
   - type: FLOOROB.PCK
     files:
