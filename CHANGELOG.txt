@@ -1,16 +1,18 @@
-X-Jul-2021: World Resistance v0.1
+24-August-2024: World Resistance Alpha v0.1
 Changes made:
-*Added Chimeran Hybrid
-*Added Chimeran Weapons
+* Added Chimeran Hybrid, by efrenespartano 
+* Added Chimeran Weapons, by efrenespartano
     - Bullseye Mk.1
     - Bullseye Mk.2
     - Auger Mk.1
     - Auger Mk.2
-*Added US Army Soldier
-*Added Human weapons
+* Added US Army Soldier, sprites by Dr. Hans Woofington
+* Added Human weapons, by efrenespartano
     - M5A2 Folsom Carbine (US)
     - M1911 Colt (US)
     - L23 Fareye (UK)
     - Storm Rifle (Maquis)
-*Added background menu image, by LegoLiam1803
-*Added new custom UI
+* Added background menu image, by LegoLiam1803
+* Added background images, by Ghartzay
+* Added new custom UI
+* Added Portuguese, French, Italian and German translations, by TigasZ8 
