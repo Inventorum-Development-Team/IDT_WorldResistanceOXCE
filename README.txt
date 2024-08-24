@@ -9,7 +9,7 @@ Credits by name:
 * efrenespartano: IDT lead developer, all the infantry weapons sprites, Chimera Hybrid sprites 
 * Ghartzay: IDT tester, Russian lore writer, overall support 
 * Insomniac Games: original franchise creators
-* LegoLiam1803: Japanese lore writer and origin lore support 
+* LegoLiam1803: Japanese lore writer and source lore support 
 * Lord_Kane: IDT developer
 * RamoZ: US Army Soldier code
 * shreksnow: overall support 
