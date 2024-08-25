@@ -1,0 +1,270 @@
+it:
+########################
+# MENU PRINCIPALE
+  STR_OPENXCOM: "Resistenza mondiale"
+  STR_NEW_GAME: "Operazioni globali"
+  STR_NEW_BATTLE: "Operazioni sul campo SRPA"
+  STR_MISSION_GENERATOR: "COMBATTI LA GUERRA DEI CHIMERI"
+  STR_UFOPAEDIA: "SrpaNet"
+  STR_UFOPAEDIA_UC: "SRPANET"
+  STR_XCOM_OPERATIVES_KILLED: "OPERATORI DELLA TASK FORCEUCCISI"   
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "OPERATORI DELLA TASK FORCE DISPONIBILI"
+  STR_XCOM_CRAFT_LOST: "VEICOLO SRPA PERSO"
+
+#######################
+# STRINGHE DI CATEGORIA OGGETTI
+  STR_WEAPONS: "Armi"
+  STR_FIREARMS: "Armi da fuoco"
+  STR_HANDGUNS: "Pistole corte"
+  STR_SMGS: "SMG"
+  STR_SHOTGUNS: "Fucili da caccia"
+  STR_ASSAULT_RIFLES: "Fucile d'assalto"
+  STR_BATTLE_RIFLES_DMRS: "Fucili da tiratore"
+  STR_SNIPER_RIFLES: "Fucili di precisione"   
+  STR_LMGS: "Mitragliatrici"
+  STR_ARTILLERY: "Artiglieria"
+  STR_MAGAZINES: "Caricatori balistici"
+  STR_BATTERIES: "Batterie energetiche"
+  STR_MELEE: "CQB"
+  STR_GADGETS: "Gadget"
+  STR_MEDICAL: "Medico"
+  STR_GRENADES: "Granate"
+  STR_HUMAN_EQUIPMENT: "Equipaggiamento umano"
+  STR_AMERICAN_EQUIPMENT: "Equipaggiamento americano"
+  STR_BRITISH_EQUIPMENT: "Equipaggiamento britannico"
+  STR_MAQUIS_EQUIPMENT: "Equipaggiamento Maquis"
+  STR_JAPANESE_EQUIPMENT: "Equipaggiamento giapponese"
+  STR_RUSSIAN_EQUIPMENT: "Equipaggiamento russo"
+  STR_SIBERIAN_EQUIPMENT: "Equipaggiamento siberiano"
+  STR_CHIMERAN_EQUIPMENT: "Equipaggiamento chimera"
+  STR_TANKS: "Carri armati"
+#######################
+  STR_SHIELD_S: "Lo scudo è {}%!"
+
+  STR_SHIELD_DOWN: "Lo scudo è abbassato!"
+  STR_AIMED_BURST: "Raffica mirata"
+  STR_BURST: "Raffica"
+  STR_FULL_AUTO: "Completamente automatico"
+  STR_SINGLE_SHOT: "Colpo singolo"
+  STR_THRUST: "Spinta"
+  STR_CUT: "Taglio"
+  STR_DOUBLE_TAP: "Doppio tocco"
+  STR_SHORT_BURST: "Raffica breve"
+########################
+# ARMI
+  STR_DAMAGE_ARMOR_PIERCING: "PERFORANTE ARMATURA"
+  STR_DAMAGE_INCENDIARY: "INCENDIARIO"
+  STR_DAMAGE_HIGH_EXPLOSIVE: "ALTO ESPLOSIVO"
+  STR_DAMAGE_LASER_BEAM: "ALIEN BALLISTIC"
+  STR_DAMAGE_PLASMA_BEAM: "PLASMA ENERGY"
+  STR_BULLSEYE_MK1: "Bullseye Mk.1"
+  STR_BULLSEYE_MK1_BATTERY: "Batteria Bullseye Mk.1"
+  STR_BULLSEYE_MK1_UFOPEDIA: "Fucile da combattimento principale della fanteria Chimera. Ha un'elevata cadenza di fuoco, anche se la sua precisione è limitata e non è efficace oltre il combattimento ravvicinato. Spara proiettili al plasma rosso."
+  STR_BULLSEYE_MK2: "Bullseye Mk.2"
+  STR_BULLSEYE_MK2_BATTERY: "Batteria Bullseye Mk.2"
+  STR_BULLSEYE_MK2_UFOPEDIA: "Versione migliorata del fucile da combattimento difanteria standard Chimera. La canna pesante consente una maggiore precisione, ma ècomunque un'arma focalizzata sul combattimento ravvicinato. I suoi proiettili al plasma blu causano più ferite di altre armi."
+  STR_AUGER_MK1: "Auger Mk.1"
+  STR_AUGER_MK1_BATTERY: "Batteria Auger Mk.1"
+  STR_AUGER_MK1_UFOPEDIA: "Fucile da cecchino pesante, emette proiettili di radiazioni ionizzanti che causano danni considerevoli al terreno. Il suo mirino a medio raggio facilita l'attacco ai nemici nascosti dietro una copertura."
+  STR_AUGER_MK2: "Auger Mk.2"
+  STR_AUGER_MK2_BATTERY: "Auger Mk.2 Battery"
+  STR_AUGER_MK2_UFOPEDIA: "Versione migliorata del fucile da cecchino pesante usato dai cecchini Chimera, ha un mirino a lungo raggio e un generatore di radiazioni ionizzanti con una maggiore capacità di emettere energia. La sua capacità di penetrare il terreno è notevolmente aumentata."
+  STR_HEDGEHOG_GRENADE: "Granata a riccio"
+  STR_HEDGEHOG_GRENADE_UFOPEDIA: "..."
+
+  STR_FIRE_GRENADE: "Granata incendiaria"
+  STR_M1911_COLT: "M1911 Colt"
+  STR_M1911_COLT_CLIP: "Caricatore .45 ACP (x7)"
+  STR_M1911_COLT_CLIP_UFOPEDIA: "Arma da fianco standard delle unità SPRA e dell'esercito statunitense, è affidabile e facile da usare. Il suo potere di arresto è sufficiente per uccidere uno o due ibridi a bruciapelo."
+  STR_M5A2_FOLSOM_CARBINE: "Carabina Folsom M5A2"
+  STR_303_RIFLE_AMMO: "Munizioni per fucile .303 (x30)"
+  STR_40MM_FRAG: "Granata a frammentazione da 40 mm"
+  STR_M5A2_FOLSOM_CARBINE_UFOPEDIA: "Potente fucile di progettazione statunitense, utilizzato da tutte le forze armate statunitensi. È prodotto su licenza dall'esercito britannico come carabina Mk.6 e anche alcuni paesi europei avevano le proprie varianti di quest'arma. Tuttavia, è molto pesante e ingombrante a causa del rivestimento in legno e del lanciagranate integrato. Fuoco alternativo: lancia granata"
+  STR_L23_FAREYE_SNIPER_RIFLE: "L23 Fareye"
+  STR_303_SNIPER_AMMO: "Munizioni per cecchino .303 Mk 10"
+  STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA: "Uno dei preferiti di molti team dicecchini del Commando dei Royal Marine britannici, include un piccolo dispositivo a impulsi elettromagnetici pensato per aumentare l'attività neurale, aumentando così la precisione dei tiratori scelti. Fuoco alternativo: Headshot"
+  STR_STORM_RIFLE: ".303 Storm Rifle"
+  STR_STORM_RIFLE_UFOPEDIA: "Fucile da battaglia progettato dalle Forze armate tedesche, era il fucile standard della United European Defense (usato principalmente da tedeschi, francesi e italiani). Attualmente usato da Maquis,la maggior parte di loro sono stati recuperati da una nave di rifornimento affondata vicino a Oslo. Il suo nome ufficiale era '.303 Sturmgewehr'"
+#######################
+# SOLDIERS
+  STR_PRIVATE: "Soldato"
+  STR_CORPORAL: "Caporale"
+  STR_SERGEANT: "Sergente"
+  STR_STAFF_SERGEANT: "Sergente di Stato Maggiore"
+  STR_SERGEANT_FIRST_CLASS: "Sergente di prima classe"
+  STR_MASTER_SERGEANT: "Sergente Maggiore"
+  STR_SERGEANT_MAJOR: "Sergente Maggiore"
+  STR_WARRANT_OFFICER: "Sottoufficiale"
+  STR_LIEUTENANT: "Tenente"
+  STR_CAPTAIN: "Capitano"
+  STR_MAJOR: "Maggiore"
+  STR_LT_COLONEL: "Tenente Colonnello"
+  STR_COLONEL: "Colonnello"
+  STR_BDU_UC: "UNIFORME DELL'ESERCITO USA"
+
+  STR_BDU_UC_UFOPEDIA: "Uniforme militare standard utilizzata dalle Forze Armate USA."
+#######################
+# AEREI
+  STR_VTOL: "VTOL"
+  STR_VTOL_UFOPEDIA: "VTOL - Trasporto merci veloce e robusto, progettato per trasportare truppe su lunghe distanze. Utilizzato da diverse forze di resistenza umana."
+  STR_SABRE: "SABRE"
+  STR_SABRE_UFOPEDIA: "F-86 Sabre - Caccia da superiorità aerea, la punta di lancia degli sforzi bellici americani. Armato pesantemente e abbastanza robusto da resistere a diversi colpi."
+  STR_SIDEWINDER: "MISSILE AA"
+  STR_SIDEWINDER_UFOPEDIA: "AIM-9 Sidewinder - Missile aria-aria americano a corto raggio con guida IR. Ha una testata a frammentazione che fa a pezzi gli aerei nemici una volta che colpisce."
+  STR_SIDEWINDER_LAUNCHER: "Lanciamissili AA"
+  STR_SIDEWINDER_MISSILES: "Missili AA"
+  STR_FUEL_TANK_UC: "SERBATOIO CARBURANTE"
+  STR_FUEL_TANK_UFOPEDIA: "Serbatoio esterno montato sotto le ali, pensato per aumentare il raggio di combattimento dell'aereo. Produce una certa resistenza, riducendo così l'accelerazione e la velocità. fuelMax: 150, accel: -1, avoidBonus: -5"
+  STR_FUEL_TANK: "Serbatoio carburante"
+  STR_FLARE_DISPENSER_UC: "DISPENSER DI RAZZI"
+  STR_FLARE_DISPENSER_UFOPEDIA: "Contromisure progettate per deviare i missili IR sparati contro l'aereo. Creati con materiali pirotecnici, bruciano a temperature molto più elevate di un motore e possono confondere il sistema di guida di molti missili. avoidBonus: 25"
+  STR_FLARE_DISPENSER: "Distributore di razzi"
+
+  STR_AFTERBURNER_UC: "JET THURSTER SPERIMENTALE"
+  STR_AFTERBURNER_UFOPEDIA: "Questo prototipo di motore a reazione viene utilizzato per aumentare notevolmente l'accelerazione e la velocità del veicolo su cui è montato. Tuttavia, lo stress a cui è sottoposto il motore ne riduce l'autonomia. accel: 5, speedMax: 150, fuelMax: -15"
+  STR_AFTERBURNER: "Jet Thurster sperimentale"
+######################
+# TESTO DEL MENU MODIFICATO
+  STR_UFO_ACTIVITY_IN_AREAS: "Attività Chimera nelle aree"
+  STR_UFO_ACTIVITY_IN_COUNTRIES: "Attività Chimera nei fronti"
+
+  STR_XCOM_ACTIVITY_IN_AREAS: "Attività SRPA nelle aree"
+  STR_NOT_ENOUGH_ITEM_TO_REFUEL_CRAFT_AT_BASE: "Non abbastanza {0} per rifornire {1} a {2}"
+  STR_NOT_ENOUGH_ITEM_TO_REARM_CRAFT_AT_BASE: "Non abbastanza {0} per riarmare {1} a {2}"
+  STR_UFO_IS_NOT_RECOVERED: "Il velivolo Chimeran non è stato recuperato"
+  STR_UFO_IS_RECOVERED: "Il velivolo Chimeran è stato recuperato"
+  STR_CRAFT_IS_LOST: "Il velivolo è andato perduto"
+  STR_TERROR_CONTINUES: "Il terrore continua"
+  STR_ALIENS_DEFEATED: "Chimera sconfitta"
+  STR_BASE_IS_LOST: "La base è andata perduta"
+  STR_BASE_IS_SAVED: "La base è stata salvata"
+  STR_ALIEN_BASE_STILL_INTACT: "La base aliena è ancora intatta"
+  STR_ALIEN_BASE_DESTROYED: "La base aliena è stata distrutta"
+  STR_ALIENS_KILLED: "UNITÀ CHIMERAN UCCISE"
+  STR_ALIEN_CORPSES_RECOVERED: "CADAVERI ALIENI RECUPERATI"
+  STR_LIVE_ALIENS_RECOVERED: "UNITÀ CHIMERA VIVE RECUPERATE"
+  STR_ALIEN_ARTIFACTS_RECOVERED: "REPERTI ALIENI RECUPERATI"
+  STR_ALIEN_BASE_CONTROL_DESTROYED: "CONTROLLO BASE ALIENA
+DISTRUTTO"
+  STR_CIVILIANS_KILLED_BY_ALIENS: "CIVILI UCCISI DALLE UNITÀ CHIMERA"
+  STR_CIVILIANS_KILLED_BY_XCOM_OPERATIVES: "CIVILI UCCISI DAGLI OPERATORI
+DELLA TASK FORCE"
+  STR_CIVILIANS_SAVED: "CIVILI SALVATI"
+  STR_TANKS_DESTROYED: "CARRI ARMATI DISTRUTTI"
+  STR_UFO_RECOVERY: "RECUPERO VELIVOLO CHIMERA"
+  STR_ALIEN_BASE_RECOVERY: "RECUPERO BASE ALIENA"
+  STR_BASE_UNDER_ATTACK: "{0} sotto attacco!"
+  STR_BASE_DEFENSES_INITIATED: "DIFESE DI BASE AVVIATE"
+  STR_GRAV_SHIELD_REPELS_UFO: "LO SCUDO GRAV REPELLENTE IL VEICOLO!"
+  STR_FIRING: "SPARANDO"
+  STR_HIT: "COLPITO!"
+  STR_UFO_DESTROYED: "VEICOLO CHIMERANO DISTRUTTO!"
+  STR_UFO_CRASH_RECOVERY: "RECUPERO DELLO SCHIANTAMENTO DEL
+VEICOLO CHIMERANO"
+  STR_UFO_CRASH_RECOVERY_BRIEFING: "Prestare attenzione: potrebbero esserci
+agenti nel veicolo nemico o nei pressi del luogo dell'incidente. La missione avrà successo
+quando tutte le unità nemiche saranno state eliminate o neutralizzate. Il recupero dei resti
+del veicolo nemico, degli artefatti e dei cadaveri alieni può quindi essere avviato. Per
+annullare la missione, riportare le unità SRPA al veicolo di trasporto e fare clic sull'icona
+"Annulla missione"."
+  STR_UFO_GROUND_ASSAULT: "CHIMERAN CRAFT GROUND ASSAULT"
+  STR_UFO_GROUND_ASSAULT_BRIEFING: "Esplora il sito di atterraggio e, se possibile,
+entra nel veicolo nemico. La missione avrà successo quando tutte le unità nemiche saranno
+state eliminate o neutralizzate. Sarà quindi possibile avviare il recupero del veicolo nemico,
+dei manufatti e dei cadaveri alieni. Per annullare la missione, riporta le unità SRPA al veicolo
+di trasporto e clicca sull'icona "Annulla missione".
+  STR_BASE_DEFENSE:"DIFESA DI BASE"
+
+  STR_BASE_DEFENSE_BRIEFING: "Un'astronave aliena è atterrata nelle vicinanze. La
+nostra base è in grave pericolo. Come da procedura standard, tutto il personale non
+combattente e le imbarcazioni SRPA sono state evacuate. Le unità aliene entreranno nella
+base tramite le porte dell'hangar o l'ascensore di accesso. Difendi la base e le sue
+installazioni vitali a tutti i costi: questa è una lotta all'ultimo sangue. Se clicchi sull'icona
+"Annulla missione" ammetterai la sconfitta e perderai la base."
+  STR_ALIEN_BASE_ASSAULT: "ASSALTO ALLA BASE CHIMERA"
+  STR_ALIEN_BASE_ASSAULT_BRIEFING: "Le unità SRPA sono entrate in una base
+aliena. Il centro di controllo deve essere distrutto per rendere la base inoperativa. La
+missione terminerà quando tutti i nemici saranno stati eliminati o quando la tua squadra sarà
+tornata nell'area di uscita verde (clicca sull'icona "Annulla missione" per uscire)."
+  STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTRO SU CHIMERAN
+CRAFT-TIME=5 sec"
+  STR_GO_TO_LAST_KNOWN_UFO_POSITION: "VAI ALL'ULTIMA POSIZIONE
+CONOSCIUTA DEL CHIMERAN CRAFT"
+  STR_UFO_: "CHIMERAN CRAFT-{0}"
+  STR_ALIEN_BASE_: "STRUTTURA CHIMERAN-{0}"
+  STR_XCOM_CRAFT_ARMAMENT: "SRPA CRAFT & ARMAMENT"
+  STR_HEAVY_WEAPONS_PLATFORMS: "PIATTAFORME PER ARMI PESANTI"
+  STR_WEAPONS_AND_EQUIPMENT: "ARMI ED EQUIPAGGIAMENTO"
+  STR_ALIEN_ARTIFACTS: "ARMAMENTI CHIMERAN"
+  STR_VEHICLES: "VEICOLI"
+  STR_BASE_FACILITIES: "STRUTTURE DI BASE"
+  STR_ALIEN_LIFE_FORMS: "FORME DI VITA ALIENE"
+  STR_ALIEN_RESEARCH_UC: "RICERCA ALIENA"
+  STR_UFO_COMPONENTS: "COMPONENTI PER VEICOLO CHIMERANO "
+  STR_UFOS: "VEICOLI CHIMERANI"
+  STR_UFO_COMPONENT: "Componente per veicolo Chimera"
+  STR_UFO_POWER_SOURCE: "Reattore per veicolo Chimera"
+  STR_UFO_NAVIGATION: "Navigazione per veicolo Chimera"
+  STR_UFO_CONSTRUCTION: "Costruzione per veicolo Chimera"
+  STR_INTERNATIONAL_RELATIONS: "Linee del fronte"
+  STR_COUNTRY: "Fronte"
+  STR_FUNDING: "Rifornimenti"
+  STR_XCOM_PROJECT_MONTHLY_REPORT: "RAPPORTO SULLO SFORZO DI
+GUERRA SRPA"
+  STR_MONTH: "Mese> {ALT}{0} {1}"
+  STR_COUNCIL_IS_GENERALLY_SATISFIED: "L'SRPA ha sopportato il L'assalto dei
+Chimera ha avuto successo e i Fronti rimangono sotto il nostro controllo."
+  STR_COUNCIL_IS_VERY_PLEASED: "La SRPA ha resistito all'assalto dei Chimera in
+modo straordinario e i Fronti rimangono sotto il nostro controllo. Continuate così."
+  STR_COUNCIL_IS_DISSATISFIED: "La SRPA ha avuto problemi a respingere l'assalto dei
+Chimera e le nostre forze sono sull'orlo del collasso. Sforzatevi di più per difendere il
+pianeta."
+  STR_COUNTRY_IS_PARTICULARLY_PLEASED: "Il comando di {0} è particolarmente
+grato per la tua capacità di affrontare la minaccia locale dei Chimera e ha inviato più
+rifornimenti."
+
+  STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "I comandi in {0} sono particolarmente
+grati per la tua capacità di affrontare la minaccia locale dei Chimera e hanno inviato più
+rifornimenti."
+  STR_COUNTRIES_COMMA: "{0}, {1}"
+  STR_COUNTRIES_AND: "{0} e {1}"
+  STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "Il comando in {0} segnala gravi
+perdite militari e civili, rischia di essere sopraffatto. Hanno ridotto la quantità di rifornimenti
+inviati."
+  STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "I comandi in {0} segnalano
+gravi perdite militari e civili, rischiano di essere sopraffatto. Hanno ridotto la quantità di
+rifornimenti inviati."
+  STR_KNOTS: "{0} nodi"
+  STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} è stata invasa dalle forze
+Chimera e abbiamo perso i contatti con il Comando Regionale di Settore. Ci sono
+segnalazioni di una nuova base Chimera nella zona."
+  STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} è stata invasa dalle forze
+Chimera e abbiamo perso i contatti con i Comandi Regionali per quei Settori. Ci sono
+segnalazioni di nuove basi Chimera nella zona."
+  STR_MONTHLY_RATING: "Valutazione mensile> {ALT}{0}{ALT} {1}"
+  STR_FUNDING_CHANGE: "Cambiamenti nel flusso di rifornimenti> {ALT}{0}"
+  STR_COUNCIL_REDUCE_DEBTS: "Il nostro sistema di rifornimento è sull'orlo del
+collasso, si raccomanda di razionare armi e munizioni. Altrimenti, non avremo abbastanza
+equipaggiamento per continuare a combattere."
+  STR_ELERIUM_115: "Combustibile nucleare"
+  STR_THE_ALIENS_HAVE_DESTROYED_THE_UNDEFENDED_BASE: "I Chimera hanno
+distrutto la base indifesa {0}"
+  STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Gli agenti
+SRPA hanno localizzato una base aliena a {0}"
+  STR_UFO_HIT: "IL VEICOLO CHIMERANO COLPITO!"
+  STR_UFO_CRASH_LANDS: "IL VEICOLO CHIMERANO SI SCHIANTA!"
+  STR_MINIMISE_AT_STANDOFF_RANGE_ONLY: "Riduci a icona solo a distanza di
+sicurezza"
+  STR_UFO_RETURN_FIRE: "IL VEICOLO CHIMERANO RIVOLGE IL FUOCO!"
+  STR_INTERCEPTOR_DAMAGED: ">>> INTERCEPTOR DANNEGGIATO <<<"
+  STR_INTERCEPTOR_DESTROYED: ">>> INTERCEPTOR DISTRUTTO <<<"
+  STR_UFO_OUTRUNNING_INTERCEPTOR: "IL VEICOLO CHIMERANO STA
+CORRENDO PIÙ DELL'INTERCEPTOR!"
+  STR_ALIENS_TERRORISE: "TERRORISMO CHIMERANO"
+  STR_XCOM_PERFORMANCE_ROSTER: "Elenco delle prestazioni SRPA"
+  STR_XCOM_BASE_CANNOT_BE_BUILT: "Le strutture SRPA non possono essere
+costruite sott'acqua"
+  STR_SOLDIERS_RECRUITED: "Soldati reclutati"
+  STR_SOLDIERS_LOST: "Soldati persi"
+  STR_TOTAL_UFOS: "Vetture Chimera rilevate"
+  STR_TOTAL_ALIEN_BASES:"Scoperte strutture chimere"

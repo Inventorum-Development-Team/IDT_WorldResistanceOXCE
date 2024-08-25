@@ -198,7 +198,7 @@ en-US:
   STR_FIRE_GRENADE: "Fire Grenade"
   STR_M1911_COLT: "M1911 Colt"
   STR_M1911_COLT_CLIP: ".45 ACP Magazine (x7)"
-  STR_M1911_COLT_CLIP_UFOPEDIA: "Standard sidearm of SPRA and US Army units, it is reliable and easy to use. It's stopping power is enough to kill a Hybrid or two at point-blank."
+  STR_M1911_COLT_UFOPEDIA: "Standard sidearm of SPRA and US Army units, it is reliable and easy to use. It's stopping power is enough to kill a Hybrid or two at point-blank."
 
   STR_M5A2_FOLSOM_CARBINE: "M5A2 Folsom Carbine"
   STR_303_RIFLE_AMMO: ".303 Rifle Ammo (x30)"
