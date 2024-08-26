@@ -186,7 +186,6 @@ items:
     invHeight: 3
     listOrder: 2960
     bulletSpeed: 17
-    costBuy: 1000
     
   - type: STR_303_RIFLE_AMMO
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
@@ -885,7 +884,7 @@ extraSprites:
     files:
   # Rifles
       160: Resources/HumanWeapons/Rifles/BigM5A2Folsom_nomag.png
-      168: Resouces/HumanWeapons/Rifles/BigM5A2Folsom_ammo1.png
+      168: Resources/HumanWeapons/Rifles/BigM5A2Folsom_ammo1.png
       176: Resources/HumanWeapons/Rifles/BigM5A2Folsom_ammo2.png
       184: Resources/HumanWeapons/Rifles/BigMk6Carbine_nomag.png
       192: Resources/HumanWeapons/Rifles/BigMk6Carbine_ammo1.png
@@ -897,7 +896,7 @@ extraSprites:
       240: Resources/HumanWeapons/Rifles/BigM2A1Clovis_ammo1.png
       248: Resources/HumanWeapons/Rifles/BigM2A1Clovis_ammo2.png
       256: Resources/HumanWeapons/Ammo/Big303RifleAmmo.png
-      264: Resources/Human/Ammo/Big303RifleAmmoLarge.png
+      264: Resources/HumanWeapons/Ammo/Big303RifleAmmoLarge.png
       272: Resources/HumanWeapons/Rifles/BigArisakaType99_nomag.png
       280: Resources/HumanWeapons/Rifles/BigArisakaType99_ammo1.png
       288: Resources/HumanWeapons/Ammo/BigArisakaType99Ammo.png
@@ -967,8 +966,8 @@ extraSprites:
       760: Resources/HumanWeapons/Pistols/BigHE44Magnum_nomag.png
       768: Resources/HumanWeapons/Pistols/BigHE44Magnum_ammo1.png
       776: Resources/HumanWeapons/Ammo/BigMagnumAmmo.png
-      784: Resources/HumanWeapons/Pistols/BigM1911_nomag.png
-      792: Resources/HumanWeapons/Pistols/BigM1911_ammo1.png
+      784: Resources/HumanWeapons/Pistols/BigColtM1911_nomag.png
+      792: Resources/HumanWeapons/Pistols/BigColtM1911_ammo1.png
       800: Resources/HumanWeapons/Ammo/Big45PistolAmmo.png
       #808: Resources/HumanWeapons/Pistols/BigKorovinKPK26_nomag.png
       #816: Resources/HumanWeapons/Pistols/BigKorovinKPK26_ammo1.png
@@ -1093,8 +1092,8 @@ extraSprites:
       760: Resources/HumanWeapons/Pistols/FloorHE44Magnum_nomag.png
       768: Resources/HumanWeapons/Pistols/FloorHE44Magnum_ammo1.png
       776: Resources/HumanWeapons/Ammo/FloorMagnumAmmo.png
-      784: Resources/HumanWeapons/Pistols/FloorM1911_nomag.png
-      792: Resources/HumanWeapons/Pistols/FloorM1911_ammo1.png
+      784: Resources/HumanWeapons/Pistols/FloorColtM1911_nomag.png
+      792: Resources/HumanWeapons/Pistols/FloorColtM1911_ammo1.png
       800: Resources/HumanWeapons/Ammo/Floor45PistolAmmo.png
       #808: Resources/HumanWeapons/Pistols/FloorKorovinKPK26_nomag.png
       #816: Resources/HumanWeapons/Pistols/FloorKorovinKPK26_ammo1.png
@@ -1222,8 +1221,8 @@ extraSprites:
       760: Resources/HumanWeapons/Pistols/HandHE44Magnum_nomag.png
       768: Resources/HumanWeapons/Pistols/HandHE44Magnum_ammo1.png
       #776: Resources/HumanWeapons/Ammo/HandMagnumAmmo.png
-      784: Resources/HumanWeapons/Pistols/HandM1911_nomag.png
-      792: Resources/HumanWeapons/Pistols/HandM1911_ammo1.png
+      784: Resources/HumanWeapons/Pistols/HandColtM1911_nomag.png
+      792: Resources/HumanWeapons/Pistols/HandColtM1911_ammo1.png
       #800: Resources/HumanWeapons/Ammo/Hand45PistolAmmo.png
       #808: Resources/HumanWeapons/Pistols/HandKorovinKPK26_nomag.png
       #816: Resources/HumanWeapons/Pistols/HandKorovinKPK26_ammo1.png
