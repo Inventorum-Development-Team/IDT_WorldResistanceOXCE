@@ -170,7 +170,7 @@ STR_MOSIN_NAGANT_CLIP: "Cargador de munición Mosin-Nagant"
 STR_MOSIN_NAGANT_UFOPEDIA: "Rifle de servicio principal del Imperio ruso desde su incorporación en 1891 y el más numeroso en todo el arsenal. Esta variante está equipada con una mira telescópica y una envoltura de tela para facilitar su ocultación, y podría usarse para disparos de largo alcance".
 
 STR_SIMONOV_AVTOMAT: "Rifle Simonov AS-25P"
-STR_SIMONOV_AVTOMAT_UFOPEDIA: "Rifle Simonov de 1925 Pehotnuy (Rifle Simonov de 1925, Infantería). Desarrollado en 1925, para reemplazar al Rifdorov Avtomat de 1916 y su variante modernizada de 1920. El AS-25P se presentó como más confiable, preciso y moderno. Pero el comienzo de la guerra con las Quimeras en 1927, detuvo efectivamente el rearme del Ejército Imperial Ruso y muy pocos cuerpos de ejército estaban equipados con este tipo de arma. Dispara el mismo cartucho de 6,5 mm que el FA".
+STR_SIMONOV_AVTOMAT_UFOPEDIA: "Avtomat Simonova 1925, Pehotnuy (Rifle Simonov de 1925, Infantería). Desarrollado en 1925, para reemplazar al rifle Fedorov Avtomat de 1916 y su variante modernizada de 1920. El AS-25P se presentó como más confiable, preciso y moderno. Pero el comienzo de la guerra con las Quimeras en 1927, detuvo efectivamente el rearme del Ejército Imperial Ruso y muy pocos cuerpos de ejército estaban equipados con este tipo de arma. Dispara el mismo cartucho de 6,5 mm que el FA".
 
 STR_KOROVIN_PISTOL: "Pistola Korovin KPK-29"
 STR_KOROVIN_PISTOL_MAG: "Cargador de pistola Korovin"
@@ -187,7 +187,7 @@ STR_DEGTYARYOV_LMG_BELT: "Caja de munición DP-28"
 STR_DEGTYARYOV_LMG_UFOPEDIA: "La ametralladora de infantería Degtyaryov se desplegó rápidamente en el frente cuando se informó de los primeros ataques de Chimera. Con el paso de los años, se convirtió en la ametralladora principal del arsenal ruso. La última mejora fue la adaptación de un mecanismo alimentado por cinta, ambos fáciles de adaptar en el campo de batalla".
 
 STR_FEDOROV_GROM: "Rifle Fedorov EVF-31 “Grom”"
-STR_FEDOROV_GROM_UFOPEDIA: "Arma de energía fabricada a partir del Bullseye por la Rusia Imperial en un intento de igualar las condiciones con el Chimera. Sus costes de producción eran considerables y estaba disponible en cantidades limitadas. A pesar de ello, la mayoría de los prototipos fueron enviados a los ejércitos siberianos para darles una oportunidad de luchar, luego unos pocos cientos lograron ser evacuados con éxito a Provideniya donde se formó la Guardia Siberiana. "Grom" significa trueno en ruso."
+STR_FEDOROV_GROM_UFOPEDIA: "Arma de energía fabricada a partir del Bullseye por la Rusia Imperial en un intento de igualar las condiciones con el Chimera. Sus costes de producción eran considerables y estaba disponible en cantidades limitadas. A pesar de ello, la mayoría de los prototipos fueron enviados a los ejércitos siberianos para darles una oportunidad de luchar, luego unos pocos cientos lograron ser evacuados con éxito a Provideniya donde se formó la Guardia Siberiana. 'Grom' significa trueno en ruso."
 
 STR_FIRE_GRENADE: "Granada de fuego"
 STR_M1911_COLT: "M1911 Colt"
