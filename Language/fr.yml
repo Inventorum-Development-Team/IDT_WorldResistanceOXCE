@@ -78,7 +78,7 @@ fr:
   STR_AUGER_MK2_UFOPEDIA: "Version améliorée du fusil de précision lourd utilisé par les tireurs d'élite Chimera, il dispose d'un viseur longue portée et d'un générateur de rayonnement ionisant avec une plus grande capacité à émettre de l'énergie. Sa capacité à pénétrer le terrain est considérablement augmentée."
 
   STR_HEDGEHOG_GRENADE: "Grenade Hérisson" 
-  STR_HEDGEHOG_GRENADE_UFOPEDIA: .".."
+  STR_HEDGEHOG_GRENADE_UFOPEDIA: ".."
   STR_FIRE_GRENADE: "Grenade incendiaire" 
   STR_M1911_COLT: "Colt M1911" 
   STR_M1911_COLT_CLIP: "Chargeur .45 ACP (x7)"
