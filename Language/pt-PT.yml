@@ -60,19 +60,19 @@ pt-PT:
   STR_DAMAGE_LASER_BEAM: "BALÍSTICO ALIENÍGENA"
   STR_DAMAGE_PLASMA_BEAM: "ENERGIA PLASMA"
 
-  STR_BULLSEYE_MK1: "Alvo Mk.1"
+  STR_BULLSEYE_MK1: "Bullseye Mk.1"
   STR_BULLSEYE_MK1_BATTERY: "Bateria Bullseye Mk.1"
   STR_BULLSEYE_MK1_UFOPEDIA: "Principal rifle de combate da infantaria Chimera. Tem uma alta taxa de tiro, embora sua precisão seja limitada e não seja eficaz além do combate de curta distância. Ele dispara projéteis de plasma vermelho."
 
-  STR_BULLSEYE_MK2: "Alvo Mk.2"
+  STR_BULLSEYE_MK2: "Bullseye Mk.2"
   STR_BULLSEYE_MK2_BATTERY: "Bateria Bullseye Mk.2"
   STR_BULLSEYE_MK2_UFOPEDIA: "Versão melhorada do rifle de combate de infantaria Chimera padrão. O cano pesado permite maior precisão, mas ainda é uma arma focada em combate corpo a corpo. Seus projéteis de plasma azul causam mais ferimentos do que outras armas."
 
-  STR_AUGER_MK1: "Trado Mk.1"
+  STR_AUGER_MK1: "Auger Mk.1"
   STR_AUGER_MK1_BATTERY: "Bateria Auger Mk.1"
   STR_AUGER_MK1_UFOPEDIA: "Rifle de precisão pesado, emite projéteis de radiação ionizante que causam danos consideráveis ao terreno. Sua mira de médio alcance facilita o ataque a inimigos escondidos atrás de cobertura."
 
-  STR_AUGER_MK2: "Trado Mk.2"
+  STR_AUGER_MK2: "Auger Mk.2"
   STR_AUGER_MK2_BATTERY: "Bateria Auger Mk.2"
   STR_AUGER_MK2_UFOPEDIA: "Versão melhorada do rifle sniper pesado usado pelos snipers Chimera, possui mira de longo alcance e um gerador de radiação ionizante com maior capacidade de emitir energia. Sua capacidade de penetrar no terreno é substancialmente aumentada."
 
@@ -113,9 +113,6 @@ pt-PT:
   STR_MAJOR: "Principal"
   STR_LT_COLONEL: "Tenente-coronel"
   STR_COLONEL: "Coronel"
-
-  STR_BDU_UC: "UNIFORME DO EXÉRCITO DOS EUA"
-  STR_BDU_UC_UFOPEDIA: "Uniforme militar padrão usado pelas Forças Armadas dos EUA."
 
 ####################
 #AERONAVES
@@ -202,7 +199,6 @@ pt-PT:
   STR_UFO_COMPONENTS: "COMPONENTES DE NAVIO QUIMERANO"
   STR_UFOS: "VEÍCULOS QUIMERANOS"
   STR_UFO_COMPONENT: "Componente Chimera Craft"
-  STR_UFO_POWER_SOURCE: "Reator de nave quimera"
   STR_UFO_NAVIGATION: "Navegação de naves quimeras"
   STR_UFO_CONSTRUCTION: "Construção de naves quimeras"
   STR_INTERNATIONAL_RELATIONS: "Linhas de frente"
@@ -226,7 +222,6 @@ pt-PT:
   STR_MONTHLY_RATING: "Classificação mensal> {ALT}{0}{ALT} {1}"
   STR_FUNDING_CHANGE: "Alterações no fluxo de fornecimento> {ALT}{0}"
   STR_COUNCIL_REDUCE_DEBTS: "Nosso sistema de suprimentos está à beira do colapso, é recomendado racionar armas e munições. Caso contrário, não teremos equipamento suficiente para continuar a luta."
-  STR_ELERIUM_115: "Combustível Nuclear"
   STR_THE_ALIENS_HAVE_DESTROYED_THE_UNDEFENDED_BASE: "Os Quimera destruíram a base indefesa {0}"
   STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Agentes da SRPA localizaram uma base alienígena em {0}"
   STR_UFO_HIT: "NAVIO QUIMERANO ATINGIDO!"
@@ -400,7 +395,7 @@ pt-PT:
   STR_VAMPIRE: "VAMPIRO"
 
 
-  STR_VAMPIRE_UFOPEDIA: "Caça de longo alcance para todas as condições climáticas. O formato incomum da fuselagem abriga grandes tanques de combustível blindados para amplo alcance operacional.
+  STR_VAMPIRE_UFOPEDIA: "Caça de longo alcance para todas as condições climáticas. O formato incomum da fuselagem abriga grandes tanques de combustível blindados para amplo alcance operacional."
 
 
 
@@ -686,7 +681,7 @@ pt-PT:
   STR_DEGTYARYOV_LMG_BELT: "Caixa de munição DP-28"
 
 
-  STR_DEGTYARYOV_LMG_UFOPEDIA: "A metralhadora de infantaria Degtyaryov foi rapidamente enviada para as linhas de frente quando os primeiros ataques Chimera foram relatados. Ao longo dos anos, ela se tornou a principal metralhadora no arsenal russo. A última melhoria foi a adaptação de um mecanismo alimentado por correia, ambos fáceis de adaptar no campo de batalha.”
+  STR_DEGTYARYOV_LMG_UFOPEDIA: "A metralhadora de infantaria Degtyaryov foi rapidamente enviada para as linhas de frente quando os primeiros ataques Chimera foram relatados. Ao longo dos anos, ela se tornou a principal metralhadora no arsenal russo. A última melhoria foi a adaptação de um mecanismo alimentado por correia, ambos fáceis de adaptar no campo de batalha."
 
 
 
@@ -694,7 +689,7 @@ pt-PT:
   STR_FEDOROV_GROM: "Rifle Fedorov EVF-31 'Grom'"
 
 
-  STR_FEDOROV_GROM_UFOPEDIA: "Arma de energia feita do Bullseye, pela Rússia Imperial em uma tentativa de igualar o campo de jogo com a Quimera. Seus custos de produção eram consideráveis e estava disponível em números limitados. Apesar disso, a maioria dos protótipos foi enviada aos exércitos siberianos para dar a eles uma chance de lutar, então algumas centenas conseguiram ser evacuadas com sucesso para Provideniya, onde a Guarda Siberiana foi formada. 'Grom' significa trovão em russo.”
+  STR_FEDOROV_GROM_UFOPEDIA: "Arma de energia feita do Bullseye, pela Rússia Imperial em uma tentativa de igualar o campo de jogo com a Quimera. Seus custos de produção eram consideráveis e estava disponível em números limitados. Apesar disso, a maioria dos protótipos foi enviada aos exércitos siberianos para dar a eles uma chance de lutar, então algumas centenas conseguiram ser evacuadas com sucesso para Provideniya, onde a Guarda Siberiana foi formada. 'Grom' significa trovão em russo."
 
 
   STR_SRPA_BLACK_OPS_UNIFORM_UC: "TRAJE TÁTICO PRETO OPS"
@@ -820,7 +815,7 @@ pt-PT:
 
 
 
-  STR_EXTENDING_WIDEBAND_TRANSMISSIONS: "Estendendo transmissões de banda larga
+  STR_EXTENDING_WIDEBAND_TRANSMISSIONS: "Estendendo transmissões de banda larga"
 
 
   STR_EXTENDING_WIDEBAND_TRANSMISSIONS_UFOPEDIA: "Extensos esforços estão em andamento para aumentar o alcance efetivo de nossos postos de escuta. Temos certeza de que ainda há forças humanas lutando em outras partes do mundo. Só precisamos encontrá-las."
@@ -831,7 +826,7 @@ pt-PT:
   STR_JAPANESE_COOPERATION_1_RESEARCH: "Cooperação Japonesa I"
 
 
-  STR_JAPANESE_COOPERATION_1_RESEARCH_UFOPEDIA: "Ao aplicar esforço adicional na busca por transmissões de rádio humanas na área do Pacífico, capturamos o sinal emitido pelo Corpo Japonês SRPA, há muito relatado como MIA. Eles relataram seus combates em andamento na Ásia continental, além de várias incursões sobre as ilhas japonesas. Concordamos em ajudá-los e, em troca, elementos das unidades de elite da Marinha e do Exército se juntarão à nossa força-tarefa. Eles serão designados para {ALT}Equipe Yokai{ALT}.”
+  STR_JAPANESE_COOPERATION_1_RESEARCH_UFOPEDIA: "Ao aplicar esforço adicional na busca por transmissões de rádio humanas na área do Pacífico, capturamos o sinal emitido pelo Corpo Japonês SRPA, há muito relatado como MIA. Eles relataram seus combates em andamento na Ásia continental, além de várias incursões sobre as ilhas japonesas. Concordamos em ajudá-los e, em troca, elementos das unidades de elite da Marinha e do Exército se juntarão à nossa força-tarefa. Eles serão designados para {ALT}Equipe Yokai{ALT}."
 
 
   STR_JAPANESE_COOPERATION_2_RESEARCH: "Cooperação Japonesa II"
@@ -901,7 +896,7 @@ pt-PT:
   STR_ALIEN_ALLOYS: "Aço quimera"
 
 
-  STR_ALIEN_ALLOYS_UFOPEDIA: "Chapeamento de liga de aço leve, usado pela Quimera para construir uma grande variedade de utilidades e armamentos. Facilmente moldável com as ferramentas certas, mas imune a todos os tipos de danos. Primeiro encontrado e classificado por pessoal da RAF em Gibraltar, sua entrega e relatório de inteligência sobre como usá-lo foi interceptado por agentes Maquis desonestos e se perdeu até recentemente.”
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Chapeamento de liga de aço leve, usado pela Quimera para construir uma grande variedade de utilidades e armamentos. Facilmente moldável com as ferramentas certas, mas imune a todos os tipos de danos. Primeiro encontrado e classificado por pessoal da RAF em Gibraltar, sua entrega e relatório de inteligência sobre como usá-lo foi interceptado por agentes Maquis desonestos e se perdeu até recentemente."
 
 
   STR_GRAY_TECH_ITEM: "Item de tecnologia cinza"
@@ -970,7 +965,7 @@ pt-PT:
   STR_LAUNCH_OPERATION_OLYMPIC: "Lançar Operação Olímpica"
 
 
-  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "Um grande planejamento é feito para a missão de infiltrar a primeira Hub Tower: Tunguska. Local do pouso inicial da Chimera em 1908, acredita-se que seja a fonte da corrupção alienígena. Um grande ataque coordenado para lançar a bomba do Dr. Cathcart contra ela resultará em um efeito dominó - uma por uma, cada Hub Tower cairá, e toda a grade com ela. Quando estiver pronto, clique no botão TUNGUSKA para começar a missão final.”
+  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "Um grande planejamento é feito para a missão de infiltrar a primeira Hub Tower: Tunguska. Local do pouso inicial da Chimera em 1908, acredita-se que seja a fonte da corrupção alienígena. Um grande ataque coordenado para lançar a bomba do Dr. Cathcart contra ela resultará em um efeito dominó - uma por uma, cada Hub Tower cairá, e toda a grade com ela. Quando estiver pronto, clique no botão TUNGUSKA para começar a missão final."
 
 
   STR_ARE_YOU_SURE_CYDONIA: "Você tem certeza de que deseja enviar esta nave em uma missão para Tunguska?"
@@ -1013,26 +1008,19 @@ pt-PT:
   STR_CHIMERAN_TOWER_ALERT: "Torre Quimera"
 
 
-
-
   STR_CHIMERAN_HUB_TOWER_MISSION: "Ofensiva da Torre do Hub Chimerano"
 
 
-  STR_CHIMERAN_TOWER_DEPLOYMENT: "OFENSIVA DA TORRE CHIMERAN HUB"
+  STR_CHIMERAN_HUB_TOWER_DEPLOYMENT: "OFENSIVA DA TORRE CHIMERAN HUB"
 
 
-  STR_CHIMERAN_TOWER_DESCRIPTION: "As forças aliadas avistaram uma Torre Central Chimerana, um importante quartel-general inimigo e um nó de controle em uma grande área. Precisamos capturá-la, recuperar qualquer ativo tecnológico alienígena valioso e destruir os reatores centrais para desabilitar a estrutura permanentemente. Tenha cuidado, pode haver uma grande guarnição reforçada guardando-a."
+  STR_CHIMERAN_HUB_TOWER_DESCRIPTION: "As forças aliadas avistaram uma Torre Central Chimerana, um importante quartel-general inimigo e um nó de controle em uma grande área. Precisamos capturá-la, recuperar qualquer ativo tecnológico alienígena valioso e destruir os reatores centrais para desabilitar a estrutura permanentemente. Tenha cuidado, pode haver uma grande guarnição reforçada guardando-a."
 
 
   STR_CHIMERAN_HUB_TOWER_MARKER_NAME: "Torre do Hub Chimeran detectada"
 
 
   STR_CHIMERAN_HUB_TOWER_ALERT: "Torre do Hub Quimerano"
-
-
-
-
-
 
   STR_OPERATION_OLYMPIC_MISSION: "Operação Olímpica"
 
@@ -1065,7 +1053,7 @@ pt-PT:
   STR_ADVANCED_HYBRID_SQUAD: "Pelotão Quimera Pesado"
 
 
-  STR_MIXED: "Pelotão Quimera Misto”
+  STR_MIXED: "Pelotão Quimera Misto"
 
 
   STR_HYBRID_ARMOR: "Implantes básicos + armadura leve"
@@ -1130,16 +1118,16 @@ pt-PT:
 
 
 
-  STR_RAVAGER_SOLDIER: “Devastação”
+  STR_RAVAGER_SOLDIER: “Devastação"
 
 
   STR_RAVAGER_SOLDIER_ARMOR: "Músculo-esquelético mutante"
 
 
-  STR_RAVAGER_SOLDIER_CORPSE: “Cadáver Devastado”
+  STR_RAVAGER_SOLDIER_CORPSE: “Cadáver Devastado"
 
 
-  STR_RAVAGER_SOLDIER_DESCRIPTION: “Intel devastadora”
+  STR_RAVAGER_SOLDIER_DESCRIPTION: “Intel devastadora"
 
 
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "A mais poderosa linhagem da Quimera, sua aparência grande e musculosa frequentemente intimida qualquer soldado humano azarado o suficiente para encontrar um no campo de batalha. Extremamente resistentes e fortes, eles são as tropas de choque do inimigo e carregam armas automáticas pesadas."
