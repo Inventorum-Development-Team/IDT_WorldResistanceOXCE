@@ -1005,7 +1005,25 @@ extraSprites:
       #1048: Resources/ChimeraWeapons/BigReaperCarbine_nomag.png
       #1056: Resources/ChimeraWeapons/BigReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/BigReaperCarbineBattery.png
-      
+     
+      1200: Resources/HumanWeapons/Energy/BigMarksmanB_nomag.png
+      1208: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      1216: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      1224: Resources/HumanWeapons/Energy/BigRazorBM001_nomag.png
+      1232: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
+      1240: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
+      1248: Resources/HumanWeapons/Energy/BigLongbow1S1K_nomag.png
+      1256: Resources/HumanWeapons/Energy/BigLongbow1S1K_ammo1.png
+      1264: Resources/HumanWeapons/Ammo/BigLongbow1S1KFlechetteMag.png
+      1272: Resources/HumanWeapons/Energy/BigXR24Spitter_nomag.png
+      1280: Resources/HumanWeapons/Energy/BigXR24Spitter_ammo1.png
+      1288: Resources/HumanWeapons/Ammo/BigXR24SpitterBattery.png
+      1296: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_nomag.png
+      1304: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_ammo1.png
+      1312: Resources/HumanWeapons/Ammo/BigRussianEnergyWeaponBattery.png
+      1320: Resources/HumanWeapons/Energy/BigSiberianBullseye_nomag.png
+      1328: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.png
+      1336: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.BigRussianEnergyWeapon_nomag 
 
   - type: FLOOROB.PCK
     files:
@@ -1131,6 +1149,25 @@ extraSprites:
       #1048: Resources/ChimeraWeapons/FloorReaperCarbine_nomag.png
       #1056: Resources/ChimeraWeapons/FloorReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/FloorReaperCarbineBattery.png
+      
+      1200: Resources/HumanWeapons/Energy/FloorMarksmanB_nomag.png
+      1208: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      1216: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      1224: Resources/HumanWeapons/Energy/FloorRazorBM001_nomag.png
+      1232: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
+      1240: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
+      1248: Resources/HumanWeapons/Energy/FloorLongbow1S1K_nomag.png
+      1256: Resources/HumanWeapons/Energy/FloorLongbow1S1K_ammo1.png
+      1264: Resources/HumanWeapons/Ammo/FloorLongbow1S1KFlechetteMag.png
+      1272: Resources/HumanWeapons/Energy/FloorXR24Spitter_nomag.png
+      1280: Resources/HumanWeapons/Energy/FloorXR24Spitter_ammo1.png
+      1288: Resources/HumanWeapons/Ammo/FloorXR24SpitterBattery.png
+      1296: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_nomag.png
+      1304: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_ammo1.png
+      1312: Resources/HumanWeapons/Ammo/FloorRussianEnergyWeaponBattery.png
+      1320: Resources/HumanWeapons/Energy/FloorSiberianBullseye_nomag.png
+      1328: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
+      1336: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.FloorRussianEnergyWeapon_nomag
 
   - type: HANDOB.PCK
     width: 256
@@ -1260,6 +1297,25 @@ extraSprites:
       #1048: Resources/ChimeraWeapons/HandReaperCarbine_nomag.png
       #1056: Resources/ChimeraWeapons/HandReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/HandReaperCarbineBattery.png
+
+      1200: Resources/HumanWeapons/Energy/HandMarksmanB_nomag.png
+      1208: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      1216: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      1224: Resources/HumanWeapons/Energy/HandRazorBM001_nomag.png
+      1232: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
+      1240: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
+      1248: Resources/HumanWeapons/Energy/HandLongbow1S1K_nomag.png
+      1256: Resources/HumanWeapons/Energy/HandLongbow1S1K_ammo1.png
+      1264: Resources/HumanWeapons/Ammo/HandLongbow1S1KFlechetteMag.png
+      1272: Resources/HumanWeapons/Energy/HandXR24Spitter_nomag.png
+      1280: Resources/HumanWeapons/Energy/HandXR24Spitter_ammo1.png
+      1288: Resources/HumanWeapons/Ammo/HandXR24SpitterBattery.png
+      1296: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_nomag.png
+      1304: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_ammo1.png
+      1312: Resources/HumanWeapons/Ammo/HandRussianEnergyWeaponBattery.png
+      1320: Resources/HumanWeapons/Energy/HandSiberianBullseye_nomag.png
+      1328: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
+      1336: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.HandRussianEnergyWeapon_nomag
 
   - type: SMOKE.PCK
     height: 40
