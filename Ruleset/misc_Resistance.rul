@@ -38,6 +38,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK05.PNG
+  - type: BACK10.SCR #general entry
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK10.PNG
   - type: BACK12.SCR #launch interceptor
     singleImage: true
     width: 320
@@ -80,12 +86,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK08.PNG
-  - type: BACK10.SCR #general entry
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Backgrounds/BACK10.
+
 
 itemCategories:
   - type: STR_TANKS
