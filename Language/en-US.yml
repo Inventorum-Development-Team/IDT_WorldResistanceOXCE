@@ -198,7 +198,7 @@ en-US:
   STR_FIRE_GRENADE: "Fire Grenade"
   STR_M1911_COLT: "M1911 Colt"
   STR_M1911_COLT_CLIP: ".45 ACP Magazine (x7)"
-  STR_M1911_COLT_CLIP_UFOPEDIA: "Standard sidearm of SPRA and US Army units, it is reliable and easy to use. It's stopping power is enough to kill a Hybrid or two at point-blank."
+  STR_M1911_COLT_UFOPEDIA: "Standard sidearm of SPRA and US Army units, it is reliable and easy to use. It's stopping power is enough to kill a Hybrid or two at point-blank."
 
   STR_M5A2_FOLSOM_CARBINE: "M5A2 Folsom Carbine"
   STR_303_RIFLE_AMMO: ".303 Rifle Ammo (x30)"
@@ -286,7 +286,7 @@ en-US:
   STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA: "Main battle dress of the Black Ops, the special operators of the SRPA. Includes a reinforced vest and special enclosed NBC (nuclear-biological-chemical) helmet to prevent infections by Chimeran airborne pathogens."
 
   STR_BDU_UC: "AMERICAN M1943 UNIFORM"
-  STR_BDU_UC_UFOPEDIA: "Combat uniform for the US Armed Forces, introduced in 1943. Made in weather-proof cloth, it was warm in cold seasons and fresh in hot regions. Issued with a M1 “pot” helmet." 
+  STR_BDU_UC_UFOPEDIA: "Combat uniform for the US Armed Forces, introduced in 1943. Made in weather-proof cloth, it is warm in cold seasons and fresh in hot regions. Issued with a M1 “pot” helmet." 
 
   STR_BRITISH_FIELD_UNIFORM_UC: "BRITISH BATTLEDRESS"
   STR_BRITISH_FIELD_UNIFORM: "British Battledress"
@@ -431,9 +431,9 @@ en-US:
 ######################
 # ENEMY FORCES
 
-  STR_HYBRID_SQUAD: Hybrid Squad
-  STR_HYBRID_SOLDIER: Hybrid Soldier
-  STR_HYBRID_CORPSE: Hybrid Corpse
+  STR_HYBRID_SQUAD: "Hybrid Squad"
+  STR_HYBRID_SOLDIER: "Hybrid Soldier"
+  STR_HYBRID_CORPSE: "Hybrid Corpse"
   
   STR_STEELHEAD_SQUAD: "Medium Chimera Platoon"
   STR_ADVANCED_HYBRID_SQUAD: "Heavy Chimera Platoon"

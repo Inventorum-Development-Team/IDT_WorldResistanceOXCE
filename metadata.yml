@@ -1,7 +1,7 @@
 name: "World Resistance"
 version: "0.1"
 author: "Inventorum Development Team + Resistance Fans Community"
-description: "Set on the Chimeran War, lead a multinational team tasked to recover Gray Tech and turning the tide on the war!"
+description: "Lead the SRPA to recover Gray Tech and defeat the Chimera!"
 id: World_Resistance
 master: xcom1
 isMaster: true
