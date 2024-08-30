@@ -1377,9 +1377,9 @@ extraSprites:
       #1056: Resources/ChimeraWeapons/BigReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/BigReaperCarbineBattery.png
      
-      1200: Resources/HumanWeapons/Energy/BigMarksmanB_nomag.png
-      1208: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
-      1216: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      #1200: Resources/HumanWeapons/Energy/BigMarksmanB_nomag.png
+      #1208: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      #1216: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
       1224: Resources/HumanWeapons/Energy/BigRazorBM001_nomag.png
       1232: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
       1240: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
@@ -1521,9 +1521,9 @@ extraSprites:
       #1056: Resources/ChimeraWeapons/FloorReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/FloorReaperCarbineBattery.png
       
-      1200: Resources/HumanWeapons/Energy/FloorMarksmanB_nomag.png
-      1208: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
-      1216: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      #1200: Resources/HumanWeapons/Energy/FloorMarksmanB_nomag.png
+      #1208: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      #1216: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
       1224: Resources/HumanWeapons/Energy/FloorRazorBM001_nomag.png
       1232: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
       1240: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
@@ -1669,9 +1669,9 @@ extraSprites:
       #1056: Resources/ChimeraWeapons/HandReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/HandReaperCarbineBattery.png
 
-      1200: Resources/HumanWeapons/Energy/HandMarksmanB_nomag.png
-      1208: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
-      1216: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      #1200: Resources/HumanWeapons/Energy/HandMarksmanB_nomag.png
+      #1208: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      #1216: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
       1224: Resources/HumanWeapons/Energy/HandRazorBM001_nomag.png
       1232: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
       1240: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
