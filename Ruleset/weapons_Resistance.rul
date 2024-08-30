@@ -1324,9 +1324,9 @@ extraSprites:
       #664: Resources/HumanWeapons/SMGs/BigErmaEMP44_nomag.png
       #672: Resources/HumanWeapons/SMGs/BigErmaEMP44_ammo1.png
       680: Resources/HumanWeapons/Ammo/Big9mmSMGMag.png
-      688: Resources/HumanWeapons/SMGs/BigNambuType2_nomag.png
-      696: Resources/HumanWeapons/SMGs/BigNambuType2_ammo1.png
-      704: Resources/HumanWeapons/Ammo/BigNambuType2Mag.png
+      #688: Resources/HumanWeapons/SMGs/BigNambuType2_nomag.png
+      #696: Resources/HumanWeapons/SMGs/BigNambuType2_ammo1.png
+      #704: Resources/HumanWeapons/Ammo/BigNambuType2Mag.png
       712: Resources/HumanWeapons/SMGs/BigPPS43_nomag.png
       720: Resources/HumanWeapons/SMGs/BigPPS43_ammo1.png
       728: Resources/HumanWeapons/Ammo/BigPPS43Mag.png
@@ -1336,7 +1336,7 @@ extraSprites:
   # Pistols 
       760: Resources/HumanWeapons/Pistols/BigHE44Magnum_nomag.png
       768: Resources/HumanWeapons/Pistols/BigHE44Magnum_ammo1.png
-      776: Resources/HumanWeapons/Ammo/BigMagnumAmmo.png
+      776: Resources/HumanWeapons/Ammo/Big44MagnumClip.png
       784: Resources/HumanWeapons/Pistols/BigColtM1911_nomag.png
       792: Resources/HumanWeapons/Pistols/BigColtM1911_ammo1.png
       800: Resources/HumanWeapons/Ammo/Big45PistolAmmo.png
@@ -1344,8 +1344,8 @@ extraSprites:
       #816: Resources/HumanWeapons/Pistols/BigKorovinKPK26_ammo1.png
       #824: Resources/HumanWeapons/Ammo/BigKorovinKPK26Mag.png
   # Artillery 
-      832: Resources/HumanWeapons/Launcher/BigL209LAARK.png
-      840: Resources/HumanWeapons/Launcher/BigL209LAARK.png
+      832: Resources/HumanWeapons/Launchers/BigL209LAARK_nomag.png
+      840: Resources/HumanWeapons/Launchers/BigL209LAARK_ammo1.png
       848: Resources/HumanWeapons/Ammo/BigL209LAARK_Rocket.png
       #856: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo1.png
       #864: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo2.png
@@ -1389,9 +1389,9 @@ extraSprites:
       1272: Resources/HumanWeapons/Energy/BigXR24Spitter_nomag.png
       1280: Resources/HumanWeapons/Energy/BigXR24Spitter_ammo1.png
       1288: Resources/HumanWeapons/Ammo/BigXR24SpitterBattery.png
-      1296: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_nomag.png
-      1304: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_ammo1.png
-      1312: Resources/HumanWeapons/Ammo/BigRussianEnergyWeaponBattery.png
+      #1296: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_nomag.png
+      #1304: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_ammo1.png
+      #1312: Resources/HumanWeapons/Ammo/BigRussianEnergyWeaponBattery.png
       1320: Resources/HumanWeapons/Energy/BigSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.png
       1336: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.BigRussianEnergyWeapon_nomag 
@@ -1488,8 +1488,8 @@ extraSprites:
       #816: Resources/HumanWeapons/Pistols/FloorKorovinKPK26_ammo1.png
       #824: Resources/HumanWeapons/Ammo/FloorKorovinKPK26Mag.png
   # Artillery 
-      832: Resources/HumanWeapons/Launcher/FloorL209LAARK.png
-      840: Resources/HumanWeapons/Launcher/FloorL209LAARK.png
+      832: Resources/HumanWeapons/Launchers/FloorL209LAARK_nomag.png
+      840: Resources/HumanWeapons/Launchers/FloorL209LAARK_ammo1.png
       848: Resources/HumanWeapons/Ammo/FloorL209LAARK_Rocket.png
       #856: Resources/HumanWeapons/SelfLoading/FloorCeiRigotti_ammo1.png
       #864: Resources/HumanWeapons/SelfLoading/FloorCeiRigotti_ammo2.png
@@ -1533,12 +1533,12 @@ extraSprites:
       1272: Resources/HumanWeapons/Energy/FloorXR24Spitter_nomag.png
       1280: Resources/HumanWeapons/Energy/FloorXR24Spitter_ammo1.png
       1288: Resources/HumanWeapons/Ammo/FloorXR24SpitterBattery.png
-      1296: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_nomag.png
-      1304: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_ammo1.png
-      1312: Resources/HumanWeapons/Ammo/FloorRussianEnergyWeaponBattery.png
+      #1296: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_nomag.png
+      #1304: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_ammo1.png
+      #1312: Resources/HumanWeapons/Ammo/FloorRussianEnergyWeaponBattery.png
       1320: Resources/HumanWeapons/Energy/FloorSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
-      1336: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.FloorRussianEnergyWeapon_nomag
+      1336: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
 
   - type: HANDOB.PCK
     width: 256
@@ -1636,8 +1636,8 @@ extraSprites:
       #816: Resources/HumanWeapons/Pistols/HandKorovinKPK26_ammo1.png
       #824: Resources/HumanWeapons/Ammo/HandKorovinKPK26Mag.png
   # Artillery 
-      832: Resources/HumanWeapons/Launcher/HandL209LAARK.png
-      840: Resources/HumanWeapons/Launcher/HandL209LAARK.png
+      832: Resources/HumanWeapons/Launchers/HandL209LAARK.png
+      840: Resources/HumanWeapons/Launchers/HandL209LAARK.png
       #848: Resources/HumanWeapons/Ammo/HandL209LAARK_Rocket.png
       #856: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_ammo1.png
       #864: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_ammo2.png
@@ -1681,9 +1681,9 @@ extraSprites:
       1272: Resources/HumanWeapons/Energy/HandXR24Spitter_nomag.png
       1280: Resources/HumanWeapons/Energy/HandXR24Spitter_ammo1.png
       1288: Resources/HumanWeapons/Ammo/HandXR24SpitterBattery.png
-      1296: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_nomag.png
-      1304: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_ammo1.png
-      1312: Resources/HumanWeapons/Ammo/HandRussianEnergyWeaponBattery.png
+      #1296: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_nomag.png
+      #1304: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_ammo1.png
+      #1312: Resources/HumanWeapons/Ammo/HandRussianEnergyWeaponBattery.png
       1320: Resources/HumanWeapons/Energy/HandSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
       1336: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.HandRussianEnergyWeapon_nomag
