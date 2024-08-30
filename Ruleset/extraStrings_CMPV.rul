@@ -1,9 +1,9 @@
 extraStrings:
   - type: en-US
     strings:
-     MAP_ACULTA: "Ghothic Grass"
-     MAP_ACULTASNOW: "Ghothic Snow"
-     MAP_ACULTASAND: "Ghothic Sand"
+     MAP_ACULTA: "Gothic Grass"
+     MAP_ACULTASNOW: "Gothic Snow"
+     MAP_ACULTASAND: "Gothic Sand"
      MAP_MOUNT: "Mountains Wasteland"
      MAP_MOUNTSNOW: "Mountains Snow"
      MAP_MOUNTMUDD: "Mountains Mudd"
