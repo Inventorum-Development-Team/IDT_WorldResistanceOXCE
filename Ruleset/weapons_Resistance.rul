@@ -1330,8 +1330,8 @@ extraSprites:
       712: Resources/HumanWeapons/SMGs/BigPPS43_nomag.png
       720: Resources/HumanWeapons/SMGs/BigPPS43_ammo1.png
       728: Resources/HumanWeapons/Ammo/BigPPS43Mag.png
-      736: Resources/HumanWeapons/SMGs/BigTokarevAPBS_nomag.png
-      744: Resources/HumanWeapons/SMGs/BigTokarevAPBS_ammo1.png
+      736: Resources/HumanWeapons/SMGs/BigTokarevAPBT_nomag.png
+      744: Resources/HumanWeapons/SMGs/BigTokarevAPBT_ammo1.png
       752: Resources/HumanWeapons/Ammo/BigTokarevLargeMag.png
   # Pistols 
       760: Resources/HumanWeapons/Pistols/BigHE44Magnum_nomag.png
@@ -1399,7 +1399,7 @@ extraSprites:
   - type: FLOOROB.PCK
     files:
       160: Resources/HumanWeapons/Rifles/FloorM5A2Folsom_nomag.png
-      168: Resouces/HumanWeapons/Rifles/FloorM5A2Folsom_ammo1.png
+      168: Resources/HumanWeapons/Rifles/FloorM5A2Folsom_ammo1.png
       176: Resources/HumanWeapons/Rifles/FloorM5A2Folsom_ammo2.png
       184: Resources/HumanWeapons/Rifles/FloorMk6Carbine_nomag.png
       192: Resources/HumanWeapons/Rifles/FloorMk6Carbine_ammo1.png
@@ -1468,14 +1468,14 @@ extraSprites:
       #664: Resources/HumanWeapons/SMGs/FloorErmaEMP44_nomag.png
       #672: Resources/HumanWeapons/SMGs/FloorErmaEMP44_ammo1.png
       680: Resources/HumanWeapons/Ammo/Floor9mmSMGMag.png
-      688: Resources/HumanWeapons/SMGs/FloorNambuType2_nomag.png
-      696: Resources/HumanWeapons/SMGs/FloorNambuType2_ammo1.png
-      704: Resources/HumanWeapons/Ammo/FloorNambuType2Mag.png
+      #688: Resources/HumanWeapons/SMGs/FloorNambuType2_nomag.png
+      #696: Resources/HumanWeapons/SMGs/FloorNambuType2_ammo1.png
+      #704: Resources/HumanWeapons/Ammo/FloorNambuType2Mag.png
       712: Resources/HumanWeapons/SMGs/FloorPPS43_nomag.png
       720: Resources/HumanWeapons/SMGs/FloorPPS43_ammo1.png
       728: Resources/HumanWeapons/Ammo/FloorPPS43Mag.png
-      736: Resources/HumanWeapons/SMGs/FloorTokarevAPBS_nomag.png
-      744: Resources/HumanWeapons/SMGs/FloorTokarevAPBS_ammo1.png
+      736: Resources/HumanWeapons/SMGs/FloorTokarevAPBT_nomag.png
+      744: Resources/HumanWeapons/SMGs/FloorTokarevAPBT_ammo1.png
       752: Resources/HumanWeapons/Ammo/FloorTokarevLargeMag.png
   # Pistols 
       760: Resources/HumanWeapons/Pistols/FloorHE44Magnum_nomag.png
@@ -1616,14 +1616,14 @@ extraSprites:
       #664: Resources/HumanWeapons/SMGs/HandErmaEMP44_nomag.png
       #672: Resources/HumanWeapons/SMGs/HandErmaEMP44_ammo1.png
       #680: Resources/HumanWeapons/Ammo/Hand9mmSMGMag.png
-      688: Resources/HumanWeapons/SMGs/HandNambuType2_nomag.png
-      696: Resources/HumanWeapons/SMGs/HandNambuType2_ammo1.png
+      #688: Resources/HumanWeapons/SMGs/HandNambuType2_nomag.png
+      #696: Resources/HumanWeapons/SMGs/HandNambuType2_ammo1.png
       #704: Resources/HumanWeapons/Ammo/HandNambuType2Mag.png
       712: Resources/HumanWeapons/SMGs/HandPPS43_nomag.png
       720: Resources/HumanWeapons/SMGs/HandPPS43_ammo1.png
       #728: Resources/HumanWeapons/Ammo/HandPPS43Mag.png
-      736: Resources/HumanWeapons/SMGs/HandTokarevAPBS_nomag.png
-      744: Resources/HumanWeapons/SMGs/HandTokarevAPBS_ammo1.png
+      736: Resources/HumanWeapons/SMGs/HandTokarevAPBT_nomag.png
+      744: Resources/HumanWeapons/SMGs/HandTokarevAPBT_ammo1.png
       752: Resources/HumanWeapons/Ammo/HandTokarevLargeMag.png
   # Pistols 
       760: Resources/HumanWeapons/Pistols/HandHE44Magnum_nomag.png
