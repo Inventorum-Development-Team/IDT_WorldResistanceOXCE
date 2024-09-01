@@ -569,6 +569,82 @@ items:
     attraction: 7
     listOrder: 2350
 
+  - type: STR_RAZOR_BM001
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 340
+    floorSprite: 340
+    handSprite: 292
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK1_BATTERY
+      - STR_BULLSEYE_MK2_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 40
+    accuracyAimed: 50
+    accuracyAuto: 35
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    #listOrder: 2240
+    
+  - type: STR_FEDOROV_GROM
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 340
+    floorSprite: 340
+    handSprite: 292
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK1_BATTERY
+      - STR_BULLSEYE_MK2_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 40
+    accuracyAimed: 50
+    accuracyAuto: 35
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    #listOrder: 2240
+    
   - type: STR_BULLSEYE_MK1
     categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
     size: 0.2
@@ -678,9 +754,9 @@ items:
     armor: 12
     #listOrder: 2255
     
-################
-### MACHINE GUNS ####
-#####
+#################################
+########## MACHINE GUNS ########
+###############################
 
   - type: STR_HVAP_CHAINGUN
     categories:
@@ -912,10 +988,8 @@ items:
     attraction: 10
     listOrder: 3130
 
-# Alien Heavy Laser
 
   - type: STR_BRUTE_MINIGUN
-
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 43500
@@ -929,7 +1003,7 @@ items:
     bulletSpeed: 10
     fireSound: 11
     compatibleAmmo:
-      - STR_ALIEN_HEAVY_LASER_BATTERY
+      - STR_BRUTE_MINIGUN_CELL
     confAimed:
       shots: 1
       name: STR_DEADEYE
@@ -953,7 +1027,7 @@ items:
     recoveryPoints: 5
     armor: 50
     listOrder: 245
-  - type: STR_ALIEN_HEAVY_LASER_BATTERY
+  - type: STR_BRUTE_MINIGUN_CELL
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.3
     costSell: 2400
@@ -975,11 +1049,8 @@ items:
     recoveryPoints: 1
     listOrder: 246
 
-
-    
-
-################################
-######## SNIPER Rifles #########
+#################################
+######## SNIPER RIFLES #########
 ##############################
 
   - type: STR_L23_FAREYE_SNIPER_RIFLE
@@ -1065,9 +1136,7 @@ items:
     fireSound: 105
     reloadSound: 305
     compatibleAmmo:
-      - STR_MOSIN_NAGANT_CLIP
-      - STR_MOSIN_NAGANT_CLIP_KMM
-      - STR_RIFLE_GRENADE
+      - STR_MOSIN_NAGANT_CLI
     accuracyCloseQuarters: 50
     kneelBonus: 200
     accuracySnap: 60
@@ -1138,7 +1207,7 @@ items:
     bulletSpeed: 10
     fireSound: 11
     compatibleAmmo:
-      - STR_ALIEN_LASER_RIFLE_BATTERY
+      - STR_HUNTER_DMR_BATTERY
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
@@ -1170,7 +1239,7 @@ items:
     recoveryPoints: 4
     armor: 50
     listOrder: 243
-  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+  - type: STR_HUNTER_DMR_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 1575
@@ -1302,7 +1371,7 @@ items:
 ###### SHOTGUNS ########
 ##################################
 
-  - type: STR_WINCHESTER_TRENCH_GUN
+  - type: STR_ROSSMORE_COMBAT_SHOTGUN
     categories:
       [
         STR_BALLISTIC,
@@ -1331,8 +1400,7 @@ items:
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
-      - STR_SHOTGUN_BUCKSHOT_SHELLS_5
-      - STR_SHOTGUN_DUMDUM_SHELLS_5
+      - STR_ROSSMORE_COMBAT_SHOTGUN_MAG
     accuracySnap: 45
     accuracyAimed: 60
     accuracyAuto: 40
@@ -1354,7 +1422,7 @@ items:
     armor: 250
     listOrder: 3160
 
-  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
+  - type: STR_ROSSMORE_COMBAT_SHOTGUN_MAG
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
@@ -1382,7 +1450,7 @@ items:
     armor: 250
     listOrder: 3190
 
-  - type: STR_REMINGTON_MODEL_11
+  - type: STR_SCHROTFLINTE_SHOTGUN
     categories:
       [
         STR_BALLISTIC,
@@ -1407,8 +1475,7 @@ items:
     fireSound: 108
     reloadSound: 308
     compatibleAmmo:
-      - STR_SHOTGUN_BUCKSHOT_SHELLS_5
-      - STR_SHOTGUN_DUMDUM_SHELLS_5
+      - STR_SCHROTFLINTE_SHOTGUN_SHELLS
     accuracySnap: 45
     accuracyAimed: 60
     accuracyCloseQuarters: 200
@@ -1426,7 +1493,7 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 3170
-  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
+  - type: STR_SCHROTFLINTE_SHOTGUN_SHELLS
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
@@ -1459,7 +1526,7 @@ items:
 ######### SUBMACHINE GUNS ########
 #################################
 
-  - type: STR_ANNIHILATOR_SMG
+  - type: STR_THOMPSON_SMG
     categories:
       [
         STR_BALLISTIC,
@@ -1495,8 +1562,8 @@ items:
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
-      - STR_ANNIHILATOR_SMG_MAG
-      - STR_ANNIHILATOR_SMG_MAG_KMM
+      - STR_THOMPSON_SMG_MAG
+      - STR_THOMPSON_SMG_DRUM
     accuracyCloseQuarters: 150
     kneelBonus: 200
     accuracySnap: 70
@@ -1522,7 +1589,7 @@ items:
     attraction: 10
     listOrder: 2750
 
-  - type: STR_ANNIHILATOR_SMG_MAG
+  - type: STR_THOMPSON_SMG_MAG
     categories:
       [
         STR_BALLISTIC,
@@ -1562,7 +1629,7 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2760
-  - type: STR_ANNIHILATOR_SMG_MAG
+  - type: STR_THOMPSON_SMG_DRUM
     categories:
       [
         STR_BALLISTIC,
@@ -1638,8 +1705,7 @@ items:
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
-      - STR_MP18_DRUM
-      - STR_MP18_DRUM_KMM
+      - STR_9MM_SMG_MAG
     accuracyCloseQuarters: 150
     kneelBonus: 200
     accuracySnap: 70
@@ -1666,7 +1732,7 @@ items:
     attraction: 10
     listOrder: 2780
 
-  - type: STR_9MM_AMMO
+  - type: STR_9MM_SMG_MAG
     categories:
       [
         STR_BALLISTIC,
@@ -1742,8 +1808,7 @@ items:
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
-      - STR_MP18_DRUM
-      - STR_MP18_DRUM_KMM
+      - STR_PPS_43_MAG
     accuracyCloseQuarters: 150
     kneelBonus: 200
     accuracySnap: 70
@@ -1769,7 +1834,7 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2780
-  - type: STR_ANNIHILATOR_SMG_MAG
+  - type: STR_PPS_43_MAG
     categories:
       [
         STR_BALLISTIC,
@@ -1867,7 +1932,7 @@ items:
     armor: 35
     #listOrder: 2005
     
-  - type: STR_SERVICE_REVOLVER
+  - type: STR_HE44_MAGNUM
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
     requiresBuy:
@@ -1882,9 +1947,7 @@ items:
     fireSound: 100
     reloadSound: 300
     compatibleAmmo:
-      - STR_REVOLVER_CLIP
-      - STR_REVOLVER_CLIP_KMM
-      - STR_REVOLVER_CLIP_DUMDUM
+      - STR_HE44_MAGNUM_AMMO
     accuracySnap: 55
     accuracyAimed: 75
     accuracyCloseQuarters: 120
@@ -1900,7 +1963,7 @@ items:
     armor: 250
     listOrder: 2440
 
-  - type: STR_REVOLVER_CLIP
+  - type: STR_HE44_MAGNUM_AMMO
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_REVOLVER_AMMO_UNLOCK
@@ -1931,9 +1994,7 @@ items:
     listOrder: 2450
 
   - type: STR_PLASMA_REPEATER_PISTOL
-
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
-
     size: 0.1
     costSell: 21000
     requires:
@@ -1946,7 +2007,7 @@ items:
     bulletSpeed: 10
     fireSound: 11
     compatibleAmmo:
-      - STR_ALIEN_LASER_PISTOL_BATTERY
+      - STR_PLASMA_REPEATER_PISTOL_BATTERY
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
@@ -1969,7 +2030,7 @@ items:
     recoveryPoints: 3
     armor: 45
     listOrder: 241
-  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+  - type: STR_PLASMA_REPEATER_PISTOL_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 1110
@@ -2008,7 +2069,7 @@ items:
     blastRadius: 5
     #listOrder: 2330
 
-  - type: STR_L209_LAARK
+  - type: STR_L206_LAARK
     categories:
       [
         STR_BALLISTIC,
@@ -2029,9 +2090,7 @@ items:
     bulletSprite: 0
     fireSound: 152
     compatibleAmmo:
-      - STR_CARL_GUSTAF_M2_HE_ROUND
-      - STR_CARL_GUSTAF_M2_HEAT_ROUND
-      - STR_CARL_GUSTAF_M2_ELERIUM_ROUND
+      - STR_L206_LAARK_ROCKET
     accuracySnap: 55
     accuracyAimed: 125
     tuSnap: 45
@@ -2044,7 +2103,7 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 201630
-  - type: STR_CARL_GUSTAF_M2_HE_ROUND
+  - type: STR_L206_LAARK_ROCKET
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS ]
     requiresBuy:
       - STR_NATO_SUPPORT_RESEARCH
@@ -2065,7 +2124,7 @@ items:
       RandomWound: true
       ToTile: 0.66
     damageType: 3
-    clipSize: 1
+    clipSize: 2
     blastRadius: 4
     battleType: 2
     invWidth: 1
