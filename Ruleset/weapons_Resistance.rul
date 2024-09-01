@@ -74,6 +74,62 @@ items:
     snapRange: 16
     aimRange: 24
     dropoff: 6
+        # Bayonet segment
+    meleeSound:
+      [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+      ]
+    meleeHitSound:
+      [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+      ]
+    #Stab sounds
+    meleeAnimation: 4
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.5
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+    # Bayonet segment end
     powerRangeThreshold: 20
     powerRangeReduction: 1
     damageBonus:
@@ -512,6 +568,115 @@ items:
     armor: 30
     attraction: 7
     listOrder: 2350
+
+  - type: STR_BULLSEYE_MK1
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 340
+    floorSprite: 340
+    handSprite: 292
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK1_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 40
+    accuracyAimed: 50
+    accuracyAuto: 35
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    #listOrder: 2240
+
+  - type: STR_BULLSEYE_MK1_BATTERY
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 345
+    floorSprite: 4
+    hitSound: 19
+    bulletSprite: 27 # 35*27=945
+    hitAnimation: 90
+    power: 40
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    armor: 12
+    #listOrder: 2245
+
+  - type: STR_BULLSEYE_MK2
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 350
+    floorSprite: 350
+    handSprite: 300
+    fireSound: 4
+    bulletSpeed: 8
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK2_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 50
+    accuracyAimed: 60
+    accuracyAuto: 45
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    #listOrder: 2250
+
+  - type: STR_BULLSEYE_MK2_BATTERY
+    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 355
+    floorSprite: 4
+    bulletSprite: 28 # 35*28=980
+    hitAnimation: 100
+    power: 50
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    armor: 12
+    #listOrder: 2255
     
 ################
 ### MACHINE GUNS ####
@@ -747,115 +912,70 @@ items:
     attraction: 10
     listOrder: 3130
 
+# Alien Heavy Laser
 
-  - type: STR_BULLSEYE_MK1
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+  - type: STR_BRUTE_MINIGUN
+
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 340
-    floorSprite: 340
-    handSprite: 292
-    fireSound: 4
-    bulletSpeed: 8
-#    reloadSound: 301
+    costSell: 43500
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
+    weight: 24
+    bigSprite: 792
+    floorSprite: 792
+    handSprite: 792
+    bulletSprite: 29
+    bulletSpeed: 10
+    fireSound: 11
     compatibleAmmo:
-      - STR_BULLSEYE_MK1_BATTERY
-    accuracyCloseQuarters: 85
-    accuracySnap: 40
-    accuracyAimed: 50
-    accuracyAuto: 35
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    tuAuto: 30
-    minRange: 15
-    snapRange: 24
-    aimRange: 20
-    autoRange: 11
-    autoShots: 5
-    sprayWaypoints: 2
-    dropoff: 10
+      - STR_ALIEN_HEAVY_LASER_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
+    aimRange: 60
+    accuracyAimed: 200
+    tuAimed: 80
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 110
+    tuSnap: 65
     battleType: 1
     twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
-    attraction: 8
-    #listOrder: 2240
-
-  - type: STR_BULLSEYE_MK1_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
+    recoveryPoints: 5
+    armor: 50
+    listOrder: 245
+  - type: STR_ALIEN_HEAVY_LASER_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    size: 0.3
+    costSell: 2400
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
-    bigSprite: 345
-    floorSprite: 4
+    bigSprite: 808
+    floorSprite: 808
+    handSprite: 808
     hitSound: 19
-    bulletSprite: 27 # 35*27=945
-    hitAnimation: 90
-    power: 40
-    damageType: 5
-    clipSize: 35
+    hitAnimation: 120
+    power: 125
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.50
+      ToArmor: 1.2
+    clipSize: 10
     battleType: 2
-    armor: 12
-    #listOrder: 2245
+    recoveryPoints: 1
+    listOrder: 246
 
-  - type: STR_BULLSEYE_MK2
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 350
-    floorSprite: 350
-    handSprite: 300
-    fireSound: 4
-    bulletSpeed: 8
-#    reloadSound: 301
-    compatibleAmmo:
-      - STR_BULLSEYE_MK2_BATTERY
-    accuracyCloseQuarters: 85
-    accuracySnap: 50
-    accuracyAimed: 60
-    accuracyAuto: 45
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    tuAuto: 30
-    minRange: 15
-    snapRange: 24
-    aimRange: 20
-    autoRange: 11
-    autoShots: 5
-    sprayWaypoints: 2
-    dropoff: 10
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    attraction: 8
-    #listOrder: 2250
 
-  - type: STR_BULLSEYE_MK2_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 355
-    floorSprite: 4
-    bulletSprite: 28 # 35*28=980
-    hitAnimation: 100
-    power: 50
-    damageType: 5
-    clipSize: 35
-    battleType: 2
-    armor: 12
-    #listOrder: 2255
     
 
 ################################
@@ -961,62 +1081,6 @@ items:
     dropoff: 4
     battleType: 1
     twoHanded: true
-    # Bayonet segment
-    meleeSound:
-      [
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-      ]
-    meleeHitSound:
-      [
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-      ]
-    #Stab sounds
-    meleeAnimation: 4
-    meleeType: 7
-    meleePower: 45
-    meleeBonus:
-      strength: 0.5
-      melee: 0.3
-    accuracyMelee: 100
-    meleeMultiplier:
-      flatHundred: 0.5
-      melee: 0.5
-    costMelee:
-      time: 20
-      energy: 8
-    flatMelee:
-      time: true
-    # Bayonet segment end
     oneHandedPenalty: 50
     invWidth: 1
     invHeight: 3
@@ -1059,6 +1123,74 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2150    
+
+  - type: STR_HUNTER_DMR
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
+    size: 0.2
+    costSell: 31600
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
+    weight: 11
+    bigSprite: 768
+    floorSprite: 768
+    handSprite: 768
+    bulletSprite: 29
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_RIFLE_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 60
+    accuracyAimed: 110
+    tuAimed: 70
+    confSnap:
+      shots: 2
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 70
+    tuSnap: 45
+    confAuto:
+      shots: 4
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 20
+    accuracyAuto: 65
+    tuAuto: 55
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    listOrder: 243
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    size: 0.1
+    costSell: 1575
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
+    weight: 3
+    bigSprite: 784
+    floorSprite: 784
+    handSprite: 784
+    hitSound: 19
+    hitAnimation: 120
+    power: 90
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.65
+      ToArmor: 1.2
+    clipSize: 20
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 244
 
   - type: STR_AUGER_MK1
     categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
@@ -1170,7 +1302,513 @@ items:
 ###### SHOTGUNS ########
 ##################################
 
+  - type: STR_WINCHESTER_TRENCH_GUN
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SHOTGUNS,
+        STR_ASSAULT_CLASS,
+        STR_AMERICAN_EQUIPMENT,
+      ]
+    requiresBuy:
+      - STR_WINCHESTER_TRENCH_GUN_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 2440
+    floorSprite: 2440
+    handSprite: 2440
+    fireSound: 108
+    reloadSound: 308
+    confAuto:
+      shots: 4
+      name: STR_SLAM_FIRE
+      shortName: STR_SLAM_FIRE_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5
+      - STR_SHOTGUN_DUMDUM_SHELLS_5
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyAuto: 40
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuAuto: 30
+    tuLoad: 25
+    minRange: 2
+    snapRange: 12
+    aimRange: 16
+    autoRange: 14
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 3160
 
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
+    categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 2512
+    floorSprite: 2512
+    handSprite: 2512
+    power: 45
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    listOrder: 3190
+
+  - type: STR_REMINGTON_MODEL_11
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SHOTGUNS,
+        STR_ASSAULT_CLASS,
+        STR_BRITISH_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT
+      ]
+    requiresBuy:
+      - STR_REMINGTON_MODEL_11_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 2464
+    floorSprite: 2464
+    handSprite: 2464
+    bulletSprite: 2
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5
+      - STR_SHOTGUN_DUMDUM_SHELLS_5
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
+    tuSnap: 40
+    tuAimed: 50
+    tuLoad: 25
+    minRange: 1
+    snapRange: 10
+    aimRange: 14
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 3170
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
+    categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 2512
+    floorSprite: 2512
+    handSprite: 2512
+    power: 45
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    listOrder: 3190
+
+
+###################################
+######### SUBMACHINE GUNS ########
+#################################
+
+  - type: STR_ANNIHILATOR_SMG
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SMGS,
+        STR_ASSAULT_CLASS,
+        STR_LIGHT_EQUIPMENT,
+      ]
+    requiresBuy:
+      - STR_ANNIHILATOR_SMG_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 4000
+    costSell: 3000
+    weight: 5
+    bigSprite: 1808
+    floorSprite: 1808
+    handSprite: 1808
+    fireSound: 138
+    reloadSound: 338
+    sprayWaypoints: 2
+    confAuto:
+      shots: 7
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 10
+      name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_ANNIHILATOR_SMG_MAG
+      - STR_ANNIHILATOR_SMG_MAG_KMM
+    accuracyCloseQuarters: 150
+    kneelBonus: 200
+    accuracySnap: 70
+    accuracyAuto: 50
+    accuracyAimed: 40
+    tuSnap: 28
+    tuAuto: 24
+    tuAimed: 20
+    tuLoad: 15
+    minRange: 2
+    snapRange: 16
+    aimRange: 10
+    autoRange: 14
+    dropoff: 4
+    twoHanded: true
+    oneHandedPenalty: 15
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2750
+
+  - type: STR_ANNIHILATOR_SMG_MAG
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_SMGS,
+        STR_ASSAULT_CLASS,
+        STR_LIGHT_EQUIPMENT,
+        STR_CLIPS,
+      ]
+    requiresBuy:
+      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 1832
+    floorSprite: 1832
+    handSprite: 672
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 30
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 30
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2760
+  - type: STR_ANNIHILATOR_SMG_MAG
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_SMGS,
+        STR_ASSAULT_CLASS,
+        STR_LIGHT_EQUIPMENT,
+        STR_CLIPS,
+      ]
+    requiresBuy:
+      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 1832
+    floorSprite: 1832
+    handSprite: 672
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 30
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 30
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2760
+
+  - type: STR_BERETTA_MAB38
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SMGS,
+        STR_ASSAULT_CLASS,
+        STR_LIGHT_EQUIPMENT,
+      ]
+    requiresBuy:
+      - STR_MP18_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 4000
+    costSell: 3000
+    weight: 6
+    bigSprite: 1848
+    floorSprite: 1848
+    handSprite: 1848
+    fireSound: 138
+    reloadSound: 338
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 10
+      name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_MP18_DRUM
+      - STR_MP18_DRUM_KMM
+    accuracyCloseQuarters: 150
+    kneelBonus: 200
+    accuracySnap: 70
+    accuracyAuto: 65
+    accuracyAimed: 50
+    tuSnap: 30
+    tuAuto: 24
+    tuAimed: 18
+    tuLoad: 16
+    minRange: 4
+    snapRange: 20
+    aimRange: 12
+    autoRange: 16
+    dropoff: 4
+    twoHanded: true
+    sprayWaypoints: 2
+    oneHandedPenalty: 15
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2780
+
+  - type: STR_9MM_AMMO
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_SMGS,
+        STR_ASSAULT_CLASS,
+        STR_LIGHT_EQUIPMENT,
+        STR_CLIPS,
+      ]
+    requiresBuy:
+      - STR_MP18_AMMO_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 1872
+    floorSprite: 1872
+    handSprite: 672
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 29
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 2
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2790
+
+  - type: STR_PPS_43
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SMGS,
+        STR_ASSAULT_CLASS,
+        STR_LIGHT_EQUIPMENT,
+      ]
+    requiresBuy:
+      - STR_MP18_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 4000
+    costSell: 3000
+    weight: 6
+    bigSprite: 1848
+    floorSprite: 1848
+    handSprite: 1848
+    fireSound: 138
+    reloadSound: 338
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 10
+      name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_MP18_DRUM
+      - STR_MP18_DRUM_KMM
+    accuracyCloseQuarters: 150
+    kneelBonus: 200
+    accuracySnap: 70
+    accuracyAuto: 65
+    accuracyAimed: 50
+    tuSnap: 30
+    tuAuto: 24
+    tuAimed: 18
+    tuLoad: 16
+    minRange: 4
+    snapRange: 20
+    aimRange: 12
+    autoRange: 16
+    dropoff: 4
+    twoHanded: true
+    sprayWaypoints: 2
+    oneHandedPenalty: 15
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2780
+  - type: STR_ANNIHILATOR_SMG_MAG
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_SMGS,
+        STR_ASSAULT_CLASS,
+        STR_LIGHT_EQUIPMENT,
+        STR_CLIPS,
+      ]
+    requiresBuy:
+      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 1832
+    floorSprite: 1832
+    handSprite: 672
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 30
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 30
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2760
 
 ###################################
 ##### PISTOLS AND SIDEARMS #######
@@ -1229,7 +1867,133 @@ items:
     armor: 35
     #listOrder: 2005
     
+  - type: STR_SERVICE_REVOLVER
+    categories:
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
+    requiresBuy:
+      - STR_SERVICE_REVOLVER_UNLOCK
+    size: 0.01
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 1040
+    floorSprite: 1040
+    handSprite: 1040
+    fireSound: 100
+    reloadSound: 300
+    compatibleAmmo:
+      - STR_REVOLVER_CLIP
+      - STR_REVOLVER_CLIP_KMM
+      - STR_REVOLVER_CLIP_DUMDUM
+    accuracySnap: 55
+    accuracyAimed: 75
+    accuracyCloseQuarters: 120
+    kneelBonus: 200
+    tuSnap: 10
+    tuAimed: 20
+    minRange: 2
+    snapRange: 12
+    aimRange: 22
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 2440
 
+  - type: STR_REVOLVER_CLIP
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_REVOLVER_AMMO_UNLOCK
+    size: 0.01
+    costBuy: 500
+    costSell: 150
+    weight: 2
+    bigSprite: 1072
+    floorSprite: 1072
+    handSprite: 1072
+    power: 32
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    damageType: 1
+    bulletSpeed: 10
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    armor: 250
+    listOrder: 2450
+
+  - type: STR_PLASMA_REPEATER_PISTOL
+
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
+
+    size: 0.1
+    costSell: 21000
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
+    weight: 3
+    bigSprite: 744
+    floorSprite: 744
+    handSprite: 744
+    bulletSprite: 32
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_PISTOL_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 60
+    accuracyAimed: 90
+    tuAimed: 55
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 65
+    tuSnap: 40
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 45
+    listOrder: 241
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    size: 0.1
+    costSell: 1110
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
+    weight: 3
+    bigSprite: 760
+    floorSprite: 760
+    handSprite: 760
+    hitSound: 19
+    hitAnimation: 120
+    power: 65
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.75
+      ToArmor: 1.2
+    clipSize: 15
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 242
+
+####################################
+###### GRENADES & LAUNCHERS #######
+#################################
 
   - type: STR_HEDGEHOG_GRENADE
     size: 0.1
@@ -1244,7 +2008,70 @@ items:
     blastRadius: 5
     #listOrder: 2330
 
-
+  - type: STR_L209_LAARK
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_NATO_TECH,
+        STR_ARTILLERY,
+        STR_FUSION
+      ]
+    requiresBuy:
+      - STR_NATO_SUPPORT_RESEARCH
+    size: 0.04
+    costBuy: 16000
+    costSell: 10000
+    weight: 10
+    bigSprite: 152
+    floorSprite: 152
+    handSprite: 516
+    bulletSprite: 0
+    fireSound: 152
+    compatibleAmmo:
+      - STR_CARL_GUSTAF_M2_HE_ROUND
+      - STR_CARL_GUSTAF_M2_HEAT_ROUND
+      - STR_CARL_GUSTAF_M2_ELERIUM_ROUND
+    accuracySnap: 55
+    accuracyAimed: 125
+    tuSnap: 45
+    tuAimed: 70
+    tuLoad: 20
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    attraction: 8
+    listOrder: 201630
+  - type: STR_CARL_GUSTAF_M2_HE_ROUND
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS ]
+    requiresBuy:
+      - STR_NATO_SUPPORT_RESEARCH
+    size: 0.02
+    costBuy: 1600
+    costSell: 1200
+    weight: 6
+    bigSprite: 130
+    floorSprite: 130
+    hitSound: 0
+    hitAnimation: 0
+    power: 85
+    damageAlter:
+      IgnoreOverKill: false
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToWound: 0.5
+      RandomWound: true
+      ToTile: 0.66
+    damageType: 3
+    clipSize: 1
+    blastRadius: 4
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    attraction: 9
+    listOrder: 201660
 
 
 extraSprites:
