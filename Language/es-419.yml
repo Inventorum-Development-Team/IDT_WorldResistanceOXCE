@@ -11,9 +11,9 @@ es-419:
   STR_MISSION_GENERATOR: "LUCHA EN LA GUERRA QUIMERA"  
   STR_UFOPAEDIA: "SrpaNet"
   STR_UFOPAEDIA_UC: "SRPANET"
-  STR_XCOM_OPERATIVES_KILLED: "TASK FORCE OPERATORS KILLED"
-  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "OPERADORES DE GRUPO ESPECIAL DESAPARECIDOS EN COMBATE"
-  STR_XCOM_CRAFT_LOST: "SRPA VEHICLE LOST"
+  STR_XCOM_OPERATIVES_KILLED: "OPERADORES SRPA MUERTOS"
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "OPERADORES DE SRPA DESAPARECIDOS EN COMBATE"
+  STR_XCOM_CRAFT_LOST: "VEHÍCULO SRPA PERDIDO"
   ######################
 # CADENAS DE CATEGORÍA DE OBJETO
 
@@ -22,10 +22,10 @@ es-419:
   STR_WEAPONS: "Armas"
   STR_FIREARMS: "Armas de fuego"
   STR_HANDGUNS: "Pistolas"
-  STR_SMGS: "Metralletas"
+  STR_SMGS: "Subfusiles"
   STR_SHOTGUNS: "Escopetas"
   STR_ASSAULT_RIFLES: "Rifle de asalto"
-  STR_BATTLE_RIFLES_DMRS: "Rifles de francotirador"
+  STR_BATTLE_RIFLES_DMRS: "Rifles de tirador"
   STR_SNIPER_RIFLES: "Rifles de francotirador"
   STR_LMGS: "Ametralladoras"
   STR_ARTILLERY: "Artillería"
@@ -42,7 +42,7 @@ es-419:
   STR_JAPANESE_EQUIPMENT: "Equipo japonés"
   STR_RUSSIAN_EQUIPMENT: "Equipo ruso"
   STR_SIBERIAN_EQUIPMENT: "Equipo siberiano"
-  STR_CHIMERAN_EQUIPMENT: "Equipo quimera"
+  STR_CHIMERAN_EQUIPMENT: "Equipo Quimera"
   STR_TANKS: "Tanques"
 
 ######################
@@ -64,23 +64,23 @@ es-419:
   STR_DAMAGE_INCENDIARY: "INCENDIARIO" 
   STR_DAMAGE_HIGH_EXPLOSIVE: "ALTAMENTE EXPLOSIVO" 
   STR_DAMAGE_LASER_BEAM: "BALÍSTICA ALIENÍGENA" 
-  STR_DAMAGE_PLASMA_BEAM: "ENERGÍA DE PLASMA" 
+  STR_DAMAGE_PLASMA_BEAM: "ENERGÍA" 
   STR_BULLSEYE_MK1: "Bullseye Mk.1" 
   STR_BULLSEYE_MK1_BATTERY: "Batería Bullseye Mk.1" 
-  STR_BULLSEYE_MK1_UFOPEDIA: "El rifle de combate principal de la infantería Chimera no es efectivo más allá del combate a corta distancia. Dispara proyectiles de plasma rojo"
+  STR_BULLSEYE_MK1_UFOPEDIA: "El rifle de combate principal de la infantería Quimera no es efectivo más allá del combate a corta distancia. Dispara proyectiles de plasma rojo"
   STR_BULLSEYE_MK2: "Bullseye Mk.2" 
   STR_BULLSEYE_MK2_BATTERY: "Batería Bullseye Mk.2" 
-  STR_BULLSEYE_MK2_UFOPEDIA: "Versión mejorada del fusil de combate de infantería Chimera estándar. El cañón pesado permite una mayor precisión, pero sigue siendo un arma enfocada al combate cuerpo a cuerpo. Sus proyectiles de plasma azul causan más heridas que otras armas." 
+  STR_BULLSEYE_MK2_UFOPEDIA: "Versión mejorada del fusil de combate de infantería Quimera estándar. El cañón pesado permite una mayor precisión, pero sigue siendo un arma enfocada al combate cuerpo a cuerpo. Sus proyectiles de plasma azul causan más heridas que otras armas." 
   STR_AUGER_MK1: "Auger Mk.1" 
   STR_AUGER_MK1_BATTERY: "Batería Auger Mk.1" 
-  STR_AUGER_MK1_UFOPEDIA: "Rifle francotirador pesado, emite proyectiles de radiación ionizante que causan daños considerables al terreno. Su mira de alcance medio hace que sea fácil atacar a los enemigos ocultos tras coberturas."
+  STR_AUGER_MK1_UFOPEDIA: "Rifle de francotirador pesado, emite proyectiles de radiación ionizante que causan daños considerables al terreno. Su mira de alcance medio hace que sea fácil atacar a los enemigos ocultos tras coberturas."
 
   STR_AUGER_MK2: "Auger Mk.2" 
   STR_AUGER_MK2_BATTERY: "Batería Auger Mk.2" 
-  STR_AUGER_MK2_UFOPEDIA: "Versión mejorada del rifle francotirador pesado utilizado por los francotiradores Chimera, cuenta con una mira de largo alcance y un generador de radiación ionizante con mayor capacidad para emitir energía. Su capacidad de penetración en el terreno se incrementa sustancialmente."
+  STR_AUGER_MK2_UFOPEDIA: "Versión mejorada del rifle de francotirador pesado utilizado por los francotiradores Quimera, cuenta con una mira de largo alcance y un generador de radiación ionizante con mayor capacidad para emitir energía. Su capacidad de penetración en el terreno se incrementa sustancialmente."
 
   STR_HEDGEHOG_GRENADE: "Granada de erizo" 
-  STR_HEDGEHOG_GRENADE_UFOPEDIA: .".." 
+  STR_HEDGEHOG_GRENADE_UFOPEDIA: ".." 
   STR_HUNTER_DMR: "Hunter DMR" 
   STR_HUNTER_DMR_BATTERY: "Batería Hunter DMR" 
   STR_HUNTER_DMR_UFOPEDIA: "Rifle pesado especializado destinado a los tiradores de élite de las quimeras. Visto por primera vez en acción durante la excursión enemiga del año pasado en Nueva York. Los rayos de iones emitidos en ráfagas cortas lo convierten en un arma letal en las manos adecuadas, destruyendo coberturas y haciendo cosas similares."
@@ -91,10 +91,10 @@ es-419:
 
   STR_PLASMA_REPEATER_PISTOL: "Pistola de repetición de plasma" 
   STR_PLASMA_REPEATER_PISTOL_BATTERY: "Batería de pistola de repetición de plasma" 
-  STR_PLASMA_REPEATER_PISTOL_UFOPEDIA: "Similar a las pistolas-máquina humanas, esta arma de mano Chimera se ve en servicio en unidades de reconocimiento. La intensa velocidad de disparo puede descargar rápidamente una batería completa en segundos."
+  STR_PLASMA_REPEATER_PISTOL_UFOPEDIA: "Similar a las pistolas ametralladoras humanas, esta arma de mano Quimera se ve en servicio en unidades de reconocimiento. La intensa velocidad de disparo puede descargar rápidamente una batería completa en segundos."
 
   STR_HE44_MAGNUM: "Magnum HE.44" 
-  STR_HE44_MAGNUM_AMMO: "Municiones de .44" 
+  STR_HE44_MAGNUM_AMMO: "Municiones de .44"
   STR_HE44_MAGNUM_UFOPEDIA: "Potente y robusta arma de mano utilizada por operativos de las fuerzas especiales de la SRPA. La gran bala Magnum de .44 disparada por este revólver utiliza un compuesto especial de glicerina para explotar al contacto."
 
   STR_THOMPSON_SMG: "Thompson M1 SMG" 
@@ -140,7 +140,7 @@ es-419:
   STR_BERETTA_MAB38_UFOPEDIA: "Una metralleta italiana finamente elaborada, casi hecha a mano. Su armazón de madera resistente y fuerte la convierte en un arma pesada, pero robusta y precisa. Utilizada y apreciada por las fuerzas especiales de toda Europa, fue un icono del Regio Esercito. Quedan muy pocas Berettas, algunas de las cuales se recuperaron de las ruinas de Génova y Nápoles."
 
   STR_ERMA_EMP44: "Erma EMP-44 SMG"
-  STR_ERMA_EMP44_UFOPEDIA: "Subametralladora extremadamente barata y fácil de fabricar, aunque un poco complicada de usar. Originalmente estaba pensada para ser utilizada por tropas de reserva como complemento de la MP-40 en caso de una invasión rusa repentina. Cuando llegó la Chimera y la mayoría de las reservas de armas modernas se perdieron o destruyeron, este diseño rudimentario se puso en servicio. Finalmente, los Maquis encontraron sus planos fuera de Múnich y la pusieron en producción de nuevo a toda prisa. Utiliza cargadores de 9 mm."
+  STR_ERMA_EMP44_UFOPEDIA: "Subametralladora extremadamente barata y fácil de fabricar, aunque un poco complicada de usar. Originalmente estaba pensada para ser utilizada por tropas de reserva como complemento de la MP-40 en caso de una invasión rusa repentina. Cuando llegó la Quimera y la mayoría de las reservas de armas modernas se perdieron o destruyeron, este diseño rudimentario se puso en servicio. Finalmente, los Maquis encontraron sus planos fuera de Múnich y la pusieron en producción de nuevo a toda prisa. Utiliza cargadores de 9 mm."
 
   STR_SCHROTFLINTE_SHOTGUN: "Escopeta de combate Schlonflinte"
   STR_SCHROTFLINTE_SHOTGUN_SHELLS: "Cartuchos de escopeta calibre 12"
@@ -164,7 +164,7 @@ es-419:
 
   STR_FEDOROV_AVTOMAT: "Rifle automático Fedorov Avtomat"
   STR_FEDOROV_AVTOMAT_MAG: "Rifle automático Fedorov Mag de 6,5 mm"
-  STR_FEDOROV_AVTOMAT_UFOPEDIA: "El Fedorov Avtomat es un rifle automático de fuego selectivo y de servicio por tripulación, y también uno de los primeros rifles automáticos operativos del mundo, diseñado por Vladimir Grigoryevich Fyodorov en 1915 y producido en el Imperio ruso. Rápidamente demostró ser un arma eficaz en la Gran Guerra y, con el tiempo, se convertiría en un arma de referencia del ejército ruso, al entrar en producción en masa poco después de la fallida guerra civil; durante la Guerra de las Quimeras, varias unidades rusas fueron equipadas con el Fedorov. Sin embargo, a medida que la guerra se prolongaba, Rusia, debido a la falta de fábricas, se vio obligada a cesar la producción del Federov casi por completo, lo que provocó que el ejército comenzara a depender principalmente del Mosin-Nagant."
+  STR_FEDOROV_AVTOMAT_UFOPEDIA: "El Fedorov Avtomat es un rifle automático de fuego selectivo y de servicio por tripulación, y también uno de los primeros rifles automáticos operativos del mundo, diseñado por Vladimir Grigoryevich Fyodorov en 1915 y producido en el Imperio ruso. Rápidamente demostró ser un arma eficaz en la Gran Guerra y, con el tiempo, se convertiría en un arma de referencia del ejército ruso, al entrar en producción en masa poco después de la fallida Guerra Civil Rusa; durante la Guerra de las Quimeras, varias unidades rusas fueron equipadas con el Fedorov. Sin embargo, a medida que la guerra se prolongaba, Rusia, debido a la falta de fábricas, se vio obligada a cesar la producción del Federov casi por completo, lo que provocó que el ejército comenzara a depender principalmente del Mosin-Nagant."
 
   STR_MOSIN_NAGANT: "Rifle Mosin-Nagant M1891"
   STR_MOSIN_NAGANT_CLIP: "Cargador de munición Mosin-Nagant"
@@ -183,12 +183,12 @@ es-419:
   STR_TOKAREV_MACHINE_PISTOL_UFOPEDIA: "Los siberianos se apresuraron a adaptar todas las escasas armas de mano Tokarev que quedaban en los arsenales del Lejano Oriente a la variante de pistola automática de fuego selectivo. Equipada con un prototipo de silenciador y una culata de madera hecha a mano, la Tokarev se utiliza principalmente en incursiones relámpago en depósitos y bases abandonadas."
 
   STR_DEGTYARYOV_LMG: "Ametralladora Degtyaryov DP-28"
-  STR_DEGTYARYOV_LMG_PAN: "Bandeja de munición DP-28"
-  STR_DEGTYARYOV_LMG_BELT: "Caja de munición DP-28"
-  STR_DEGTYARYOV_LMG_UFOPEDIA: "La ametralladora de infantería Degtyaryov se desplegó rápidamente en el frente cuando se informó de los primeros ataques de Chimera. Con el paso de los años, se convirtió en la ametralladora principal del arsenal ruso. La última mejora fue la adaptación de un mecanismo alimentado por cinta, ambos fáciles de adaptar en el campo de batalla."
+  STR_DEGTYARYOV_LMG_PAN: "Tambor de munición DP-28"
+  STR_DEGTYARYOV_LMG_BELT: "Cinta de munición DP-28"
+  STR_DEGTYARYOV_LMG_UFOPEDIA: "La ametralladora de infantería Degtyaryov se desplegó rápidamente en el frente cuando se informó de los primeros ataques de Quimera. Con el paso de los años, se convirtió en la ametralladora principal del arsenal ruso. La última mejora fue la adaptación de un mecanismo alimentado por cinta, ambos fáciles de adaptar en el campo de batalla."
 
   STR_FEDOROV_GROM: "Rifle Fedorov EVF-31 “Grom”"
-  STR_FEDOROV_GROM_UFOPEDIA: "Arma de energía fabricada a partir del Bullseye por la Rusia Imperial en un intento de igualar las condiciones con el Chimera. Sus costes de producción eran considerables y estaba disponible en cantidades limitadas. A pesar de ello, la mayoría de los prototipos fueron enviados a los ejércitos siberianos para darles una oportunidad de luchar, luego unos pocos cientos lograron ser evacuados con éxito a Provideniya donde se formó la Guardia Siberiana. 'Grom' significa trueno en ruso."
+  STR_FEDOROV_GROM_UFOPEDIA: "Arma de energía fabricada a partir del Bullseye por la Rusia Imperial en un intento de igualar las condiciones con el Quimera. Sus costes de producción eran considerables y estaba disponible en cantidades limitadas. A pesar de ello, la mayoría de los prototipos fueron enviados a los ejércitos siberianos para darles una oportunidad de luchar, luego unos pocos cientos lograron ser evacuados con éxito a Provideniya donde se formó la Guardia Siberiana. 'Grom' significa trueno en ruso."
 
   STR_FIRE_GRENADE: "Granada de fuego"
   STR_M1911_COLT: "M1911 Colt"
@@ -306,7 +306,7 @@ es-419:
   STR_EXPANDING_FRONTIERS_UFOPEDIA: "La SRPA nos proporciona el equipo suficiente para equipar a nuestra fuerza de tareas para las operaciones de recuperación y contamos con el apoyo de la USAF para atacar a las naves hostiles cerca de nuestras bases. Sin embargo, siempre podemos escuchar la radio para obtener ayuda adicional de las fuerzas aliadas que luchan en otros lugares. Sin embargo, esto puede llevar un tiempo. Es posible que sea necesario restringir la prospección en el extranjero para garantizar la alta calidad de los equipos desplegados, ya que necesitamos lo mejor de lo mejor."
 
   STR_REESTABLISH_DIPLOMATIC_TIES: "Reestablecer lazos diplomáticos"
-  STR_REESTABLISH_DIPLOMATIC_TIES_UFOPEDIA: "Hemos logrado ponernos en contacto con fuerzas amigas en Europa, después de un pequeño apagón de comunicaciones (muy probablemente gracias al equipo de interferencias Chimera). Podríamos extender una invitación a las fuerzas británicas o al movimiento de resistencia Maquis para que se unan a nuestros esfuerzos de recuperación a cambio de tecnología y suministros."
+  STR_REESTABLISH_DIPLOMATIC_TIES_UFOPEDIA: "Hemos logrado ponernos en contacto con fuerzas amigas en Europa, después de un pequeño apagón de comunicaciones (muy probablemente gracias al equipo de interferencias Quimera). Podríamos extender una invitación a las fuerzas británicas o al movimiento de resistencia Maquis para que se unan a nuestros esfuerzos de recuperación a cambio de tecnología y suministros."
 
   STR_BRITISH_COOPERATION_1_RESEARCH: "Cooperación británica I"
   STR_BRITISH_COOPERATION_1_RESEARCH_UFOPEDIA: "Nuestro reciente éxito con la Operación Morning Star significó la erradicación de las fuerzas enemigas en las islas británicas y están más que dispuestos a unirse a nosotros. Han permitido que voluntarios de cuerpos de élite como los Comandos de la Marina Real y los Paracaidistas se recluten en nuestras fuerzas, formando el {ALT}Equipo Fantasma{ALT}."
@@ -353,8 +353,8 @@ es-419:
   STR_UFO_POWER_SOURCE: "Reactor nuclear alienígena"
   STR_UFO_POWER_SOURCE_UFOPEDIA: "El enemigo utiliza tecnología de fisión para alimentar sus estructuras y vehículos. Si bien nosotros también pudimos lograr dicho proceso, su tecnología es mucho más eficiente y sostenible que la nuestra."
 
-  STR_ALIEN_ALLOYS: "Acero Chimera"
-  STR_ALIEN_ALLOYS_UFOPEDIA: "Revestimiento de aleación de acero ligero, utilizado por Chimera para construir una amplia gama de utilidades y armamento. Fácilmente moldeable con las herramientas adecuadas, pero inmune a todo tipo de daños. Encontrado y clasificado por primera vez por personal de la RAF en Gibraltar, su entrega y el informe de inteligencia sobre cómo usarlo fue interceptado por agentes Maquis rebeldes y se perdió hasta hace poco."
+  STR_ALIEN_ALLOYS: "Acero Quimera"
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Revestimiento de aleación de acero ligero, utilizado por Quimera para construir una amplia gama de utilidades y armamento. Fácilmente moldeable con las herramientas adecuadas, pero inmune a todo tipo de daños. Encontrado y clasificado por primera vez por personal de la RAF en Gibraltar, su entrega y el informe de inteligencia sobre cómo usarlo fue interceptado por agentes Maquis rebeldes y se perdió hasta hace poco."
 
   STR_GRAY_TECH_ITEM: "Objeto tecnológico gris"
   STR_GRAY_TECH_ITEM_UFOPEDIA: "Pieza de tecnología alienígena extremadamente poderosa. No corresponde a ningún diseño realizado por la Quimera hasta el momento. Emite una luz vibrante y lo que podría describirse como 'aire caliente a su alrededor', probablemente radiación. Manipular con precaución."
@@ -375,7 +375,7 @@ es-419:
   STR_PROJECT_PROMETHEUS_UFOPEDIA: "La Dra. Julia Cathcart ha tomado la iniciativa en la investigación sobre tecnología alienígena. Ella ha teorizado que todos los elementos individuales de la tecnología gris pertenecen a un mecanismo o máquina más grande, teniendo en cuenta cómo la radiación electromagnética emitida se vuelve cada vez más intensa con un mayor número de piezas de GT cercanas unas de otras. Debemos continuar investigando este tema para refinar nuestra comprensión."
 
   STR_PROMETHEUS_WEAPON: "Arma Prometeo"
-  STR_PROMETHEUS_WEAPON_UFOPEDIA: "El equipo del Dr. Cathcart realizó un avance revolucionario en la investigación. Confirmó la teoría de que cada elemento de GT era una pieza de un rompecabezas más grande. Al agregar más y más elementos, se emite una radiación electromagnética más intensa, que podría usarse como un dispositivo explosivo de alto rendimiento. Se cree que al combinar 100 piezas, se podría ensamblar una bomba poderosa, que podría causar un apagón importante en la red central de Chimera. Debemos ensamblarla lo antes posible, ya que tenemos información sobre el líder del enemigo, Dédalo, que parece perseguir un objetivo similar al nuestro con el propósito de exterminar a la humanidad. Una vez que la bomba esté lista, podríamos preparar una ofensiva para desplegarla."
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "El equipo del Dr. Cathcart realizó un avance revolucionario en la investigación. Confirmó la teoría de que cada elemento de GT era una pieza de un rompecabezas más grande. Al agregar más y más elementos, se emite una radiación electromagnética más intensa, que podría usarse como un dispositivo explosivo de alto rendimiento. Se cree que al combinar 100 piezas, se podría ensamblar una bomba poderosa, que podría causar un apagón importante en la red central de Quimera. Debemos ensamblarla lo antes posible, ya que tenemos información sobre el líder del enemigo, Dédalo, que parece perseguir un objetivo similar al nuestro con el propósito de exterminar a la humanidad. Una vez que la bomba esté lista, podríamos preparar una ofensiva para desplegarla."
 
   STR_OPERATION_OLYMPIC_DEPENDENCY: "Operación Dependencia Olímpica"
 
@@ -419,13 +419,13 @@ es-419:
   STR_HYBRID_SOLDIER: "Soldado híbrido"
   STR_HYBRID_CORPSE: "Cadáver híbrido"
 
-  STR_STEELHEAD_SQUAD: "Pelotón quimera mediano"
-  STR_ADVANCED_HYBRID_SQUAD: "Pelotón quimera pesado"
-  STR_MIXED: "Pelotón quimera mixto"
+  STR_STEELHEAD_SQUAD: "Pelotón Quimera mediano"
+  STR_ADVANCED_HYBRID_SQUAD: "Pelotón Quimera pesado"
+  STR_MIXED: "Pelotón Quimera mixto"
 
   STR_HYBRID_ARMOR: "Implantes básicos + armadura ligera"
   STR_HYBRID_DESCRIPTION: "Inteligencia híbrida"
-  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Los soldados rasos regulares del enemigo, los híbridos son antiguos humanos infectados por el virus quimera y mutilados hasta convertirlos en seres sin mente. y un guerrero intrépido cuyo único objetivo es matar a cualquier ser humano que vea."
+  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Los soldados rasos regulares del enemigo, los híbridos son antiguos humanos infectados por el virus Quimera y mutilados hasta convertirlos en seres sin mente. y un guerrero intrépido cuyo único objetivo es matar a cualquier ser humano que vea."
 
   STR_HAMMER_UNIT: "Hammer"
   STR_HAMMER_ARMOR: "Bipedal Exoframe"
@@ -467,7 +467,7 @@ es-419:
   STR_ACES_HIGH_LORE_UFOPEDIA: "A diferencia de la mayoría de las potencias europeas, la Real Fuerza Aérea se centró principalmente en una gran flota de eficientes VTOL Kingfisher para proyectar su poder aéreo más hacia el interior. A pesar de estar en desarrollo desde 1937, fue solo después del anuncio del Me-262 en 1942 que el Mando de Cazas optó por reemplazar su flota de Spitfires por el Meteor. Aunque más lento y menos armado que la mayoría de sus pares, el caza fabricado en Gloster tenía un alcance operativo más largo. Como la mayoría se perdieron en misiones sobre Checoslovaquia en apoyo de la Línea de Bratislava, los últimos que quedaban se utilizaron en la defensa aérea de Gran Bretaña."
 
   STR_MAGNIFICENT_LIGHTNING_LORE: "Magnífico rayo"
-  STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA: "A pesar de la falta de suficiente oposición aérea durante la Segunda Guerra Sino-Japonesa, la Armada Imperial Japonesa solicitó el desarrollo de una nave de combate de alto rendimiento y gran altitud con el propósito explícito de atacar a los bombarderos enemigos. La necesidad de proteger las islas principales de la agresión extranjera motivó el proyecto. El resultado fue el J7W Shinden, una nave fuertemente blindada y con más armas. Cuando el Chimera comenzó a avanzar hacia el Lejano Oriente, incluso los cazas Mitsubishi 'Zero' tuvieron dificultades para mantener a raya a las naves enemigas y el Shinden se convirtió en el interceptor naval de élite."
+  STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA: "A pesar de la falta de suficiente oposición aérea durante la Segunda Guerra Sino-Japonesa, la Armada Imperial Japonesa solicitó el desarrollo de una nave de combate de alto rendimiento y gran altitud con el propósito explícito de atacar a los bombarderos enemigos. La necesidad de proteger las islas principales de la agresión extranjera motivó el proyecto. El resultado fue el J7W Shinden, una nave fuertemente blindada y con más armas. Cuando el Quimera comenzó a avanzar hacia el Lejano Oriente, incluso los cazas Mitsubishi 'Zero' tuvieron dificultades para mantener a raya a las naves enemigas y el Shinden se convirtió en el interceptor naval de élite."
 
   STR_EURO_AMERICAN_COLLABORATION_LORE: "Colaboración euroamericana"
   STR_EURO_AMERICAN_COLLABORATION_LORE_UFOPEDIA: "Durante la administración de Roosevelt, hubo un notorio acercamiento diplomático entre las organizaciones europeas y los EE. UU. Esto condujo a varios acuerdos tecnológicos y técnicos entre ambos bloques, entre ellos el 'Acuerdo de Estandarización de Municiones Estratégicas (SATANAG)', donde se adoptó el cartucho británico .303 como recámara general para armas pequeñas en todos los rifles de servicio. Además, SRPA y MDC intercambiaron planos e investigaciones. Esto finalmente se volvió menos público durante la administración Grace, ya que los lazos diplomáticos se tensaron con el creciente aislacionismo estadounidense."
@@ -482,10 +482,10 @@ es-419:
   STR_VALERY_SABLIN_UFOPEDIA: "Un oficial naval ruso de alto rango que estuvo muy involucrado en las evacuaciones de la Operación Kerensky. Una vez terminada, permaneció estacionado en la isla Wrangel hasta 1948, cuando él y su tripulación decidieron abandonar la isla en su barco, el 'Storozhevoy', con la intención de llegar a Alaska. Sin embargo, debido a la falta de alimentos, se vieron obligados a atracar en la ciudad costera de Provideniya, donde se encontraron con los restos de una división de infantería rusa que había estado estacionada en el lugar. En lugar de partir hacia Alaska, Sablin y su tripulación decidieron quedarse y luchar por la Madre Patria. Rápidamente comenzó a ascender de rango y se estableció como líder después de la prematura muerte del oficial al mando de la división. Pronto formaría oficialmente la 'Guardia Siberiana'"
 
   STR_OPERATION_KERENSKY_1: "Operación Kerensky"
-  STR_OPERATION_KERENSKY_1_UFOPEDIA: "La operación, que lleva el nombre del primer ministro Kerensky, se puso en marcha el 10 de abril de 1930, cuando el gobierno ruso tuvo claro que los militares no podrían resistirse al Chimera. Autorizó la evacuación sistemática de civiles a las islas de Sevemaya Zemlya, Novaya Zemlya, la isla Wrangel y las islas de Nueva Siberia. La evacuación estuvo a cargo principalmente de la Armada, con un papel menor de la Fuerza Aérea Imperial Rusa."
+  STR_OPERATION_KERENSKY_1_UFOPEDIA: "La operación, que lleva el nombre del primer ministro Kerensky, se puso en marcha el 10 de abril de 1930, cuando el gobierno ruso tuvo claro que los militares no podrían resistirse al Quimera. Autorizó la evacuación sistemática de civiles a las islas de Sevemaya Zemlya, Novaya Zemlya, la isla Wrangel y las islas de Nueva Siberia. La evacuación estuvo a cargo principalmente de la Armada, con un papel menor de la Fuerza Aérea Imperial Rusa."
 
   STR_OPERATION_KERENSKY_2: "Operación Kerensky"
-  STR_OPERATION_KERENSKY_2_UFOPEDIA: "Se logró rescatar con éxito a alrededor de 1.500.000 personas y las operaciones se llevaron a cabo hasta 1936. A pesar de escapar del Chimera, a los que fueron evacuados no les fue mucho mejor, ya que las líneas de suministro comenzaron a romperse en 1937; Una gran escasez de alimentos, medicinas y otros suministros provocó que la hambruna y las enfermedades se propagaran en los campamentos mal construidos en los que se había colocado a los refugiados."
+  STR_OPERATION_KERENSKY_2_UFOPEDIA: "Se logró rescatar con éxito a alrededor de 1.500.000 personas y las operaciones se llevaron a cabo hasta 1936. A pesar de escapar del Quimera, a los que fueron evacuados no les fue mucho mejor, ya que las líneas de suministro comenzaron a romperse en 1937; Una gran escasez de alimentos, medicinas y otros suministros provocó que la hambruna y las enfermedades se propagaran en los campamentos mal construidos en los que se había colocado a los refugiados."
 
   STR_YAGODA_SOLUTION_1: "La solución Yagoda"
   STR_YAGODA_SOLUTION_1_UFOPEDIA: "Llamada así en honor al jefe ejecutivo de la policía secreta, Genrikh Yagoda, se puso en marcha algún tiempo después de 1937 para evitar que la Quimera infectara a más población rusa y, finalmente, los transformara en la especie alienígena. Esto se haría mediante la eliminación humanitaria de cualquier civil que se creyera que estaba infectado por el virus."
@@ -503,10 +503,10 @@ es-419:
   STR_NOT_ENOUGH_ITEM_TO_REFUEL_CRAFT_AT_BASE: "No hay suficiente {0} para reabastecer {1} en {2}"
   STR_NOT_ENOUGH_ITEM_TO_REARM_CRAFT_AT_BASE: "No hay suficiente {0} para rearmar {1} en {2}"
   STR_UFO_IS_NOT_RECOVERED: "La nave Quimera no se ha recuperado"
-  STR_UFO_IS_RECOVERED: "La nave quimera ha sido recuperada"
+  STR_UFO_IS_RECOVERED: "La nave Quimera ha sido recuperada"
   STR_CRAFT_IS_LOST: "La nave ha sido perdida"
   STR_TERROR_CONTINUES: "El terror continúa"
-  STR_ALIENS_DEFEATED: "La quimera ha sido derrotada"
+  STR_ALIENS_DEFEATED: "La Quimera ha sido derrotada"
   STR_BASE_IS_LOST: "La base ha sido perdida"
   STR_BASE_IS_SAVED: "La base ha sido salvada"
   STR_ALIEN_BASE_STILL_INTACT: "La base alienígena sigue intacta"
@@ -589,5 +589,5 @@ es-419:
   STR_XCOM_BASE_CANNOT_BE_BUILT: "No se pueden construir instalaciones de SRPA bajo el agua"
   STR_SOLDIERS_RECRUITED: "Soldados reclutados"
   STR_SOLDIERS_LOST: "Soldados perdidos"
-  STR_TOTAL_UFOS: "Se detectaron naves quimera"
-  STR_TOTAL_ALIEN_BASES: "Se descubrieron estructuras quimera"
+  STR_TOTAL_UFOS: "Se detectaron naves Quimera"
+  STR_TOTAL_ALIEN_BASES: "Se descubrieron estructuras Quimera"
