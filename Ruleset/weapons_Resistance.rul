@@ -1193,6 +1193,68 @@ items:
     armor: 12
     listOrder: 2150    
 
+  - type: STR_LONGBOW_1S1K
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 170
+    floorSprite: 170
+    handSprite: 156
+    fireSound: 4
+    bulletSpeed: 5
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_LONGBOW_1S1K_FLECHETTES
+    accuracyCloseQuarters: 65
+    confAuto:
+      shots: 1
+      name: STR_HEADSHOT
+    accuracySnap: 75
+    accuracyAimed: 90
+    accuracyAuto: 200
+    tuSnap: 20
+    tuAimed: 35
+    tuAuto: 50
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.8
+      reactions: 1.5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    #listOrder: 2070
+
+  - type: STR_LONGBOW_1S1K_FLECHETTES
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 175
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 3
+    power: 40
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+    #listOrder: 2075
+
   - type: STR_HUNTER_DMR
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
@@ -1521,6 +1583,76 @@ items:
     armor: 250
     listOrder: 3190
 
+  - type: STR_XR24_SPITTER
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SHOTGUNS,
+        STR_ASSAULT_CLASS,
+        STR_BRITISH_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT
+      ]
+    requiresBuy:
+      - STR_REMINGTON_MODEL_11_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 2464
+    floorSprite: 2464
+    handSprite: 2464
+    bulletSprite: 2
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_XR24_SPITTER_BATTERY
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
+    tuSnap: 40
+    tuAimed: 50
+    tuLoad: 25
+    minRange: 1
+    snapRange: 10
+    aimRange: 14
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 3170
+  - type: STR_XR24_SPITTER_BATTERY
+    categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 2512
+    floorSprite: 2512
+    handSprite: 2512
+    power: 45
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    listOrder: 3190
 
 ###################################
 ######### SUBMACHINE GUNS ########
