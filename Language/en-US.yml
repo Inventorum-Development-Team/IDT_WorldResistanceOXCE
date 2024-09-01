@@ -103,6 +103,7 @@ en-US:
   STR_HE44_MAGNUM_UFOPEDIA: "Powerful and robust sidearm field by SRPA special forces operatives. The large .44 Magnum round fired by this revolver uses a special glycerin compound to explode on contact."
 
   STR_THOMPSON_SMG: "Thompson M1 SMG"
+  STR_THOMPSON_SMG_DRUM: "Thompson SMG Drum"
   STR_THOMPSON_SMG_MAG: "Thompson SMG Mag"
   STR_THOMPSON_SMG_UFOPEDIA: "The first firearm commercialized as a “submachine gun”, it quickly gained notoriety for its robust design and firepower, firing .45 ACP rounds. Used by most American law enforcement units, some were sold to the UK as well."
 
