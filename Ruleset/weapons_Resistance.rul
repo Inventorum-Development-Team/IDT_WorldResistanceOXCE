@@ -286,8 +286,8 @@ items:
     costBuy: 500
     costSell: 470
     weight: 1
-    bigSprite: 126
-    floorSprite: 4
+    bigSprite: 1344
+    floorSprite: 1344
     hitSound: 0
     hitAnimation: 0
     power: 70
@@ -320,9 +320,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 168
-    floorSprite: 168
-    handSprite: 168
+    bigSprite: 172
+    floorSprite: 172
+    handSprite: 172
     fireSound: 101
     reloadSound: 301
     compatibleAmmo:
@@ -417,11 +417,12 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 200
-    floorSprite: 200
-    handSprite: 200
+    bigSprite: 288
+    floorSprite: 288
+    handSprite: 288
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 12
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 40
     damageAlter:
@@ -2414,7 +2415,13 @@ extraSprites:
       #1312: Resources/HumanWeapons/Ammo/BigRussianEnergyWeaponBattery.png
       1320: Resources/HumanWeapons/Energy/BigSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.png
-      1336: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.BigRussianEnergyWeapon_nomag 
+      1336: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.BigRussianEnergyWeapon_nomag
+      1344: Resources/HumanWeapons/Ammo/Big40mmHE.png
+      1352: Resources/HumanWeapons/Ammo/Big40mmINC.png
+      1360: Resources/HumanWeapons/Ammo/Big40mmSMOKE.png
+      1368: Resources/HumanWeapons/Ammo/Big40mmHERack.png
+      1376:Resources/HumanWeapons/Ammo/Big40mmINCRack.png
+  
 
   - type: FLOOROB.PCK
     files:
@@ -2559,6 +2566,11 @@ extraSprites:
       1320: Resources/HumanWeapons/Energy/FloorSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
       1336: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
+      1344: Resources/HumanWeapons/Ammo/Floor40mmHE.png
+      1352: Resources/HumanWeapons/Ammo/Floor40mmINC.png
+      1360: Resources/HumanWeapons/Ammo/Floor40mmSMOKE.png
+      1368: Resources/HumanWeapons/Ammo/Floor40mmHERack.png
+      1376:Resources/HumanWeapons/Ammo/Floor40mmINCRack.png
 
   - type: HANDOB.PCK
     width: 256
