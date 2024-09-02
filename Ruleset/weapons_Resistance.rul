@@ -849,7 +849,6 @@ items:
       ToArmorPre: 0.2
       RandomWound: false
     damageType: 1
-    bulletSpeed: 10
     clipSize: 200
     battleType: 2
     armor: 30
@@ -869,15 +868,15 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_RUSSIAN_EQUIPMENT
       ]
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+    requiresBuy:
+      - STR_SIBERIAN_COOPERATION_1_RESEARCH
     size: 0.03
     costBuy: 11000
     costSell: 9000
     weight: 10
-    bigSprite: 2352
-    floorSprite: 2352
-    handSprite: 2352
+    bigSprite: 432
+    floorSprite: 432
+    handSprite: 432
     fireSound: 103
     reloadSound: 303
     confSnap:
@@ -925,15 +924,14 @@ items:
         STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+    requiresBuy:
+      - STR_SIBERIAN_COOPERATION_1_RESEARCH
     size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 2376
-    floorSprite: 2376
-    handSprite: 672
+    bigSprite: 456
+    floorSprite: 456
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
@@ -946,7 +944,7 @@ items:
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
-    clipSize: 25
+    clipSize: 40
     battleType: 2
     armor: 30
     invWidth: 1
@@ -964,14 +962,13 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_MADSEN_KMM_AMMO_UNLOCK
+      - STR_SIBERIAN_COOPERATION_1_RESEARCH
     size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 2384
-    floorSprite: 2384
-    handSprite: 680
+    bigSprite: 464
+    floorSprite: 464
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
@@ -997,14 +994,10 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 43500
-    requires:
-     - STR_ALIEN_WEAPON_OPERATION
     weight: 24
-    bigSprite: 792
-    floorSprite: 792
-    handSprite: 792
-    bulletSprite: 29
-    bulletSpeed: 10
+    bigSprite: 1024
+    floorSprite: 1024
+    handSprite: 1024
     fireSound: 11
     compatibleAmmo:
       - STR_BRUTE_MINIGUN_CELL
@@ -1035,12 +1028,12 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.3
     costSell: 2400
-    requires:
-     - STR_ALIEN_WEAPON_OPERATION
+    bulletSprite: 29
+    bulletSpeed: 10
+    explosionSpeed: 10
     weight: 3
-    bigSprite: 808
-    floorSprite: 808
-    handSprite: 808
+    bigSprite: 1040
+    floorSprite: 1040
     hitSound: 19
     hitAnimation: 120
     power: 125
@@ -1060,14 +1053,15 @@ items:
   - type: STR_L23_FAREYE_SNIPER_RIFLE
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
     size: 0.2
+    requiresBuy:
+      - STR_BRITISH_COOPERATION_1_RESEARCH
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 170
-    floorSprite: 170
-    handSprite: 156
+    bigSprite: 472
+    floorSprite: 472
+    handSprite: 472
     fireSound: 4
-    bulletSpeed: 5
 #    reloadSound: 301
     compatibleAmmo:
       - STR_303_SNIPER_AMMO
@@ -1104,14 +1098,17 @@ items:
   - type: STR_303_SNIPER_AMMO
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
     size: 0.1
+    requiresBuy:
+      - STR_BRITISH_COOPERATION_1_RESEARCH
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 175
-    floorSprite: 4
+    bigSprite: 488
+    floorSprite: 488
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 3
+    explosionSpeed: 10
     power: 40
     damageType: 1
     clipSize: 5
@@ -1129,18 +1126,18 @@ items:
         STR_RUSSIAN_EQUIPMENT,
       ]
     requiresBuy:
-      - STR_MOSIN_NAGANT_UNLOCK
+      - STR_RUSSIAN_COOPERATION_2_RESEARCH
     size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 392
-    floorSprite: 392
-    handSprite: 392
+    bigSprite: 520
+    floorSprite: 520
+    handSprite: 520
     fireSound: 105
     reloadSound: 305
     compatibleAmmo:
-      - STR_MOSIN_NAGANT_CLI
+      - STR_MOSIN_NAGANT_CLIP
     accuracyCloseQuarters: 50
     kneelBonus: 200
     accuracySnap: 60
@@ -1170,14 +1167,13 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_MOSIN_NAGANT_AMMO_UNLOCK
+      - STR_RUSSIAN_COOPERATION_2_RESEARCH
     size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 448
-    floorSprite: 448
-    handSprite: 200
+    bigSprite: 536
+    floorSprite: 536
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
@@ -1203,11 +1199,10 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 170
-    floorSprite: 170
-    handSprite: 156
+    bigSprite: 1248
+    floorSprite: 1248
+    handSprite: 1248
     fireSound: 4
-    bulletSpeed: 5
 #    reloadSound: 301
     compatibleAmmo:
       - STR_LONGBOW_1S1K_FLECHETTES
@@ -1252,6 +1247,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 3
+    bulletSpeed: 20
+    explosionSpeed: 20
     power: 40
     damageType: 1
     clipSize: 5
