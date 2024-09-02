@@ -400,18 +400,21 @@ en-US:
   STR_ARE_YOU_SURE_CYDONIA: "Are you sure you want to send this craft on a mission to Tunguska?"
   STR_CYDONIA: "TUNGUSKA"
 
+  STR_CONVERSION_CENTER_UFO: "Conversion Center"
   STR_CONVERSION_CENTER_MISSION: "Conversion Center Raid"
   STR_CONVERSION_CENTER_DEPLOYMENT: "CONVERSION CENTER RAID"
   STR_CONVERSION_CENTER_DESCRIPTION: "Allied forces have spotted a Chimera conversion center, used to create powerful alien strains. We must seize it, recover any valuable alien tech asset and destroy the central reactors to disable the structure permanently. Be careful, there may be a small garrison guarding it."
   STR_CONVERSION_CENTER_MARKER_NAME: "Conversion Center Detected"
   STR_CONVERSION_CENTER_ALERT: "Conversion Center"
 
+  STR_CHIMERAN_TOWER_UFO: "Chimeran Tower"
   STR_CHIMERAN_TOWER_MISSION: "Chimeran Tower Assault"
   STR_CHIMERAN_TOWER_DEPLOYMENT: "CHIMERAN TOWER ASSAULT"
   STR_CHIMERAN_TOWER_DESCRIPTION: "Allied forces have spotted a Chimeran Tower, main logistical staging area and base of operations. We must seize it, recover any valuable alien tech asset and destroy the central reactors to disable the structure permanently. Be careful, there may be a considerable garrison guarding it."
   STR_CHIMERAN_TOWER_MARKER_NAME: "Chimeran Tower Detected"
   STR_CHIMERAN_TOWER_ALERT: "Chimeran Tower"
 
+  STR_CHIMERAN_HUB_TOWER_UFO: "Chimeran Hub Tower"
   STR_CHIMERAN_HUB_TOWER_MISSION: "Chimeran Hub Tower Offensive"
   STR_CHIMERAN_HUB_TOWER_DEPLOYMENT: "CHIMERAN HUB TOWER OFFENSIVE"
   STR_CHIMERAN_HUB_TOWER_DESCRIPTION: "Allied forces have spotted a Chimeran Hub Tower, major enemy headquarters and control node over a large area. We must seize it, recover any valuable alien tech asset and destroy the central reactors to disable the structure permanently. Be careful, there may be a large reinforced garrison guarding it."

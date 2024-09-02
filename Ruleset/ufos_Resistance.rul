@@ -1,0 +1,87 @@
+ufos:
+  - type: STR_CONVERSION_CENTER_UFO #  Conversion center
+    size: STR_MEDIUM
+    modSprite: PlaceHolder
+    damageMax: 500
+    speedMax: 4000
+    accel: 8
+    power: 40
+    range: 22
+    score: 250
+    reload: 48
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: PHARVEST
+      mapDataSets:
+        - BLANKS
+        - U_EXT01
+        - U_WALL01
+        - U_DISEC1
+        - U_OPER1
+        - PUFOL83
+        - PUFOL83-B
+      mapBlocks:
+        - name: PHARVEST
+          width: 20
+          length: 20
+
+  - type: STR_CHIMERAN_TOWER_UFO # Chimeran tower
+    size: STR_VERY_LARGE
+    modSprite: PlaceHolder
+    damageMax: 250
+    speedMax: 2700
+    accel: 9
+    power: 20
+    range: 34
+    score: 125
+    reload: 48
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: PBATTLESHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT01
+        - U_WALL01
+        - U_DISEC1
+        - U_OPER1
+        - PUFOL83
+        - PUFOL83-B
+      mapBlocks:
+        - name: PBATTLESHIP
+          width: 30
+          length: 20
+
+  - type: STR_CHIMERAN_HUB_TOWER_UFO # Hub tower
+    size: STR_LARGE
+    modSprite: PlaceHolder
+    damageMax: 500
+    speedMax: 4000
+    accel: 8
+    power: 40
+    range: 22
+    score: 250
+    reload: 48
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: P6_A
+      mapDataSets:
+        - BLANKS
+        - U_EXT01
+        - U_WALL01
+        - U_DISEC1
+        - U_OPER1
+        - PUFOL83
+        - PUFOL83-B
+        - U_PODS
+      mapBlocks:
+        - name: P6_C
+          width: 30
+          length: 20
+
+extraSprites:
+  - type: PlaceHolder
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Pyramid_rebirth/placerholder.gif

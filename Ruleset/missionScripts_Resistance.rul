@@ -1,0 +1,68 @@
+
+missionScripts:
+  - delete: gameStart
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - delete: recurringTerror
+
+#########################
+#### STORY MISSIONS #####
+#######################
+
+  - type: provingGrounds
+    varName: provingGrounds
+    missionWeights:
+      0:
+        STR_PROVING_GROUNDS_MISSION: 100
+    regionWeights:
+      0:
+        REGION_PROVING_GROUNDS: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    lastMonth: 0
+    maxRuns: 1
+
+  - type: noriskaKraschen
+    varName: noriskaKraschen
+    missionWeights:
+      0:
+        STR_NORISKA_KRASCHEN_MISSION: 100
+    regionWeights:
+      0:
+        REGION_NORISKA_KRASCHEN: 100
+    researchTriggers:
+      STR_NORISKA_KRASCHEN_MISSION_TRIGGER: true
+      
+      STR_NORISKA_KRASCHEN_SECTOID_CORPSE: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 4
+    maxRuns: 1
+
+  - type: discoveries
+    varName: discoveries
+    missionWeights:
+      0:
+        STR_DISCOVERIES_MISSION: 100
+    regionWeights:
+      0:
+        REGION_DISCOVERIES: 100
+    researchTriggers:
+      STR_NORISKA_KRASCHEN_SECTOID_CORPSE: true
+      STR_DISCOVERIES_SECTOID_ENGINEER: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 9
+    maxRuns: 1
