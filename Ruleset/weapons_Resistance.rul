@@ -9,9 +9,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 120
-    floorSprite: 120
-    handSprite: 116
+    bigSprite: 160
+    floorSprite: 160
+    handSprite: 160
     fireSound: 4
     bulletSpeed: 5
     ammo:
@@ -56,9 +56,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 6
-    bigSprite: 230
-    floorSprite: 230
-    handSprite: 204
+    bigSprite: 184
+    floorSprite: 184
+    handSprite: 184
     fireSound: 4
     bulletSpeed: 5
 #    reloadSound: 302
@@ -155,9 +155,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 6
-    bigSprite: 230
-    floorSprite: 230
-    handSprite: 204
+    bigSprite: 208
+    floorSprite: 208
+    handSprite: 208
     fireSound: 4
     bulletSpeed: 5
 #    reloadSound: 302
@@ -205,9 +205,9 @@ items:
     costBuy: 6000
     costSell: 5250
     weight: 12
-    bigSprite: 2152
-    floorSprite: 2152
-    handSprite: 2152
+    bigSprite: 232
+    floorSprite: 232
+    handSprite: 232
     fireSound: 107
     reloadSound: 307
     confSnap:
@@ -249,11 +249,12 @@ items:
     costBuy: 150
     costSell: 90
     weight: 2
-    bigSprite: 125
-    floorSprite: 4
+    bigSprite: 256
+    floorSprite: 256
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 30
     power: 30
     damageType: 1
     clipSize: 20
@@ -266,11 +267,12 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 125
-    floorSprite: 4
+    bigSprite: 264
+    floorSprite: 264
     bulletSprite: 2
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 30
     power: 30
     damageType: 1
     clipSize: 40
