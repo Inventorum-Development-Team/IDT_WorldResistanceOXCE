@@ -1260,14 +1260,10 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 31600
-    requires:
-     - STR_ALIEN_WEAPON_OPERATION
     weight: 11
-    bigSprite: 768
-    floorSprite: 768
-    handSprite: 768
-    bulletSprite: 29
-    bulletSpeed: 10
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 1000
     fireSound: 11
     compatibleAmmo:
       - STR_HUNTER_DMR_BATTERY
@@ -1306,12 +1302,12 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 1575
-    requires:
-     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
-    bigSprite: 784
-    floorSprite: 784
-    handSprite: 784
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 1016
+    bulletSprite: 29
+    bulletSpeed: 10
     hitSound: 19
     hitAnimation: 120
     power: 90
@@ -1330,9 +1326,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 360
-    floorSprite: 360
-    handSprite: 308
+    bigSprite: 928
+    floorSprite: 928
+    handSprite: 928
     fireSound: 4
     bulletSpeed: 8
 #    reloadSound: 301
