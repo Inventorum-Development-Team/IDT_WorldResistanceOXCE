@@ -320,9 +320,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 172
-    floorSprite: 172
-    handSprite: 172
+    bigSprite: 272
+    floorSprite: 272
+    handSprite: 272
     fireSound: 101
     reloadSound: 301
     compatibleAmmo:
@@ -447,16 +447,16 @@ items:
         STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
-      - STR_FEDOROV_AVTOMAT_UNLOCK
+      - STR_SIBERIAN_COOPERATION_1_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
     costSell: 650
     weight: 7
-    bigSprite: 808
-    floorSprite: 808
-    handSprite: 808
+    bigSprite: 320
+    floorSprite: 320
+    handSprite: 320
     fireSound: 124
     reloadSound: 324
     compatibleAmmo:
@@ -496,16 +496,16 @@ items:
         STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
-      - STR_FEDOROV_AVTOMAT_UNLOCK
+      - STR_RUSSIAN_COOPERATION_1_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
     costSell: 650
     weight: 7
-    bigSprite: 808
-    floorSprite: 808
-    handSprite: 808
+    bigSprite: 344
+    floorSprite: 344
+    handSprite: 344
     fireSound: 124
     reloadSound: 324
     compatibleAmmo:
@@ -552,11 +552,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 832
-    floorSprite: 832
-    handSprite: 672
+    bigSprite: 336
+    floorSprite: 336
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 12
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 29
     damageType: 1
@@ -578,11 +578,10 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 340
-    floorSprite: 340
-    handSprite: 292
+    bigSprite: 1224
+    floorSprite: 1224
+    handSprite: 1224
     fireSound: 4
-    bulletSpeed: 8
 #    reloadSound: 301
     compatibleAmmo:
       - STR_BULLSEYE_MK1_BATTERY
@@ -616,11 +615,10 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 340
-    floorSprite: 340
-    handSprite: 292
+    bigSprite: 1320
+    floorSprite: 1320
+    handSprite: 1320
     fireSound: 4
-    bulletSpeed: 8
 #    reloadSound: 301
     compatibleAmmo:
       - STR_BULLSEYE_MK1_BATTERY
@@ -654,11 +652,10 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 340
-    floorSprite: 340
-    handSprite: 292
+    bigSprite: 880
+    floorSprite: 880
+    handSprite: 880
     fireSound: 4
-    bulletSpeed: 8
 #    reloadSound: 301
     compatibleAmmo:
       - STR_BULLSEYE_MK1_BATTERY
@@ -691,12 +688,14 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 345
-    floorSprite: 4
+    bigSprite: 896
+    floorSprite: 896
     hitSound: 19
     bulletSprite: 27 # 35*27=945
     hitAnimation: 90
-    power: 40
+    bulletSpeed: 8
+    explosionSpeed: 10
+    power: 25
     damageType: 5
     clipSize: 35
     battleType: 2
@@ -709,11 +708,10 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 350
-    floorSprite: 350
-    handSprite: 300
+    bigSprite: 904
+    floorSprite: 904
+    handSprite: 904
     fireSound: 4
-    bulletSpeed: 8
 #    reloadSound: 301
     compatibleAmmo:
       - STR_BULLSEYE_MK2_BATTERY
@@ -746,10 +744,12 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 355
-    floorSprite: 4
+    bigSprite: 920
+    floorSprite: 920
     bulletSprite: 28 # 35*28=980
     hitAnimation: 100
+    bulletSpeed: 10
+    explosionSpeed: 10
     power: 50
     damageType: 5
     clipSize: 35
@@ -777,9 +777,9 @@ items:
     costBuy: 11000
     costSell: 9000
     weight: 13
-    bigSprite: 2312
-    floorSprite: 2312
-    handSprite: 2312
+    bigSprite: 360
+    floorSprite: 360
+    handSprite: 360
     fireSound: 103
     reloadSound: 303
     confSnap:
@@ -834,11 +834,12 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 2336
-    floorSprite: 2336
-    handSprite: 2336
+    bigSprite: 376
+    floorSprite: 376
+    handSprite: 376
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 10
     explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 33
