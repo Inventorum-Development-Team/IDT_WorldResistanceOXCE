@@ -1449,9 +1449,9 @@ items:
     costBuy: 1700
     costSell: 520
     weight: 7
-    bigSprite: 2440
-    floorSprite: 2440
-    handSprite: 2440
+    bigSprite: 544
+    floorSprite: 544
+    handSprite: 544
     fireSound: 108
     reloadSound: 308
     confAuto:
@@ -1486,16 +1486,13 @@ items:
   - type: STR_ROSSMORE_COMBAT_SHOTGUN_MAG
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
-      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+      - STR_BRITISH_COOPERATION_2_RESEARCH
     size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
-    bigSprite: 2512
-    floorSprite: 2512
-    handSprite: 2512
+    bigSprite: 560
+    floorSprite: 560
     power: 45
     damageType: 1
     hitSound: 22
@@ -1522,16 +1519,16 @@ items:
         STR_FRENCH_EQUIPMENT
       ]
     requiresBuy:
-      - STR_REMINGTON_MODEL_11_UNLOCK
+      - STR_MAQUIS_COOPERATION_1_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
-    bigSprite: 2464
-    floorSprite: 2464
-    handSprite: 2464
+    bigSprite: 568
+    floorSprite: 568
+    handSprite: 568
     bulletSprite: 2
     fireSound: 108
     reloadSound: 308
@@ -1557,16 +1554,13 @@ items:
   - type: STR_SCHROTFLINTE_SHOTGUN_SHELLS
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
-      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+      - STR_MAQUIS_COOPERATION_1_RESEARCH
     size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
-    bigSprite: 2512
-    floorSprite: 2512
-    handSprite: 2512
+    bigSprite: 584
+    floorSprite: 584
     power: 45
     damageType: 1
     hitSound: 22
@@ -1593,17 +1587,14 @@ items:
         STR_FRENCH_EQUIPMENT
       ]
     requiresBuy:
-      - STR_REMINGTON_MODEL_11_UNLOCK
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+      - STR_JAPANESE_COOPERATION_2_RESEARCH
     size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
-    bigSprite: 2464
-    floorSprite: 2464
-    handSprite: 2464
-    bulletSprite: 2
+    bigSprite: 1272
+    floorSprite: 1272
+    handSprite: 1272
     fireSound: 108
     reloadSound: 308
     compatibleAmmo:
@@ -1620,7 +1611,7 @@ items:
     aimRange: 14
     dropoff: 5
     invHeight: 3
-    invWidth: 1
+    invWidth: 2
     battleType: 1
     twoHanded: true
     armor: 250
@@ -1628,19 +1619,18 @@ items:
   - type: STR_XR24_SPITTER_BATTERY
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
-      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+      - STR_JAPANESE_COOPERATION_2_RESEARCH
     size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
-    bigSprite: 2512
-    floorSprite: 2512
-    handSprite: 2512
+    bigSprite: 1288
+    floorSprite: 1288
     power: 45
     damageType: 1
     hitSound: 22
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
     hitAnimation: 26
     explosionSpeed: 30
     clipSize: 6
