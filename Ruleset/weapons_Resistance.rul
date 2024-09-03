@@ -1867,9 +1867,8 @@ items:
     costBuy: 250
     costSell: 300
     weight: 2
-    bigSprite: 1872
-    floorSprite: 1872
-    handSprite: 672
+    bigSprite: 680
+    floorSprite: 680
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
@@ -1901,16 +1900,16 @@ items:
         STR_LIGHT_EQUIPMENT,
       ]
     requiresBuy:
-      - STR_MP18_UNLOCK
+      - STR_RUSSIAN_COOPERATION_2_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.01
     costBuy: 4000
     costSell: 3000
     weight: 6
-    bigSprite: 1848
-    floorSprite: 1848
-    handSprite: 1848
+    bigSprite: 712
+    floorSprite: 712
+    handSprite: 712
     fireSound: 138
     reloadSound: 338
     confAuto:
@@ -1962,16 +1961,16 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
+      - STR_RUSSIAN_COOPERATION_2_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
     weight: 2
-    bigSprite: 1832
-    floorSprite: 1832
-    handSprite: 672
+    bigSprite: 728
+    floorSprite: 728
+    handSprite: 728
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
@@ -2002,9 +2001,9 @@ items:
     costBuy: 750
     costSell: 600
     weight: 5
-    bigSprite: 100
-    floorSprite: 100
-    handSprite: 100
+    bigSprite: 748
+    floorSprite: 748
+    handSprite: 748
     fireSound: 4
 #    reloadSound: 304
     compatibleAmmo:
@@ -2032,8 +2031,8 @@ items:
     costBuy: 75
     costSell: 55
     weight: 2
-    bigSprite: 105
-    floorSprite: 2
+    bigSprite: 800
+    floorSprite: 800
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -2053,15 +2052,13 @@ items:
   - type: STR_HE44_MAGNUM
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
-    requiresBuy:
-      - STR_SERVICE_REVOLVER_UNLOCK
     size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 3
-    bigSprite: 1040
-    floorSprite: 1040
-    handSprite: 1040
+    bigSprite: 760
+    floorSprite: 760
+    handSprite: 760
     fireSound: 100
     reloadSound: 300
     compatibleAmmo:
@@ -2089,9 +2086,8 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
-    bigSprite: 1072
-    floorSprite: 1072
-    handSprite: 1072
+    bigSprite: 776
+    floorSprite: 776
     power: 32
     damageAlter:
       RandomType: 3
@@ -2115,12 +2111,10 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
     size: 0.1
     costSell: 21000
-    requires:
-     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
-    bigSprite: 744
-    floorSprite: 744
-    handSprite: 744
+    bigSprite: 976
+    floorSprite: 976
+    handSprite: 976
     bulletSprite: 32
     bulletSpeed: 10
     fireSound: 11
@@ -2152,8 +2146,6 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 1110
-    requires:
-     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 760
     floorSprite: 760
