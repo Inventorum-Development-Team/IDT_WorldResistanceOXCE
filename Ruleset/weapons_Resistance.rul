@@ -1657,16 +1657,16 @@ items:
         STR_LIGHT_EQUIPMENT,
       ]
     requiresBuy:
-      - STR_ANNIHILATOR_SMG_UNLOCK
+      - STR_AMERICAN_VOLUNTEERS
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.01
     costBuy: 4000
     costSell: 3000
     weight: 5
-    bigSprite: 1808
-    floorSprite: 1808
-    handSprite: 1808
+    bigSprite: 592
+    floorSprite: 592
+    handSprite: 592
     fireSound: 138
     reloadSound: 338
     sprayWaypoints: 2
@@ -1720,16 +1720,15 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
+      - STR_AMERICAN_VOLUNTEERS
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
     weight: 2
-    bigSprite: 1832
-    floorSprite: 1832
-    handSprite: 672
+    bigSprite: 616
+    floorSprite: 616
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
@@ -1760,16 +1759,14 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+      - STR_AMERICAN_VOLUNTEERS
     size: 0.025
     costBuy: 250
     costSell: 300
     weight: 2
-    bigSprite: 1832
-    floorSprite: 1832
-    handSprite: 672
+    bigSprite: 624
+    floorSprite: 624
+    handSprite: 624
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
@@ -1801,16 +1798,16 @@ items:
         STR_LIGHT_EQUIPMENT,
       ]
     requiresBuy:
-      - STR_MP18_UNLOCK
+      - STR_MAQUIS_COOPERATION_2_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.01
     costBuy: 4000
     costSell: 3000
     weight: 6
-    bigSprite: 1848
-    floorSprite: 1848
-    handSprite: 1848
+    bigSprite: 648
+    floorSprite: 648
+    handSprite: 648
     fireSound: 138
     reloadSound: 338
     confAuto:
@@ -1863,7 +1860,7 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_MP18_AMMO_UNLOCK
+      - STR_9MM_SMG_MAG_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025
