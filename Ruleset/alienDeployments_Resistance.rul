@@ -4,8 +4,8 @@ alienDeployments:
   - type: STR_CONVERSION_CENTER_DEPLOYMENT
     customUfo: STR_CONVERSION_CENTER_UFO
     height: 10
-    width: 40
-    length: 40
+    width: 80
+    length: 80
     duration: [999, 999]
     civilianSpawnNodeRank: 0
     #civiliansByType:
@@ -98,7 +98,9 @@ alienDeployments:
       desc: STR_CONVERSION_CENTER_DESCRIPTION
       palette: 2
     markerName: STR_CONVERSION_CENTER_MARKER_NAME
-    markerIcon: 27
+    #markerIcon 27
+    terrains:
+      - URBAN
     alert: STR_CONVERSION_CENTER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
@@ -106,8 +108,8 @@ alienDeployments:
   - type: STR_CHIMERAN_TOWER_DEPLOYMENT
     customUfo: STR_CHIMERAN_TOWER_UFO
     height: 10
-    width: 40
-    length: 40
+    width: 80
+    length: 80
     duration: [999, 999]
     civilianSpawnNodeRank: 0
     #civiliansByType:
@@ -200,7 +202,9 @@ alienDeployments:
       desc: STR_CHIMERAN_TOWER_DESCRIPTION
       palette: 2
     markerName: STR_CHIMERAN_TOWER_MARKER_NAME
-    markerIcon: 27
+    #markerIcon 27
+    terrains:
+      - URBAN
     alert: STR_CHIMERAN_TOWER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
@@ -208,8 +212,8 @@ alienDeployments:
   - type: STR_CHIMERAN_HUB_TOWER_DEPLOYMENT
     customUfo: STR_CHIMERAN_HUB_TOWER_UFO
     height: 10
-    width: 40
-    length: 40
+    width: 80
+    length: 80
     duration: [999, 999]
     civilianSpawnNodeRank: 0
     #civiliansByType:
@@ -302,7 +306,9 @@ alienDeployments:
       desc: STR_CHIMERAN_HUB_TOWER_DESCRIPTION
       palette: 2
     markerName: STR_CHIMERAN_HUB_TOWER_MARKER_NAME
-    markerIcon: 27
+    #markerIcon 27
+    terrains:
+      - URBAN
     alert: STR_CHIMERAN_HUB_TOWER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION

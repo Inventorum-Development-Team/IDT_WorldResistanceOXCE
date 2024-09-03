@@ -27,12 +27,10 @@ missionScripts:
       #STR_TERRORISTS_OPERATIONS: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
-    #startDelay: 21600 # 15 Days
+    startDelay: 21600 # 15 Days
     executionOdds: 100
-    lastMonth: 0
+    lastMonth: 20
     maxRuns: 20
-    startDelay: 20
-    randomDelay: 43500
 
   - type: chimeranTower
     varName: chimeranTower
@@ -46,12 +44,10 @@ missionScripts:
       #STR_TERRORISTS_OPERATIONS: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
-    #startDelay: 21600 # 15 Days
+    startDelay: 21600 # 15 Days
     executionOdds: 100
     lastMonth: 3
     maxRuns: 12
-    startDelay: 20
-    randomDelay: 43500
 
   - type: chimeranHubTower
     varName: chimeranHubTower
