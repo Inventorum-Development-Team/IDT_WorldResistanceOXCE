@@ -1,0 +1,120 @@
+
+ufopaedia:
+########################################
+######## AMMO CLIPS & MAGAZINES ########
+########################################
+  - id: STR_M1911_COLT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M1911_COLT_UFOPEDIA
+    listOrder: 2000
+  - id: STR_M1911_COLT_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M5A2_FOLSOM_CARBINE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M5A2_FOLSOM_CARBINE_UFOPEDIA
+    listOrder: 2000
+  - id: STR_303_RIFLE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_40MM_FRAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_L23_FAREYE_SNIPER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 2000
+  - id: STR_303_SNIPER_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_STORM_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STORM_RIFLE_UFOPEDIA
+    listOrder: 2000
+
+  - id: STR_BULLSEYE_MK1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLSEYE_MK1_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_BULLSEYE_MK1_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_BULLSEYE_MK2
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLSEYE_MK2_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_BULLSEYE_MK2_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_AUGER_MK1
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUGER_MK1_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_AUGER_MK1_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_AUGER_MK2
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_AUGER_MK2_UFOPEDIA
+#    listOrder: 2002
+  - id: STR_AUGER_MK2_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HEDGEHOG_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEDGEHOG_GRENADE_UFOPEDIA
+#    listOrder: 2002
+
+
+################
+
+
+  - id: STR_BDU_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 2
+    text: STR_BDU_UC_UFOPEDIA
+
+################# LORE THERE IS NO LIST ORDER YET IF YOU HAVE A BETTER IDEA OF WERE TO PUT IT PLEASE TELL ME FOR NOW ALL ENTRIES HERE WILL BE ID 7 and be under
+#################################################################3STR_ALIEN_RESEARCH_UC ############################ WIP UNTIL I SAY SO ######################
+
+
+
+
+  - id: STR_JET_POWER_LORE
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_JET_POWER_LORE_UFOPEDIA
+
+  - id: STR_FALLEN_KNIGHTS_LORE
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_FALLEN_KNIGHTS_LORE_UFOPEDIA
+
+  - id: STR_UED_FORCES_LORE
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC 
+    text: STR_UED_FORCES_LORE_UFOPEDIA
+  
+  - id: STR_ACES_HIGH_LORE
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC 
+    text: STR_ACES_HIGH_LORE_UFOPEDIA
+
+  - id: STR_MAGNIFICENT_LIGHTNING_LORE
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC 
+    text: STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA
