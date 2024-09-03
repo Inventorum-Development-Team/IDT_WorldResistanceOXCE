@@ -291,3 +291,14 @@ alienItemLevels:
   - [3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
 
 
+ufoTrajectories:
+
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+
+  - id: STATIC_TRAJECTORY_BASE
+    groundTimer: 0
+    waypoints:
+      - [4, 0, 0]

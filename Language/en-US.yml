@@ -431,6 +431,7 @@ en-US:
   STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERATION OLYMPIC - PHASE II"
   STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Below the Tunguska Hub Tower, lies a complex maze of corridors and rooms. In order to safely place the Prometheus Bomb, we must disable all the energy reactors in the base. This will cut the power, so the enemy can”t send a S.O.S beacon and request for reinforcements. After doing so, extract all the task force personnel and head towards the elevator zone and click on {ALT}Abort button{ALT}. We have just one chance."
 
+  STR_AIR_SUPERIORITY_1: "Air Superiority I"
 
 ######################
 # ENEMY FORCES
@@ -616,4 +617,15 @@ en-US:
   STR_SOLDIERS_LOST: "Soldiers lost"
   STR_TOTAL_UFOS: "Chimera Crafts detected"
   STR_TOTAL_ALIEN_BASES: "Chimeran structures discovered"
+
+  
+  STR_MT_RATING_EXEMPLARY: "Exemplary"
+  STR_MT_RATING_EXCELLENT: "Excellent"
+  STR_MT_RATING_GREAT: "Great"
+  STR_MT_RATING_GOOD: "Good"
+  STR_MT_RATING_OK: "Sufficient"
+  STR_MT_RATING_POOR: "Poor"
+  STR_MT_RATING_BAD: "Bad"
+  STR_MT_RATING_TERRIBLE: "Terrible"
+  STR_MT_RATING_ABOMINABLE: "Abominable"
   
