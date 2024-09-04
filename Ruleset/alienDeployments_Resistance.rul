@@ -100,7 +100,7 @@ alienDeployments:
     markerName: STR_CONVERSION_CENTER_MARKER_NAME
     #markerIcon 27
     terrains:
-      - URBAN
+      - URBAN_RUINS
     alert: STR_CONVERSION_CENTER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
@@ -204,7 +204,7 @@ alienDeployments:
     markerName: STR_CHIMERAN_TOWER_MARKER_NAME
     #markerIcon 27
     terrains:
-      - URBAN
+      - URBAN_RUINS
     alert: STR_CHIMERAN_TOWER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
@@ -308,7 +308,7 @@ alienDeployments:
     markerName: STR_CHIMERAN_HUB_TOWER_MARKER_NAME
     #markerIcon 27
     terrains:
-      - URBAN
+      - URBAN_RUINS
     alert: STR_CHIMERAN_HUB_TOWER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
