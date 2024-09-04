@@ -1631,7 +1631,6 @@ items:
     hitSound: 22
     bulletSprite: 29 # 35*29=1015
     hitAnimation: 110
-    hitAnimation: 26
     explosionSpeed: 30
     clipSize: 6
     invHeight: 1
@@ -2080,8 +2079,6 @@ items:
 
   - type: STR_HE44_MAGNUM_AMMO
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
-    requiresBuy:
-      - STR_REVOLVER_AMMO_UNLOCK
     size: 0.01
     costBuy: 500
     costSell: 150
@@ -2188,8 +2185,7 @@ items:
         STR_ARTILLERY,
         STR_FUSION
       ]
-    requiresBuy:
-      - STR_NATO_SUPPORT_RESEARCH
+    
     size: 0.04
     costBuy: 16000
     costSell: 10000
@@ -2215,8 +2211,7 @@ items:
     listOrder: 201630
   - type: STR_L206_LAARK_ROCKET
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS ]
-    requiresBuy:
-      - STR_NATO_SUPPORT_RESEARCH
+    
     size: 0.02
     costBuy: 1600
     costSell: 1200
@@ -2390,12 +2385,12 @@ extraSprites:
       #1312: Resources/HumanWeapons/Ammo/BigRussianEnergyWeaponBattery.png
       1320: Resources/HumanWeapons/Energy/BigSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.png
-      1336: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.BigRussianEnergyWeapon_nomag
+      1336: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.png
       1344: Resources/HumanWeapons/Ammo/Big40mmHE.png
-      1352: Resources/HumanWeapons/Ammo/Big40mmINC.png
-      1360: Resources/HumanWeapons/Ammo/Big40mmSMOKE.png
-      1368: Resources/HumanWeapons/Ammo/Big40mmHERack.png
-      1376:Resources/HumanWeapons/Ammo/Big40mmINCRack.png
+      #1352: Resources/HumanWeapons/Ammo/Big40mmINC.png
+      #1360: Resources/HumanWeapons/Ammo/Big40mmSMOKE.png
+      #1368: Resources/HumanWeapons/Ammo/Big40mmHERack.png
+      #1376: Resources/HumanWeapons/Ammo/Big40mmINCRack.png
   
 
   - type: FLOOROB.PCK
@@ -2542,10 +2537,10 @@ extraSprites:
       1328: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
       1336: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
       1344: Resources/HumanWeapons/Ammo/Floor40mmHE.png
-      1352: Resources/HumanWeapons/Ammo/Floor40mmINC.png
-      1360: Resources/HumanWeapons/Ammo/Floor40mmSMOKE.png
-      1368: Resources/HumanWeapons/Ammo/Floor40mmHERack.png
-      1376:Resources/HumanWeapons/Ammo/Floor40mmINCRack.png
+      #1352: Resources/HumanWeapons/Ammo/Floor40mmINC.png
+      #1360: Resources/HumanWeapons/Ammo/Floor40mmSMOKE.png
+      #1368: Resources/HumanWeapons/Ammo/Floor40mmHERack.png
+      #1376: Resources/HumanWeapons/Ammo/Floor40mmINCRack.png
 
   - type: HANDOB.PCK
     width: 256
@@ -2554,7 +2549,7 @@ extraSprites:
     subY: 40
     files:
       160: Resources/HumanWeapons/Rifles/HandM5A2Folsom_nomag.png
-      168: Resouces/HumanWeapons/Rifles/HandM5A2Folsom_ammo1.png
+      168: Resources/HumanWeapons/Rifles/HandM5A2Folsom_ammo1.png
       176: Resources/HumanWeapons/Rifles/HandM5A2Folsom_ammo2.png
       184: Resources/HumanWeapons/Rifles/HandMk6Carbine_nomag.png
       192: Resources/HumanWeapons/Rifles/HandMk6Carbine_ammo1.png
@@ -2643,15 +2638,15 @@ extraSprites:
       #816: Resources/HumanWeapons/Pistols/HandKorovinKPK26_ammo1.png
       #824: Resources/HumanWeapons/Ammo/HandKorovinKPK26Mag.png
   # Artillery 
-      832: Resources/HumanWeapons/Launchers/HandL209LAARK.png
-      840: Resources/HumanWeapons/Launchers/HandL209LAARK.png
+      832: Resources/HumanWeapons/Launchers/HandL209LAARK_nomag.png
+      840: Resources/HumanWeapons/Launchers/HandL209LAARK_ammo1.png
       #848: Resources/HumanWeapons/Ammo/HandL209LAARK_Rocket.png
       #856: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_ammo1.png
       #864: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_ammo2.png
       #872: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_Clip.png
   # Chimera
       880: Resources/ChimeraWeapons/HandBullseyeMk1_nomag.png
-      888: Resources/ChimeraWeapons/HandBullseyeMk1_nomag.png
+      888: Resources/ChimeraWeapons/HandBullseyeMk1_ammo1.png
       #896: Resources/ChimeraWeapons/Ammo/HandBullseyeMk1Battery.png
       904: Resources/ChimeraWeapons/HandBullseyeMk2_nomag.png
       912: Resources/ChimeraWeapons/HandBullseyeMk2_ammo1.png
@@ -2687,14 +2682,13 @@ extraSprites:
       1264: Resources/HumanWeapons/Ammo/HandLongbow1S1KFlechetteMag.png
       1272: Resources/HumanWeapons/Energy/HandXR24Spitter_nomag.png
       1280: Resources/HumanWeapons/Energy/HandXR24Spitter_ammo1.png
-      1288: Resources/HumanWeapons/Ammo/HandXR24SpitterBattery.png
+      #1288: Resources/HumanWeapons/Ammo/HandXR24SpitterBattery.png
       #1296: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_nomag.png
       #1304: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_ammo1.png
       #1312: Resources/HumanWeapons/Ammo/HandRussianEnergyWeaponBattery.png
       1320: Resources/HumanWeapons/Energy/HandSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
-      1336: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.HandRussianEnergyWeapon_nomag
-
+      1336: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
   - type: SMOKE.PCK
     height: 40
     width: 320

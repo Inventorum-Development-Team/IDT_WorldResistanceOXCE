@@ -2,6 +2,10 @@ research:
 #######################################
 ### WEAPONS AND SOLDIERS RESEARCH ####
 #####################################
+  - name: STR_AMERICAN_VOLUNTEERS
+    cost: 200
+    points: 10
+
   - name: STR_EXPANDING_FRONTIERS
     cost: 50
     points: 10
@@ -15,6 +19,8 @@ research:
   - name: STR_BRITISH_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
+    unlocks:
+     - STR_9MM_SMG_MAG_AMMO_UNLOCK
     dependencies:
       - STR_REESTABLISH_DIPLOMATIC_TIES
   - name: STR_BRITISH_COOPERATION_2_RESEARCH
@@ -26,6 +32,8 @@ research:
   - name: STR_MAQUIS_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
+    unlocks:
+     - STR_9MM_SMG_MAG_AMMO_UNLOCK
     dependencies:
       - STR_REESTABLISH_DIPLOMATIC_TIES
   - name: STR_MAQUIS_COOPERATION_2_RESEARCH
@@ -58,6 +66,8 @@ research:
   - name: STR_RUSSIAN_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
+    unlocks:
+     - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     dependencies:
       - STR_CODEBREAKER_TRANSMISSIONS
   - name: STR_RUSSIAN_COOPERATION_2_RESEARCH
@@ -68,6 +78,8 @@ research:
   - name: STR_SIBERIAN_COOPERATION_1_RESEARCH
     cost: 500
     points: 20
+    unlocks:
+     - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     dependencies:
       - STR_CODEBREAKER_TRANSMISSIONS
   - name: STR_SIBERIAN_COOPERATION_2_RESEARCH
@@ -75,6 +87,20 @@ research:
     points: 20
     dependencies:
       - STR_SIBERIAN_COOPERATION_1_RESEARCH
+
+
+  - name: STR_9MM_SMG_MAG_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_COOPERATION_1_RESEARCH
+     - STR_MAQUIS_COOPERATION_1_RESEARCH
+
+
+  - name: STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_SIBERIAN_COOPERATION_1_RESEARCH
+     - STR_RUSSIAN_COOPERATION_1_RESEARCH
 
 ##########################
 ####### END GAME ########
