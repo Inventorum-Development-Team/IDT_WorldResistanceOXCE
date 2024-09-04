@@ -203,6 +203,6 @@ items:
     size: 0.1
     costSell: 10000
     weight: 3
-    bigSprite: 345
+    bigSprite: 4
     floorSprite: 4
 

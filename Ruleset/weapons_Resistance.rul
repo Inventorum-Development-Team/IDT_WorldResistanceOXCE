@@ -1242,8 +1242,8 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 175
-    floorSprite: 4
+    bigSprite: 1264
+    floorSprite: 1264
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 3
@@ -2000,9 +2000,9 @@ items:
     costBuy: 750
     costSell: 600
     weight: 5
-    bigSprite: 748
-    floorSprite: 748
-    handSprite: 748
+    bigSprite: 784
+    floorSprite: 784
+    handSprite: 784
     fireSound: 4
 #    reloadSound: 304
     compatibleAmmo:
@@ -2190,11 +2190,11 @@ items:
     costBuy: 16000
     costSell: 10000
     weight: 10
-    bigSprite: 152
-    floorSprite: 152
-    handSprite: 516
+    bigSprite: 832
+    floorSprite: 832
+    handSprite: 832
     bulletSprite: 0
-    fireSound: 152
+    #fireSound: 152
     compatibleAmmo:
       - STR_L206_LAARK_ROCKET
     accuracySnap: 55
@@ -2216,8 +2216,8 @@ items:
     costBuy: 1600
     costSell: 1200
     weight: 6
-    bigSprite: 130
-    floorSprite: 130
+    bigSprite: 848
+    floorSprite: 848
     hitSound: 0
     hitAnimation: 0
     power: 85
@@ -2626,7 +2626,7 @@ extraSprites:
       #728: Resources/HumanWeapons/Ammo/HandPPS43Mag.png
       736: Resources/HumanWeapons/SMGs/HandTokarevAPBT_nomag.png
       744: Resources/HumanWeapons/SMGs/HandTokarevAPBT_ammo1.png
-      752: Resources/HumanWeapons/Ammo/HandTokarevLargeMag.png
+      #: Resources/HumanWeapons/Ammo/HandTokarevLargeMag.png
   # Pistols 
       760: Resources/HumanWeapons/Pistols/HandHE44Magnum_nomag.png
       768: Resources/HumanWeapons/Pistols/HandHE44Magnum_ammo1.png
@@ -2679,7 +2679,7 @@ extraSprites:
       1240: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
       1248: Resources/HumanWeapons/Energy/HandLongbow1S1K_nomag.png
       1256: Resources/HumanWeapons/Energy/HandLongbow1S1K_ammo1.png
-      1264: Resources/HumanWeapons/Ammo/HandLongbow1S1KFlechetteMag.png
+      #1264: Resources/HumanWeapons/Ammo/HandLongbow1S1KFlechetteMag.png
       1272: Resources/HumanWeapons/Energy/HandXR24Spitter_nomag.png
       1280: Resources/HumanWeapons/Energy/HandXR24Spitter_ammo1.png
       #1288: Resources/HumanWeapons/Ammo/HandXR24SpitterBattery.png
@@ -2709,5 +2709,47 @@ extraSprites:
       945: Resources/BulletSprites/Bullseye_Projectile_Red.png # 27
       980: Resources/BulletSprites/Bullseye_Projectile_Blue.png # 28
       1015: Resources/BulletSprites/Auger_Projectile_Yellow.png # 29
+
+  - type: Projectiles
+    width: 105
+    height: 9
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/BulletSprites/Ballistic_Bullet.png #11, 12, 13
+      490: Resources/BulletSprites/Ballistic_Bullet_MM.png #14, 15, 16
+      595: Resources/BulletSprites/LightningBulletSprite.png #17
+      630: Resources/BulletSprites/WideRedLaser_Bullet.png #18
+      700: Resources/BulletSprites/FlameProjectile.png #20
+      735: Resources/BulletSprites/Rocket_Bullet.png #21
+      770: Resources/BulletSprites/Tank_Bullet.png #22
+
+  - type: HIT.PCK
+    height: 40
+    width: 128
+    subX: 32
+    subY: 40
+    files:
+      4: Resources/BulletSprites/CuttingHit.png
+      8: Resources/BulletSprites/FireHit.png
+
+  - type: X1.PCK # ignoreDuplicate
+    width: 1024
+    height: 64
+    subX: 128
+    subY: 64
+    files:
+      208: Resources/BulletSprites/Green_Skull_Explosion.png
+      216: Resources/BulletSprites/Grey_Skull_Explosion.png
+
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      290: Resources/BulletSprites/HumanElectric_Hit.png
+      220: Resources/BulletSprites/RedLaser_Hit.png
+      210: Resources/BulletSprites/HansFireHit.png
 
       
