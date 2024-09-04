@@ -18,7 +18,7 @@ items:
       0:
         tuLoad: 10
         tuUnload: 20
-        compatibleAmmo: [ STR_303_RIFLE_AMMO ]
+        compatibleAmmo: [ STR_303_RIFLE_AMMO, STR_303_RIFLE_AMMO_LARGE ]
       1:
         tuLoad: 20
         tuUnload: 20
@@ -397,7 +397,7 @@ items:
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     attraction: 8
     listOrder: 2000
@@ -809,7 +809,7 @@ items:
     dropoff: 4
     battleType: 1
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     armor: 30
     #autoShots: 6
@@ -853,7 +853,7 @@ items:
     battleType: 2
     armor: 30
     invWidth: 2
-    invHeight: 1
+    invHeight: 2
     attraction: 10
     listOrder: 3090
 
@@ -984,8 +984,8 @@ items:
     clipSize: 15
     battleType: 2
     armor: 30
-    invWidth: 1
-    invHeight: 1
+    invWidth: 2
+    invHeight: 2
     attraction: 10
     listOrder: 3130
 
@@ -1778,8 +1778,8 @@ items:
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
-    invWidth: 1
-    invHeight: 1
+    invWidth: 2
+    invHeight: 2
     clipSize: 30
     costThrow:
       energy: 4
@@ -1843,7 +1843,7 @@ items:
     costThrow:
       energy: 12
     battleType: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     armor: 35
     attraction: 10
@@ -1880,7 +1880,7 @@ items:
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
-    invWidth: 2
+    invWidth: 1
     invHeight: 1
     clipSize: 32
     costThrow:
@@ -1946,7 +1946,7 @@ items:
       energy: 12
     battleType: 1
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     armor: 35
     attraction: 10
     listOrder: 2780
