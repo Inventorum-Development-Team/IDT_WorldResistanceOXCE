@@ -95,26 +95,26 @@ ufopaedia:
 
 
   - id: STR_JET_POWER_LORE
-    type_id: 7
+    type_id: 8
     section: STR_ALIEN_RESEARCH_UC
     text: STR_JET_POWER_LORE_UFOPEDIA
 
   - id: STR_FALLEN_KNIGHTS_LORE
-    type_id: 7
+    type_id: 8
     section: STR_ALIEN_RESEARCH_UC
     text: STR_FALLEN_KNIGHTS_LORE_UFOPEDIA
 
   - id: STR_UED_FORCES_LORE
-    type_id: 7
+    type_id: 8
     section: STR_ALIEN_RESEARCH_UC 
     text: STR_UED_FORCES_LORE_UFOPEDIA
   
   - id: STR_ACES_HIGH_LORE
-    type_id: 7
+    type_id: 8
     section: STR_ALIEN_RESEARCH_UC 
     text: STR_ACES_HIGH_LORE_UFOPEDIA
 
   - id: STR_MAGNIFICENT_LIGHTNING_LORE
-    type_id: 7
+    type_id: 8
     section: STR_ALIEN_RESEARCH_UC 
     text: STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA
