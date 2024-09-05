@@ -22,12 +22,15 @@ missionScripts:
         STR_HYBRID_SQUAD: 100
     startDelay: 120
 
-  - type: recurringTerror
+  - type: chimeranTerror
     missionWeights:
       0:
-        STR_ALIEN_TERROR: 100
+        STR_ALIEN_TERROR_INDUSTRIAL: 100
     useTable: false
+    targetBaseOdds: 100
     startDelay: 150
+    firstMonth: 0
+
 
 #########################
 #### STORY MISSIONS #####
@@ -94,6 +97,7 @@ missionScripts:
       0:
         STR_AIR_SUPERIORITY_1: 100
     firstMonth: 0
+    targetBaseOdds: 100
     startDelay: 1000
     #minScore: 800
     #maxScore: 1299

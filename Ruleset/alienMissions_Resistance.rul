@@ -37,6 +37,25 @@ alienMissions:
         objective: true
 
 
+  - type: STR_ALIEN_TERROR_INDUSTRIAL
+    points: 10
+    objective: 3
+    siteType: STR_TERROR_MISSION_INDUSTRIAL
+    spawnZone: 3 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_HYBRID_SQUAD: 100
+      3:
+        STR_HYBRID_SQUAD: 30
+        STR_STEELHEAD_SQUAD: 10
+    waves:
+      - ufo: STR_LARGE_SCOUT
+        count: 2
+        trajectory: P4
+        timer: 9000
+        objective: true
+
+
   - type: STR_CONVERSION_CENTER_MISSION
     objective: 3
     siteType: STR_CONVERSION_CENTER_DEPLOYMENT
