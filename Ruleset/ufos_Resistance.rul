@@ -14,12 +14,12 @@ ufos:
       name: PHARVEST
       mapDataSets:
         - BLANKS
-        - U_EXT01
-        - U_WALL01
+        - U_EXT01_CHIMERA
+        - U_WALL01_CHIMERA
         - U_DISEC1
-        - U_OPER1
-        - PUFOL83
-        - PUFOL83-B
+        - U_OPER1_CHIMERA
+        - PUFOL83_CHIMERA
+        - PUFOL83-B_CHIMERA
       mapBlocks:
         - name: PHARVEST
           width: 20
@@ -40,14 +40,14 @@ ufos:
       name: PBATTLESHIP
       mapDataSets:
         - BLANKS
-        - U_EXT01
-        - U_WALL01
+        - U_EXT01_CHIMERA
+        - U_WALL01_CHIMERA
         - U_DISEC1
-        - U_OPER1
-        - PUFOL83
-        - PUFOL83-B
+        - U_OPER1_CHIMERA
+        - PUFOL83_CHIMERA
+        - PUFOL83-B_CHIMERA
       mapBlocks:
-        - name: PBATTLESHIP
+        - name: PBATTLESHIP_TOWER
           width: 30
           length: 20
 
@@ -63,15 +63,15 @@ ufos:
     reload: 48
     breakOffTime: 500
     battlescapeTerrainData:
-      name: P6_A
+      name: P6_C
       mapDataSets:
         - BLANKS
-        - U_EXT01
-        - U_WALL01
+        - U_EXT01_CHIMERA
+        - U_WALL01_CHIMERA
         - U_DISEC1
-        - U_OPER1
-        - PUFOL83
-        - PUFOL83-B
+        - U_OPER1_CHIMERA
+        - PUFOL83_CHIMERA 
+        - PUFOL83-B_CHIMERA
         - U_PODS
       mapBlocks:
         - name: P6_C
