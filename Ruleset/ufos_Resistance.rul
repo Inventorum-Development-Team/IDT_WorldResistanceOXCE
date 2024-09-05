@@ -120,6 +120,33 @@ ufos:
               - [ 15, 11, 3]
               - [ 15, 13, 3]
 
+
+  - type: STR_TUNGUSKA_TOWER_ENTRY # Chimeran tower
+    size: STR_VERY_LARGE
+    modSprite: PlaceHolder
+    damageMax: 250
+    speedMax: 2700
+    accel: 9
+    power: 20
+    range: 34
+    score: 125
+    reload: 48
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: PBATTLESHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT01_CHIMERA
+        - U_WALL01_CHIMERA
+        - U_DISEC1
+        - U_OPER1_CHIMERA
+        - PUFOL83_CHIMERA
+        - PUFOL83-B_CHIMERA
+      mapBlocks:
+        - name: PTOWER_ENTRY
+          width: 20
+          length: 20
+
 extraSprites:
   - type: PlaceHolder
     singleImage: true

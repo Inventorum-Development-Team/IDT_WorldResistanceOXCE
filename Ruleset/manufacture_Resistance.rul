@@ -1,0 +1,11 @@
+manufacture:
+
+  - name: STR_PROMETHEUS_WEAPON_ITEM
+    category: STR_WEAPON
+    requiredItems:
+      STR_GRAY_TECH_ITEM: 100
+    requires:
+      - STR_PROMETHEUS_WEAPON
+    space: 2
+    time: 300
+    cost: 8000

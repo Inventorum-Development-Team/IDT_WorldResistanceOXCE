@@ -90,29 +90,29 @@ research:
     needItem: true
 
   - name: STR_GRAY_TECH_INTRODUCTION
-    cost: 800
+    cost: 50
     points: 30
 
   - name: STR_GRAY_TECH_ITEM
-    cost: 100
+    cost: 50
     points: 30
     needItem: true    
     
   - name: STR_GRAY_TECH_THEORY
-    cost: 800
+    cost: 300
     points: 30
     dependencies:
       - STR_GRAY_TECH_ITEM
       - STR_GRAY_TECH_INTRODUCTION
 
   - name: STR_GRAY_TECH_APPLICATIONS
-    cost: 800
+    cost: 400
     points: 30
     dependencies:
       - STR_GRAY_TECH_THEORY
 
   - name: STR_PROJECT_PROMETHEUS
-    cost: 800
+    cost: 500
     points: 30
     dependencies:
       - STR_GRAY_TECH_APPLICATIONS
@@ -124,12 +124,17 @@ research:
     dependencies:
       - STR_PROJECT_PROMETHEUS
 
+  - name: STR_PROMETHEUS_WEAPON_ITEM
+    cost: 50
+    points: 30
+    needItem: true    
+
   - name: STR_LAUNCH_OPERATION_OLYMPIC
     cost: 1000
     points: 30
     unlockFinalMission: true
     dependencies:
-      - STR_PROMETHEUS_WEAPON
+      - STR_PROMETHEUS_WEAPON_ITEM
 
 ###############################
 ###### CHIMERAN WEAPONS ######
@@ -184,6 +189,16 @@ items:
     handSprite: 99
     battleType: 0
 
+  - type: STR_PROMETHEUS_WEAPON_ITEM
+    size: 0.1
+    costSell: 40000
+    weight: 5
+    invHeight: 2
+    invWidth: 2
+    bigSprite: 99
+    floorSprite: 99
+    handSprite: 99
+    battleType: 0
 
 extraSprites:
 #########################################

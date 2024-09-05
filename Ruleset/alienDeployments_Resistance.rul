@@ -1,5 +1,5 @@
 alienDeployments:
-
+  - delete: STR_MARS_CYDONIA_LANDING
 
   - type: STR_CONVERSION_CENTER_DEPLOYMENT
     customUfo: STR_CONVERSION_CENTER_UFO
@@ -399,3 +399,314 @@ alienDeployments:
             - STR_AUGER_MK2_BATTERY
             - STR_HEDGEHOG_GRENADE
             - STR_HEDGEHOG_GRENADE
+
+
+  - type: STR_MARS_CYDONIA_LANDING
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 0
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK2
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 6
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 80
+    length: 80
+    height: 10
+    customUfo: STR_TUNGUSKA_TOWER_ENTRY
+    terrains:
+      - FOREST_SNOW
+    shade: 5
+    race: STR_ADVANCED_HYBRID_SQUAD
+    nextStage: STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT
+    finalDestination: true
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    briefing:
+      textOffset: -16
+      palette: 6
+      music: GMNEWMAR
+      showTarget: false
+      desc: STR_OPERATION_OLYMPIC_DESCRIPTION
+  - type: STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT
+    data:
+      - alienRank: 0
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 2
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK2
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK1
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_AUGER_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_AUGER_MK2
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_AUGER_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+          -
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 2
+    terrains:
+      - UBASE
+    shade: 5
+    race: STR_ADVANCED_HYBRID_SQUAD
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: winGame
+    briefing:
+      textOffset: -16
+      palette: 6
+      music: GMNEWMAR
+      showTarget: false
+      showCraft: false
+      background: BACK01.SCR
+      desc: STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION
+    script: ALIENBASE
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 5
+    objectiveType: 3
+    objectivesRequired: 4
+

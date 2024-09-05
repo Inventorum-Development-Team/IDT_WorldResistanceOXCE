@@ -191,6 +191,7 @@ craftWeapons:
 crafts:
   - type: STR_VTOL
     sprite: 100
+    spacecraft: true
     fuelMax: 9999
     damageMax: 500
     speedMax: 400

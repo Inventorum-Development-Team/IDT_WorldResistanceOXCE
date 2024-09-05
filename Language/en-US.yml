@@ -391,6 +391,8 @@ en-US:
 
   STR_PROMETHEUS_WEAPON: "Prometheus Weapon"
   STR_PROMETHEUS_WEAPON_UFOPEDIA: "A groundbreaking development by Dr. Cathcart”s team was made on the investigation. It confirmed the theory about how each GT item was a piece of a larger puzzle. By adding more and more items, more intense electromagnetic radiation is emitted, which could be used as a high yield explosive device. It is believed by combining 100 pieces, a powerful bomb could be assembled, which could cause a major blackout in the Chimera hub network. We must assemble it as soon as possible, as we have intel on the leader of the enemy, Daedalus, who seems to pursue a similar objective as us with the purpose of wiping out mankind, instead. Once the bomb is ready, we could prepare an offensive to deploy it."
+  
+  STR_PROMETHEUS_WEAPON_ITEM: "Prometheus Bomb"
 
   STR_OPERATION_OLYMPIC_DEPENDENCY: "Operation Olympic Dependency"
 
@@ -424,6 +426,7 @@ en-US:
 
   STR_OPERATION_OLYMPIC_MISSION: "Operation Olympic"
   STR_OPERATION_OLYMPIC_DEPLOYMENT: "OPERATION OLYMPIC - PHASE I"
+  STR_MARS_CYDONIA_LANDING: "OPERATION OLYMPIC - PHASE I"
   STR_OPERATION_OLYMPIC_DESCRIPTION: "The last push to win the war, once and for all. After the manufacturing of the Prometheus Bomb, we are able to directly engage the enemy in their main stronghold. After landing, we must rush the entry of the suspected underground facility. Once all the SRPA personnel are in the elevator “green tiles”, you must click on {ALT}Abort button{ALT}, to proceed to the next stage."
   STR_OPERATION_OLYMPIC_MARKER_NAME: "Operation Olympic Underway"
   STR_OPERATION_OLYMPIC_ALERT: "Operation Olympic"
