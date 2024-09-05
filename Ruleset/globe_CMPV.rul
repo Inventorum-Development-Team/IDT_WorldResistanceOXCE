@@ -395,10 +395,35 @@ globe:
             weight: 20
           - name: PURBAN
             weight: 10
-   # - id: -1
-   #   deployments: 
-   #      STR_TERROR_MISSION: 50
-   #      STR_TERROR_MISSION_AIRPORT: 50
+    - id: -1
+      deployments: 
+         STR_TERROR_MISSION: 50
+         STR_TERROR_MISSION_AIRPORT: 50
+    - id: -2
+      deployments: 
+         STR_TERROR_MISSION: 100
+    - id: -3
+      deployments: 
+         STR_TERROR_MISSION_INDUSTRIAL: 90
+         STR_TERROR_MISSION_AIRPORT: 10
+    - id: -4
+      deployments: 
+         STR_TERROR_MISSION_SNOW: 90
+         STR_TERROR_MISSION_AIRPORT: 10
+    - id: -5
+      deployments: 
+         STR_TERROR_MISSION_RURAL: 90
+         STR_TERROR_MISSION_AIRPORT: 10
+    - id: -6
+      deployments: 
+         STR_TERROR_MISSION_ISLAND: 90
+         STR_TERROR_MISSION_AIRPORT: 10
+    - id: -7
+      deployments: 
+         STR_TERROR_MISSION_PORT: 100
+    - id: -8
+      deployments:
+        STR_TERROR_MISSION_SHIPPING_LINES: 100
     - id: -100
       deployments: 
          STR_CONVERSION_CENTER_DEPLOYMENT: 100

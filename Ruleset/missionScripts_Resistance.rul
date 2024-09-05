@@ -10,6 +10,24 @@ missionScripts:
   - delete: geniusRetaliation
   - delete: superhumanRetaliation
   - delete: recurringTerror
+################################
+  - type: gameStart
+    missionWeights:
+      0:
+        STR_CHIMERA_RESEARCH: 100
+    #lastMonth: 0
+    targetBaseOdds: 100
+    raceWeights:
+      0:
+        STR_HYBRID_SQUAD: 100
+    startDelay: 120
+
+  - type: recurringTerror
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    useTable: false
+    startDelay: 150
 
 #########################
 #### STORY MISSIONS #####
