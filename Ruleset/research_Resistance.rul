@@ -175,8 +175,35 @@ research:
 items:
   - type: STR_GRAY_TECH_ITEM
     size: 0.1
-    costSell: 10000
-    weight: 3
-    bigSprite: 345
-    floorSprite: 4
+    costSell: 40000
+    weight: 5
+    invHeight: 2
+    invWidth: 2
+    bigSprite: 99
+    floorSprite: 99
+    handSprite: 99
+    battleType: 0
+
+
+extraSprites:
+#########################################
+########### HUMAN WEAPONS ###############
+#########################################
+  - type: BIGOBS.PCK
+    files:
+      99: Resources/Research/BigGrayTechItem.png
+
+
+  - type: FLOOROB.PCK
+    files:
+      99: Resources/Research/FloorGrayTechItem.png
+
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      99: Resources/Research/HandGrayTechItem.png
 
