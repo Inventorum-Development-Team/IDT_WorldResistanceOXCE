@@ -697,6 +697,21 @@ items:
     accuracySnap: 40
     accuracyAimed: 50
     accuracyAuto: 35
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false    
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
@@ -733,6 +748,21 @@ items:
     accuracySnap: 40
     accuracyAimed: 50
     accuracyAuto: 35
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false    
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
@@ -789,6 +819,21 @@ items:
     accuracySnap: 50
     accuracyAimed: 60
     accuracyAuto: 45
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false    
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
@@ -1071,19 +1116,21 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_BRUTE_MINIGUN_CELL
-    confAimed:
-      shots: 1
-      name: STR_DEADEYE
-      ammoSlot: 0
-      arcing: false
-    aimRange: 60
-    accuracyAimed: 200
-    tuAimed: 80
     confSnap:
-      shots: 1
-      name: STR_STEADY_SHOT
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
       ammoSlot: 0
       arcing: false
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    autoRange: 60
+    accuracyAuto: 50
+    tuAuto: 80
     snapRange: 60
     accuracySnap: 110
     tuSnap: 65
@@ -1136,15 +1183,10 @@ items:
     compatibleAmmo:
       - STR_303_SNIPER_AMMO
     accuracyCloseQuarters: 65
-    confAuto:
-      shots: 1
-      name: STR_HEADSHOT
     accuracySnap: 75
     accuracyAimed: 90
-    accuracyAuto: 200
     tuSnap: 20
     tuAimed: 35
-    tuAuto: 50
     tuLoad: 15
     minRange: 15
     snapRange: 24
@@ -1277,15 +1319,10 @@ items:
     compatibleAmmo:
       - STR_LONGBOW_1S1K_FLECHETTES
     accuracyCloseQuarters: 65
-    confAuto:
-      shots: 1
-      name: STR_HEADSHOT
     accuracySnap: 75
     accuracyAimed: 90
-    accuracyAuto: 200
     tuSnap: 20
     tuAimed: 35
-    tuAuto: 50
     tuLoad: 15
     minRange: 15
     snapRange: 24
@@ -1338,29 +1375,19 @@ items:
     compatibleAmmo:
       - STR_HUNTER_DMR_BATTERY
     confAimed:
-      shots: 1
-      name: STR_STEADY_SHOT
-      ammoSlot: 0
-      arcing: false
+      shots: 3
+      name: STR_AIMED_BURST
+      shortName: STR_AIMED_BURST
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST
     aimRange: 60
     accuracyAimed: 110
     tuAimed: 70
-    confSnap:
-      shots: 2
-      name: STR_CONTROLLED_BURST
-      ammoSlot: 0
-      arcing: false
     snapRange: 60
     accuracySnap: 70
     tuSnap: 45
-    confAuto:
-      shots: 4
-      name: STR_CONTROLLED_AUTO
-      ammoSlot: 0
-      arcing: false
-    autoRange: 20
-    accuracyAuto: 65
-    tuAuto: 55
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -1385,7 +1412,7 @@ items:
     damageAlter:
       ArmorEffectiveness: 0.65
       ToArmor: 1.2
-    clipSize: 20
+    clipSize: 33
     battleType: 2
     recoveryPoints: 1
     listOrder: 244
@@ -1413,8 +1440,6 @@ items:
     snapRange: 24
     aimRange: 34
     dropoff: 5
-    damageAlter:
-      ToTile: 3.0
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
@@ -1438,6 +1463,8 @@ items:
     explosionSpeed: 10
     hitSound: 19
     power: 30
+    damageAlter:
+      ToTile: 2.0
     damageType: 5
     clipSize: 20
     battleType: 2
@@ -1467,8 +1494,6 @@ items:
     snapRange: 24
     aimRange: 34
     dropoff: 5
-    damageAlter:
-      ToTile: 4.0
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
@@ -1493,6 +1518,8 @@ items:
     hitSound: 19
     power: 40
     damageType: 5
+    damageAlter:
+      ToTile: 4.0
     clipSize: 20
     battleType: 2
     armor: 12
@@ -1524,27 +1551,18 @@ items:
     handSprite: 544
     fireSound: 108
     reloadSound: 308
-    confAuto:
-      shots: 4
-      name: STR_SLAM_FIRE
-      shortName: STR_SLAM_FIRE_SHORT
-      ammoSlot: 0
-      arcing: false
     compatibleAmmo:
       - STR_ROSSMORE_COMBAT_SHOTGUN_MAG
     accuracySnap: 45
     accuracyAimed: 60
-    accuracyAuto: 40
     accuracyCloseQuarters: 200
     kneelBonus: 200
     tuSnap: 45
     tuAimed: 60
-    tuAuto: 30
     tuLoad: 25
     minRange: 2
     snapRange: 12
     aimRange: 16
-    autoRange: 14
     dropoff: 5
     invHeight: 3
     invWidth: 1
@@ -1673,6 +1691,20 @@ items:
     accuracyAimed: 60
     accuracyCloseQuarters: 200
     kneelBonus: 200
+    confAimed:
+      shots: 3
+      name: STR_AIMED_BURST
+      shortName: STR_AIMED_BURST
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST
+    confAuto:
+      shots: 6
+      name: STR_FULL_AUTO
+      ammoSlot: 0
+      arcing: false
+      followProjectiles: false
     tuSnap: 40
     tuAimed: 50
     tuLoad: 25
