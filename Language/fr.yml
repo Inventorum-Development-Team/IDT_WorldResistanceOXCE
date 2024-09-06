@@ -945,7 +945,7 @@ fr:
   STR_PROMETHEUS_WEAPON: "Arme de Prométhée"
 
 
-  STR_PROMETHEUS_WEAPON_UFOPEDIA: "L'équipe du Dr Cathcart a réalisé une avancée majeure au cours de l'enquête. Elle a confirmé la théorie selon laquelle chaque élément du GT était une pièce d'un puzzle plus grand. En ajoutant de plus en plus d'éléments, un rayonnement électromagnétique plus intense est émis, qui pourrait être utilisé comme un engin explosif à haut rendement. On pense qu'en combinant 100 pièces, une bombe puissante pourrait être assemblée, ce qui pourrait provoquer une panne d'électricité majeure dans le réseau central de Chimera. Nous devons l'assembler dès que possible, car nous avons des informations sur le chef de l'ennemi, Dédale, qui semble poursuivre un objectif similaire au nôtre dans le but d'éliminer l'humanité. Une fois la bombe prête, nous pourrions préparer une offensive pour la déployer."
+  STR_PROMETHEUS_WEAPON_UFOPEDIA : "L'équipe du Dr Cathcart a réalisé un développement révolutionnaire au cours de l'enquête. Elle a confirmé la théorie selon laquelle chaque élément de l'arme GT est une pièce d'un puzzle plus vaste. En ajoutant de plus en plus d'objets, un rayonnement électromagnétique plus intense est émis, qui pourrait être utilisé comme un engin explosif à haut rendement. On pense qu'en combinant {ALT}100 pièces{ALT}, une puissante bombe pourrait être assemblée, ce qui pourrait provoquer une panne majeure dans le réseau Chimera. Nous devons la {ALTmanufacturer{ALT} dès que possible, car nous avons des informations sur le chef de l'ennemi, Daedalus, qui semble poursuivre un objectif similaire au nôtre, avec pour but d'anéantir l'humanité, à la place. Une fois la bombe prête, vous devrez poursuivre les préparatifs en {ALT}conduisant une recherche sur elle{ALT}, afin que nous puissions préparer une offensive pour la déployer."
 
 
 
@@ -1042,7 +1042,7 @@ fr:
   STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPÉRATION OLYMPIQUE - PHASE II"
 
 
-  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Sous la tour centrale de Tunguska se trouve un labyrinthe complexe de couloirs et de salles. Afin de placer en toute sécurité la bombe Prometheus, nous devons désactiver tous les réacteurs énergétiques de la base. Cela coupera l'alimentation électrique, de sorte que l'ennemi ne pourra pas envoyer de balise SOS et demander des renforts. Après cela, extrayez tout le personnel de la force opérationnelle et dirigez-vous vers la zone des ascenseurs et cliquez sur le bouton {ALT}Abandonner{ALT}. Nous n'avons qu'une seule chance."
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Sous la tour centrale de Tunguska se trouve un labyrinthe complexe de couloirs et de salles. Afin de placer en toute sécurité la bombe Prometheus, nous devons désactiver tous les Nœuds de contrôle de la base. Cela coupera l'alimentation électrique, de sorte que l'ennemi ne pourra pas envoyer de balise SOS et demander des renforts. Après cela, extrayez tout le personnel de la force opérationnelle et dirigez-vous vers la zone des ascenseurs et cliquez sur le bouton {ALT}Abandonner{ALT}. Nous n'avons qu'une seule chance."
 
 
 
