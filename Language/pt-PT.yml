@@ -952,7 +952,7 @@ pt-PT:
   STR_PROMETHEUS_WEAPON: "Arma Prometeu"
 
 
-  STR_PROMETHEUS_WEAPON_UFOPEDIA: "Um desenvolvimento inovador pela equipe do Dr. Cathcart foi feito na investigação. Ele confirmou a teoria sobre como cada item GT era uma peça de um quebra-cabeça maior. Ao adicionar mais e mais itens, uma radiação eletromagnética mais intensa é emitida, o que poderia ser usado como um dispositivo explosivo de alto rendimento. Acredita-se que combinando 100 peças, uma bomba poderosa poderia ser montada, o que poderia causar um grande blecaute na rede do hub Chimera. Devemos montá-la o mais rápido possível, pois temos informações sobre o líder do inimigo, Daedalus, que parece perseguir um objetivo semelhante ao nosso com o propósito de exterminar a humanidade, em vez disso. Assim que a bomba estiver pronta, poderíamos preparar uma ofensiva para implantá-la."
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "Um desenvolvimento inovador da equipa do Dr. Cathcart foi feito na investigação. Confirmou a teoria sobre como cada item GT era uma peça de um puzzle maior. Ao adicionar mais e mais itens, é emitida uma radiação electromagnética mais intensa, que pode ser usada como um dispositivo explosivo de alto rendimento. Acredita-se que combinando {ALT}100 peças{ALT}, uma bomba poderosa poderia ser montada, o que poderia causar um grande apagão na rede de centros Quimera. Temos de a {ALTfabricar{ALT} o mais depressa possível, pois temos informações sobre o líder do inimigo, Daedalus, que parece ter um objetivo semelhante ao nosso, mas que pretende aniquilar a humanidade. Assim que a bomba estiver pronta, deves continuar os preparativos {ALT}conduzindo uma investigação sobre ela{ALT}, para que possamos preparar uma ofensiva para a utilizar".
 
 
 
@@ -1042,7 +1042,7 @@ pt-PT:
   STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERAÇÃO OLÍMPICA - FASE II"
 
 
-  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Abaixo da Tunguska Hub Tower, há um labirinto complexo de corredores e salas. Para colocar a Prometheus Bomb com segurança, precisamos desabilitar todos os reatores de energia na base. Isso cortará a energia, então o inimigo não poderá enviar um sinal de SOS e solicitar reforços. Depois de fazer isso, extraia todo o pessoal da força-tarefa e siga em direção à zona do elevador e clique no botão {ALT}Abortar{ALT}. Temos apenas uma chance."
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Abaixo da Tunguska Hub Tower, há um labirinto complexo de corredores e salas. Para colocar a Prometheus Bomb com segurança, precisamos desabilitar todos os Nós de controle  na base. Isso cortará a energia, então o inimigo não poderá enviar um sinal de SOS e solicitar reforços. Depois de fazer isso, extraia todo o pessoal da força-tarefa e siga em direção à zona do elevador e clique no botão {ALT}Abortar{ALT}. Temos apenas uma chance."
 
 
 
