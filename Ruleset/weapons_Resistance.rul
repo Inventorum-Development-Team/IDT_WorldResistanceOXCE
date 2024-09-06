@@ -231,12 +231,7 @@ items:
     #listOrder: 2130    
 
   - type: STR_M2A1_CLOVIS
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_AMERICAN_EQUIPMENT,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_LMGS, STR_AMERICAN_EQUIPMENT]
     requiresBuy:
       - STR_AMERICAN_VOLUNTEERS
     #requiresBuy:
@@ -284,7 +279,7 @@ items:
     bulletSpeed: 17
     
   - type: STR_303_RIFLE_AMMO
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -302,7 +297,7 @@ items:
     armor: 12
     #listOrder: 2025
   - type: STR_303_RIFLE_AMMO_LARGE
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -321,7 +316,7 @@ items:
     #listOrder: 2025
 
   - type: STR_40MM_FRAG
-    categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_ARTILLERY, STR_GRENADES, STR_MAGAZINES]
     size: 0.1
     costBuy: 500
     costSell: 470
@@ -346,14 +341,7 @@ items:
     #listOrder: 2026
 
   - type: STR_ARISAKA_TYPE_99
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_JAPANESE_EQUIPMENT,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_JAPANESE_EQUIPMENT]
     requiresBuy:
       - STR_JAPANESE_COOPERATION_1_RESEARCH
     size: 0.2
@@ -443,14 +431,7 @@ items:
     listOrder: 2000
 
   - type: STR_ARISAKA_TYPE_99_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_JAPANESE_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_JAPANESE_EQUIPMENT, STR_MAGAZINES]
     requiresBuy:
       - STR_JAPANESE_COOPERATION_1_RESEARCH
     size: 0.1
@@ -478,14 +459,7 @@ items:
     listOrder: 2010
 
   - type: STR_FEDOROV_AVTOMAT
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_SIBERIAN_EQUIPMENT]
     requiresBuy:
       - STR_SIBERIAN_COOPERATION_1_RESEARCH
     #requiresBuy:
@@ -542,14 +516,7 @@ items:
     listOrder: 2340
 
   - type: STR_SIMONOV_AVTOMAT
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_RUSSIAN_EQUIPMENT]
     requiresBuy:
       - STR_RUSSIAN_COOPERATION_1_RESEARCH
     #requiresBuy:
@@ -606,14 +573,7 @@ items:
     listOrder: 2340
 
   - type: STR_FEDOROV_AVTOMAT_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_SIBERIAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_MAGAZINES]
     requiresBuy:
       - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     #requiresBuy:
@@ -643,7 +603,7 @@ items:
     listOrder: 2350
 
   - type: STR_RAZOR_BM001
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_BRITISH_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
