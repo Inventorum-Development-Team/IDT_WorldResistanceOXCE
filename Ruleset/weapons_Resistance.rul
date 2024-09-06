@@ -28,6 +28,16 @@ items:
       name: STR_FIRE_GRENADE
       ammoSlot: 1
       arcing: true
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
     accuracyCloseQuarters: 65
     accuracySnap: 75
     accuracyAuto: 70
@@ -71,6 +81,21 @@ items:
     tuSnap: 18
     tuAimed: 35
     tuLoad: 13
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
     snapRange: 16
     aimRange: 24
     dropoff: 6
@@ -160,6 +185,21 @@ items:
     handSprite: 208
     fireSound: 4
     bulletSpeed: 5
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
 #    reloadSound: 302
     compatibleAmmo:
       - STR_303_RIFLE_AMMO
@@ -459,6 +499,21 @@ items:
     handSprite: 320
     fireSound: 124
     reloadSound: 324
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
     compatibleAmmo:
       - STR_FEDOROV_AVTOMAT_MAG
     accuracyCloseQuarters: 80
@@ -514,7 +569,22 @@ items:
     kneelBonus: 200
     accuracySnap: 65
     accuracyAimed: 70
-    accuracyAuto: 50
+    accuracyAuto: 50confAuto:
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false    
     tuSnap: 30
     tuAimed: 45
     tuAuto: 45
