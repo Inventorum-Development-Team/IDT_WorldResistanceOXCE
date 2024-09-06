@@ -592,3 +592,24 @@ es-419:
   STR_SOLDIERS_LOST: "Soldados perdidos"
   STR_TOTAL_UFOS: "Se detectaron naves Quimera"
   STR_TOTAL_ALIEN_BASES: "Se descubrieron estructuras Quimera"
+
+  STR_MT_RATING_EXEMPLARY: "Ejemplar"
+  STR_MT_RATING_EXCELLENT: "Excelente"
+  STR_MT_RATING_GREAT: "Asombroso"
+  STR_MT_RATING_GOOD: "Bueno"
+  STR_MT_RATING_OK: "Suficiente"
+  STR_MT_RATING_POOR: "Pobre"
+  STR_MT_RATING_BAD: "Malo"
+  STR_MT_RATING_TERRIBLE: "Terrible"
+  STR_MT_RATING_ABOMINABLE: "Abominable"
+
+  STR_GOOD_ENDING_1: "Hemos hecho retroceder al enemigo, nuestros esfuerzos bélicos han tenido éxito y los humanos de todas las partes del mundo están avanzando." 
+  STR_GOOD_ENDING_2: "Nuestro progreso tecnológico ha aumentado enormemente gracias a los esfuerzos de toda la humanidad combinada, encabezados por SRPA."
+  STR_GOOD_ENDING_3: "La destrucción de la Torre de Tunguska inició una reacción en cadena que terminó con la destrucción completa de la base principal de Daedalus en Holar, Islandia."
+  STR_GOOD_ENDING_4: "Descabezadas, las fuerzas quimeras se desorganizaron una vez más y la humanidad comenzó la recuperación del planeta. La guerra ya está ganada." 
+
+  STR_BAD_ENDING_1: "El enemigo nos ha hecho retroceder, nuestra ofensiva se ha estancado y ha fracasado. Los contraataques quimeranos han aumentado y los grupos de resistencia están ahora rotos y dispersos."
+  STR_BAD_ENDING_2: "Nuestros esfuerzos de recuperación de tecnología fueron en vano, ya que la Quimera siempre tuvo la sartén por el mango. No tuvimos ninguna oportunidad, a pesar de nuestros intentos de adaptar su tecnología."
+  STR_BAD_ENDING_3: "Una secuencia de ofensivas fallidas ha hecho mella en nuestras fuerzas militares. Primero, el fracaso en la Torre Holar. Se logró una victoria pírrica durante la Operación Edén Negro... a costa de nuestro mejor soldado." 
+  STR_BAD_ENDING_4: "Pero a pesar de ello, ha aparecido un agujero en el cielo y el futuro ahora es incierto."
+

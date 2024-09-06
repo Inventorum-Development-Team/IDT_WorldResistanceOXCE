@@ -67,7 +67,7 @@ it:
   STR_AUGER_MK1_BATTERY: "Batteria Auger Mk.1"
   STR_AUGER_MK1_UFOPEDIA: "Fucile da cecchino pesante, emette proiettili di radiazioni ionizzanti che causano danni considerevoli al terreno. Il suo mirino a medio raggio facilita l'attacco ai nemici nascosti dietro una copertura."
   STR_AUGER_MK2: "Auger Mk.2"
-  STR_AUGER_MK2_BATTERY: "Auger Mk.2 Battery"
+  STR_AUGER_MK2_BATTERY: "Batteria Auger Mk.2"
   STR_AUGER_MK2_UFOPEDIA: "Versione migliorata del fucile da cecchino pesante usato dai cecchini Chimera, ha un mirino a lungo raggio e un generatore di radiazioni ionizzanti con una maggiore capacità di emettere energia. La sua capacità di penetrare il terreno è notevolmente aumentata."
   STR_HEDGEHOG_GRENADE: "Granata a riccio"
   STR_HEDGEHOG_GRENADE_UFOPEDIA: .".."
@@ -100,10 +100,7 @@ it:
   STR_MAJOR: "Maggiore"
   STR_LT_COLONEL: "Tenente Colonnello"
   STR_COLONEL: "Colonnello"
-  STR_BDU_UC: "UNIFORME DELL'ESERCITO USA"
-
-  STR_BDU_UC_UFOPEDIA: "Uniforme militare standard utilizzata dalle Forze Armate USA."
-#######################
+ #######################
 # AEREI
   STR_VTOL: "VTOL"
   STR_VTOL_UFOPEDIA: "VTOL - Trasporto merci veloce e robusto, progettato per trasportare truppe su lunghe distanze. Utilizzato da diverse forze di resistenza umana."
@@ -224,894 +221,907 @@ it:
   STR_TOTAL_ALIEN_BASES: "Scoperte strutture chimere"
 
 
-STR_JET_POWER_LORE: "Potenza del getto"
+  STR_JET_POWER_LORE: "Potenza del getto"
 
-STR_JET_POWER_LORE_UFOPEDIA: "La Germania ha posto una forte enfasi su metodi di propulsione più nuovi e migliori per gli aerei. La paura dei bombardieri russi ad alta quota ha portato allo sviluppo del Me-262, il primo caccia a reazione di successo. Ufficialmente schierato nel 1942, è diventato la principale forza intercettrice dell'UED. Poco dopo, gli inglesi e gli americani hanno accelerato i loro progetti, ma sono sempre rimasti indietro rispetto ai progetti della Luftwaffe. L'era degli aerei a pistoni stava giungendo al termine."
+  STR_JET_POWER_LORE_UFOPEDIA: "La Germania ha posto una forte enfasi su metodi di propulsione più nuovi e migliori per gli aerei. La paura dei bombardieri russi ad alta quota ha portato allo sviluppo del Me-262, il primo caccia a reazione di successo. Ufficialmente schierato nel 1942, è diventato la principale forza intercettrice dell'UED. Poco dopo, gli inglesi e gli americani hanno accelerato i loro progetti, ma sono sempre rimasti indietro rispetto ai progetti della Luftwaffe. L'era degli aerei a pistoni stava giungendo al termine."
 
-STR_FALLEN_KNIGHTS_LORE: "Cavalieri caduti"
+  STR_FALLEN_KNIGHTS_LORE: "Cavalieri caduti"
 
 
-STR_FALLEN_KNIGHTS_LORE_UFOPEDIA: "Nonostante la potenza aerea tedesca, la maggior parte della Luftwaffe e delle forze aeree europee furono rapidamente distrutte con le fasi iniziali dell'assalto dei Chimeran. A est, molti piloti non riuscirono nemmeno a salire a bordo dei loro aerei, poiché i missili Spire coprirono tutte le basi militari che trovarono sul loro passaggio. Gli squadroni dell'Europa occidentale se la cavarono leggermente meglio e alcune vittorie aeree furono ottenute sul Benelux. Le ali di caccia UED furono decimate dall'enorme numero di velivoli da combattimento Chimeran. I cosiddetti 'Cavalieri dell'ari' furono ridotti a relitti fusi."
+  STR_FALLEN_KNIGHTS_LORE_UFOPEDIA: "Nonostante la potenza aerea tedesca, la maggior parte della Luftwaffe e delle forze aeree europee furono rapidamente distrutte con le fasi iniziali dell'assalto dei Chimeran. A est, molti piloti non riuscirono nemmeno a salire a bordo dei loro aerei, poiché i missili Spire coprirono tutte le basi militari che trovarono sul loro passaggio. Gli squadroni dell'Europa occidentale se la cavarono leggermente meglio e alcune vittorie aeree furono ottenute sul Benelux. Le ali di caccia UED furono decimate dall'enorme numero di velivoli da combattimento Chimeran. I cosiddetti 'Cavalieri dell'ari' furono ridotti a relitti fusi."
 
 
 
 
-STR_UED_FORCES_LORE: "Forze UED"
+  STR_UED_FORCES_LORE: "Forze UED"
 
 
-STR_UED_FORCES_LORE_UFOPEDIA: "La maggior parte delle forze di difesa europee unite era composta da francesi, polacchi, tedeschi e italiani, più brigate ridotte di paesi più piccoli. Equipaggiata con equipaggiamento tedesco all'avanguardia, era addestrata a respingere gli attacchi di massa russi. Tuttavia, la dipendenza dell'UED dalle difese statiche e dalla guerra di trincea alla Grande Guerra la rendeva poco adatta alle innovazioni meccanizzate dei Chimera. Lotte politiche interne e basso morale mandarono in frantumi l'alleanza prima ancora che il nemico raggiungesse i loro confini."
+  STR_UED_FORCES_LORE_UFOPEDIA: "La maggior parte delle forze di difesa europee unite era composta da francesi, polacchi, tedeschi e italiani, più brigate ridotte di paesi più piccoli. Equipaggiata con equipaggiamento tedesco all'avanguardia, era addestrata a respingere gli attacchi di massa russi. Tuttavia, la dipendenza dell'UED dalle difese statiche e dalla guerra di trincea alla Grande Guerra la rendeva poco adatta alle innovazioni meccanizzate dei Chimera. Lotte politiche interne e basso morale mandarono in frantumi l'alleanza prima ancora che il nemico raggiungesse i loro confini."
 
 
 
 
-STR_ACES_HIGH_LORE: "Assi alti"
+  STR_ACES_HIGH_LORE: "Assi alti"
 
 
-STR_ACES_HIGH_LORE_UFOPEDIA: "Al contrario della maggior parte delle potenze europee, la Royal Air Force si concentrò principalmente su una grande flotta di efficienti VTOL Kingfisher per proiettare la potenza aerea più all'interno. Nonostante fosse in fase di sviluppo dal 1937, fu solo dopo l'annuncio del Me-262 nel '42 che il Fighter Command decise di sostituire la sua flotta di Spitfire con il Meteor. Sebbene più lento e meno armato della maggior parte dei suoi pari, il caccia prodotto da Gloster aveva un raggio operativo più lungo. Poiché la maggior parte andò persa nelle sortite sulla Cecoslovacchia a supporto della linea di Bratislava, gli ultimi rimasti furono impegnati nella difesa aerea sulla Gran Bretagna."
+  STR_ACES_HIGH_LORE_UFOPEDIA: "Al contrario della maggior parte delle potenze europee, la Royal Air Force si concentrò principalmente su una grande flotta di efficienti VTOL Kingfisher per proiettare la potenza aerea più all'interno. Nonostante fosse in fase di sviluppo dal 1937, fu solo dopo l'annuncio del Me-262 nel '42 che il Fighter Command decise di sostituire la sua flotta di Spitfire con il Meteor. Sebbene più lento e meno armato della maggior parte dei suoi pari, il caccia prodotto da Gloster aveva un raggio operativo più lungo. Poiché la maggior parte andò persa nelle sortite sulla Cecoslovacchia a supporto della linea di Bratislava, gli ultimi rimasti furono impegnati nella difesa aerea sulla Gran Bretagna."
 
 
 
 
-STR_MAGNIFICENT_LIGHTNING_LORE: "Fulmine magnifico"
+  STR_MAGNIFICENT_LIGHTNING_LORE: "Fulmine magnifico"
 
 
-STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA: "Nonostante la mancanza di sufficiente opposizione aerea durante la seconda guerra sino-giapponese, la Marina imperiale giapponese richiese lo sviluppo di un mezzo da combattimento ad alte prestazioni e ad alta quota con lo scopo esplicito di ingaggiare i bombardieri nemici. La necessità di proteggere le isole principali dall'aggressione straniera motivò il progetto. Il risultato fu lo J7W Shinden, un mezzo pesantemente corazzato e potenziato. Quando la Chimera iniziò a spingersi verso l'Estremo Oriente, persino i caccia Mitsubishi 'Zero' lottarono per tenere a bada i mezzi nemici e lo Shinden divenne l'intercettore navale d'élite."
+  STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA: "Nonostante la mancanza di sufficiente opposizione aerea durante la seconda guerra sino-giapponese, la Marina imperiale giapponese richiese lo sviluppo di un mezzo da combattimento ad alte prestazioni e ad alta quota con lo scopo esplicito di ingaggiare i bombardieri nemici. La necessità di proteggere le isole principali dall'aggressione straniera motivò il progetto. Il risultato fu lo J7W Shinden, un mezzo pesantemente corazzato e potenziato. Quando la Chimera iniziò a spingersi verso l'Estremo Oriente, persino i caccia Mitsubishi 'Zero' lottarono per tenere a bada i mezzi nemici e lo Shinden divenne l'intercettore navale d'élite."
 
 
 
 
 
 
-STR_EURO_AMERICAN_COLLABORATION_LORE: "Collaborazione euro-americana"
+  STR_EURO_AMERICAN_COLLABORATION_LORE: "Collaborazione euro-americana"
 
 
-STR_EURO_AMERICAN_COLLABORATION_LORE_UFOPEDIA: "Durante l'amministrazione Roosevelt, ci fu un noto approccio diplomatico tra le organizzazioni europee e gli Stati Uniti. Ciò portò a diversi accordi tecnologici e tecnici tra entrambi i blocchi, tra cui lo 'Strategic Ammunition Standardization Agreement (SATANAG)', in cui il proiettile britannico .303 fu adottato come cameratura generale per armi leggere per tutti i fucili di servizio. Inoltre, SRPA e MDC si scambiarono progetti e ricerche. Ciò alla fine divenne meno pubblico durante l'amministrazione Grace, poiché i legami diplomatici erano tesi con il crescente isolazionismo degli Stati Uniti."
+  STR_EURO_AMERICAN_COLLABORATION_LORE_UFOPEDIA: "Durante l'amministrazione Roosevelt, ci fu un noto approccio diplomatico tra le organizzazioni europee e gli Stati Uniti. Ciò portò a diversi accordi tecnologici e tecnici tra entrambi i blocchi, tra cui lo 'Strategic Ammunition Standardization Agreement (SATANAG)', in cui il proiettile britannico .303 fu adottato come cameratura generale per armi leggere per tutti i fucili di servizio. Inoltre, SRPA e MDC si scambiarono progetti e ricerche. Ciò alla fine divenne meno pubblico durante l'amministrazione Grace, poiché i legami diplomatici erano tesi con il crescente isolazionismo degli Stati Uniti."
 
 
 
 
-STR_THE_TUNGUNSKA_TOWER: "La Torre di Tunguska"
+  STR_THE_TUNGUNSKA_TOWER: "La Torre di Tunguska"
 
 
-STR_THE_TUNGUNSKA_TOWER_UFOPEDIA: "La Torre è stata la prima struttura Chimera ad essere mai scavata e si ritiene che non solo sia la torre più grande conosciuta, ma anche la Torre Hub della Russia e forse dell'Europa orientale. Data la sua importanza inimmaginabile, è estremamente ben protetta; infatti, nessuno si è mai avvicinato a meno di 1.200 iarde dalla torre... tranne il Dott. Malikov, che è riuscito a estrarre un campione di DNA Chimera puro direttamente in situ."
+  STR_THE_TUNGUNSKA_TOWER_UFOPEDIA: "La Torre è stata la prima struttura Chimera ad essere mai scavata e si ritiene che non solo sia la torre più grande conosciuta, ma anche la Torre Hub della Russia e forse dell'Europa orientale. Data la sua importanza inimmaginabile, è estremamente ben protetta; infatti, nessuno si è mai avvicinato a meno di 1.200 iarde dalla torre... tranne il Dott. Malikov, che è riuscito a estrarre un campione di DNA Chimera puro direttamente in situ."
 
 
 
 
-STR_THE_SIBERIAN_GUARD: "La guardia siberiana"
+  STR_THE_SIBERIAN_GUARD: "La guardia siberiana"
 
 
-STR_THE_SIBERIAN_GUARD_UFOPEDIA: "La Guardia fu istituita all'inizio degli anni '40, poco dopo la caduta della Russia imperiale, ed è spesso considerata l'ultima traccia di resistenza nell'Estremo Oriente russo. La Guardia è composta da tre basi militari sparse in Siberia, insieme a un singolo villaggio costiero sulla costa del Pacifico noto come 'Provideniya', che ospita diverse migliaia di sopravvissuti russi. Sono orgogliosi di essere gli unici protettori della Siberia e lo hanno dimostrato attraverso la loro spietata campagna di guerriglia contro la Chimera."
+  STR_THE_SIBERIAN_GUARD_UFOPEDIA: "La Guardia fu istituita all'inizio degli anni '40, poco dopo la caduta della Russia imperiale, ed è spesso considerata l'ultima traccia di resistenza nell'Estremo Oriente russo. La Guardia è composta da tre basi militari sparse in Siberia, insieme a un singolo villaggio costiero sulla costa del Pacifico noto come 'Provideniya', che ospita diverse migliaia di sopravvissuti russi. Sono orgogliosi di essere gli unici protettori della Siberia e lo hanno dimostrato attraverso la loro spietata campagna di guerriglia contro la Chimera."
 
 
 
 
-STR_VALERY_SABLIN: "Valery Sablin"
+  STR_VALERY_SABLIN: "Valery Sablin"
 
 
-STR_VALERY_SABLIN_UFOPEDIA: "Un ufficiale di alto rango della Marina russa che fu fortemente coinvolto nelle evacuazioni dell'Operazione Kerensky. Una volta terminata, rimase di stanza sull'isola di Wrangel fino al 1948, dove lui e il suo equipaggio scelsero di lasciare l'isola sulla sua nave, la 'Storozhevoy', progettando di arrivare in Alaska. Tuttavia, a causa della mancanza di cibo, furono costretti ad attraccare nella città costiera di Provideniya, dove incontrarono i resti di una divisione di fanteria russa che era stata di stanza in quel luogo. Invece di partire per l'Alaska, Sablin e il suo equipaggio scelsero di restare e combattere per la Madrepatria. Iniziò rapidamente a salire di grado e ad affermarsi come leader dopo la prematura scomparsa del comandante della divisione. Presto avrebbe ufficialmente formato la 'Guardia siberiana'"
+  STR_VALERY_SABLIN_UFOPEDIA: "Un ufficiale di alto rango della Marina russa che fu fortemente coinvolto nelle evacuazioni dell'Operazione Kerensky. Una volta terminata, rimase di stanza sull'isola di Wrangel fino al 1948, dove lui e il suo equipaggio scelsero di lasciare l'isola sulla sua nave, la 'Storozhevoy', progettando di arrivare in Alaska. Tuttavia, a causa della mancanza di cibo, furono costretti ad attraccare nella città costiera di Provideniya, dove incontrarono i resti di una divisione di fanteria russa che era stata di stanza in quel luogo. Invece di partire per l'Alaska, Sablin e il suo equipaggio scelsero di restare e combattere per la Madrepatria. Iniziò rapidamente a salire di grado e ad affermarsi come leader dopo la prematura scomparsa del comandante della divisione. Presto avrebbe ufficialmente formato la 'Guardia siberiana'"
 
 
 
 
 
 
-STR_OPERATION_KERENSKY_1: "Operazione Kerensky"
+  STR_OPERATION_KERENSKY_1: "Operazione Kerensky"
 
 
-STR_OPERATION_KERENSKY_1_UFOPEDIA: "L'operazione, che prende il nome dal premier Kerensky, fu messa in atto il 10 aprile 1930, quando divenne chiaro al governo russo che l'esercito non sarebbe stato in grado di resistere alla Chimera. Autorizzò l'evacuazione sistematica dei civili nelle isole di Sevemaya Zemlya, Novaya Zemlya, Wrangel Island e le isole della Nuova Siberia. L'evacuazione fu gestita principalmente dalla Marina, con un ruolo minore dell'Aeronautica imperiale russa."
+  STR_OPERATION_KERENSKY_1_UFOPEDIA: "L'operazione, che prende il nome dal premier Kerensky, fu messa in atto il 10 aprile 1930, quando divenne chiaro al governo russo che l'esercito non sarebbe stato in grado di resistere alla Chimera. Autorizzò l'evacuazione sistematica dei civili nelle isole di Sevemaya Zemlya, Novaya Zemlya, Wrangel Island e le isole della Nuova Siberia. L'evacuazione fu gestita principalmente dalla Marina, con un ruolo minore dell'Aeronautica imperiale russa."
 
 
 
 
-STR_OPERATION_KERENSKY_2: "Operazione Kerensky"
+  STR_OPERATION_KERENSKY_2: "Operazione Kerensky"
 
 
-STR_OPERATION_KERENSKY_2_UFOPEDIA: "Circa 1.500.000 persone furono estratte con successo e le operazioni si svolgevano ancora fino al 1936. Nonostante la fuga dalla Chimera, coloro che furono evacuati non se la passarono molto meglio, poiché le linee di rifornimento iniziarono a interrompersi nel 1937; una grave carenza di cibo, medicine e altre forniture causò carestia e malattie che dilagarono nei campi mal costruiti in cui erano stati sistemati i rifugiati."
+  STR_OPERATION_KERENSKY_2_UFOPEDIA: "Circa 1.500.000 persone furono estratte con successo e le operazioni si svolgevano ancora fino al 1936. Nonostante la fuga dalla Chimera, coloro che furono evacuati non se la passarono molto meglio, poiché le linee di rifornimento iniziarono a interrompersi nel 1937; una grave carenza di cibo, medicine e altre forniture causò carestia e malattie che dilagarono nei campi mal costruiti in cui erano stati sistemati i rifugiati."
 
 
 
 
-STR_YAGODA_SOLUTION_1: "La soluzione Yagoda"
+  STR_YAGODA_SOLUTION_1: "La soluzione Yagoda"
 
 
-STR_YAGODA_SOLUTION_1_UFOPEDIA: "Prende il nome dal capo esecutivo della polizia segreta, Genrikh Yagoda, ed è stato messo in atto qualche tempo dopo il 1937 per impedire alla Chimera di infettare altra popolazione russa e alla fine trasformarla in una specie aliena. Ciò sarebbe stato fatto tramite l'eliminazione umana di tutti i civili ritenuti infetti dal virus"
+  STR_YAGODA_SOLUTION_1_UFOPEDIA: "Prende il nome dal capo esecutivo della polizia segreta, Genrikh Yagoda, ed è stato messo in atto qualche tempo dopo il 1937 per impedire alla Chimera di infettare altra popolazione russa e alla fine trasformarla in una specie aliena. Ciò sarebbe stato fatto tramite l'eliminazione umana di tutti i civili ritenuti infetti dal virus"
 
 
 
 
-STR_YAGODA_SOLUTION_2: "La soluzione Yagoda"
+  STR_YAGODA_SOLUTION_2: "La soluzione Yagoda"
 
 
-STR_YAGODA_SOLUTION_2_UFOPEDIA: "Ciò si estenderebbe anche a qualsiasi civile in territorio nemico e, infine, a interi campi profughi se fossero ritenuti troppo difficili da proteggere. Le uccisioni di massa causarono una forte sfiducia e persino paura tra il popolo russo e i militari. La soluzione Yagoda sarebbe rimasta in vigore dal 1937 fino alla fine della guerra, provocando quasi 4 milioni di morti e non sarebbe riuscita a fermare la Chimera."
+  STR_YAGODA_SOLUTION_2_UFOPEDIA: "Ciò si estenderebbe anche a qualsiasi civile in territorio nemico e, infine, a interi campi profughi se fossero ritenuti troppo difficili da proteggere. Le uccisioni di massa causarono una forte sfiducia e persino paura tra il popolo russo e i militari. La soluzione Yagoda sarebbe rimasta in vigore dal 1937 fino alla fine della guerra, provocando quasi 4 milioni di morti e non sarebbe riuscita a fermare la Chimera."
 
 
 
 
-STR_METEOR: "METEORA"
+  STR_METEOR: "METEORA"
 
 
-STR_METEOR_UFOPEDIA: "Caccia di scorta a lungo raggio Gloster Meteor britannico, progettato per proteggere i VTOL e i bombardieri nelle profondità dell'Europa."
+  STR_METEOR_UFOPEDIA: "Caccia di scorta a lungo raggio Gloster Meteor britannico, progettato per proteggere i VTOL e i bombardieri nelle profondità dell'Europa."
 
 
 
 
-STR_HORTEN: "HORTEN"
+  STR_HORTEN: "HORTEN"
 
 
-STR_HORTEN_UFOPEDIA: "Prototipo di caccia Ho-229, la sua straordinaria manovrabilità gli consente di superare in prestazioni gli aerei più pesanti nel combattimento ravvicinato."
+  STR_HORTEN_UFOPEDIA: "Prototipo di caccia Ho-229, la sua straordinaria manovrabilità gli consente di superare in prestazioni gli aerei più pesanti nel combattimento ravvicinato."
 
 
 
 
-STR_SHINDEN: "SHINDIEN"
+  STR_SHINDEN: "SHINDIEN"
 
 
-STR_SHINDEN_UFOPEDIA: "Caccia pesante giapponese J7W. La sua cellula robusta e resistente potrebbe teoricamente resistere ad attacchi anche da gigantesche forme di vita mutanti... se esistessero."
+  STR_SHINDEN_UFOPEDIA: "Caccia pesante giapponese J7W. La sua cellula robusta e resistente potrebbe teoricamente resistere ad attacchi anche da gigantesche forme di vita mutanti... se esistessero."
 
 
 
 
-STR_YAK: "YAKOLEV"
+  STR_YAK: "YAKOLEV"
 
 
-STR_YAK_UFOPEDIA: "Lo Yak-9 è un versatile velivolo multiruolo, sebbene obsoleto rispetto agli standard attuali. Utilizzato principalmente dai piloti siberiani in ruoli di ricognizione e attacco leggero."
+  STR_YAK_UFOPEDIA: "Lo Yak-9 è un versatile velivolo multiruolo, sebbene obsoleto rispetto agli standard attuali. Utilizzato principalmente dai piloti siberiani in ruoli di ricognizione e attacco leggero."
 
 
 
 
-STR_SUPER_SABRE: "SUPER SCIABOLA"
+  STR_SUPER_SABRE: "SUPER SCIABOLA"
 
 
-STR_SUPER_SABRE_UFOPEDIA: "L'intercettore F-100 migliorato vola più in alto, più velocemente ed è notevolmente più letale. Il propulsore migliore consente tempi di pattugliamento più lunghi."
+  STR_SUPER_SABRE_UFOPEDIA: "L'intercettore F-100 migliorato vola più in alto, più velocemente ed è notevolmente più letale. Il propulsore migliore consente tempi di pattugliamento più lunghi."
 
 
 
 
-STR_VAMPIRE: "VAMPIRO"
+  STR_VAMPIRE: "VAMPIRO"
 
 
-STR_VAMPIRE_UFOPEDIA: "Caccia a lungo raggio per tutte le condizioni atmosferiche. La forma insolita della cellula ospita grandi serbatoi di carburante corazzati per un'ampia autonomia operativa."
+  STR_VAMPIRE_UFOPEDIA: "Caccia a lungo raggio per tutte le condizioni atmosferiche. La forma insolita della cellula ospita grandi serbatoi di carburante corazzati per un'ampia autonomia operativa."
 
 
 
 
-STR_HUNTER_DMR: "Cacciatore DMR"
+  STR_HUNTER_DMR: "Cacciatore DMR"
 
 
-STR_HUNTER_DMR_BATTERY: "Batteria Hunter DMR"
+  STR_HUNTER_DMR_BATTERY: "Batteria Hunter DMR"
 
 
-STR_HUNTER_DMR_UFOPEDIA: "Fucile pesante specializzato in dotazione ai tiratori scelti Chimera. Visto per la prima volta in azione durante l'incursione nemica l'anno scorso a New York. I raggi ionici emessi in brevi raffiche lo rendono un'arma letale nelle mani giuste, in grado di distruggere sia la copertura che i nemici."
+  STR_HUNTER_DMR_UFOPEDIA: "Fucile pesante specializzato in dotazione ai tiratori scelti Chimera. Visto per la prima volta in azione durante l'incursione nemica l'anno scorso a New York. I raggi ionici emessi in brevi raffiche lo rendono un'arma letale nelle mani giuste, in grado di distruggere sia la copertura che i nemici."
 
 
 
 
-STR_BRUTE_MINIGUN: "Minigun brutale"
+  STR_BRUTE_MINIGUN: "Minigun brutale"
 
 
-STR_BRUTE_MINIGUN_CELL: "Cella Brute Minigun"
+  STR_BRUTE_MINIGUN_CELL: "Cella Brute Minigun"
 
 
-STR_BRUTE_MINIGUN_UFOPEDIA: "L'arma di fanteria più pesante nell'arsenale nemico, usata dagli shock trooper. Il flusso continuo di energia sprigionato da quest'arma può persino disintegrare alcuni bersagli scarsamente corazzati. Il suo peso estremo la rende molto scomoda da trasportare e usare per gli umani di dimensioni normali."
+  STR_BRUTE_MINIGUN_UFOPEDIA: "L'arma di fanteria più pesante nell'arsenale nemico, usata dagli shock trooper. Il flusso continuo di energia sprigionato da quest'arma può persino disintegrare alcuni bersagli scarsamente corazzati. Il suo peso estremo la rende molto scomoda da trasportare e usare per gli umani di dimensioni normali."
 
 
 
 
-STR_PLASMA_REPEATER_PISTOL: "Pistola a ripetizione al plasma"
+  STR_PLASMA_REPEATER_PISTOL: "Pistola a ripetizione al plasma"
 
 
-STR_PLASMA_REPEATER_PISTOL_BATTERY: "Batteria per pistola a ripetizione al plasma"
+  STR_PLASMA_REPEATER_PISTOL_BATTERY: "Batteria per pistola a ripetizione al plasma"
 
 
-STR_PLASMA_REPEATER_PISTOL_UFOPEDIA: "Simile alle pistole mitragliatrici umane, questa arma da fianco Chimera è vista in servizio presso le unità di ricognizione. L'intensa velocità di fuoco può scaricare rapidamente una batteria piena in pochi secondi."
+  STR_PLASMA_REPEATER_PISTOL_UFOPEDIA: "Simile alle pistole mitragliatrici umane, questa arma da fianco Chimera è vista in servizio presso le unità di ricognizione. L'intensa velocità di fuoco può scaricare rapidamente una batteria piena in pochi secondi."
 
 
 
 
-STR_HE44_MAGNUM: "HE.44 Magnum"
+  STR_HE44_MAGNUM: "HE.44 Magnum"
 
 
-STR_HE44_MAGNUM_AMMO: ."44 colpi"
+  STR_HE44_MAGNUM_AMMO: ."44 colpi"
 
 
-STR_HE44_MAGNUM_UFOPEDIA: "Potente e robusto campo di armi da fianco degli agenti delle forze speciali SRPA. Il grande proiettile .44 Magnum sparato da questo revolver utilizza uno speciale composto di glicerina per esplodere al contatto."
+  STR_HE44_MAGNUM_UFOPEDIA: "Potente e robusto campo di armi da fianco degli agenti delle forze speciali SRPA. Il grande proiettile .44 Magnum sparato da questo revolver utilizza uno speciale composto di glicerina per esplodere al contatto."
 
 
 
 
-STR_THOMPSON_SMG: "Mitragliatrice Thompson M1"
+  STR_THOMPSON_SMG: "Mitragliatrice Thompson M1"
 
 
-STR_THOMPSON_SMG_MAG: "Caricatore mitragliatore Thompson"
+  STR_THOMPSON_SMG_MAG: "Caricatore mitragliatore Thompson"
 
 
-STR_THOMPSON_SMG_UFOPEDIA: "La prima arma da fuoco commercializzata come 'mitra', acquisì rapidamente notorietà per il suo design robusto e la potenza di fuoco, sparando proiettili .45 ACP. Utilizzata dalla maggior parte delle unità di polizia americane, alcune furono vendute anche nel Regno Unito."
+  STR_THOMPSON_SMG_UFOPEDIA: "La prima arma da fuoco commercializzata come 'mitra', acquisì rapidamente notorietà per il suo design robusto e la potenza di fuoco, sparando proiettili .45 ACP. Utilizzata dalla maggior parte delle unità di polizia americane, alcune furono vendute anche nel Regno Unito."
 
 
 
 
-STR_M2A1_CLOVIS: "M2A1 Clovis AR"
+  STR_M2A1_CLOVIS: "M2A1 Clovis AR"
 
 
-STR_M2A1_CLOVIS_UFOPEDIA: "Fucile automatico basato sulla Folsom Carbine, camerato in munizioni .303. Presenta una canna più pesante, una maniglia di caricamento e componenti sintetici. Pensato per fornire un supporto leggero 'fuoco ambulante', in modo simile a come veniva utilizzato il BAR negli anni '20."
+  STR_M2A1_CLOVIS_UFOPEDIA: "Fucile automatico basato sulla Folsom Carbine, camerato in munizioni .303. Presenta una canna più pesante, una maniglia di caricamento e componenti sintetici. Pensato per fornire un supporto leggero 'fuoco ambulante', in modo simile a come veniva utilizzato il BAR negli anni '20."
 
 
 
 
-STR_HVAP_CHAINGUN: "Mitragliatrice spettrale HVAP"
+  STR_HVAP_CHAINGUN: "Mitragliatrice spettrale HVAP"
 
 
-STR_HVAP_CHAINGUN_DRUM: "Tamburo di munizioni HVAP"
+  STR_HVAP_CHAINGUN_DRUM: "Tamburo di munizioni HVAP"
 
 
-STR_HVAP_CHAINGUN_UFOPEDIA: "Ad alta velocità, perforante. Una minigun completamente automatica, potente e ingombrante, che spara 1200 colpi full metal jacket al minuto. La forza cinetica è in grado di fare a pezzi bersagli leggermente corazzati con facilità. È meglio usarla da una posizione statica, poiché il suo peso e la scarsa maneggevolezza sono i suoi svantaggi."
+  STR_HVAP_CHAINGUN_UFOPEDIA: "Ad alta velocità, perforante. Una minigun completamente automatica, potente e ingombrante, che spara 1200 colpi full metal jacket al minuto. La forza cinetica è in grado di fare a pezzi bersagli leggermente corazzati con facilità. È meglio usarla da una posizione statica, poiché il suo peso e la scarsa maneggevolezza sono i suoi svantaggi."
 
 
 
 
-STR_MARKSMAN_DMR: "Marksman-B DMR"
+  STR_MARKSMAN_DMR: "Marksman-B DMR"
 
 
-STR_MARKSMAN_DMR_UFOPEDIA: "Fucile da cecchino a ioni con reverse engineering, basato sul design di un'arma nemica catturata in Scozia. Adatto per scontri a media distanza e configurato per fuoco a raffica, bilanciando potenza di fuoco ed economia di munizioni. Utilizza batterie Hunter."
+  STR_MARKSMAN_DMR_UFOPEDIA: "Fucile da cecchino a ioni con reverse engineering, basato sul design di un'arma nemica catturata in Scozia. Adatto per scontri a media distanza e configurato per fuoco a raffica, bilanciando potenza di fuoco ed economia di munizioni. Utilizza batterie Hunter."
 
 
 
 
-STR_MK6_CARBINE: "Carabina Mk.6"
+  STR_MK6_CARBINE: "Carabina Mk.6"
 
 
-STR_MK6_CARBINE_UFOPEDIA: "Versione su licenza della famiglia di carabine Folsom, la carabina Enfield No.6, Mark 6, funge da fucile di servizio standard delle forze britanniche. Presenta un diverso arredo in legno per una migliore ergonomia e un attacco per baionetta al posto del lanciagranate incorporato."
+  STR_MK6_CARBINE_UFOPEDIA: "Versione su licenza della famiglia di carabine Folsom, la carabina Enfield No.6, Mark 6, funge da fucile di servizio standard delle forze britanniche. Presenta un diverso arredo in legno per una migliore ergonomia e un attacco per baionetta al posto del lanciagranate incorporato."
 
 
-STR_303_AMMO: "Munizioni per fucile .303 (x20)"
+  STR_303_AMMO: "Munizioni per fucile .303 (x20)"
 
 
-STR_303_AMMO_LARGE: "Munizioni per fucile .303 (x30)"
+  STR_303_AMMO_LARGE: "Munizioni per fucile .303 (x30)"
 
 
 
 
-STR_L206_LAARK: "Lanciatore L206 LAARK"
+  STR_L206_LAARK: "Lanciatore L206 LAARK"
 
 
-STR_L206_LAARK_ROCKET: "Razzo antiaereo Mk.48"
+  STR_L206_LAARK_ROCKET: "Razzo antiaereo Mk.48"
 
 
-STR_L206_LAARK_UFOPEDIA: "L209 LAARK (Light Anti-Armor RocKet) realizzato dalle Forze Armate Britanniche, con lo scopo di ingaggiare veicoli corazzati nemici. Un notevole miglioramento rispetto ai vecchi lanciatori PIAT, i razzi Mk.48 sparati da questa pesante arma di supporto possono cambiare rapidamente la loro traiettoria a mezz'aria grazie a propulsori più piccoli."
+  STR_L206_LAARK_UFOPEDIA: "L209 LAARK (Light Anti-Armor RocKet) realizzato dalle Forze Armate Britanniche, con lo scopo di ingaggiare veicoli corazzati nemici. Un notevole miglioramento rispetto ai vecchi lanciatori PIAT, i razzi Mk.48 sparati da questa pesante arma di supporto possono cambiare rapidamente la loro traiettoria a mezz'aria grazie a propulsori più piccoli."
 
 
 
 
-STR_ROSSMORE_COMBAT_SHOTGUN: "Fucile da combattimento Rossmore 238"
+  STR_ROSSMORE_COMBAT_SHOTGUN: "Fucile da combattimento Rossmore 238"
 
 
-STR_ROSSMORE_COMBAT_SHOTGUN_MAG: "Caricatore per fucile calibro .12"
+  STR_ROSSMORE_COMBAT_SHOTGUN_MAG: "Caricatore per fucile calibro .12"
 
 
-STR_ROSSMORE_COMBAT_SHOTGUN_UFOPEDIA: "L'ultimo sviluppo della Rossmore Armory, il modello 238, non ha il calcio solido dei modelli precedenti. Nonostante questo, il rinculo rimane entro i parametri previsti. Alimentato dal caricatore per ricariche più rapide."
+  STR_ROSSMORE_COMBAT_SHOTGUN_UFOPEDIA: "L'ultimo sviluppo della Rossmore Armory, il modello 238, non ha il calcio solido dei modelli precedenti. Nonostante questo, il rinculo rimane entro i parametri previsti. Alimentato dal caricatore per ricariche più rapide."
 
 
 
 
-STR_WELGUN_SMG: "Mitragliatrice Welgun"
+  STR_WELGUN_SMG: "Mitragliatrice Welgun"
 
 
-STR_WELGUN_SMG_UFOPEDIA: "Prodotto dalla Birmingham Small Arms nel tentativo di dotare gli agenti di intelligence sul campo dello Special Operations Executive di un'arma automatica leggera e precisa. Meno costosa delle SMG Thompson in servizio con l'esercito regolare e abbastanza compatta da poter essere portata nascosta. Utilizza gli stessi caricatori da 9 mm di altri modelli europei."
+  STR_WELGUN_SMG_UFOPEDIA: "Prodotto dalla Birmingham Small Arms nel tentativo di dotare gli agenti di intelligence sul campo dello Special Operations Executive di un'arma automatica leggera e precisa. Meno costosa delle SMG Thompson in servizio con l'esercito regolare e abbastanza compatta da poter essere portata nascosta. Utilizza gli stessi caricatori da 9 mm di altri modelli europei."
 
 
 
 
-STR_RAZOR_BM001: "Razor BM001"
+  STR_RAZOR_BM001: "Razor BM001"
 
 
-STR_RAZOR_BM001_UFOPEDIA: "Realizzato dalla Royal Small Arms Factory utilizzando i fucili Bullseye catturati e abbandonati in seguito alla battaglia di Londra e alla successiva liberazione delle isole britanniche. Il 'Bullseye Modified 001' spara proiettili al plasma a forma di disco, con l'opzione di sovraccaricare un singolo colpo e di scaricare metà della batteria per danni extra."
+  STR_RAZOR_BM001_UFOPEDIA: "Realizzato dalla Royal Small Arms Factory utilizzando i fucili Bullseye catturati e abbandonati in seguito alla battaglia di Londra e alla successiva liberazione delle isole britanniche. Il 'Bullseye Modified 001' spara proiettili al plasma a forma di disco, con l'opzione di sovraccaricare un singolo colpo e di scaricare metà della batteria per danni extra."
 
 
 
 
-STR_LONGBOW_1S1K: "Arco lungo 1S-1K"
+  STR_LONGBOW_1S1K: "Arco lungo 1S-1K"
 
 
-STR_LONGBOW_1S1K_FLECHETTES: "Caricatore freccette arco lungo"
+  STR_LONGBOW_1S1K_FLECHETTES: "Caricatore freccette arco lungo"
 
 
-STR_LONGBOW_1S1K_UFOPEDIA: "Creato dalla Military Defense Commission (MDC) con lo scopo esplicito di contrastare la minaccia Chimera, è un potente cannone a rotaia che spara freccette di ferro a una velocità incredibile. Capace di penetrare diversi pollici di acciaio con facilità. Ne erano disponibili troppo pochi quando l'Europa cadde nel 1950, ma da allora, diversi modelli sono stati creati dagli armaioli MDC rimasti in Lussemburgo."
+  STR_LONGBOW_1S1K_UFOPEDIA: "Creato dalla Military Defense Commission (MDC) con lo scopo esplicito di contrastare la minaccia Chimera, è un potente cannone a rotaia che spara freccette di ferro a una velocità incredibile. Capace di penetrare diversi pollici di acciaio con facilità. Ne erano disponibili troppo pochi quando l'Europa cadde nel 1950, ma da allora, diversi modelli sono stati creati dagli armaioli MDC rimasti in Lussemburgo."
 
 
 
 
-STR_BERETTA_MAB38: "Beretta MAB-38 Mitragliatore"
+  STR_BERETTA_MAB38: "Beretta MAB-38 Mitragliatore"
 
 
-STR_9MM_SMG_MAG: "Caricatore per mitragliatrice da 9 mm"
+  STR_9MM_SMG_MAG: "Caricatore per mitragliatrice da 9 mm"
 
 
-STR_BERETTA_MAB38_UFOPEDIA: "Un mitra italiano finemente lavorato, quasi fatto a mano. Il suo robusto e robusto telaio in legno lo rende un'arma pesante ma robusta e precisa. Utilizzato e apprezzato dalle forze speciali in tutta Europa, era un'icona del Regio Esercito. Sono rimaste pochissime Beretta, con alcune recuperate dalle rovine di Genova e Napoli."
+  STR_BERETTA_MAB38_UFOPEDIA: "Un mitra italiano finemente lavorato, quasi fatto a mano. Il suo robusto e robusto telaio in legno lo rende un'arma pesante ma robusta e precisa. Utilizzato e apprezzato dalle forze speciali in tutta Europa, era un'icona del Regio Esercito. Sono rimaste pochissime Beretta, con alcune recuperate dalle rovine di Genova e Napoli."
 
 
 
 
-STR_ERMA_EMP44: "Mitraglietta Erma EMP-44"
+  STR_ERMA_EMP44: "Mitraglietta Erma EMP-44"
 
 
-STR_ERMA_EMP44_UFOPEDIA: "Mitra estremamente economica e facile da realizzare, anche se un po' scomoda da usare. Originariamente pensata per essere usata dalle truppe di riserva come complemento dell'MP-40 in caso di un'improvvisa invasione russa. Quando arrivò la Chimera e la maggior parte delle scorte di armi moderne andarono perse o distrutte, questo progetto rudimentale fu messo in servizio. Alla fine i Maquis ne trovarono i progetti fuori Monaco e la misero di nuovo in produzione. Utilizza caricatori da 9 mm."
+  STR_ERMA_EMP44_UFOPEDIA: "Mitra estremamente economica e facile da realizzare, anche se un po' scomoda da usare. Originariamente pensata per essere usata dalle truppe di riserva come complemento dell'MP-40 in caso di un'improvvisa invasione russa. Quando arrivò la Chimera e la maggior parte delle scorte di armi moderne andarono perse o distrutte, questo progetto rudimentale fu messo in servizio. Alla fine i Maquis ne trovarono i progetti fuori Monaco e la misero di nuovo in produzione. Utilizza caricatori da 9 mm."
 
 
 
 
-STR_SHOTGUN_SHOTGUN: "Fucile da combattimento con fucile a pompa"
+  STR_SHOTGUN_SHOTGUN: "Fucile da combattimento con fucile a pompa"
 
 
-STR_SCHROTFLINTE_SHOTGUN_SHELLS: "Cartucce per fucili calibro .12"
+  STR_SCHROTFLINTE_SHOTGUN_SHELLS: "Cartucce per fucili calibro .12"
 
 
-STR_SCHROTFLINTE_SHOTGUN_UFOPEDIA: "Fucile da caccia calibro 12 prodotto da Schroeder Kampfwerk GmbH. Popolare tra le forze dell'ordine e le forze militari, soprattutto nell'Europa settentrionale. Condivide alcune somiglianze con la linea di fucili da caccia britannici Rossmore, con la notevole differenza del meccanismo di alimentazione e una distribuzione più ampia dei pallini."
+  STR_SCHROTFLINTE_SHOTGUN_UFOPEDIA: "Fucile da caccia calibro 12 prodotto da Schroeder Kampfwerk GmbH. Popolare tra le forze dell'ordine e le forze militari, soprattutto nell'Europa settentrionale. Condivide alcune somiglianze con la linea di fucili da caccia britannici Rossmore, con la notevole differenza del meccanismo di alimentazione e una distribuzione più ampia dei pallini."
 
 
 
 
-STR_ARISAKA_TYPE_99: "Fucile Arisaka Type-99"
+  STR_ARISAKA_TYPE_99: "Fucile Arisaka Type-99"
 
 
-STR_ARISAKA_TYPE_99_CLIP: "Clip munizioni Arisaka"
+  STR_ARISAKA_TYPE_99_CLIP: "Clip munizioni Arisaka"
 
 
-STR_ARISAKA_TYPE_99_UFOPEDIA: "Gli impegni giapponesi in Cina portarono all'introduzione del fucile di servizio Type-99, che sostituì completamente i vecchi modelli Type-38. Molto solido, anche se la cartuccia più potente e il peso del telaio più leggero portarono a un rinculo maggiore. La maggior parte dei militari attaccava una 'bandiera portafortuna', la yosegaki hinomaru, come regalo tradizionale. "
+  STR_ARISAKA_TYPE_99_UFOPEDIA: "Gli impegni giapponesi in Cina portarono all'introduzione del fucile di servizio Type-99, che sostituì completamente i vecchi modelli Type-38. Molto solido, anche se la cartuccia più potente e il peso del telaio più leggero portarono a un rinculo maggiore. La maggior parte dei militari attaccava una 'bandiera portafortuna', la yosegaki hinomaru, come regalo tradizionale. "
 
 
 
 
-STR_XR24_SPITTER: "Fucile a dispersione Spitter XR-24"
+  STR_XR24_SPITTER: "Fucile a dispersione Spitter XR-24"
 
 
-STR_XR24_SPITTER_BATTERY: "Cella energetica Spitter"
+  STR_XR24_SPITTER_BATTERY: "Cella energetica Spitter"
 
 
-STR_XR24_SPITTER_UFOPEDIA: "Sviluppato dalla filiale giapponese SRPA di Nagoya. Progettato con protezioni speciali per il clima caldo e umido prevalente nella maggior parte del Sud-est asiatico e per le operazioni anfibie. Lo Spitter funziona come un fucile automatico, emettendo fasci ionici distruttivi del terreno in un ampio arco. Il suo reattore è stato sviluppato da fucili pesanti Auger catturati."
+  STR_XR24_SPITTER_UFOPEDIA: "Sviluppato dalla filiale giapponese SRPA di Nagoya. Progettato con protezioni speciali per il clima caldo e umido prevalente nella maggior parte del Sud-est asiatico e per le operazioni anfibie. Lo Spitter funziona come un fucile automatico, emettendo fasci ionici distruttivi del terreno in un ampio arco. Il suo reattore è stato sviluppato da fucili pesanti Auger catturati."
 
 
 
 
-STR_NAMBU_TYPE_2: "Mitragliatrice Nambu Tipo-2"
+  STR_NAMBU_TYPE_2: "Mitragliatrice Nambu Tipo-2"
 
 
-STR_NAMBU_TYPE_2_MAG: "Caricatore per mitragliatrice di tipo 2"
+  STR_NAMBU_TYPE_2_MAG: "Caricatore per mitragliatrice di tipo 2"
 
 
-STR_NAMBU_TYPE_2_UFOPEDIA: "Il Giappone non ha dirottato risorse nello sviluppo di mitragliatrici fino alle fasi successive della guerra con la Cina. Il suo principale progetto indigeno (dopo aver utilizzato diverse armi europee) è stato realizzato da Kijiro Nambu, camerato in 8mm Nambu e comprendente uno speciale smorzatore di rinculo. Utilizzato principalmente dalle forze speciali navali da sbarco."
+  STR_NAMBU_TYPE_2_UFOPEDIA: "Il Giappone non ha dirottato risorse nello sviluppo di mitragliatrici fino alle fasi successive della guerra con la Cina. Il suo principale progetto indigeno (dopo aver utilizzato diverse armi europee) è stato realizzato da Kijiro Nambu, camerato in 8mm Nambu e comprendente uno speciale smorzatore di rinculo. Utilizzato principalmente dalle forze speciali navali da sbarco."
 
 
 
 
-STR_IWAOR_TYPE_105: "Mitragliatrice IWAO-R Tipo-105"
+  STR_IWAOR_TYPE_105: "Mitragliatrice IWAO-R Tipo-105"
 
 
-STR_IWAOR_TYPE_105_DRUM: "Tamburo di munizioni IWAO-R"
+  STR_IWAOR_TYPE_105_DRUM: "Tamburo di munizioni IWAO-R"
 
 
-STR_IWAOR_TYPE_105_UFOPEDIA: "La mitragliatrice progettata da Iwao Ryusaki fu inizialmente montata su torrette fisse su aerei, molto apprezzata per la sua affidabilità. Dotata di un freno di bocca specializzato per dissipare rapidamente il calore in eccesso. Una cache fu acquistata dall'UED prima della rottura della Cortina Rossa nel '49. Ulteriori acquisti furono impossibili a causa della perdita di contatto con il Giappone."
+  STR_IWAOR_TYPE_105_UFOPEDIA: "La mitragliatrice progettata da Iwao Ryusaki fu inizialmente montata su torrette fisse su aerei, molto apprezzata per la sua affidabilità. Dotata di un freno di bocca specializzato per dissipare rapidamente il calore in eccesso. Una cache fu acquistata dall'UED prima della rottura della Cortina Rossa nel '49. Ulteriori acquisti furono impossibili a causa della perdita di contatto con il Giappone."
 
 
-STR_FEDOROV_AVTOMAT: "Fucile Fedorov Avtomat FA"
+  STR_FEDOROV_AVTOMAT: "Fucile Fedorov Avtomat FA"
 
 
-STR_FEDOROV_AVTOMAT_MAG: "Caricatore Fedorov da 6,5 mm"
+  STR_FEDOROV_AVTOMAT_MAG: "Caricatore Fedorov da 6,5 mm"
 
 
-STR_FEDOROV_AVTOMAT_UFOPEDIA: "Il Fedorov Avtomat è un fucile automatico a fuoco selettivo, servito dall'equipaggio e anche uno dei primi fucili automatici operativi al mondo, progettato da Vladimir Grigoryevich Fyodorov nel 1915 e prodotto nell'Impero russo. Si è rapidamente dimostrato un'arma efficace nella Grande Guerra e alla fine sarebbe diventato un nome permanente dell'esercito russo con la sua produzione di massa subito dopo la fallita guerra civile; durante la guerra Chimera, diverse unità russe furono equipaggiate con il Fedorov. Tuttavia, mentre la guerra si trascinava, la Russia a causa della mancanza di fabbriche fu costretta a cessare quasi completamente la produzione del Federov, costringendo l'esercito a iniziare a fare affidamento principalmente sul Mosin-Nagant."
+  STR_FEDOROV_AVTOMAT_UFOPEDIA: "Il Fedorov Avtomat è un fucile automatico a fuoco selettivo, servito dall'equipaggio e anche uno dei primi fucili automatici operativi al mondo, progettato da Vladimir Grigoryevich Fyodorov nel 1915 e prodotto nell'Impero russo. Si è rapidamente dimostrato un'arma efficace nella Grande Guerra e alla fine sarebbe diventato un nome permanente dell'esercito russo con la sua produzione di massa subito dopo la fallita guerra civile; durante la guerra Chimera, diverse unità russe furono equipaggiate con il Fedorov. Tuttavia, mentre la guerra si trascinava, la Russia a causa della mancanza di fabbriche fu costretta a cessare quasi completamente la produzione del Federov, costringendo l'esercito a iniziare a fare affidamento principalmente sul Mosin-Nagant."
 
 
 
 
-STR_MOSIN_NAGANT: "Fucile Mosin-Nagant M1891"
+  STR_MOSIN_NAGANT: "Fucile Mosin-Nagant M1891"
 
 
-STR_MOSIN_NAGANT_CLIP: "Clip munizioni Mosin-Nagant"
+  STR_MOSIN_NAGANT_CLIP: "Clip munizioni Mosin-Nagant"
 
 
-STR_MOSIN_NAGANT_UFOPEDIA: "Fucile di servizio principale dell'Impero russo sin dalla sua introduzione nel 1891 e il più numeroso dell'intero arsenale. Questa variante è dotata di un mirino telescopico e di un rivestimento in tessuto per facilitarne l'occultamento, potrebbe essere utilizzata per tiri a lunga distanza."
+  STR_MOSIN_NAGANT_UFOPEDIA: "Fucile di servizio principale dell'Impero russo sin dalla sua introduzione nel 1891 e il più numeroso dell'intero arsenale. Questa variante è dotata di un mirino telescopico e di un rivestimento in tessuto per facilitarne l'occultamento, potrebbe essere utilizzata per tiri a lunga distanza."
 
 
 
 
-STR_SIMONOV_AVTOMAT: "Fucile Simonov AS-25P"
+  STR_SIMONOV_AVTOMAT: "Fucile Simonov AS-25P"
 
 
-STR_SIMONOV_AVTOMAT_UFOPEDIA: "Avtomat Simonova del 1925 Pehotnuy (fucile di Simonov del 1925, fanteria). Sviluppato nel 1925, per sostituire il Fedorov Avtomat del 1916 e la sua variante modernizzata del 1920. L'AS-25P è stato presentato come più affidabile, preciso e moderno. Ma l'inizio della guerra con i Chimera nel 1927, fermò di fatto il riarmo dell'esercito imperiale russo e pochissimi corpi d'armata furono equipaggiati con questo tipo di arma. Spara la stessa cartuccia da 6,5 mm dell'FA."
+  STR_SIMONOV_AVTOMAT_UFOPEDIA: "Avtomat Simonova del 1925 Pehotnuy (fucile di Simonov del 1925, fanteria). Sviluppato nel 1925, per sostituire il Fedorov Avtomat del 1916 e la sua variante modernizzata del 1920. L'AS-25P è stato presentato come più affidabile, preciso e moderno. Ma l'inizio della guerra con i Chimera nel 1927, fermò di fatto il riarmo dell'esercito imperiale russo e pochissimi corpi d'armata furono equipaggiati con questo tipo di arma. Spara la stessa cartuccia da 6,5 mm dell'FA."
 
 
 
 
-STR_KOROVIN_PISTOL: "Pistola Korovin KPK-29"
+  STR_KOROVIN_PISTOL: "Pistola Korovin KPK-29"
 
 
-STR_KOROVIN_PISTOL_MAG: "Caricatore per pistola Korovin"
+  STR_KOROVIN_PISTOL_MAG: "Caricatore per pistola Korovin"
 
 
-STR_KOROVIN_PISTOL_UFOPEDIA: "Pistola standard da ufficiale di grosso calibro (camerata da 10 mm), creata da Sergey Korovin. Sebbene pesante, la buona impugnatura e maneggevolezza la rendevano un'arma di scelta per il corpo ufficiali dell'esercito imperiale."
+  STR_KOROVIN_PISTOL_UFOPEDIA: "Pistola standard da ufficiale di grosso calibro (camerata da 10 mm), creata da Sergey Korovin. Sebbene pesante, la buona impugnatura e maneggevolezza la rendevano un'arma di scelta per il corpo ufficiali dell'esercito imperiale."
 
 
 
 
-STR_TOKAREV_MACHINE_PISTOL: "Pistola automatica Tokarev APBT"
+  STR_TOKAREV_MACHINE_PISTOL: "Pistola automatica Tokarev APBT"
 
 
-STR_TOKAREV_MACHINE_PISTOL_MAG: "Caricatore corto APBT"
+  STR_TOKAREV_MACHINE_PISTOL_MAG: "Caricatore corto APBT"
 
 
-STR_TOKAREV_MACHINE_PISTOL_LONG_MAG: "APBT Grande caricatore"
+  STR_TOKAREV_MACHINE_PISTOL_LONG_MAG: "APBT Grande caricatore"
 
 
-STR_TOKAREV_MACHINE_PISTOL_UFOPEDIA: "I siberiani furono rapidi nell'adattare tutte le rare armi da fianco Tokarev rimaste negli arsenali dell'Estremo Oriente alla pistola automatica, variante a fuoco selettivo. Dotata di un prototipo di silenziatore e di un calcio in legno fatto a mano, la Tokarev è usata principalmente in incursioni mordi e fuggi su depositi e basi abbandonati."
+  STR_TOKAREV_MACHINE_PISTOL_UFOPEDIA: "I siberiani furono rapidi nell'adattare tutte le rare armi da fianco Tokarev rimaste negli arsenali dell'Estremo Oriente alla pistola automatica, variante a fuoco selettivo. Dotata di un prototipo di silenziatore e di un calcio in legno fatto a mano, la Tokarev è usata principalmente in incursioni mordi e fuggi su depositi e basi abbandonati."
 
 
-STR_DEGTYARYOV_LMG: "Degtyaryov DP-28 MG"
+  STR_DEGTYARYOV_LMG: "Degtyaryov DP-28 MG"
 
 
-STR_DEGTYARYOV_LMG_PAN: "Porta munizioni DP-28"
+  STR_DEGTYARYOV_LMG_PAN: "Porta munizioni DP-28"
 
 
-STR_DEGTYARYOV_LMG_BELT: "Scatola di munizioni DP-28"
+  STR_DEGTYARYOV_LMG_BELT: "Scatola di munizioni DP-28"
 
 
-STR_DEGTYARYOV_LMG_UFOPEDIA: "La mitragliatrice da fanteria Degtyaryov fu rapidamente schierata in prima linea quando furono segnalati i primi attacchi Chimera. Nel corso degli anni, divenne la mitragliatrice principale dell'arsenale russo. L'ultimo miglioramento fu l'adattamento di un meccanismo alimentato a nastro, entrambi facili da adattare sul campo di battaglia."
+  STR_DEGTYARYOV_LMG_UFOPEDIA: "La mitragliatrice da fanteria Degtyaryov fu rapidamente schierata in prima linea quando furono segnalati i primi attacchi Chimera. Nel corso degli anni, divenne la mitragliatrice principale dell'arsenale russo. L'ultimo miglioramento fu l'adattamento di un meccanismo alimentato a nastro, entrambi facili da adattare sul campo di battaglia."
 
 
 
 
-STR_FEDOROV_GROM: "Fucile Fedorov EVF-31 'Grom'"
+  STR_FEDOROV_GROM: "Fucile Fedorov EVF-31 'Grom'"
 
 
-STR_FEDOROV_GROM_UFOPEDIA: "Arma energetica realizzata dal Bullseye, dalla Russia imperiale nel tentativo di pareggiare il campo di gioco con la Chimera. I suoi costi di produzione erano considerevoli ed era disponibile in numero limitato. Nonostante ciò, la maggior parte dei prototipi fu inviata agli eserciti siberiani per dare loro una possibilità di combattere, poi alcune centinaia riuscirono a essere evacuate con successo a Provideniya dove fu formata la Guardia siberiana. 'Grom' significa tuono in russo."
+  STR_FEDOROV_GROM_UFOPEDIA: "Arma energetica realizzata dal Bullseye, dalla Russia imperiale nel tentativo di pareggiare il campo di gioco con la Chimera. I suoi costi di produzione erano considerevoli ed era disponibile in numero limitato. Nonostante ciò, la maggior parte dei prototipi fu inviata agli eserciti siberiani per dare loro una possibilità di combattere, poi alcune centinaia riuscirono a essere evacuate con successo a Provideniya dove fu formata la Guardia siberiana. 'Grom' significa tuono in russo."
 
 
 
 
-STR_SRPA_BLACK_OPS_UNIFORM_UC: "TUTA TATTICA BLACK OPS"
+  STR_SRPA_BLACK_OPS_UNIFORM_UC: "TUTA TATTICA BLACK OPS"
 
 
-STR_SRPA_BLACK_OPS_UNIFORM: "Tuta tattica Black Ops"
+  STR_SRPA_BLACK_OPS_UNIFORM: "Tuta tattica Black Ops"
 
 
-STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA: "Divisa da battaglia principale dei Black Ops, gli operatori speciali della SRPA. Include un giubbotto rinforzato e uno speciale casco NBC (nucleare-biologico-chimico) chiuso per prevenire le infezioni da patogeni aerei Chimera."
+  STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA: "Divisa da battaglia principale dei Black Ops, gli operatori speciali della SRPA. Include un giubbotto rinforzato e uno speciale casco NBC (nucleare-biologico-chimico) chiuso per prevenire le infezioni da patogeni aerei Chimera."
 
 
 
 
-STR_BDU_UC: "UNIFORME AMERICANA M1943"
+  STR_BDU_UC: "UNIFORME AMERICANA M1943"
 
+  STR_BDU_UC_UFOPEDIA: "Uniforme da combattimento per le Forze Armate degli Stati Uniti, introdotta nel 1943. Realizzata in tessuto impermeabile, era calda nelle stagioni fredde e fresca nelle regioni calde. Fornita con un elmetto M1 'pot'."
 
-STR_BDU_UC_UFOPEDIA: "Uniforme da combattimento per le Forze Armate degli Stati Uniti, introdotta nel 1943. Realizzata in tessuto impermeabile, era calda nelle stagioni fredde e fresca nelle regioni calde. Fornita con un elmetto M1 'pot'."
 
 
 
 
 
+  STR_BRITISH_FIELD_UNIFORM_UC: "COSTUME DA COMBATTIMENTO BRITANNICO"
 
-STR_BRITISH_FIELD_UNIFORM_UC: "COSTUME DA COMBATTIMENTO BRITANNICO"
 
+  STR_BRITISH_FIELD_UNIFORM: "uniforme da battaglia britannica"
 
-STR_BRITISH_FIELD_UNIFORM: "uniforme da battaglia britannica"
 
+  STR_BRITISH_FIELD_UNIFORM_UFOPEDIA: "Uniforme pratica e comoda, introdotta alla fine degli anni '30 e ampiamente copiata dagli eserciti di tutto il mondo. La variante verde è stata utilizzata principalmente in Europa, mentre la variante cachi è stata impiegata dalle forze del Commonwealth."
 
-STR_BRITISH_FIELD_UNIFORM_UFOPEDIA: "Uniforme pratica e comoda, introdotta alla fine degli anni '30 e ampiamente copiata dagli eserciti di tutto il mondo. La variante verde è stata utilizzata principalmente in Europa, mentre la variante cachi è stata impiegata dalle forze del Commonwealth."
 
 
 
+  STR_MAQUIS_FIELD_UNIFORM_UC: "VESTITO DA COMBATTIMENTO MAQUIS"
 
-STR_MAQUIS_FIELD_UNIFORM_UC: "VESTITO DA COMBATTIMENTO MAQUIS"
 
+  STR_MAQUIS_FIELD_UNIFORM: "Tuta da combattimento Maquis"
 
-STR_MAQUIS_FIELD_UNIFORM: "Tuta da combattimento Maquis"
 
+  STR_MAQUIS_FIELD_UNIFORM_UFOPEDIA: "A causa del suo status di movimento di resistenza clandestino, i Maquis hanno avuto problemi a ottenere un'uniforme convenzionale standardizzata. Il massimo che sono riusciti a ottenere è stato un miscuglio di avanzi militari di riserva industriali e obsoleti."
 
-STR_MAQUIS_FIELD_UNIFORM_UFOPEDIA: "A causa del suo status di movimento di resistenza clandestino, i Maquis hanno avuto problemi a ottenere un'uniforme convenzionale standardizzata. Il massimo che sono riusciti a ottenere è stato un miscuglio di avanzi militari di riserva industriali e obsoleti."
 
 
 
+  STR_JAPANESE_FIELD_UNIFORM_UC: "UNIFORME IMPERIALE GIAPPONESE"
 
-STR_JAPANESE_FIELD_UNIFORM_UC: "UNIFORME IMPERIALE GIAPPONESE"
 
+  STR_JAPANESE_FIELD_UNIFORM_UFOPEDIA: "L'uniforme M98 (98 Shiki-Gun-i) indossata dalle truppe giapponesi è un aggiornamento realizzato nel 1938 per la famiglia continuata di uniformi da combattimento color cachi. Il 'tetsukabuto' (elmetto d'acciaio) è dotato di un pezzo di tessuto per proteggere il collo dal calore e dal sole."
 
-STR_JAPANESE_FIELD_UNIFORM_UFOPEDIA: "L'uniforme M98 (98 Shiki-Gun-i) indossata dalle truppe giapponesi è un aggiornamento realizzato nel 1938 per la famiglia continuata di uniformi da combattimento color cachi. Il 'tetsukabuto' (elmetto d'acciaio) è dotato di un pezzo di tessuto per proteggere il collo dal calore e dal sole."
 
+  STR_RUSSIAN_FIELD_UNIFORM_UC: "ABITO DA SERVIZIO RUSSO"
 
-STR_RUSSIAN_FIELD_UNIFORM_UC: "ABITO DA SERVIZIO RUSSO"
 
+  STR_RUSSIAN_FIELD_UNIFORM_UFOPEDIA: "L'uniforme da combattimento dell'esercito imperiale russo è rimasta pressoché la stessa dalla fine della Grande Guerra. È composta da una 'gymnastyorka' color cachi, pantaloni al ginocchio e stivali rinforzati, più un elmetto in acciaio SSh-30."
 
-STR_RUSSIAN_FIELD_UNIFORM_UFOPEDIA: "L'uniforme da combattimento dell'esercito imperiale russo è rimasta pressoché la stessa dalla fine della Grande Guerra. È composta da una 'gymnastyorka' color cachi, pantaloni al ginocchio e stivali rinforzati, più un elmetto in acciaio SSh-30."
 
 
 
+  STR_SIBERIAN_FIELD_UNIFORM_UC: "SOPRABITO INVERNALE SIBERIANO"
 
-STR_SIBERIAN_FIELD_UNIFORM_UC: "SOPRABITO INVERNALE SIBERIANO"
 
+  STR_SIBERIAN_FIELD_UNIFORM_UFOPEDIA: "Indossato sopra l'uniforme imperiale standard, il soprabito fatto di lana spessa è usato dalle guardie per proteggersi dal clima rigido. Usato insieme a un cappello 'papakha'. Una maschera antigas rudimentale è usata per proteggere il soldato dai Crawler e dai gas velenosi."
 
-STR_SIBERIAN_FIELD_UNIFORM_UFOPEDIA: "Indossato sopra l'uniforme imperiale standard, il soprabito fatto di lana spessa è usato dalle guardie per proteggersi dal clima rigido. Usato insieme a un cappello 'papakha'. Una maschera antigas rudimentale è usata per proteggere il soldato dai Crawler e dai gas velenosi."
 
 
 
+  STR_AMERICAN_VOLUNTEERS_RESEARCH: "Volontari americani"
 
-STR_AMERICAN_VOLUNTEERS_RESEARCH: "Volontari americani"
 
+  STR_AMERICAN_VOLUNTEERS_RESEARCH_UFOPEDIA: "Il rooster iniziale del progetto era limitato solo al personale SRPA, ma è stato riconsiderato per includere volontari delle forze armate regolari. Dopo aver firmato uno speciale contratto di divulgazione, sono stati introdotti nel team. Sono state richieste anche armi aggiuntive per poter equipaggiare i nuovi arrivati. Abbiamo bisogno di più mani e fucili possibili sul campo."
 
-STR_AMERICAN_VOLUNTEERS_RESEARCH_UFOPEDIA: "Il rooster iniziale del progetto era limitato solo al personale SRPA, ma è stato riconsiderato per includere volontari delle forze armate regolari. Dopo aver firmato uno speciale contratto di divulgazione, sono stati introdotti nel team. Sono state richieste anche armi aggiuntive per poter equipaggiare i nuovi arrivati. Abbiamo bisogno di più mani e fucili possibili sul campo."
 
 
 
+  STR_EXPANDING_FRONTIERS: "Espansione delle frontiere"
 
-STR_EXPANDING_FRONTIERS: "Espansione delle frontiere"
 
+  STR_EXPANDING_FRONTIERS_UFOPEDIA: "La SRPA ci fornisce abbastanza equipaggiamento per equipaggiare la nostra task force per le operazioni di recupero e contiamo sul supporto dell'USAF per impegnare velivoli ostili vicino alle nostre basi. Tuttavia, potremmo sempre usare la radio per un ulteriore aiuto delle forze alleate che combattono altrove. Questo potrebbe richiedere del tempo, tuttavia. Potrebbe essere necessario limitare la prospezione oltremare per garantire l'alta qualità dei team schierati, poiché abbiamo bisogno del meglio del meglio."
 
-STR_EXPANDING_FRONTIERS_UFOPEDIA: "La SRPA ci fornisce abbastanza equipaggiamento per equipaggiare la nostra task force per le operazioni di recupero e contiamo sul supporto dell'USAF per impegnare velivoli ostili vicino alle nostre basi. Tuttavia, potremmo sempre usare la radio per un ulteriore aiuto delle forze alleate che combattono altrove. Questo potrebbe richiedere del tempo, tuttavia. Potrebbe essere necessario limitare la prospezione oltremare per garantire l'alta qualità dei team schierati, poiché abbiamo bisogno del meglio del meglio."
 
 
 
+  STR_REESTABLISH_DIPLOMATIC_TIES: "Ristabilire i legami diplomatici"
 
-STR_REESTABLISH_DIPLOMATIC_TIES: "Ristabilire i legami diplomatici"
 
+  STR_REESTABLISH_DIPLOMATIC_TIES_UFOPEDIA: "Siamo riusciti a metterci in contatto con le forze amiche in Europa, dopo un piccolo blackout delle comunicazioni (molto probabilmente grazie all'equipaggiamento di disturbo Chimera). Potremmo estendere un invito alle forze britanniche o al movimento di resistenza Maquis per unirsi ai nostri sforzi di recupero in cambio di tecnologia e rifornimenti."
 
-STR_REESTABLISH_DIPLOMATIC_TIES_UFOPEDIA: "Siamo riusciti a metterci in contatto con le forze amiche in Europa, dopo un piccolo blackout delle comunicazioni (molto probabilmente grazie all'equipaggiamento di disturbo Chimera). Potremmo estendere un invito alle forze britanniche o al movimento di resistenza Maquis per unirsi ai nostri sforzi di recupero in cambio di tecnologia e rifornimenti."
 
 
 
+  STR_BRITISH_COOPERATION_1_RESEARCH: "Cooperazione britannica I"
 
-STR_BRITISH_COOPERATION_1_RESEARCH: "Cooperazione britannica I"
 
+  STR_BRITISH_COOPERATION_1_RESEARCH_UFOPEDIA: "Il nostro recente successo con l'Operazione Morning Star ha significato l'eradicazione delle forze nemiche nelle isole britanniche e sono più che disposti a unirsi a noi. Hanno permesso che volontari di corpi d'élite come i Royal Marine Commandos e i Paracadutisti venissero reclutati nelle nostre forze, formando il {ALT}Ghost Team{ALT}."
 
-STR_BRITISH_COOPERATION_1_RESEARCH_UFOPEDIA: "Il nostro recente successo con l'Operazione Morning Star ha significato l'eradicazione delle forze nemiche nelle isole britanniche e sono più che disposti a unirsi a noi. Hanno permesso che volontari di corpi d'élite come i Royal Marine Commandos e i Paracadutisti venissero reclutati nelle nostre forze, formando il {ALT}Ghost Team{ALT}."
 
 
 
+  STR_BRITISH_COOPERATION_2_RESEARCH: "Cooperazione britannica II"
 
-STR_BRITISH_COOPERATION_2_RESEARCH: "Cooperazione britannica II"
 
+  STR_BRITISH_COOPERATION_2_RESEARCH_UFOPEDIA: "Ulteriori colloqui hanno portato a una maggiore disponibilità di materiale di fabbricazione britannica per le nostre forze. Inoltre, ora abbiamo i progetti per il fucile a energia Razor, la versione migliorata dell'arma principale della fanteria Chimeran. Qualsiasi Bullseye catturato potrebbe essere riprodotto nel Razor, con una quantità aggiuntiva di Gray Tech."
 
-STR_BRITISH_COOPERATION_2_RESEARCH_UFOPEDIA: "Ulteriori colloqui hanno portato a una maggiore disponibilità di materiale di fabbricazione britannica per le nostre forze. Inoltre, ora abbiamo i progetti per il fucile a energia Razor, la versione migliorata dell'arma principale della fanteria Chimeran. Qualsiasi Bullseye catturato potrebbe essere riprodotto nel Razor, con una quantità aggiuntiva di Gray Tech."
 
 
 
+  STR_MAQUIS_COOPERATION_1_RESEARCH: "Cooperazione Maquis I"
 
-STR_MAQUIS_COOPERATION_1_RESEARCH: "Cooperazione Maquis I"
 
+  STR_MAQUIS_COOPERATION_1_RESEARCH_UFOPEDIA: "Sebbene non abbiamo una diplomazia aperta con i Maquis, il gruppo di resistenza europeo, abbiamo avuto scambi commerciali e tecnologici con il suo predecessore, l'UED. Alcuni agenti dell'intelligence, come il colonnello James Grayson, hanno già lavorato con noi per rintracciare e recuperare risorse aliene. Tenendo una mano molto necessaria, hanno accettato di fornire volontari (spesso con le proprie armi) in cambio di rifornimenti e risorse. Ora fanno parte di {ALT}Fantasma Team{ALT}."
 
-STR_MAQUIS_COOPERATION_1_RESEARCH_UFOPEDIA: "Sebbene non abbiamo una diplomazia aperta con i Maquis, il gruppo di resistenza europeo, abbiamo avuto scambi commerciali e tecnologici con il suo predecessore, l'UED. Alcuni agenti dell'intelligence, come il colonnello James Grayson, hanno già lavorato con noi per rintracciare e recuperare risorse aliene. Tenendo una mano molto necessaria, hanno accettato di fornire volontari (spesso con le proprie armi) in cambio di rifornimenti e risorse. Ora fanno parte di {ALT}Fantasma Team{ALT}."
 
+  STR_MAQUIS_COOPERATION_2_RESEARCH: "Cooperazione Maquis II"
 
-STR_MAQUIS_COOPERATION_2_RESEARCH: "Cooperazione Maquis II"
 
+  STR_MAQUIS_COOPERATION_2_RESEARCH_UFOPEDIA: "Il motivo dietro le limitazioni iniziali e la reticenza a supportare il nostro sforzo è molto probabilmente dovuto al fatto che la Grace Administration ha interrotto il programma di prestito-affitto promulgato dall'ex presidente Roosevelt. I nostri attuali sforzi in una collaborazione congiunta hanno avuto successo e ora sono disponibili più tipi di armi per equipaggiare la nostra task force. Inoltre, possiamo iniziare a produrre il prototipo di cannone elettromagnetico Longbow utilizzando la tecnologia Gray catturata."
 
-STR_MAQUIS_COOPERATION_2_RESEARCH_UFOPEDIA: "Il motivo dietro le limitazioni iniziali e la reticenza a supportare il nostro sforzo è molto probabilmente dovuto al fatto che la Grace Administration ha interrotto il programma di prestito-affitto promulgato dall'ex presidente Roosevelt. I nostri attuali sforzi in una collaborazione congiunta hanno avuto successo e ora sono disponibili più tipi di armi per equipaggiare la nostra task force. Inoltre, possiamo iniziare a produrre il prototipo di cannone elettromagnetico Longbow utilizzando la tecnologia Gray catturata."
 
 
 
 
 
+  STR_EXTENDING_WIDEBAND_TRANSMISSIONS: "Estensione delle trasmissioni a banda larga"
 
-STR_EXTENDING_WIDEBAND_TRANSMISSIONS: "Estensione delle trasmissioni a banda larga"
 
+  STR_EXTENDING_WIDEBAND_TRANSMISSIONS_UFOPEDIA: "Sono in corso grandi sforzi per aumentare la portata effettiva dei nostri posti di ascolto. Siamo certi che ci siano ancora forze umane che combattono in altre parti del mondo. Dobbiamo solo trovarle."
 
-STR_EXTENDING_WIDEBAND_TRANSMISSIONS_UFOPEDIA: "Sono in corso grandi sforzi per aumentare la portata effettiva dei nostri posti di ascolto. Siamo certi che ci siano ancora forze umane che combattono in altre parti del mondo. Dobbiamo solo trovarle."
 
 
 
+  STR_JAPANESE_COOPERATION_1_RESEARCH: "Cooperazione giapponese I"
 
-STR_JAPANESE_COOPERATION_1_RESEARCH: "Cooperazione giapponese I"
 
+  STR_JAPANESE_COOPERATION_1_RESEARCH_UFOPEDIA: "Applicando uno sforzo aggiuntivo nella ricerca di trasmissioni radio umane nell'area del Pacifico, abbiamo catturato il segnale emesso dal Corpo giapponese SRPA, da tempo segnalato come MIA. Hanno segnalato i loro combattimenti in corso nell'Asia continentale, oltre a diverse incursioni sulle isole giapponesi. Abbiamo concordato di aiutarli e, a loro volta, elementi delle unità d'élite della Marina e dell'Esercito si uniranno alla nostra task force. Saranno assegnati a {ALT}Yokai Team{ALT}."
 
-STR_JAPANESE_COOPERATION_1_RESEARCH_UFOPEDIA: "Applicando uno sforzo aggiuntivo nella ricerca di trasmissioni radio umane nell'area del Pacifico, abbiamo catturato il segnale emesso dal Corpo giapponese SRPA, da tempo segnalato come MIA. Hanno segnalato i loro combattimenti in corso nell'Asia continentale, oltre a diverse incursioni sulle isole giapponesi. Abbiamo concordato di aiutarli e, a loro volta, elementi delle unità d'élite della Marina e dell'Esercito si uniranno alla nostra task force. Saranno assegnati a {ALT}Yokai Team{ALT}."
 
 
 
+  STR_JAPANESE_COOPERATION_2_RESEARCH: "Cooperazione giapponese II"
 
-STR_JAPANESE_COOPERATION_2_RESEARCH: "Cooperazione giapponese II"
 
+  STR_JAPANESE_COOPERATION_2_RESEARCH_UFOPEDIA: "La collaborazione tra le nostre forze e i difensori del Giappone ha avuto successo. Ci sono alcune preoccupazioni nei circoli ristretti qui, tuttavia, poiché l'approccio imperialista che hanno adottato in Asia non è stato molto tollerato durante l'amministrazione Roosevelt. Nonostante ciò, hanno accettato di condividere più risorse per supportare i nostri sforzi di recupero in Asia. Inoltre, la nostra stazione SRPA in Giappone ha creato con successo una nuova arma utilizzando Gray Tech, ora siamo in grado di produrla."
 
-STR_JAPANESE_COOPERATION_2_RESEARCH_UFOPEDIA: "La collaborazione tra le nostre forze e i difensori del Giappone ha avuto successo. Ci sono alcune preoccupazioni nei circoli ristretti qui, tuttavia, poiché l'approccio imperialista che hanno adottato in Asia non è stato molto tollerato durante l'amministrazione Roosevelt. Nonostante ciò, hanno accettato di condividere più risorse per supportare i nostri sforzi di recupero in Asia. Inoltre, la nostra stazione SRPA in Giappone ha creato con successo una nuova arma utilizzando Gray Tech, ora siamo in grado di produrla."
 
 
 
+  STR_CODEBREAKER_TRANSMISSIONS: "Trasmissioni di decifratori di codice"
 
-STR_CODEBREAKER_TRANSMISSIONS: "Trasmissioni di decifratori di codice"
 
+  STR_CODEBREAKER_TRANSMISSIONS_UFOPEDIA: "Dopo aver ricevuto la notizia di deboli onde radio provenienti dalla Russia, abbiamo concentrato tutti i nostri posti di ascolto disponibili verso quella zona geografica per raccogliere qualsiasi segno di vita. Dopo diversi tentativi, abbiamo captato non uno ma due segnali, su lati opposti del paese. Potevamo scegliere uno qualsiasi di entrambi per iniziare i colloqui diplomatici."
 
-STR_CODEBREAKER_TRANSMISSIONS_UFOPEDIA: "Dopo aver ricevuto la notizia di deboli onde radio provenienti dalla Russia, abbiamo concentrato tutti i nostri posti di ascolto disponibili verso quella zona geografica per raccogliere qualsiasi segno di vita. Dopo diversi tentativi, abbiamo captato non uno ma due segnali, su lati opposti del paese. Potevamo scegliere uno qualsiasi di entrambi per iniziare i colloqui diplomatici."
 
 
 
+  STR_RUSSIAN_COOPERATION_1_RESEARCH: "Cooperazione russa I"
 
-STR_RUSSIAN_COOPERATION_1_RESEARCH: "Cooperazione russa I"
 
+  STR_RUSSIAN_COOPERATION_1_RESEARCH_UFOPEDIA: "Abbiamo stabilito un collegamento stabile con i resti dell'esercito imperiale russo in diversi settori. Sembrano essere raggruppati attorno a Sebastopoli, Leningrado e il Mar Caspio. I Maquis si sono offerti di fungere da collegamento tra loro e le nostre forze, anche se siamo diffidenti nei confronti della sfiducia tra le due parti... dopotutto, non puoi cancellare 30 anni di animosità in un paio di mesi. Nonostante ciò, hanno accettato di fornire ai volontari il loro equipaggiamento in cambio di rifornimenti e tecnologia. Ora fanno parte del {ALT}Team Prizrak{ALT}."
 
-STR_RUSSIAN_COOPERATION_1_RESEARCH_UFOPEDIA: "Abbiamo stabilito un collegamento stabile con i resti dell'esercito imperiale russo in diversi settori. Sembrano essere raggruppati attorno a Sebastopoli, Leningrado e il Mar Caspio. I Maquis si sono offerti di fungere da collegamento tra loro e le nostre forze, anche se siamo diffidenti nei confronti della sfiducia tra le due parti... dopotutto, non puoi cancellare 30 anni di animosità in un paio di mesi. Nonostante ciò, hanno accettato di fornire ai volontari il loro equipaggiamento in cambio di rifornimenti e tecnologia. Ora fanno parte del {ALT}Team Prizrak{ALT}."
 
+  STR_RUSSIAN_COOPERATION_2_RESEARCH: "Cooperazione russa II"
 
-STR_RUSSIAN_COOPERATION_2_RESEARCH: "Cooperazione russa II"
 
+  STR_RUSSIAN_COOPERATION_2_RESEARCH_UFOPEDIA: "I russi che combattono al nostro fianco hanno dimostrato di essere pieni di risorse in tattica e strategia. Dopotutto, combattono i Chimera dal 1927. Molti hanno ringraziato di non essere limitati in munizioni e armamenti, poiché sono stati costretti a combattere una guerra di guerriglia con scarsi equipaggiamenti nell'ultimo decennio. Per questo motivo, hanno condiviso i loro progetti per un fucile a energia sottoposto a reverse engineering basato su un'arma Chimera catturata. Ora siamo in grado di produrlo nei nostri laboratori, utilizzando Gray Tech."
 
-STR_RUSSIAN_COOPERATION_2_RESEARCH_UFOPEDIA: "I russi che combattono al nostro fianco hanno dimostrato di essere pieni di risorse in tattica e strategia. Dopotutto, combattono i Chimera dal 1927. Molti hanno ringraziato di non essere limitati in munizioni e armamenti, poiché sono stati costretti a combattere una guerra di guerriglia con scarsi equipaggiamenti nell'ultimo decennio. Per questo motivo, hanno condiviso i loro progetti per un fucile a energia sottoposto a reverse engineering basato su un'arma Chimera catturata. Ora siamo in grado di produrlo nei nostri laboratori, utilizzando Gray Tech."
 
 
 
+  STR_SIBERIAN_COOPERATION_1_RESEARCH: "Cooperazione siberiana I"
 
-STR_SIBERIAN_COOPERATION_1_RESEARCH: "Cooperazione siberiana I"
 
+  STR_SIBERIAN_COOPERATION_1_RESEARCH_UFOPEDIA: "Un'enclave nascosta di resti dell'esercito imperiale è stata trovata nell'Estremo Oriente, più vicino all'Alaska. Come siano riusciti a rimanere attivi dopo così tanti anni, soprattutto considerando quanto siano infestate le terre desolate siberiane, è quasi un miracolo. Abbiamo offerto loro supporto militare ed equipaggiamento per aiutarli nella loro guerriglia. A loro volta, diversi soldati veterani si sono offerti volontari per unirsi al nostro progetto. Ora fanno parte di {ALT}Fantom Team{ALT}."
 
-STR_SIBERIAN_COOPERATION_1_RESEARCH_UFOPEDIA: "Un'enclave nascosta di resti dell'esercito imperiale è stata trovata nell'Estremo Oriente, più vicino all'Alaska. Come siano riusciti a rimanere attivi dopo così tanti anni, soprattutto considerando quanto siano infestate le terre desolate siberiane, è quasi un miracolo. Abbiamo offerto loro supporto militare ed equipaggiamento per aiutarli nella loro guerriglia. A loro volta, diversi soldati veterani si sono offerti volontari per unirsi al nostro progetto. Ora fanno parte di {ALT}Fantom Team{ALT}."
 
 
 
+  STR_SIBERIAN_COOPERATION_2_RESEARCH: "Cooperazione siberiana II"
 
-STR_SIBERIAN_COOPERATION_2_RESEARCH: "Cooperazione siberiana II"
 
+  STR_SIBERIAN_COOPERATION_2_RESEARCH_UFOPEDIA: "Così tanti anni di isolamento nelle profondità delle foreste siberiane hanno reso le Guardie molto sospettose di qualsiasi forza straniera, non importa se provengano dalla loro stessa specie. Abbiamo ottenuto la loro fiducia e ci hanno concesso i modelli del loro fucile energetico personalizzato basato su Bullseye 'Grom', un prototipo più vecchio che potremmo migliorare utilizzando le conoscenze moderne e ulteriore Gray Tech."
 
-STR_SIBERIAN_COOPERATION_2_RESEARCH_UFOPEDIA: "Così tanti anni di isolamento nelle profondità delle foreste siberiane hanno reso le Guardie molto sospettose di qualsiasi forza straniera, non importa se provengano dalla loro stessa specie. Abbiamo ottenuto la loro fiducia e ci hanno concesso i modelli del loro fucile energetico personalizzato basato su Bullseye 'Grom', un prototipo più vecchio che potremmo migliorare utilizzando le conoscenze moderne e ulteriore Gray Tech."
 
 
 
+  STR_ELERIUM_115_UFOPEDIA: "Elementi radioattivi all'interno di una camera di contenimento. Stare vicino a loro senza una protezione speciale può essere pericoloso, ma finora non abbiamo riscontrato alcun problema. Alcuni di essi sono dei bei pezzi di vetro che brillano sotto la luce UV!"
 
-STR_ELERIUM_115: "Combustibile per reattori nucleari"
 
 
-STR_ELERIUM_115_UFOPEDIA: "Elementi radioattivi all'interno di una camera di contenimento. Stare vicino a loro senza una protezione speciale può essere pericoloso, ma finora non abbiamo riscontrato alcun problema. Alcuni di essi sono dei bei pezzi di vetro che brillano sotto la luce UV!"
 
+  STR_UFO_POWER_SOURCE_UFOPEDIA: "Il nemico usa la tecnologia della fissione per alimentare le proprie strutture e veicoli. Anche se siamo stati in grado di realizzare tale processo, la loro tecnologia è molto più efficiente e sostenibile della nostra."
 
 
 
-STR_UFO_POWER_SOURCE: "Reattore nucleare alieno"
 
+  STR_ALIEN_ALLOYS: "Acciaio Chimera"
 
-STR_UFO_POWER_SOURCE_UFOPEDIA: "Il nemico usa la tecnologia della fissione per alimentare le proprie strutture e veicoli. Anche se siamo stati in grado di realizzare tale processo, la loro tecnologia è molto più efficiente e sostenibile della nostra."
 
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Lega di acciaio leggera, utilizzata dai Chimera per costruire una vasta gamma di utilità e armamenti. Facilmente modellabile con gli strumenti giusti, ma inattaccabile da ogni tipo di danno. Trovata e classificata per la prima volta dal personale della RAF a Gibilterra, la sua consegna e il rapporto di intelligence su come utilizzarla sono stati intercettati da agenti Maquis canaglia e sono andati perduti fino a poco tempo fa."
 
 
 
-STR_ALIEN_ALLOYS: "Acciaio Chimera"
 
+  STR_GRAY_TECH_ITEM: "Oggetto tecnologico grigio"
 
-STR_ALIEN_ALLOYS_UFOPEDIA: "Lega di acciaio leggera, utilizzata dai Chimera per costruire una vasta gamma di utilità e armamenti. Facilmente modellabile con gli strumenti giusti, ma inattaccabile da ogni tipo di danno. Trovata e classificata per la prima volta dal personale della RAF a Gibilterra, la sua consegna e il rapporto di intelligence su come utilizzarla sono stati intercettati da agenti Maquis canaglia e sono andati perduti fino a poco tempo fa."
 
+  STR_GRAY_TECH_ITEM_UFOPEDIA: "Un pezzo di tecnologia aliena estremamente potente. Non corrisponde a nessun progetto realizzato finora dalla Chimera. Emette una luce vibrante e quella che potrebbe essere descritta come 'aria calda attorno a sé', molto probabilmente radiazioni. Maneggiare con cautela."
 
 
+  STR_GRAY_TECH_RECOVERY_TEAM: "Operazioni di recupero e salvataggio"
 
-STR_GRAY_TECH_ITEM: "Oggetto tecnologico grigio"
 
+  STR_GRAY_TECH_RECOVERY_TEAM_UFOPEDIA: "La cosiddetta 'Tecnologia Grigia' si trova spesso dietro le linee nemiche, nelle profondità delle loro fortezze e ridotte. Per radunarla per il nostro progresso tecnologico, dobbiamo razziarla ed estrarla con la forza. Anche la Chimera sembra radunarla, per scopi ancora da comprendere... non possiamo permettere che ci superino. Il maggiore Richard Blake, con l'autorizzazione diretta del presidente McCullen, ha approvato la creazione di una task force d'élite con lo scopo esplicito di infiltrazione, raccolta, recupero, protezione e applicazione di queste risorse tecnologiche aliene. I migliori membri delle Operazioni Tattiche Avanzate SRPA sono stati chiamati a unirsi allo {ALT}Spectre Team{ALT}."
 
-STR_GRAY_TECH_ITEM_UFOPEDIA: "Un pezzo di tecnologia aliena estremamente potente. Non corrisponde a nessun progetto realizzato finora dalla Chimera. Emette una luce vibrante e quella che potrebbe essere descritta come 'aria calda attorno a sé', molto probabilmente radiazioni. Maneggiare con cautela."
 
 
-STR_GRAY_TECH_RECOVERY_TEAM: "Operazioni di recupero e salvataggio"
 
 
-STR_GRAY_TECH_RECOVERY_TEAM_UFOPEDIA: "La cosiddetta 'Tecnologia Grigia' si trova spesso dietro le linee nemiche, nelle profondità delle loro fortezze e ridotte. Per radunarla per il nostro progresso tecnologico, dobbiamo razziarla ed estrarla con la forza. Anche la Chimera sembra radunarla, per scopi ancora da comprendere... non possiamo permettere che ci superino. Il maggiore Richard Blake, con l'autorizzazione diretta del presidente McCullen, ha approvato la creazione di una task force d'élite con lo scopo esplicito di infiltrazione, raccolta, recupero, protezione e applicazione di queste risorse tecnologiche aliene. I migliori membri delle Operazioni Tattiche Avanzate SRPA sono stati chiamati a unirsi allo {ALT}Spectre Team{ALT}."
 
+  STR_GRAY_TECH_INTRODUCTION: "Introduzione a Gray Tech"
 
 
+  STR_GRAY_TECH_INTRODUCTION_UFOPEDIA: "'Gray Tech' (GT) è un termine coniato di recente dal Dr. Malikov per nominare la tecnologia aliena precedentemente sconosciuta, costruita o assemblata da una terza fazione non rivelata. Sono necessarie ulteriori ricerche sulla questione, per comprenderla e capire come potrebbe essere utilizzata nello sforzo bellico."
 
 
 
-STR_GRAY_TECH_INTRODUCTION: "Introduzione a Gray Tech"
 
+  STR_GRAY_TECH_THEORY: "Teoria della tecnologia grigia"
 
-STR_GRAY_TECH_INTRODUCTION_UFOPEDIA: "'Gray Tech' (GT) è un termine coniato di recente dal Dr. Malikov per nominare la tecnologia aliena precedentemente sconosciuta, costruita o assemblata da una terza fazione non rivelata. Sono necessarie ulteriori ricerche sulla questione, per comprenderla e capire come potrebbe essere utilizzata nello sforzo bellico."
 
+  STR_GRAY_TECH_THEORY_UFOPEDIA: "Un crescente approccio teorico sui pezzi extraterrestri indica alcune caratteristiche fisiche ed energetiche che potrebbero essere utilizzate sulla nostra stessa tecnologia, come una sorta di 'booster' o miglioramento. Il GT è dimostrato in grado di trasmettere grandi quantità di energia, che viene ulteriormente aumentata dall'aggiunta di più di quegli elementi. Se continuiamo a ricercare più Gray Tech, potremmo perfezionare un uso pratico per le nostre truppe sul campo."
 
 
 
-STR_GRAY_TECH_THEORY: "Teoria della tecnologia grigia"
 
+  STR_GRAY_TECH_APPLICATIONS: "Applicazioni di tecnologia grigia"
 
-STR_GRAY_TECH_THEORY_UFOPEDIA: "Un crescente approccio teorico sui pezzi extraterrestri indica alcune caratteristiche fisiche ed energetiche che potrebbero essere utilizzate sulla nostra stessa tecnologia, come una sorta di 'booster' o miglioramento. Il GT è dimostrato in grado di trasmettere grandi quantità di energia, che viene ulteriormente aumentata dall'aggiunta di più di quegli elementi. Se continuiamo a ricercare più Gray Tech, potremmo perfezionare un uso pratico per le nostre truppe sul campo."
 
+  STR_GRAY_TECH_APPLICATIONS_UFOPEDIA: "Le indagini continue sulla questione hanno finalmente portato a qualcosa di molto necessario per le nostre forze militari: le armi. Aggiungendo piccole quantità di GT alle armi energetiche progettate dall'uomo già esistenti (che spesso incorporano risorse aliene), potremmo migliorarle notevolmente. Sono previsti anche altri sviluppi come le armi energetiche artigianali. Dobbiamo continuare a lavorare sui campioni extraterrestri recuperati."
 
 
 
-STR_GRAY_TECH_APPLICATIONS: "Applicazioni di tecnologia grigia"
 
+  STR_PROJECT_PROMETHEUS: "Progetto Prometeo"
 
-STR_GRAY_TECH_APPLICATIONS_UFOPEDIA: "Le indagini continue sulla questione hanno finalmente portato a qualcosa di molto necessario per le nostre forze militari: le armi. Aggiungendo piccole quantità di GT alle armi energetiche progettate dall'uomo già esistenti (che spesso incorporano risorse aliene), potremmo migliorarle notevolmente. Sono previsti anche altri sviluppi come le armi energetiche artigianali. Dobbiamo continuare a lavorare sui campioni extraterrestri recuperati."
 
+  STR_PROJECT_PROMETHEUS_UFOPEDIA: "La dott. ssa Julia Cathcart ha assunto la guida delle indagini sulla tecnologia aliena. Ha teorizzato che tutti gli elementi individuali della Gray Tech appartengono a un meccanismo o a una macchina più grandi, tenendo conto di come la radiazione elettromagnetica emessa diventa sempre più intensa con un numero maggiore di pezzi GT vicini tra loro. Dobbiamo continuare a ricercare questo argomento per affinare la nostra comprensione."
 
 
 
-STR_PROJECT_PROMETHEUS: "Progetto Prometeo"
 
+  STR_PROMETHEUS_WEAPON: "Arma di Prometeo"
 
-STR_PROJECT_PROMETHEUS_UFOPEDIA: "La dott. ssa Julia Cathcart ha assunto la guida delle indagini sulla tecnologia aliena. Ha teorizzato che tutti gli elementi individuali della Gray Tech appartengono a un meccanismo o a una macchina più grandi, tenendo conto di come la radiazione elettromagnetica emessa diventa sempre più intensa con un numero maggiore di pezzi GT vicini tra loro. Dobbiamo continuare a ricercare questo argomento per affinare la nostra comprensione."
 
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "L'équipe del dottor Cathcart ha compiuto uno sviluppo rivoluzionario nell'ambito dell'indagine. Ha confermato la teoria secondo cui ogni oggetto GT era un pezzo di un puzzle più grande. Aggiungendo sempre più oggetti, vengono emesse radiazioni elettromagnetiche più intense, che potrebbero essere utilizzate come ordigni esplosivi ad alto rendimento. Si ritiene che combinando {ALT}100 pezzi{ALT}, si possa assemblare una potente bomba, che potrebbe causare un grave blackout nella rete degli hub Chimera. Dobbiamo fabbricarla al più presto, perché abbiamo informazioni sul leader del nemico, Dedalus, che sembra perseguire un obiettivo simile al nostro, ma con lo scopo di spazzare via l'umanità. Una volta che la bomba sarà pronta, dovrete continuare i preparativi conducendo una {ALT}ricerca su di essa{ALT}, in modo da poter preparare un'offensiva per dispiegarla."
 
 
 
-STR_PROMETHEUS_WEAPON: "Arma di Prometeo"
 
 
-STR_PROMETHEUS_WEAPON_UFOPEDIA: "L'équipe del dottor Cathcart ha compiuto uno sviluppo rivoluzionario nell'ambito dell'indagine. Ha confermato la teoria secondo cui ogni oggetto GT era un pezzo di un puzzle più grande. Aggiungendo sempre più oggetti, vengono emesse radiazioni elettromagnetiche più intense, che potrebbero essere utilizzate come ordigni esplosivi ad alto rendimento. Si ritiene che combinando {ALT}100 pezzi{ALT}, si possa assemblare una potente bomba, che potrebbe causare un grave blackout nella rete degli hub Chimera. Dobbiamo fabbricarla al più presto, perché abbiamo informazioni sul leader del nemico, Dedalus, che sembra perseguire un obiettivo simile al nostro, ma con lo scopo di spazzare via l'umanità. Una volta che la bomba sarà pronta, dovrete continuare i preparativi conducendo una {ALT}ricerca su di essa{ALT}, in modo da poter preparare un'offensiva per dispiegarla".
+  STR_OPERATION_OLYMPIC_DEPENDENCY: "Dipendenza dall'operazione olimpica"
 
 
 
 
+  STR_LAUNCH_OPERATION_OLYMPIC: "Avvia operazione Olympic"
 
-STR_OPERATION_OLYMPIC_DEPENDENCY: "Dipendenza dall'operazione olimpica"
 
+  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "È stata fatta una pianificazione importante per la missione di infiltrazione nella prima Hub Tower: Tunguska. Sito dell'atterraggio iniziale della Chimera nel 1908, si ritiene che sia la fonte della corruzione aliena. Un importante attacco coordinato per consegnare la bomba del Dr. Cathcart contro di essa provocherà un effetto domino: una alla volta, ogni Hub Tower cadrà e con essa l'intera griglia. Una volta pronto, clicca sul pulsante TUNGUSKA per iniziare la missione finale."
 
 
 
-STR_LAUNCH_OPERATION_OLYMPIC: "Avvia operazione Olympic"
 
+  STR_ARE_YOU_SURE_CYDONIA: "Sei sicuro di voler inviare questa astronave in missione a Tunguska?"
 
-STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "È stata fatta una pianificazione importante per la missione di infiltrazione nella prima Hub Tower: Tunguska. Sito dell'atterraggio iniziale della Chimera nel 1908, si ritiene che sia la fonte della corruzione aliena. Un importante attacco coordinato per consegnare la bomba del Dr. Cathcart contro di essa provocherà un effetto domino: una alla volta, ogni Hub Tower cadrà e con essa l'intera griglia. Una volta pronto, clicca sul pulsante TUNGUSKA per iniziare la missione finale."
 
+  STR_CYDONIA: "TUNGUSKA"
 
 
+  STR_CONVERSION_CENTER_MISSION: "Raid al centro di conversione"
 
-STR_ARE_YOU_SURE_CYDONIA: "Sei sicuro di voler inviare questa astronave in missione a Tunguska?"
 
+  STR_CONVERSION_CENTER_DEPLOYMENT: "CENTRO DI CONVERSIONE RAID"
 
-STR_CYDONIA: "TUNGUSKA"
 
+  STR_CONVERSION_CENTER_DESCRIPTION: "Le forze alleate hanno individuato un centro di conversione Chimera, utilizzato per creare potenti ceppi alieni. Dobbiamo impossessarcene, recuperare qualsiasi risorsa tecnologica aliena di valore e distruggere i reattori centrali per disattivare la struttura in modo permanente. Fai attenzione, potrebbe esserci una piccola guarnigione a sorvegliarla."
 
-STR_CONVERSION_CENTER_MISSION: "Raid al centro di conversione"
 
+  STR_CONVERSION_CENTER_MARKER_NAME: "Centro di conversione rilevato"
 
-STR_CONVERSION_CENTER_DEPLOYMENT: "CENTRO DI CONVERSIONE RAID"
 
+  STR_CONVERSION_CENTER_ALERT: "Centro di conversione"
 
-STR_CONVERSION_CENTER_DESCRIPTION: "Le forze alleate hanno individuato un centro di conversione Chimera, utilizzato per creare potenti ceppi alieni. Dobbiamo impossessarcene, recuperare qualsiasi risorsa tecnologica aliena di valore e distruggere i reattori centrali per disattivare la struttura in modo permanente. Fai attenzione, potrebbe esserci una piccola guarnigione a sorvegliarla."
 
 
-STR_CONVERSION_CENTER_MARKER_NAME: "Centro di conversione rilevato"
 
+  STR_CHIMERAN_TOWER_MISSION: "Assalto alla Torre Chimera"
 
-STR_CONVERSION_CENTER_ALERT: "Centro di conversione"
 
+  STR_CHIMERAN_TOWER_DEPLOYMENT: "ASSALTO ALLA TORRE CHIMERAN"
 
 
+  STR_CHIMERAN_TOWER_DESCRIPTION: "Le forze alleate hanno individuato una torre Chimeran, principale area di sosta logistica e base operativa. Dobbiamo impossessarcene, recuperare qualsiasi risorsa tecnologica aliena di valore e distruggere i reattori centrali per disattivare la struttura in modo permanente. Fai attenzione, potrebbe esserci una guarnigione considerevole a sorvegliarla."
 
-STR_CHIMERAN_TOWER_MISSION: "Assalto alla Torre Chimera"
 
+  STR_CHIMERAN_TOWER_MARKER_NAME: "Torre Chimeran rilevata"
 
-STR_CHIMERAN_TOWER_DEPLOYMENT: "ASSALTO ALLA TORRE CHIMERAN"
 
+  STR_CHIMERAN_TOWER_ALERT: "Torre Chimera"
 
-STR_CHIMERAN_TOWER_DESCRIPTION: "Le forze alleate hanno individuato una torre Chimeran, principale area di sosta logistica e base operativa. Dobbiamo impossessarcene, recuperare qualsiasi risorsa tecnologica aliena di valore e distruggere i reattori centrali per disattivare la struttura in modo permanente. Fai attenzione, potrebbe esserci una guarnigione considerevole a sorvegliarla."
 
 
-STR_CHIMERAN_TOWER_MARKER_NAME: "Torre Chimeran rilevata"
 
+  STR_CHIMERAN_HUB_TOWER_MISSION: "Offensiva alla torre del hub Chimeran"
 
-STR_CHIMERAN_TOWER_ALERT: "Torre Chimera"
 
+  STR_CHIMERAN_HUB_TOWER_DEPLOYMENT: "OFFENSIVA ALLA TORRE HUB CHIMERAN"
 
 
+  STR_CHIMERAN_HUB_TOWER_DESCRIPTION: "Le forze alleate hanno individuato una torre hub Chimeran, quartier generale nemico principale e nodo di controllo su una vasta area. Dobbiamo catturarla, recuperare qualsiasi risorsa tecnologica aliena di valore e distruggere i reattori centrali per disattivare la struttura in modo permanente. Fai attenzione, potrebbe esserci una grande guarnigione rinforzata a sorvegliarla."
 
-STR_CHIMERAN_HUB_TOWER_MISSION: "Offensiva alla torre del hub Chimeran"
 
+  STR_CHIMERAN_HUB_TOWER_MARKER_NAME: "Torre Hub Chimeran rilevata"
 
-STR_CHIMERAN_HUB_TOWER_DEPLOYMENT: "OFFENSIVA ALLA TORRE HUB CHIMERAN"
 
+  STR_CHIMERAN_HUB_TOWER_ALERT: "Torre Hub Chimeran"
 
-STR_CHIMERAN_HUB_TOWER_DESCRIPTION: "Le forze alleate hanno individuato una torre hub Chimeran, quartier generale nemico principale e nodo di controllo su una vasta area. Dobbiamo catturarla, recuperare qualsiasi risorsa tecnologica aliena di valore e distruggere i reattori centrali per disattivare la struttura in modo permanente. Fai attenzione, potrebbe esserci una grande guarnigione rinforzata a sorvegliarla."
 
 
-STR_CHIMERAN_HUB_TOWER_MARKER_NAME: "Torre Hub Chimeran rilevata"
 
 
-STR_CHIMERAN_HUB_TOWER_ALERT: "Torre Hub Chimeran"
 
+  STR_OPERATION_OLYMPIC_MISSION: "Operazione Olimpica"
 
 
+  STR_OPERATION_OLYMPIC_DEPLOYMENT: "OPERAZIONE OLIMPICA - FASE I"
 
 
+  STR_OPERATION_OLYMPIC_DESCRIPTION: "L'ultimo sforzo per vincere la guerra, una volta per tutte. Dopo la fabbricazione della bomba Prometheus, siamo in grado di attaccare direttamente il nemico nella sua roccaforte principale. Dopo l'atterraggio, dobbiamo affrettarci all'ingresso della presunta struttura sotterranea. Una volta che tutto il personale SRPA è nelle 'piastrelle verdi' dell'ascensore, devi cliccare sul pulsante {ALT}Abort{ALT}, per procedere alla fase successiva."
 
-STR_OPERATION_OLYMPIC_MISSION: "Operazione Olimpica"
 
+  STR_OPERATION_OLYMPIC_MARKER_NAME: "Operazione Olimpica in corso"
 
-STR_OPERATION_OLYMPIC_DEPLOYMENT: "OPERAZIONE OLIMPICA - FASE I"
 
+  STR_OPERATION_OLYMPIC_ALERT: "Operazione Olimpica"
 
-STR_OPERATION_OLYMPIC_DESCRIPTION: "L'ultimo sforzo per vincere la guerra, una volta per tutte. Dopo la fabbricazione della bomba Prometheus, siamo in grado di attaccare direttamente il nemico nella sua roccaforte principale. Dopo l'atterraggio, dobbiamo affrettarci all'ingresso della presunta struttura sotterranea. Una volta che tutto il personale SRPA è nelle 'piastrelle verdi' dell'ascensore, devi cliccare sul pulsante {ALT}Abort{ALT}, per procedere alla fase successiva."
 
 
-STR_OPERATION_OLYMPIC_MARKER_NAME: "Operazione Olimpica in corso"
 
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERAZIONE OLYMPIC - FASE II"
 
-STR_OPERATION_OLYMPIC_ALERT: "Operazione Olimpica"
 
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Sotto la Tunguska Hub Tower, si trova un complesso labirinto di corridoi e stanze. Per posizionare in sicurezza la bomba Prometheus, dobbiamo disattivare tutti i Nodi di controllo  nella base. Ciò taglierà la corrente, così il nemico non potrà inviare un segnale di SOS e richiedere rinforzi. Dopo averlo fatto, estrai tutto il personale della task force e dirigiti verso la zona dell'ascensore e clicca sul {ALT}pulsante Abort{ALT}. Abbiamo solo una possibilità."
 
 
 
-STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERAZIONE OLYMPIC - FASE II"
 
+  STR_STEELHEAD_SQUAD: "Plotone Chimera medio"
 
-STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Sotto la Tunguska Hub Tower, si trova un complesso labirinto di corridoi e stanze. Per posizionare in sicurezza la bomba Prometheus, dobbiamo disattivare tutti i Nodi di controllo  nella base. Ciò taglierà la corrente, così il nemico non potrà inviare un segnale di SOS e richiedere rinforzi. Dopo averlo fatto, estrai tutto il personale della task force e dirigiti verso la zona dell'ascensore e clicca sul {ALT}pulsante Abort{ALT}. Abbiamo solo una possibilità."
 
+  STR_ADVANCED_HYBRID_SQUAD: "Plotone Chimera pesante"
 
 
+  STR_MIXED: "Plotone Chimera misto"
 
-STR_STEELHEAD_SQUAD: "Plotone Chimera medio"
 
 
-STR_ADVANCED_HYBRID_SQUAD: "Plotone Chimera pesante"
 
+  STR_HYBRID_ARMOR: "Impianti base + armatura leggera"
 
-STR_MIXED: "Plotone Chimera misto"
 
+  STR_HYBRID_DESCRIPTION: "Intel ibrido"
 
 
+  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Gli Ibridi, semplici soldati del nemico, sono ex umani infettati dal virus Chimera e mutilati in guerrieri senza cervello e senza paura, con l'unico obiettivo di uccidere qualsiasi essere umano a vista."
 
-STR_HYBRID_ARMOR: "Impianti base + armatura leggera"
 
 
-STR_HYBRID_DESCRIPTION: "Intel ibrido"
 
+  STR_HAMMER_UNIT: "Martello"
 
-STR_HYBRID_DESCRIPTION_UFOPEDIA: "Gli Ibridi, semplici soldati del nemico, sono ex umani infettati dal virus Chimera e mutilati in guerrieri senza cervello e senza paura, con l'unico obiettivo di uccidere qualsiasi essere umano a vista."
 
+  STR_HAMMER_ARMOR: "Exoframe bipede"
 
 
+  STR_HAMMER_CORPSE: "Relitto del martello"
 
-STR_HAMMER_UNIT: "Martello"
 
+  STR_HAMMER_DESCRIPTION: "Intelligenza del martello"
 
-STR_HAMMER_ARMOR: "Exoframe bipede"
 
+  STR_HAMMER_DESCRIPTION_UFOPEDIA: "L'Hammer è un'unità d'assalto meccanizzata pesante, spesso utilizzata in combattimenti ravvicinati all'interno dei centri urbani. Apparsa per la prima volta nella Caduta di Arnhem, dove un'intera squadra ha annientato i difensori tedesco-olandesi su entrambi i lati del ponte. Equipaggiata con una mitragliatrice avanzata, simile alla Brute Minigun"
 
-STR_HAMMER_CORPSE: "Relitto del martello"
 
 
-STR_HAMMER_DESCRIPTION: "Intelligenza del martello"
 
+  STR_STEELHEAD_SOLDIER: "Testa d'acciaio"
 
-STR_HAMMER_DESCRIPTION_UFOPEDIA: "L'Hammer è un'unità d'assalto meccanizzata pesante, spesso utilizzata in combattimenti ravvicinati all'interno dei centri urbani. Apparsa per la prima volta nella Caduta di Arnhem, dove un'intera squadra ha annientato i difensori tedesco-olandesi su entrambi i lati del ponte. Equipaggiata con una mitragliatrice avanzata, simile alla Brute Minigun"
 
+  STR_STEELHEAD_ARMOR: "Impianti corazzati migliorati"
 
 
+  STR_STEELHEAD_CORPSE: "Cadavere di Steelhead"
 
-STR_STEELHEAD_SOLDIER: "Testa d'acciaio"
 
+  STR_STEELHEAD_DESCRIPTION: "Informazioni su Steelhead"
 
-STR_STEELHEAD_ARMOR: "Impianti corazzati migliorati"
 
+  STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "I comandanti delle forze di terra nemiche. Il loro soprannome è stato coniato in base al loro copricapo corazzato. Un'unità di raffreddamento più grande e migliore nella parte posteriore, più piastre rinforzate nella parte anteriore, gli consente di resistere a più danni rispetto ai loro fratelli minori."
 
-STR_STEELHEAD_CORPSE: "Cadavere di Steelhead"
 
 
-STR_STEELHEAD_DESCRIPTION: "Informazioni su Steelhead"
 
+  STR_ADVANCED_HYBRID_SOLDIER: "Ibrido avanzato"
 
-STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "I comandanti delle forze di terra nemiche. Il loro soprannome è stato coniato in base al loro copricapo corazzato. Un'unità di raffreddamento più grande e migliore nella parte posteriore, più piastre rinforzate nella parte anteriore, gli consente di resistere a più danni rispetto ai loro fratelli minori."
 
+  STR_ADVANCED_HYBRID_ARMOR: "Armatura completa + impianti"
 
 
+  STR_ADVANCED_HYBRID_CORPSE: "Cadavere ibrido avanzato"
 
-STR_ADVANCED_HYBRID_SOLDIER: "Ibrido avanzato"
 
+  STR_ADVANCED_HYBRID_DESCRIPTION: "Intel ibrido avanzato"
 
-STR_ADVANCED_HYBRID_ARMOR: "Armatura completa + impianti"
 
+  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Qualcosa che potremmo chiamare un 'commando' per i guerrieri alieni, gli Advanced Hybrids sono forze nemiche di alto rango, viste solo a guardia di posizioni importanti. La loro armatura completa li rende immuni alla maggior parte dei danni, spesso richiedendo raffiche più grandi di fuoco di fucile concentrato per ucciderne uno."
 
-STR_ADVANCED_HYBRID_CORPSE: "Cadavere ibrido avanzato"
 
 
-STR_ADVANCED_HYBRID_DESCRIPTION: "Intel ibrido avanzato"
 
+  STR_RAVAGER_SOLDIER: "Devastazione"
 
-STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Qualcosa che potremmo chiamare un 'commando' per i guerrieri alieni, gli Advanced Hybrids sono forze nemiche di alto rango, viste solo a guardia di posizioni importanti. La loro armatura completa li rende immuni alla maggior parte dei danni, spesso richiedendo raffiche più grandi di fuoco di fucile concentrato per ucciderne uno."
 
+  STR_RAVAGER_SOLDIER_ARMOR: "Muscoloscheletrico mutato"
 
 
+  STR_RAVAGER_SOLDIER_CORPSE: "Cadavere devastante"
 
-STR_RAVAGER_SOLDIER: “Devastazione"
 
+  STR_RAVAGER_SOLDIER_DESCRIPTION: "Intelligence devastante"
 
-STR_RAVAGER_SOLDIER_ARMOR: "Muscoloscheletrico mutato"
 
+  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La varietà più potente della Chimera, il suo aspetto grande e muscoloso spesso intimidisce qualsiasi soldato umano abbastanza sfortunato da trovarne uno sul campo di battaglia. Estremamente resistenti e forti, sono le truppe d'assalto del nemico e trasportano pesanti armi automatiche."
 
-STR_RAVAGER_SOLDIER_CORPSE: "Cadavere devastante"
+  STR_MT_RATING_EXEMPLARY: "Esemplare"
+  STR_MT_RATING_EXCELLENT: "Eccellente"
+  STR_MT_RATING_GREAT: "Ottimo"
+  STR_MT_RATING_GOOD: "Buono"
+  STR_MT_RATING_OK: "Sufficiente"
+  STR_MT_RATING_POOR: "Scarso"
+  STR_MT_RATING_BAD: "Pessimo"
+  STR_MT_RATING_TERRIBLE: "Terribile"
+  STR_MT_RATING_ABOMINABLE: "Abominevole"
 
+  STR_GOOD_ENDING_1: "Abbiamo respinto il nemico, i nostri sforzi bellici hanno avuto successo e gli esseri umani in ogni parte del mondo stanno avanzando."
+  STR_GOOD_ENDING_2: "I nostri progressi tecnologici sono aumentati notevolmente grazie agli sforzi di tutta l'umanità combinata, guidata dalla SRPA."
+  STR_GOOD_ENDING_3: "La distruzione della Torre di Tunguska ha dato inizio a una reazione a catena che si è conclusa con la completa distruzione della base principale della Daedalus a Holar, in Islanda."
+  STR_GOOD_ENDING_4: "Senza testa, le forze Chimeran furono nuovamente disorganizzate e l'umanità iniziò il recupero del pianeta. La guerra è ormai vinta."
 
-STR_RAVAGER_SOLDIER_DESCRIPTION: "Intelligence devastante"
-
-
-STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La varietà più potente della Chimera, il suo aspetto grande e muscoloso spesso intimidisce qualsiasi soldato umano abbastanza sfortunato da trovarne uno sul campo di battaglia. Estremamente resistenti e forti, sono le truppe d'assalto del nemico e trasportano pesanti armi automatiche."
+  STR_BAD_ENDING_1: "Il nemico ci ha respinto, la nostra offensiva è fallita. I contrattacchi dei Chimeran sono aumentati e i gruppi di resistenza sono ora spezzati e dispersi."
+  STR_BAD_ENDING_2: "I nostri sforzi di recupero tecnologico sono stati vani, perché i Chimera hanno sempre avuto la meglio. Non abbiamo avuto alcuna possibilità, nonostante i nostri tentativi di adattare la loro tecnologia."
+  STR_BAD_ENDING_3: "Una sequenza di offensive fallite ha avuto ripercussioni sulle nostre forze militari. Innanzitutto, il fallimento della Torre di Holar. Una vittoria pirrica è stata ottenuta durante l'Operazione Black Eden... al costo del nostro più grande soldato."
+  STR_BAD_ENDING_4: "Ma nonostante questo, è apparso un buco nel cielo e il futuro è incerto."

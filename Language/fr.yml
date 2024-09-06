@@ -69,11 +69,11 @@ fr:
   STR_BULLSEYE_MK2_BATTERY: "Batterie Bullseye Mk.2"
   STR_BULLSEYE_MK2_UFOPEDIA: "Version améliorée du fusil de combat d'infanterie standard Chimera. Le canon lourd permet une plus grande précision, mais il s'agit toujours d'une arme axée sur le combat rapproché. Ses projectiles à plasma bleu causent plus de blessures que les autres armes."
 
-  STR_AUGER_MK1: "Tarière Mk.1" 
+  STR_AUGER_MK1: "Auger Mk.1" 
   STR_AUGER_MK1_BATTERY: "Batterie Auger Mk.1"
   STR_AUGER_MK1_UFOPEDIA: "Fusil de précision lourd, émet des projectiles à rayonnement ionisant qui causent des dégâts considérables au terrain. Son viseur à moyenne portée permet d'attaquer facilement les ennemis cachés derrière un abri."
 
-  STR_AUGER_MK2: "Tarière Mk.2" 
+  STR_AUGER_MK2: "Auger Mk.2" 
   STR_AUGER_MK2_BATTERY: "Batterie Auger Mk.2"
   STR_AUGER_MK2_UFOPEDIA: "Version améliorée du fusil de précision lourd utilisé par les tireurs d'élite Chimera, il dispose d'un viseur longue portée et d'un générateur de rayonnement ionisant avec une plus grande capacité à émettre de l'énergie. Sa capacité à pénétrer le terrain est considérablement augmentée."
 
@@ -945,7 +945,7 @@ fr:
   STR_PROMETHEUS_WEAPON: "Arme de Prométhée"
 
 
-  STR_PROMETHEUS_WEAPON_UFOPEDIA : "L'équipe du Dr Cathcart a réalisé un développement révolutionnaire au cours de l'enquête. Elle a confirmé la théorie selon laquelle chaque élément de l'arme GT est une pièce d'un puzzle plus vaste. En ajoutant de plus en plus d'objets, un rayonnement électromagnétique plus intense est émis, qui pourrait être utilisé comme un engin explosif à haut rendement. On pense qu'en combinant {ALT}100 pièces{ALT}, une puissante bombe pourrait être assemblée, ce qui pourrait provoquer une panne majeure dans le réseau Chimera. Nous devons la {ALTmanufacturer{ALT} dès que possible, car nous avons des informations sur le chef de l'ennemi, Daedalus, qui semble poursuivre un objectif similaire au nôtre, avec pour but d'anéantir l'humanité, à la place. Une fois la bombe prête, vous devrez poursuivre les préparatifs en {ALT}conduisant une recherche sur elle{ALT}, afin que nous puissions préparer une offensive pour la déployer."
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "L'équipe du Dr Cathcart a réalisé un développement révolutionnaire au cours de l'enquête. Elle a confirmé la théorie selon laquelle chaque élément de l'arme GT est une pièce d'un puzzle plus vaste. En ajoutant de plus en plus d'objets, un rayonnement électromagnétique plus intense est émis, qui pourrait être utilisé comme un engin explosif à haut rendement. On pense qu'en combinant {ALT}100 pièces{ALT}, une puissante bombe pourrait être assemblée, ce qui pourrait provoquer une panne majeure dans le réseau Chimera. Nous devons la {ALTmanufacturer{ALT} dès que possible, car nous avons des informations sur le chef de l'ennemi, Daedalus, qui semble poursuivre un objectif similaire au nôtre, avec pour but d'anéantir l'humanité, à la place. Une fois la bombe prête, vous devrez poursuivre les préparatifs en {ALT}conduisant une recherche sur elle{ALT}, afin que nous puissions préparer une offensive pour la déployer."
 
 
 
@@ -1132,4 +1132,22 @@ fr:
 
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La souche la plus puissante de la Chimère, son apparence large et musclée intimide souvent tout soldat humain assez malchanceux pour en rencontrer une sur le champ de bataille. Extrêmement résistants et forts, ils sont les troupes de choc de l'ennemi et portent des armes automatiques lourdes."
 
-  
+  STR_MT_RATING_EXEMPLARY: "Exemplaire"
+  STR_MT_RATING_EXCELLENT: "Excellent"
+  STR_MT_RATING_GREAT: "Excellent"
+  STR_MT_RATING_GOOD: "Bon"
+  STR_MT_RATING_OK: "Suffisant"
+  STR_MT_RATING_POOR: "Médiocre"
+  STR_MT_RATING_BAD: "Mauvais"
+  STR_MT_RATING_TERRIBLE: "Terrible"
+  STR_MT_RATING_ABOMINABLE: "Abominable"
+
+  STR_GOOD_ENDING_1: "Nous avons vaincu l'ennemi, nos efforts de guerre ont été couronnés de succès et les humains de toutes les régions du monde vont de l'avant."
+  STR_GOOD_ENDING_2: "Nos progrès technologiques ont considérablement augmenté grâce aux efforts de l'ensemble de l'humanité, sous l'impulsion de la SRPA."
+  STR_GOOD_ENDING_3: "La destruction de la tour de Tunguska a déclenché une réaction en chaîne qui a abouti à la destruction complète de la base principale de Daedalus à Holar, en Islande."
+  STR_GOOD_ENDING_4: "Sans tête, les forces chimériennes ont été désorganisées une fois de plus et l'humanité a commencé à récupérer la planète. La guerre est désormais gagnée."
+
+  STR_BAD_ENDING_1: "L'ennemi nous a repoussés, notre offensive s'est arrêtée et a échoué. Les contre-attaques chimériennes se sont multipliées et les groupes de résistance sont désormais brisés et dispersés."
+  STR_BAD_ENDING_2: "Nos efforts de récupération des technologies ont été vains, car les Chimères ont toujours eu le dessus. Nous n'avions aucune chance, malgré nos tentatives d'adaptation de leur technologie."
+  STR_BAD_ENDING_3: "Une série d'offensives ratées a mis à mal nos forces militaires. Tout d'abord, l'échec de la Tour Holar. Une victoire pyrrique a été remportée lors de l'opération Black Eden... au prix de notre meilleur soldat."
+  STR_BAD_ENDING_4: "Malgré cela, un trou dans le ciel est apparu et l'avenir est incertain."  

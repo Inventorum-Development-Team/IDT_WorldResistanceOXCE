@@ -952,7 +952,7 @@ pt-PT:
   STR_PROMETHEUS_WEAPON: "Arma Prometeu"
 
 
-  STR_PROMETHEUS_WEAPON_UFOPEDIA: "Um desenvolvimento inovador da equipa do Dr. Cathcart foi feito na investigação. Confirmou a teoria sobre como cada item GT era uma peça de um puzzle maior. Ao adicionar mais e mais itens, é emitida uma radiação electromagnética mais intensa, que pode ser usada como um dispositivo explosivo de alto rendimento. Acredita-se que combinando {ALT}100 peças{ALT}, uma bomba poderosa poderia ser montada, o que poderia causar um grande apagão na rede de centros Quimera. Temos de a {ALTfabricar{ALT} o mais depressa possível, pois temos informações sobre o líder do inimigo, Daedalus, que parece ter um objetivo semelhante ao nosso, mas que pretende aniquilar a humanidade. Assim que a bomba estiver pronta, deves continuar os preparativos {ALT}conduzindo uma investigação sobre ela{ALT}, para que possamos preparar uma ofensiva para a utilizar".
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "Um desenvolvimento inovador da equipa do Dr. Cathcart foi feito na investigação. Confirmou a teoria sobre como cada item GT era uma peça de um puzzle maior. Ao adicionar mais e mais itens, é emitida uma radiação electromagnética mais intensa, que pode ser usada como um dispositivo explosivo de alto rendimento. Acredita-se que combinando {ALT}100 peças{ALT}, uma bomba poderosa poderia ser montada, o que poderia causar um grande apagão na rede de centros Quimera. Temos de a {ALTfabricar{ALT} o mais depressa possível, pois temos informações sobre o líder do inimigo, Daedalus, que parece ter um objetivo semelhante ao nosso, mas que pretende aniquilar a humanidade. Assim que a bomba estiver pronta, deves continuar os preparativos {ALT}conduzindo uma investigação sobre ela{ALT}, para que possamos preparar uma ofensiva para a utilizar."
 
 
 
@@ -1118,18 +1118,37 @@ pt-PT:
 
 
 
-  STR_RAVAGER_SOLDIER: “Devastação"
+  STR_RAVAGER_SOLDIER: "Devastação"
 
 
   STR_RAVAGER_SOLDIER_ARMOR: "Músculo-esquelético mutante"
 
 
-  STR_RAVAGER_SOLDIER_CORPSE: “Cadáver Devastado"
+  STR_RAVAGER_SOLDIER_CORPSE: "Cadáver Devastado"
 
 
-  STR_RAVAGER_SOLDIER_DESCRIPTION: “Intel devastadora"
+  STR_RAVAGER_SOLDIER_DESCRIPTION: "Intel devastadora"
 
 
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "A mais poderosa linhagem da Quimera, sua aparência grande e musculosa frequentemente intimida qualquer soldado humano azarado o suficiente para encontrar um no campo de batalha. Extremamente resistentes e fortes, eles são as tropas de choque do inimigo e carregam armas automáticas pesadas."
  
+  STR_MT_RATING_EXEMPLARY: "Exemplar"
+  STR_MT_RATING_EXCELLENT: "Excelente"
+  STR_MT_RATING_GREAT: "Ótimo"
+  STR_MT_RATING_GOOD: "Bom"
+  STR_MT_RATING_OK: "Suficiente"
+  STR_MT_RATING_POOR: "Medíocre"
+  STR_MT_RATING_BAD: "Mau."
+  STR_MT_RATING_TERRIBLE: "Terrível"
+  STR_MT_RATING_ABOMINABLE: "Abominável"
+
+  STR_GOOD_ENDING_1: "Derrotámos o inimigo, os nossos esforços de guerra foram bem sucedidos e os seres humanos em todas as partes do mundo estão a avançar."
+  STR_GOOD_ENDING_2: "O nosso progresso tecnológico aumentou muito graças aos esforços de toda a humanidade, liderados pela SRPA."
+  STR_GOOD_ENDING_3: "A destruição da Torre de Tunguska deu início a uma reação em cadeia que terminou com a destruição total da base principal da Daedalus em Holar, na Islândia."
+  STR_GOOD_ENDING_4: "Sem cabeça, as forças Quimerianas foram desorganizadas mais uma vez e a humanidade começou a recuperação do planeta. A guerra está ganha agora."
+
+  STR_BAD_ENDING_1: "O inimigo bateu-nos de volta, a nossa ofensiva falhou e falhou. Os contra-ataques quimerianos aumentaram e os grupos de resistência estão agora quebrados e dispersos."
+  STR_BAD_ENDING_2: "Os nossos esforços de recuperação de tecnologia foram em vão, pois os Quimerianos estiveram sempre em vantagem. Não tivemos hipótese, apesar das nossas tentativas de adaptar a tecnologia deles."
+  STR_BAD_ENDING_3: "Uma sequência de ofensivas falhadas afectou as nossas forças militares. Primeiro, o fracasso na Torre Holar. Uma vitória pírrica foi alcançada durante a Operação Éden Negro... ao custo do nosso maior soldado."
+  STR_BAD_ENDING_4: "Mas apesar disso, um buraco no céu apareceu e o futuro é incerto."
  

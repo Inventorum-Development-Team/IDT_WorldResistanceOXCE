@@ -631,4 +631,13 @@ en-US:
   STR_MT_RATING_BAD: "Bad"
   STR_MT_RATING_TERRIBLE: "Terrible"
   STR_MT_RATING_ABOMINABLE: "Abominable"
-  
+
+  STR_GOOD_ENDING_1: "We have beaten back the enemy, our war efforts were successful and humans in every part of the world are pushing forward."
+  STR_GOOD_ENDING_2: "Our tech progress has greatly increased thanks to the efforts of the whole combined humanity, spearheaded by SRPA."
+  STR_GOOD_ENDING_3: "The devastation of the Tunguska Tower began a chain reaction that ended with the complete destruction of Daedalus main base on Holar, Iceland."
+  STR_GOOD_ENDING_4: "Headless, the Chimeran forces were disorganized once more and humanity began the recovery of the planet. The war is won now."
+
+  STR_BAD_ENDING_1: "The enemy has beaten us back, our offensive has stailed and failed. Chimeran counterattacks have increased and resistance groups are now broken and scattered."
+  STR_BAD_ENDING_2: "Our tech recovery efforts were in vain, as the Chimera always had the upper hand. We had no chance, despite our attempts at adapting their technology."
+  STR_BAD_ENDING_3: "A sequence of failed offensives has taken a toll on our military forces. First, the failure at Holar Tower. A pyrric victory was achieved during Operation Black Eden... at the cost of our greatest soldier."
+  STR_BAD_ENDING_4: "But despite this, a hole in the sky has appeared and the future now is uncertain."
