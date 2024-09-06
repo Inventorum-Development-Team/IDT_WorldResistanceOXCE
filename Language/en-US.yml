@@ -390,14 +390,14 @@ en-US:
   STR_PROJECT_PROMETHEUS_UFOPEDIA: "Dr. Julia Cathcart has taken the lead on the investigation on alien technology. She has theorized the Gray Tech individual items all belong to a larger mechanism or machine, taking in account how the emitted electromagnetic radiation becomes more and more intense with a larger number of GT pieces nearby one from another. We must continue researching this topic to refine our understanding."
 
   STR_PROMETHEUS_WEAPON: "Prometheus Weapon"
-  STR_PROMETHEUS_WEAPON_UFOPEDIA: "A groundbreaking development by Dr. Cathcart”s team was made on the investigation. It confirmed the theory about how each GT item was a piece of a larger puzzle. By adding more and more items, more intense electromagnetic radiation is emitted, which could be used as a high yield explosive device. It is believed by combining 100 pieces, a powerful bomb could be assembled, which could cause a major blackout in the Chimera hub network. We must assemble it as soon as possible, as we have intel on the leader of the enemy, Daedalus, who seems to pursue a similar objective as us with the purpose of wiping out mankind, instead. Once the bomb is ready, we could prepare an offensive to deploy it."
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "A groundbreaking development by Dr. Cathcart's team was made on the investigation. It confirmed the theory about how each GT item was a piece of a larger puzzle. By adding more and more items, more intense electromagnetic radiation is emitted, which could be used as a high yield explosive device. It is believed by combining {ALT}100 pieces{ALT}, a powerful bomb could be assembled, which could cause a major blackout in the Chimera hub network. We must {ALTmanufacture{ALT} it as soon as possible, as we have intel on the leader of the enemy, Daedalus, who seems to pursue a similar objective as us with the purpose of wiping out mankind, instead. Once the bomb is ready, you must continue the preparations by {ALT}conducting a research on it{ALT}, so we could prepare an offensive to deploy it."
   
   STR_PROMETHEUS_WEAPON_ITEM: "Prometheus Bomb"
 
   STR_OPERATION_OLYMPIC_DEPENDENCY: "Operation Olympic Dependency"
 
   STR_LAUNCH_OPERATION_OLYMPIC: "Launch Operation Olympic" 
-  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "A major planning is done for the mission to infiltrate the very first Hub Tower: Tunguska. Site of the initial landing of the Chimera in 1908, it is believed to be the source of the alien corruption. A major coordinate strike to deliver Dr. Cathcart”s bomb against it will result in a domino effect - one by one, each Hub Tower will fall, and the whole grid with it. Once ready, click on the TUNGUSKA button to begin the final mission."
+  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "A major planning is done for the mission to infiltrate the very first Hub Tower: Tunguska. Site of the initial landing of the Chimera in 1908, it is believed to be the source of the alien corruption. A major coordinate strike to deliver Dr. Cathcart's bomb against it will result in a domino effect - one by one, each Hub Tower will fall, and the whole grid with it. Once ready, select your VTOL and click on the {ALT}TUNGUSKA button{ALT} to begin the final mission."
 
   STR_ARE_YOU_SURE_CYDONIA: "Are you sure you want to send this craft on a mission to Tunguska?"
   STR_CYDONIA: "TUNGUSKA"
