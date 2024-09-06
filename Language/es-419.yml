@@ -363,7 +363,7 @@ es-419:
   STR_GRAY_TECH_RECOVERY_TEAM_UFOPEDIA: "La llamada 'tecnología gris' suele estar ubicada tras las líneas enemigas, en lo profundo de sus fortalezas y reductos. Para reunirla para nuestro propio progreso tecnológico, debemos atacarla y extraerla por la fuerza. La Quimera parece acumularla también, para propósitos que aún no se comprenden... no podemos permitir que nos superen. El mayor Richard Blake, con la autorización directa del presidente McCullen, ha aprobado la creación de un grupo de trabajo de élite con el propósito explícito de infiltración, recolección, recuperación, protección y aplicación de estos activos tecnológicos alienígenas. Los mejores miembros de las Operaciones Tácticas Avanzadas de la SRPA fueron llamados a unirse al {ALT}Equipo Espectro{ALT}."
 
   STR_GRAY_TECH_INTRODUCTION: "Introducción a la tecnología gris"
-  STR_GRAY_TECH_INTRODUCTION_UFOPEDIA: "“Tecnología gris” (GT) es un término acuñado recientemente por el Dr. Malikov para nombrar la tecnología alienígena previamente desconocida, construida o ensamblada por una tercera facción no revelada. Se necesita más investigación sobre el tema, para comprenderlo y cómo podría usarse en el esfuerzo bélico."
+  STR_GRAY_TECH_INTRODUCTION_UFOPEDIA: "“Tecnología gris” (GT, por las siglas en inglés de Gray Tech) es un término acuñado recientemente por el Dr. Malikov para nombrar la tecnología alienígena previamente desconocida, construida o ensamblada por una tercera facción no revelada. Se necesita más investigación sobre el tema, para comprenderlo y cómo podría usarse en el esfuerzo bélico."
 
   STR_GRAY_TECH_THEORY: "Teoría de la tecnología gris"
   STR_GRAY_TECH_THEORY_UFOPEDIA: "Un enfoque teórico creciente sobre las piezas extraterrestres apunta a ciertas características físicas y energéticas que podrían usarse en nuestra propia tecnología, como una especie de 'refuerzo' o mejora. Se muestra que la GT es capaz de transmitir grandes cantidades de energía, que se incrementa aún más con la adición de más de esos elementos. Si continuamos investigando más sobre la tecnología gris, podríamos refinar un uso práctico para nuestras tropas en el campo."
@@ -375,12 +375,12 @@ es-419:
   STR_PROJECT_PROMETHEUS_UFOPEDIA: "La Dra. Julia Cathcart ha tomado la iniciativa en la investigación sobre tecnología alienígena. Ella ha teorizado que todos los elementos individuales de la tecnología gris pertenecen a un mecanismo o máquina más grande, teniendo en cuenta cómo la radiación electromagnética emitida se vuelve cada vez más intensa con un mayor número de piezas de GT cercanas unas de otras. Debemos continuar investigando este tema para refinar nuestra comprensión."
 
   STR_PROMETHEUS_WEAPON: "Arma Prometeo"
-  STR_PROMETHEUS_WEAPON_UFOPEDIA: "El equipo del Dr. Cathcart realizó un avance revolucionario en la investigación. Confirmó la teoría de que cada elemento de GT era una pieza de un rompecabezas más grande. Al agregar más y más elementos, se emite una radiación electromagnética más intensa, que podría usarse como un dispositivo explosivo de alto rendimiento. Se cree que al combinar 100 piezas, se podría ensamblar una bomba poderosa, que podría causar un apagón importante en la red central de Quimera. Debemos ensamblarla lo antes posible, ya que tenemos información sobre el líder del enemigo, Dédalo, que parece perseguir un objetivo similar al nuestro con el propósito de exterminar a la humanidad. Una vez que la bomba esté lista, podríamos preparar una ofensiva para desplegarla."
+  STR_PROMETHEUS_WEAPON_UFOPEDIA: "El equipo de la Dra. Cathcart hizo un avance revolucionario en la investigación. Confirmó la teoría de que cada elemento GT era una pieza de un rompecabezas mayor. Al añadir más y más elementos, se emite una radiación electromagnética más intensa, que podría utilizarse como un artefacto explosivo de alto rendimiento. Se cree que combinando {ALT}100 piezas{ALT}, se podría ensamblar una poderosa bomba, que podría causar un gran apagón en la red de centros Quimera. Debemos {ALT}manufacturarla{ALT} lo antes posible, ya que tenemos información sobre el líder del enemigo, Dédalo, que parece perseguir un objetivo similar al nuestro con el propósito de acabar con la humanidad, en su lugar. Una vez que la bomba esté lista, debes continuar los preparativos {ALT}realizando una investigación sobre ella{ALT}, para que podamos preparar una ofensiva para desplegarla."
 
   STR_OPERATION_OLYMPIC_DEPENDENCY: "Operación Dependencia Olímpica"
 
   STR_LAUNCH_OPERATION_OLYMPIC: "Lanzamiento de la Operación Olímpica"
-  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "Se está llevando a cabo una importante planificación para la misión de infiltrarse en la primera Torre Hub: Tunguska. Sitio del aterrizaje inicial de la Quimera en 1908, se cree que es la fuente de la corrupción alienígena. Un ataque coordinado importante para lanzar la bomba del Dr. Cathcart contra ella resultará en un efecto dominó: una por una, cada Torre Hub caerá, y toda la red con ella. Una vez que esté listo, haga clic en el botón TUNGUSKA para comenzar la misión final."
+  STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA: "Se está llevando a cabo una importante planificación para la misión de infiltrarse en la primera Torre Hub: Tunguska. Sitio del aterrizaje inicial de la Quimera en 1908, se cree que es la fuente de la corrupción alienígena. Un ataque coordinado importante para lanzar la bomba del Dr. Cathcart contra ella resultará en un efecto dominó: una por una, cada Torre Hub caerá, y toda la red con ella. Una vez que esté listo, seleccione un VTOL y haga clic en el botón TUNGUSKA para comenzar la misión final."
 
   STR_ARE_YOU_SURE_CYDONIA: "¿Estás seguro de que quieres enviar esta nave en una misión a Tunguska?"
   STR_CYDONIA: "TUNGUSKA"
@@ -404,13 +404,14 @@ es-419:
   STR_CHIMERAN_HUB_TOWER_ALERT: "Torre central Chimeran"
 
   STR_OPERATION_OLYMPIC_MISSION: "Operación Olímpica"
-  STR_OPERATION_OLYMPIC_DEPLOYMENT: "OPERACIÓN Olímpica - FASE I"
+  STR_OPERATION_OLYMPIC_DEPLOYMENT: "OPERACIÓN OLÍMPICA - FASE I"
+  STR_MARS_CYDONIA_LANDING: "OPERACIÓN OLÍMPICA - FASE I"
   STR_OPERATION_OLYMPIC_DESCRIPTION: "El último empujón para ganar la guerra, de una vez por todas. Después de la fabricación de la bomba Prometeo, podemos atacar directamente al enemigo en su bastión principal. Después de aterrizar, debemos apresurarnos para entrar en la instalación subterránea sospechosa. Una vez que todo el personal de SRPA esté en los 'azulejos verdes' del ascensor, debe hacer clic en el botón {ALT}Cancelar{ALT} para pasar a la siguiente etapa."
   STR_OPERATION_OLYMPIC_MARKER_NAME: "Operación Olympic en marcha"
   STR_OPERATION_OLYMPIC_ALERT: "Operación Olympic"
 
-  STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERACIÓN OLYMPIC - FASE II"
-  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Debajo de la torre del centro de operaciones de Tunguska hay un complejo laberinto de pasillos y habitaciones. Para colocar de forma segura la bomba Prometeo, debemos desactivar todos los reactores de energía de la base. Esto cortará la energía, por lo que el enemigo no podrá enviar una señal de S.O.S. y solicitar refuerzos. Después de hacerlo, extrae a todo el personal del grupo de trabajo y dirígete a la zona del ascensor y haz clic en el botón {ALT}Cancelar{ALT}. Solo tenemos una oportunidad."
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERACIÓN OLÍMPICA - FASE II"
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Debajo de la torre del centro de operaciones de Tunguska hay un complejo laberinto de pasillos y habitaciones. Para colocar de forma segura la bomba Prometeo, debemos desactivar todos los Nodos de control de la base. Esto cortará la energía, por lo que el enemigo no podrá enviar una señal de S.O.S. y solicitar refuerzos. Después de hacerlo, extrae a todo el personal del grupo de trabajo y dirígete a la zona del ascensor y haz clic en el botón {ALT}Cancelar{ALT}. Solo tenemos una oportunidad."
 
 ######################
 # FUERZAS ENEMIGAS
