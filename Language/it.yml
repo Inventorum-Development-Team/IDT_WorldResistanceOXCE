@@ -926,7 +926,8 @@ STR_PROJECT_PROMETHEUS_UFOPEDIA: "La dott. ssa Julia Cathcart ha assunto la guid
 STR_PROMETHEUS_WEAPON: "Arma di Prometeo"
 
 
-STR_PROMETHEUS_WEAPON_UFOPEDIA: "Un'innovativa innovazione è stata apportata dal team del dott. Cathcart durante l'indagine. Ha confermato la teoria secondo cui ogni elemento GT era un pezzo di un puzzle più grande. Aggiungendo sempre più elementi, vengono emesse radiazioni elettromagnetiche più intense, che potrebbero essere utilizzate come un dispositivo esplosivo ad alto rendimento. Si ritiene che combinando 100 pezzi, si potrebbe assemblare una bomba potente, che potrebbe causare un blackout importante nella rete hub di Chimera. Dobbiamo assemblarla il prima possibile, poiché abbiamo informazioni sul leader del nemico, Daedalus, che sembra perseguire un obiettivo simile al nostro, ovvero quello di annientare l'umanità. Una volta che la bomba sarà pronta, potremmo preparare un'offensiva per distribuirla."
+STR_PROMETHEUS_WEAPON_UFOPEDIA: "L'équipe del dottor Cathcart ha compiuto uno sviluppo rivoluzionario nell'ambito dell'indagine. Ha confermato la teoria secondo cui ogni oggetto GT era un pezzo di un puzzle più grande. Aggiungendo sempre più oggetti, vengono emesse radiazioni elettromagnetiche più intense, che potrebbero essere utilizzate come ordigni esplosivi ad alto rendimento. Si ritiene che combinando {ALT}100 pezzi{ALT}, si possa assemblare una potente bomba, che potrebbe causare un grave blackout nella rete degli hub Chimera. Dobbiamo fabbricarla al più presto, perché abbiamo informazioni sul leader del nemico, Dedalus, che sembra perseguire un obiettivo simile al nostro, ma con lo scopo di spazzare via l'umanità. Una volta che la bomba sarà pronta, dovrete continuare i preparativi conducendo una {ALT}ricerca su di essa{ALT}, in modo da poter preparare un'offensiva per dispiegarla".
+
 
 
 
@@ -1023,7 +1024,7 @@ STR_OPERATION_OLYMPIC_ALERT: "Operazione Olimpica"
 STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERAZIONE OLYMPIC - FASE II"
 
 
-STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Sotto la Tunguska Hub Tower, si trova un complesso labirinto di corridoi e stanze. Per posizionare in sicurezza la bomba Prometheus, dobbiamo disattivare tutti i reattori energetici nella base. Ciò taglierà la corrente, così il nemico non potrà inviare un segnale di SOS e richiedere rinforzi. Dopo averlo fatto, estrai tutto il personale della task force e dirigiti verso la zona dell'ascensore e clicca sul {ALT}pulsante Abort{ALT}. Abbiamo solo una possibilità."
+STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Sotto la Tunguska Hub Tower, si trova un complesso labirinto di corridoi e stanze. Per posizionare in sicurezza la bomba Prometheus, dobbiamo disattivare tutti i Nodi di controllo  nella base. Ciò taglierà la corrente, così il nemico non potrà inviare un segnale di SOS e richiedere rinforzi. Dopo averlo fatto, estrai tutto il personale della task force e dirigiti verso la zona dell'ascensore e clicca sul {ALT}pulsante Abort{ALT}. Abbiamo solo una possibilità."
 
 
 
