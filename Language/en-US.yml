@@ -432,7 +432,7 @@ en-US:
   STR_OPERATION_OLYMPIC_ALERT: "Operation Olympic"
 
   STR_OPERATION_OLYMPIC_UNDERGROUND_DEPLOYMENT: "OPERATION OLYMPIC - PHASE II"
-  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Below the Tunguska Hub Tower, lies a complex maze of corridors and rooms. In order to safely place the Prometheus Bomb, we must disable all the energy reactors in the base. This will cut the power, so the enemy can”t send a S.O.S beacon and request for reinforcements. After doing so, extract all the task force personnel and head towards the elevator zone and click on {ALT}Abort button{ALT}. We have just one chance."
+  STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Below the Tunguska Hub Tower, lies a complex maze of corridors and rooms. In order to safely place the Prometheus Bomb, we must disable all the Control Nodes in the base. This will cut the power, so the enemy can”t send a S.O.S beacon and request for reinforcements. After doing so, extract all the task force personnel and head towards the elevator zone and click on {ALT}Abort button{ALT}. We have just one chance."
 
   STR_AIR_SUPERIORITY_1: "Air Superiority I"
 
