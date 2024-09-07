@@ -313,6 +313,14 @@ en-US:
   STR_SRPA_BLACK_OPS_UNIFORM_UC: "BLACK OPS TACTICAL SUIT"
   STR_SRPA_BLACK_OPS_UNIFORM: "Black Ops Tactical Suit"
   STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA: "Main battle dress of the Black Ops, the special operators of the SRPA. Includes a reinforced vest and special enclosed NBC (nuclear-biological-chemical) helmet to prevent infections by Chimeran airborne pathogens."
+  
+  STR_SRPA_BLACK_OPS_NIGHT_UNIFORM_UC: "BLACK OPS INFILTRATION SUIT"
+  STR_SRPA_BLACK_OPS_NIGHT_UNIFORM: "Black Ops Infiltration Suit"
+  STR_SRPA_BLACK_OPS_NIGHT_UNIFORM_UFOPEDIA: "Specialized version used by the Black Ops in nighttime infiltrations. The low visibility attire and special night vision lenses incorporated into the gas mask helps the SRPA operatives to blend in the darkness."
+  
+  STR_SRPA_BLACK_OPS_FOREST_UNIFORM_UC: "BLACK OPS EXPEDITIONARY SUIT"
+  STR_SRPA_BLACK_OPS_FOREST_UNIFORM: "Black Ops Expeditionary Suit"
+  STR_SRPA_BLACK_OPS_FOREST_UNIFORM_UFOPEDIA: "An improved variant of the Tactical Suit, meant to be used by SRPA elements deployed deep behind enemy lines, such as the recon teams operating in Europe since 1950. Lighter armor plates allow the user to move easily within the wilderness."
 
   STR_BDU_UC: "AMERICAN M1943 UNIFORM"
   STR_BDU_UC_UFOPEDIA: "Combat uniform for the US Armed Forces, introduced in 1943. Made in weather-proof cloth, it is warm in cold seasons and fresh in hot regions. Issued with a M1 “pot” helmet." 
