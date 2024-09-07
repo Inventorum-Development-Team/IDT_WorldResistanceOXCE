@@ -738,7 +738,7 @@ pt-PT:
 
 
 
-  STR_BRITISH_FIELD_UNIFORM_UC: "BATALHA BRITÂNICA"
+  STR_BRITISH_FIELD_UNIFORM_UC: "TRAJE DE BATALHA BRITÂNICA"
 
 
   STR_BRITISH_FIELD_UNIFORM: "Traje de batalha britânico"
@@ -1176,4 +1176,30 @@ pt-PT:
   STR_BAD_ENDING_2: "Os nossos esforços de recuperação de tecnologia foram em vão, pois os Quimerianos estiveram sempre em vantagem. Não tivemos hipótese, apesar das nossas tentativas de adaptar a tecnologia deles."
   STR_BAD_ENDING_3: "Uma sequência de ofensivas falhadas afectou as nossas forças militares. Primeiro, o fracasso na Torre Holar. Uma vitória pírrica foi alcançada durante a Operação Éden Negro... ao custo do nosso maior soldado."
   STR_BAD_ENDING_4: "Mas apesar disso, um buraco no céu apareceu e o futuro é incerto."
- 
+
+  STR_USA: "ESTADOS UNIDOS"
+  STR_RUSSIA: "RUSSIAN FRONT"
+  STR_UK: "Reino Unido"
+  STR_FRANCE: "FRANCE"
+  STR_GERMANY: "GERMANY"
+  STR_ITALY: "FRONTO ITÁLIANO"
+  STR_SPAIN: "IBÉRIANO FRONT"
+  STR_CHINA: "FRONTE CHINESES"
+  STR_JAPAN: "JAPAN IMPERIAL"
+  STR_INDIA: "INDIA FRONT"
+  STR_BRAZIL: "FRONT AMAZONIAN"
+  STR_AUSTRALIA: "AUSTRALIA"
+  STR_NIGÉRIA: "FRONTURA DE RAINFESS"
+  STR_SOUTH_AFRICA: "AFRICA SOUTH"
+  STR_EGYPT: "SUEZ CANAL FRONT"
+  STR_CANADA: "CANADA"
+
+  STR_LIBERTY_DEFENSE_PERIMETER: "PERÍMETRO DE DEFESA DA LIBERDADE"
+  STR_SIBERIA_GRAY_ZONE: "ZONA CINZENTA SIBERIANA"
+  STR_MONGOLIA_GRAY_ZONE: "ZONA CINZENTA MONGOLIANA"
+  STR_CENTRAL_AFRICA_GRAY_ZONE: "ZONA CINZENTA AFRICANA"
+  STR_AVALON_ONE: "AVALON ONE"
+  STR_MIDDLE_EAST_GRAY_ZONE: "ZONA CINZENTA PERSA"
+  STR_CANADIAN_GRAY_ZONE: "ZONA CINZENTA CANADENSE"
+  STR_MEXICAN_GRAY_ZONE: "ZONA CINZENTA MEXICANA"
+  STR_ANDEAN_GRAY_ZONE: "ZONA CINZENTA ANDINA"
