@@ -101,6 +101,10 @@ alienDeployments:
     #markerIcon 27
     terrains:
       - URBAN_RUINS
+      - EXPANDED_TERROR
+      - COMRCURBAN
+      - INDUSTRIALSLUM
+      - TMURBAN      
     alert: STR_CONVERSION_CENTER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
@@ -205,6 +209,13 @@ alienDeployments:
     #markerIcon 27
     terrains:
       - URBAN_RUINS
+      - RURAL
+      - IDT_SNOWVILLAGE
+      - TPURBAN
+      - FOREST_SNOW
+      - FORESTSWAMP_SNOW
+      - ACULTASNOW
+      - IDT_SNOWFOREST           
     alert: STR_CHIMERAN_TOWER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
@@ -309,6 +320,12 @@ alienDeployments:
     #markerIcon 27
     terrains:
       - URBAN_RUINS
+      - IDT_SNOWVILLAGE
+      - TPURBAN
+      - FOREST_SNOW
+      - FORESTSWAMP_SNOW
+      - ACULTASNOW
+      - IDT_SNOWFOREST      
     alert: STR_CHIMERAN_HUB_TOWER_ALERT
     alertBackground: BACK13.SCR
     #alertDescription: STR_PROVING_GROUNDS_DESCRIPTION

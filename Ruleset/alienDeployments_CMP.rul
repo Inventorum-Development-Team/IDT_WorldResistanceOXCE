@@ -37,17 +37,26 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 1
@@ -55,20 +64,26 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_PLASMA_PISTOL_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -76,18 +91,26 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -95,18 +118,26 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CLIP
-            - STR_PLASMA_PISTOL_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CLIP
-            - STR_PLASMA_RIFLE_CLIP
+            - STR_BULLSEYE_MK1
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_BULLSEYE_MK1_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
           -
-            - STR_HEAVY_PLASMA
-            - STR_HEAVY_PLASMA_CLIP
-            - STR_ALIEN_GRENADE
-            - STR_HEAVY_PLASMA_CLIP
+            - STR_BULLSEYE_MK2
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_BULLSEYE_MK2_BATTERY
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
+            - STR_HEDGEHOG_GRENADE
       - alienRank: 6
         lowQty: 1
         highQty: 3
