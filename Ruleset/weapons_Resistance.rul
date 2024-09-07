@@ -233,7 +233,7 @@ items:
   - type: STR_M2A1_CLOVIS
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_LMGS, STR_AMERICAN_EQUIPMENT]
     requiresBuy:
-      - STR_AMERICAN_VOLUNTEERS
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.2
@@ -603,7 +603,7 @@ items:
     listOrder: 2350
 
   - type: STR_RAZOR_BM001
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_BRITISH_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_BRITISH_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -640,7 +640,7 @@ items:
     #listOrder: 2240
     
   - type: STR_FEDOROV_GROM
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -692,7 +692,7 @@ items:
     #listOrder: 2240
     
   - type: STR_BULLSEYE_MK1
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -743,7 +743,7 @@ items:
     #listOrder: 2240
 
   - type: STR_BULLSEYE_MK1_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -763,7 +763,7 @@ items:
     #listOrder: 2245
 
   - type: STR_BULLSEYE_MK2
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -814,7 +814,7 @@ items:
     #listOrder: 2250
 
   - type: STR_BULLSEYE_MK2_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_CLIPS]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1304,7 +1304,7 @@ items:
     #listOrder: 2070
 
   - type: STR_LONGBOW_1S1K_FLECHETTES
-    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, REV, STR_MAQUIS_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1378,7 +1378,7 @@ items:
     listOrder: 244
 
   - type: STR_AUGER_MK1
-    categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_CLIPS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -1410,7 +1410,7 @@ items:
     #listOrder: 2260
 
   - type: STR_AUGER_MK1_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_CLIPS]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1432,7 +1432,7 @@ items:
     #listOrder: 2265
 
   - type: STR_AUGER_MK2
-    categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_CLIPS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -1464,7 +1464,7 @@ items:
     #listOrder: 2270
 
   - type: STR_AUGER_MK2_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_CLIPS]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1718,7 +1718,7 @@ items:
         STR_LIGHT_EQUIPMENT,
       ]
     requiresBuy:
-      - STR_AMERICAN_VOLUNTEERS
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.01
@@ -1781,7 +1781,7 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_AMERICAN_VOLUNTEERS
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025
@@ -1820,7 +1820,7 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_AMERICAN_VOLUNTEERS
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
     size: 0.025
     costBuy: 250
     costSell: 300
