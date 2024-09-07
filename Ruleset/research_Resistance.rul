@@ -89,7 +89,7 @@ research:
     points: 60
     needItem: true
   - name: STR_ALIEN_ALLOYS
-    cost: 600
+    cost: 200
     points: 25
     needItem: true
 
