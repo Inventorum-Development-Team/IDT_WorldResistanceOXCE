@@ -22,14 +22,7 @@ ufopaedia:
   - id: STR_40MM_FRAG
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_L23_FAREYE_SNIPER_RIFLE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA
-    listOrder: 2000
-  - id: STR_303_SNIPER_AMMO
-    type_id: 4
-    section: STR_NOT_AVAILABLE
+
   - id: STR_STORM_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -51,6 +44,15 @@ ufopaedia:
     text: STR_BULLSEYE_MK2_UFOPEDIA
 #    listOrder: 2002
   - id: STR_BULLSEYE_MK2_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_L23_FAREYE_SNIPER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 2000
+  - id: STR_303_SNIPER_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -80,7 +82,7 @@ ufopaedia:
 
 
 ################
-
+# Armors
   - id: STR_SRPA_BLACK_OPS_UNIFORM_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -94,4 +96,70 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     listOrder: 2
     text: STR_BDU_UC_UFOPEDIA
+
+################
+# Research topics 
+
+#######################################
+### WEAPONS AND SOLDIERS RESEARCH ####
+#####################################
+
+  - id: STR_AMERICAN_VOLUNTEERS_RESEARCH
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    text: STR_AMERICAN_VOLUNTEERS_RESEARCH_UFOPEDIA
+    
+##########################
+####### END GAME ########
+########################    
+    
+  - id: STR_GRAY_TECH_INTRODUCTION
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_GRAY_TECH_INTRODUCTION
+    text: STR_GRAY_TECH_INTRODUCTION_UFOPEDIA
+
+  - id: STR_GRAY_TECH_ITEM
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_GRAY_TECH_ITEM_UFOPEDIA
+#    listOrder: 2002
+
+  - id: STR_GRAY_TECH_THEORY
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_GRAY_TECH_THEORY
+    text: STR_GRAY_TECH_THEORY_UFOPEDIA
+
+  - id: STR_GRAY_TECH_APPLICATIONS
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_GRAY_TECH_APPLICATIONS
+    text: STR_GRAY_TECH_APPLICATIONS_UFOPEDIA
+
+  - id: STR_PROJECT_PROMETHEUS
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_PROJECT_PROMETHEUS
+    text: STR_PROJECT_PROMETHEUS_UFOPEDIA
+    
+  - id: STR_PROMETHEUS_WEAPON
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_PROMETHEUS_WEAPON
+    text: STR_PROMETHEUS_WEAPON_UFOPEDIA
+
+  - id: STR_LAUNCH_OPERATION_OLYMPIC
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_LAUNCH_OPERATION_OLYMPIC
+    text: STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA
 
