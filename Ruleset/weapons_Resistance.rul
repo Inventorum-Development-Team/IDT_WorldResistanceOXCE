@@ -814,7 +814,7 @@ items:
     #listOrder: 2250
 
   - type: STR_BULLSEYE_MK2_BATTERY
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -837,15 +837,7 @@ items:
 ###############################
 
   - type: STR_HVAP_CHAINGUN
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_AMERICAN_EQUIPMENT,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_AMERICAN_EQUIPMENT]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.03
@@ -893,16 +885,7 @@ items:
     listOrder: 3080
 
   - type: STR_HVAP_CHAINGUN_DRUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
-    
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_AMERICAN_EQUIPMENT]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.01
@@ -933,16 +916,7 @@ items:
     listOrder: 3090
 
   - type: STR_DEGTYARYOV_LMG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_SIBERIAN_EQUIPMENT]
     requiresBuy:
       - STR_SIBERIAN_COOPERATION_1_RESEARCH
     size: 0.03
@@ -990,15 +964,7 @@ items:
     listOrder: 3110
 
   - type: STR_DEGTYARYOV_LMG_PAN
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_SIBERIAN_EQUIPMENT]
     requiresBuy:
       - STR_SIBERIAN_COOPERATION_1_RESEARCH
     size: 0.01
@@ -1027,15 +993,7 @@ items:
     attraction: 10
     listOrder: 3120
   - type: STR_DEGTYARYOV_LMG_BELT
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_SIBERIAN_EQUIPMENT]
     requiresBuy:
       - STR_SIBERIAN_COOPERATION_1_RESEARCH
     size: 0.01
