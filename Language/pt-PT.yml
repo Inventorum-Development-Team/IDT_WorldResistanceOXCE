@@ -100,6 +100,12 @@ pt-PT:
   # SOLDADOS
 
   STR_US_ARMY_SOLDIER: "Ranger do Exército dos EUA"
+  STR_BRITISH_SOLDER: "British Rifleman"
+  STR_MAQUIS_SOLDER: "Maquis Partisan"
+  STR_JAPONESE_SOLDER: "Soldier Imperial Japonês"
+  STR_SIBÉRIANO_SOLDIER: "Guarda Sibéria"
+  STR_RUSSIAN_SOLDER: "Remanescente Russo"
+  STR_SENTINEL_SOLDER: "SRPA Sentinel"
   STR_PRIVATE: "Privado"
   STR_CORPORAL: "Cabo"
   STR_SERGEANT: "Sargento"
@@ -122,22 +128,39 @@ pt-PT:
   STR_SABRE: "SABRE"
   STR_SABRE_UFOPEDIA: "F-86 Sabre - Caça de superioridade aérea, a ponta de lança dos esforços de guerra americanos. Armado pesadamente e resistente o suficiente para suportar vários golpes."
 
-  STR_SIDEWINDER: "MÍSSIL AA"
-  STR_SIDEWINDER_UFOPEDIA: "AIM-9 Sidewinder - míssil ar-ar americano de curto alcance com orientação IR. Ele tem uma ogiva de fragmentação que destrói aeronaves inimigas quando atinge."
-  STR_SIDEWINDER_LAUNCHER: "Lançador de mísseis AA"
-  STR_SIDEWINDER_MISSILES: "Mísseis AA"
+  STR_FUEL_TANK_UC: "TANK de COMBUSTÍVEL"
+  STR_FUEL_TANK_UFOPEDIA: "O tanque externo montado sob as asas, destinado a aumentar a gama de combate da aeronave. Produz algum arrasto, reduzindo assim a aceleração e a velocidade. combustível Max: 150, aceleração: -1, eviteBonus: -5"
+  STR_FUEL_TANK_LAUNCHER: "Fuel Tank"
 
-  STR_FUEL_TANK_UC: "TANQUE DE COMBUSTÍVEL"
-  STR_FUEL_TANK_UFOPEDIA: "Tanque externo montado sob as asas, destinado a aumentar o alcance de combate da aeronave. Produz algum arrasto, reduzindo assim a aceleração e a velocidade. fuelMax: 150, accel: -1, avoidBonus: -5"
-  STR_FUEL_TANK: "Tanque de combustível"
-  STR_FLARE_DISPENSER_UC: "DISPENSADOR DE FLARE"
-  STR_FLARE_DISPENSER_UFOPEDIA: "Contramedidas projetadas para desviar mísseis IR disparados contra a aeronave. Criados com materiais pirotécnicos, eles queimam em temperaturas muito mais altas do que um motor e podem confundir o sistema de orientação de muitos mísseis. avoidBonus: 25"
-  STR_FLARE_DISPENSER: "Dispensador de alargamento"
+  STR_FLARE_DISPENSER_UC: "DISPENSER FLARE"
+  STR_FLARE_DISPENSER_UFOPEDIA: "Concebidos concebidos para desviar os mísseis de IR disparados na aeronave. Criado com materiais pirotécnicos, queimam a temperaturas muito mais elevadas do que um motor e podem confundir o sistema de orientação de muitos mísseis. eviteBonus: 25"
+  STR_FLARE_DISPENSER: "Flare Dispensador"
 
+  STR_ARMOR_PLATES_UC: "PLACAS ARMOR"
+  STR_ARMOR_PLATES_UFOPEDIA: "Avião reforçado com o revestimento blindado, feito usando exactamente as mesmas placas de aço quimero que se encontram no artesanato alienígena. A troca de alguma manobrabilidade e velocidade para pontos de saúde extra, muito útil para resistir ao fogo inimigo. "
+  STR_ARMOR_PLATES_LAUNCHER: "Pratos de armadura"
 
-  STR_AFTERBURNER_UC: "JATO EXPERIMENTAL THURSTER"
-  STR_AFTERBURNER_UFOPEDIA: "Este protótipo de motor a jato é usado para aumentar muito a aceleração e a velocidade do veículo onde é montado. No entanto, o estresse colocado no motor reduz sua autonomia. accel: 5, speedMax: 150, fuelMax: -15"
-  STR_AFTERBURNER: "Jato experimental Thurster"
+  STR_20MM_CANNON_UC: "20MM CANNON"
+  STR_20MM_CANNON_UFOPEDIA: "Uma arma de aeronave muito popular desde a Grande Guerra, tem uma taxa elevada de incêndios e conchas de piercing de armadura, perfeitas para combates de médio alcance. Equilibrado entre o poder de fogo, o alcance e a precisão."
+  STR_20MM_CANNON_LAUNCHER: "20mm Cannon"
+
+  STR_30MM_CANNON_UC: "30MM CANNON"
+  STR_30MM_CANNON_UFOPEDIA: "Muitas vezes encontradas em combatentes desenhados por russo, a taxa de fogo reduzida permite uma melhor precisão em alcances mais longos. As rondas duras de sucesso punem lentamente os combatentes inimigos."
+  STR_30MM_CANNON_LAUNCHER: "30mm Cannon"
+
+  STR_50CAL_MACHINEGUN_UC: ". 50 CAL MACHINE GUN"
+  STR_50CAL_MACHINEGUN_UFOPEDIA: "Anços automáticos, utilizados em veículos navais, moídos e aéreos. Muito apreciado pelo seu elevado volume de fogo, o cartucho de 12,7 mm tem algum problema com penetração da armadura espessa dos caças chimeranos, mas ainda assim continua a ser uma ronda comummente utilizada. "
+  STR_50CAL_MACHINEGUN_LAUNCHER: ". 50 Cal Machine Gun"
+
+  STR_AFTERBURNER_UC: "EXPERIMENTAL JET THURSTER"
+  STR_AFTERBURNER_UFOPEDIA: "Este motor do jato protótipo é utilizado para aumentar enormemente a aceleração e a velocidade do veículo onde é montado. No entanto, a tensão colocada no motor reduz a sua autonomia. aceleração: 5, speedMax: 150, combustível Max: -15"
+  STR_AFTERBURNER_LAUNCHER: "Experimental Jet Thurster"
+
+  STR_50CAL_MACHINEGUN_STRING: ". 50 CAL"
+  STR_30MM_CANNON_STRING: "30MM AC"
+  STR_20MM_CANNON_STRING: "20MM AC"
+  STR_SIDEWINDER_STRING: "MISSILE"
+  STR_AUX_STRING: "AUXILIAR"
 
 ######################
 #TEXTO DO MENU ALTERADO

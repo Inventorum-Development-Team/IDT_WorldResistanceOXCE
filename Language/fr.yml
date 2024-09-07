@@ -98,7 +98,13 @@ fr:
 
 ###################### # SOLDATS
 
-  STR_US_ARMY_SOLDIER: "Ranger de l'armée américaine" 
+  STR_US_ARMY_SOLDIER: "Ranger de l'armée américaine"
+  STR_BRITISH_SOLDIER: "Fusilier britannique"
+  STR_MAQUIS_SOLDIER: "Partisan du maquis"
+  STR_JAPANESE_SOLDIER: "Soldat impérial japonais"
+  STR_SIBERIAN_SOLDIER: "Garde sibérienne"
+  STR_RUSSIAN_SOLDIER: "Vestige russe"
+  STR_SENTINEL_SOLDIER: "Sentinelle SRPA"
   STR_PRIVATE: "Privé"
   STR_CORPORAL: "Caporal" 
   STR_SERGEANT: "Sergent" 
@@ -127,17 +133,39 @@ fr:
   STR_SIDEWINDER_MISSILES: "Missiles antiaériens"
 
   STR_FUEL_TANK_UC: "RÉSERVOIR DE CARBURANT"
-  STR_FUEL_TANK_UFOPEDIA: "Réservoir externe monté sous les ailes, destiné à augmenter la portée de combat de l'avion. Produit une certaine traînée, réduisant ainsi l'accélération et la vitesse. fuelMax: 150, accel: -1, AvoidBonus: -5" 
-  STR_FUEL_TANK: "Réservoir de carburant"
+  STR_FUEL_TANK_UFOPEDIA: "Réservoir externe monté sous les ailes, destiné à augmenter la portée de combat de l'avion. Produit une certaine traînée, réduisant ainsi l'accélération et la vitesse. fuelMax: 150, accel: -1, AvoidBonus: -5"
+  STR_FUEL_TANK_LAUNCHER: "Réservoir de carburant"
 
-  STR_FLARE_DISPENSER_UC: "DISTRIBUTEUR DE FLARE"
+  STR_FLARE_DISPENSER_UC: "DISTRIBUTEUR DE LAMPES DE FUSÉES"
   STR_FLARE_DISPENSER_UFOPEDIA: "Contre-mesures conçues pour détourner les missiles IR tirés sur l'avion. Créées avec des matériaux pyrotechniques, elles brûlent à des températures bien supérieures à celles d'un moteur et peuvent perturber le système de guidage de nombreux missiles. AvoidBonus: 25"
   STR_FLARE_DISPENSER: "Distributeur de fusées éclairantes"
 
+  STR_ARMOR_PLATES_UC: "PLAQUES DE BLINDAGE"
+  STR_ARMOR_PLATES_UFOPEDIA: "Plaques de blindage renforcées pour avions, fabriquées à partir des mêmes plaques d'acier chimères que celles trouvées sur les vaisseaux extraterrestres. Échange d'une certaine maniabilité et vitesse contre des points de santé supplémentaires, très utiles pour résister aux tirs ennemis."
+
+  STR_ARMOR_PLATES_LAUNCHER: "Plaques de blindage"
+
+  STR_20MM_CANNON_UC: "CANON 20 MM"
+  STR_20MM_CANNON_UFOPEDIA: "Arme d'avion très populaire depuis la Grande Guerre, elle a une cadence de tir élevée et des obus perforants, parfaite pour les combats aériens à moyenne portée. Équilibre entre puissance de feu, portée et précision."
+  STR_20MM_CANNON_LAUNCHER: "Canon de 20 mm"
+
+  STR_30MM_CANNON_UC: "CANON de 30 mm"
+  STR_30MM_CANNON_UFOPEDIA: "Souvent trouvé sur les chasseurs de conception russe, la cadence de tir réduite permet une meilleure précision sur de plus longues distances. Les obus percutants punissent lentement les chasseurs ennemis."
+  STR_30MM_CANNON_LAUNCHER: "Canon de 30 mm"
+
+  STR_50CAL_MACHINEGUN_UC: "MITRAILLEUSE DE .50 CAL"
+  STR_50CAL_MACHINEGUN_UFOPEDIA: "Canon automatique largement répandu, utilisé sur les véhicules navals, terrestres et aériens. Très appréciée pour son volume de tir élevé, la cartouche de 12,7 mm a quelques difficultés à pénétrer le blindage épais des chasseurs Chimeran, mais reste néanmoins une munition couramment utilisée."
+  STR_50CAL_MACHINEGUN_LAUNCHER: "Mitrailleuse de calibre .50"
 
   STR_AFTERBURNER_UC: "PROPULSEUR À RÉACTION EXPÉRIMENTAL"
-  STR_AFTERBURNER_UFOPEDIA: "Ce prototype de moteur à réaction est utilisé pour augmenter considérablement l'accélération et la vitesse du véhicule sur lequel il est monté. Cependant, la contrainte exercée sur le moteur réduit son autonomie. accel: 5, speedMax: 150, fuelMax: -15"
-  STR_AFTERBURNER: "Jet Thurster expérimental"
+  STR_AFTERBURNER_UFOPEDIA: "Ce prototype de moteur à réaction est utilisé pour augmenter considérablement l'accélération et la vitesse du véhicule sur lequel il est monté. Cependant, la contrainte imposée au moteur réduit son autonomie. accel: 5, speedMax: 150, fuelMax: -15"
+  STR_AFTERBURNER_LAUNCHER: "Jet Thurster expérimental"
+
+  STR_50CAL_MACHINERGUN_STRING: ".50 CAL"
+  STR_30MM_CANNON_STRING: "30MM AC"
+  STR_20MM_CANNON_STRING: "20MM AC"
+  STR_SIDEWINDER_STRING: "MISSILE"
+  STR_AUX_STRING: "AUXILIAIRE"
 
 ######################
 # TEXTE DU MENU MODIFIÉ

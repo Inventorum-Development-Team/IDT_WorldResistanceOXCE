@@ -87,6 +87,13 @@ it:
   STR_STORM_RIFLE_UFOPEDIA: "Fucile da battaglia progettato dalle Forze armate tedesche, era il fucile standard della United European Defense (usato principalmente da tedeschi, francesi e italiani). Attualmente usato da Maquis,la maggior parte di loro sono stati recuperati da una nave di rifornimento affondata vicino a Oslo. Il suo nome ufficiale era '.303 Sturmgewehr'"
 #######################
 # SOLDIERS
+  STR_US_ARMY_SOLDIER: "US Army Ranger"
+  STR_BRITISH_SOLDIER: "Fuciliere britannico"
+  STR_MAQUIS_SOLDIER: "Partigiano Maquis"
+  STR_JAPANESE_SOLDIER: "Soldato imperiale giapponese"
+  STR_SIBERIAN_SOLDIER: "Guardia siberiana"
+  STR_RUSSIAN_SOLDIER: "Resto russo"
+  STR_SENTINEL_SOLDIER: "Sentinella SRPA"
   STR_PRIVATE: "Soldato"
   STR_CORPORAL: "Caporale"
   STR_SERGEANT: "Sergente"
@@ -110,16 +117,39 @@ it:
   STR_SIDEWINDER_UFOPEDIA: "AIM-9 Sidewinder - Missile aria-aria americano a corto raggio con guida IR. Ha una testata a frammentazione che fa a pezzi gli aerei nemici una volta che colpisce."
   STR_SIDEWINDER_LAUNCHER: "Lanciamissili AA"
   STR_SIDEWINDER_MISSILES: "Missili AA"
-  STR_FUEL_TANK_UC: "SERBATOIO CARBURANTE"
-  STR_FUEL_TANK_UFOPEDIA: "Serbatoio esterno montato sotto le ali, pensato per aumentare il raggio di combattimento dell'aereo. Produce una certa resistenza, riducendo così l'accelerazione e la velocità. fuelMax: 150, accel: -1, avoidBonus: -5"
-  STR_FUEL_TANK: "Serbatoio carburante"
-  STR_FLARE_DISPENSER_UC: "DISPENSER DI RAZZI"
-  STR_FLARE_DISPENSER_UFOPEDIA: "Contromisure progettate per deviare i missili IR sparati contro l'aereo. Creati con materiali pirotecnici, bruciano a temperature molto più elevate di un motore e possono confondere il sistema di guida di molti missili. avoidBonus: 25"
-  STR_FLARE_DISPENSER: "Distributore di razzi"
+  STR_FUEL_TANK_UC: "SERBATOIO DI CARBURANTE"
+  STR_FUEL_TANK_UFOPEDIA: "Serbatoio esterno montato sotto le ali, pensato per aumentare il raggio di combattimento dell'aereo. Produce un po' di resistenza, riducendo così l'accelerazione e la velocità. fuelMax: 150, accel: -1, avoidBonus: -5"
+  STR_FUEL_TANK_LAUNCHER: "Serbatoio di carburante"
 
-  STR_AFTERBURNER_UC: "JET THURSTER SPERIMENTALE"
+  STR_FLARE_DISPENSER_UC: "DISPENSER DI FLARE"
+  STR_FLARE_DISPENSER_UFOPEDIA: "Contromisure progettate per deviare i missili IR sparati contro l'aereo. Creati con materiali pirotecnici, bruciano a temperature molto più elevate di un motore e possono confondere il sistema di guida di molti missili. avoidBonus: 25"
+  STR_FLARE_DISPENSER: "Distributore di flare"
+
+  STR_ARMOR_PLATES_UC: "PIASTRINE CORAZZATE"
+  STR_ARMOR_PLATES_UFOPEDIA: "Piastre corazzate rinforzate per aerei, realizzate utilizzando esattamente le stesse piastre di acciaio Chimeran presenti sulle astronavi aliene. Scambiano un po' di manovrabilità e velocità per punti salute extra, molto utili per resistere al fuoco nemico."
+  STR_ARMOR_PLATES_LAUNCHER: "Piastre corazzate"
+
+  STR_20MM_CANNON_UC: "CANNON DA 20 MM"
+  STR_20MM_CANNON_UFOPEDIA: "Un'arma aeronautica molto popolare sin dalla Grande Guerra, ha una cadenza di fuoco elevata e proiettili perforanti, perfetti per i combattimenti aerei a medio raggio. Bilanciato tra potenza di fuoco, gittata e precisione."
+  STR_20MM_CANNON_LAUNCHER: "Cannone da 20 mm"
+
+  STR_30MM_CANNON_UC: "CANNONE DA 30 MM"
+  STR_30MM_CANNON_UFOPEDIA: "Spesso presente sui caccia progettati dai russi, la ridotta cadenza di fuoco consente una migliore precisione su lunghe distanze. I colpi potenti puniscono lentamente i caccia nemici."
+  STR_30MM_CANNON_LAUNCHER: "Cannone da 30 mm"
+
+  STR_50CAL_MACHINEGUN_UC: "MITRA CAL. 50"
+  STR_50CAL_MACHINEGUN_UFOPEDIA: "Mitragliatrice automatica ampiamente diffusa, utilizzata su veicoli navali, terrestri e aerei. Molto apprezzata per il suo elevato volume di fuoco, la cartuccia da 12,7 mm ha qualche difficoltà a penetrare la spessa corazza dei caccia Chimera, ma rimane comunque un proiettile comunemente usato."
+  STR_50CAL_MACHINEGUN_LAUNCHER: ".50 Cal Machine Gun"
+
+  STR_AFTERBURNER_UC: "EXPERIMENTAL JET THURSTER"
   STR_AFTERBURNER_UFOPEDIA: "Questo prototipo di motore a reazione viene utilizzato per aumentare notevolmente l'accelerazione e la velocità del veicolo su cui è montato. Tuttavia, lo stress a cui è sottoposto il motore ne riduce l'autonomia. accel: 5, speedMax: 150, fuelMax: -15"
-  STR_AFTERBURNER: "Jet Thurster sperimentale"
+  STR_AFTERBURNER_LAUNCHER: "Jet Thurster sperimentale"
+
+  STR_50CAL_MACHINEGUN_STRING: ".50 CAL"
+  STR_30MM_CANNON_STRING: "30MM AC"
+  STR_20MM_CANNON_STRING: "20MM AC"
+  STR_SIDEWINDER_STRING: "MISSILE"
+  STR_AUX_STRING: "AUSILIARIO"
 ######################
 # TESTO DEL MENU MODIFICATO
   STR_UFO_ACTIVITY_IN_AREAS: "Attività Chimera nelle aree"

@@ -217,6 +217,12 @@ en-US:
   # SOLDIERS
 
   STR_US_ARMY_SOLDIER: "US Army Ranger"
+  STR_BRITISH_SOLDIER: "British Rifleman"
+  STR_MAQUIS_SOLDIER: "Maquis Partisan"
+  STR_JAPANESE_SOLDIER: "Japanese Imperial Soldier"
+  STR_SIBERIAN_SOLDIER: "Siberian Guard"
+  STR_RUSSIAN_SOLDIER: "Russian Remmant"
+  STR_SENTINEL_SOLDIER: "SRPA Sentinel"
   STR_PRIVATE: "Private"
   STR_CORPORAL: "Corporal"
   STR_SERGEANT: "Sergeant"
@@ -247,16 +253,37 @@ en-US:
 
   STR_FUEL_TANK_UC: "FUEL TANK"
   STR_FUEL_TANK_UFOPEDIA: "External tank mounted under the wings, meant to increase the combat range of the aircraft. Produces some drag, thus reducing the acceleration and speed. fuelMax: 150, accel: -1, avoidBonus: -5"
-  STR_FUEL_TANK: "Fuel Tank"
+  STR_FUEL_TANK_LAUNCHER: "Fuel Tank"
 
   STR_FLARE_DISPENSER_UC: "FLARE DISPENSER"
   STR_FLARE_DISPENSER_UFOPEDIA: "Countermeasures designed to divert IR missiles fired at the aircraft. Created with pyrotechnic materials, they burn at temperatures much higher than an engine and can confuse the guidance system of many missiles. avoidBonus: 25"
   STR_FLARE_DISPENSER: "Flare Dispenser"
 
+  STR_ARMOR_PLATES_UC: "ARMOR PLATES"
+  STR_ARMOR_PLATES_UFOPEDIA: "Reinforced aircraft armored plating, made using the exact same Chimeran Steel plates found on the alien crafts. Exchanging some maneuverability and speed for extra health points, very useful to withstand enemy fire. "
+  STR_ARMOR_PLATES_LAUNCHER: "Armor Plates"
+
+  STR_20MM_CANNON_UC: "20MM CANNON"
+  STR_20MM_CANNON_UFOPEDIA: "A very popular aircraft weapon since the Great War, it has a elevated rate of fire and armor-piercing shells, perfect for medium-range dogfights. Balanced between firepower, range and accuracy."
+  STR_20MM_CANNON_LAUNCHER: "20mm Cannon"
+
+  STR_30MM_CANNON_UC: "30MM CANNON"
+  STR_30MM_CANNON_UFOPEDIA: "Often found on Russian-designed fighters, the reduced rate of fire allows for better accuracy over longer ranges. Hard-hitting rounds slowly punish the enemy fighters."
+  STR_30MM_CANNON_LAUNCHER: "30mm Cannon"
+
+  STR_50CAL_MACHINEGUN_UC: ".50 CAL MACHINE GUN"
+  STR_50CAL_MACHINEGUN_UFOPEDIA: "Widely spread automatic gun, used on naval, ground and aerial vehicles. Very appreciated for its high volume of fire, the 12.7 mm cartridge has some trouble penetrating the thick armor of the Chimeran fighters, but remains a commonly used round nonetheless."
+  STR_50CAL_MACHINEGUN_LAUNCHER: ".50 Cal Machine Gun"
 
   STR_AFTERBURNER_UC: "EXPERIMENTAL JET THURSTER"
   STR_AFTERBURNER_UFOPEDIA: "This prototype jet motor is used to greatly increase the acceleration and speed of the vehicle where it is mounted. However, the stress put on the motor reduces it's autonomy. accel: 5, speedMax: 150, fuelMax: -15"
-  STR_AFTERBURNER: "Experimental Jet Thurster"
+  STR_AFTERBURNER_LAUNCHER: "Experimental Jet Thurster"
+
+  STR_50CAL_MACHINEGUN_STRING: ".50 CAL"
+  STR_30MM_CANNON_STRING: "30MM AC"
+  STR_20MM_CANNON_STRING: "20MM AC"
+  STR_SIDEWINDER_STRING: "MISSILE"
+  STR_AUX_STRING: "AUXILIARY"
 
 
   STR_METEOR: "METEOR"

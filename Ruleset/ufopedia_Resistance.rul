@@ -81,9 +81,16 @@ ufopaedia:
 
 ################
 
+  - id: STR_SRPA_BLACK_OPS_UNIFORM_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 2
+    text: STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA
 
   - id: STR_BDU_UC
     type_id: 5
+    requires:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
     section: STR_WEAPONS_AND_EQUIPMENT
     listOrder: 2
     text: STR_BDU_UC_UFOPEDIA
