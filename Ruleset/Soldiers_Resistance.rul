@@ -1,7 +1,70 @@
 soldiers:
   - delete: STR_SOLDIER
 
+
+  - type: STR_SRPA_BLACK_OPS
+    costBuy: 80000
+    costSalary: 20000
+    flagOffset: 0
+    minStats:
+      tu: 70
+      stamina: 60
+      health: 40
+      bravery: 30
+      reactions: 30
+      firing: 80
+      throwing: 50
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 60
+    maxStats:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 45
+      firing: 80
+      throwing: 60
+      strength: 50
+      psiStrength: 75
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 95
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 60
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 75
+      psiSkill: 100
+      melee: 95
+    armor: STR_SRPA_BLACK_OPS_UNIFORM_UC
+    rankSprite: 810         # default 42 # basebits.pck
+    rankBattleSprite: 810   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 0
+    soldierNames:
+      - delete
+      - SRPANames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankStrings:
+    - STR_PRIVATE
+    - STR_CORPORAL
+    - STR_SERGEANT
+    - STR_LIEUTENANT
+    - STR_CAPTAIN
+    - STR_MAJOR
+
+
   - type: STR_US_ARMY_SOLDIER
+    requires:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
     costBuy: 40000
     costSalary: 20000
     flagOffset: 1
@@ -61,11 +124,23 @@ soldiers:
     - STR_MAJOR
 
 items:
+
+  - type: STR_CORPSE_BLACKOPS
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 3000
+    floorSprite: 3000
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+    battleType: 11
+
   - type: STR_CORPSE_BDU
     name: STR_CORPSE
     weight: 24
-    bigSprite: 501
-    floorSprite: 501
+    bigSprite: 3001
+    floorSprite: 3001
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -74,6 +149,48 @@ items:
 
 
 armors:
+
+  - type: STR_SRPA_BLACK_OPS_UNIFORM_UC
+    spriteSheet: BLACKOPS_SPRITESHEET.PCK
+    spriteInv: MAN_BLACKOPS.SPK
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_BLACKOPS
+    loftempsSet: [ 3 ]
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 6
+    visibilityAtDark: 7
+    visibilityAtDay: 26
+    stats:
+      tu: 10
+      stamina: 5
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.2
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+    units:
+      - STR_SRPA_BLACK_OPS
+
+#################################
+
   - type: STR_BDU_UC
     spriteSheet: XCOM_BDU.PCK
     spriteInv: MAN_BDU
@@ -160,10 +277,32 @@ extraSprites:
       0: Resources/AmericanUnits/AmericanSoldierSpritesheet.png
   - type: BIGOBS.PCK
     files:
-      501: Resources/AmericanUnits/BigAmericanSoldierCorpse.png
+      3001: Resources/AmericanUnits/BigAmericanSoldierCorpse.png
   - type: FLOOROB.PCK
     files:
-      501: Resources/AmericanUnits/FloorAmericanSoldierCorpse.png
+      3001: Resources/AmericanUnits/FloorAmericanSoldierCorpse.png
+
+#############################################
+
+  - type: MAN_BLACKOPS.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/NPCs/BlackOps_Inventory.png
+
+  - type: BLACKOPS_SPRITESHEET.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      3000: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3000: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_CORPSE_FLOOROB.png
+
 
 
   - type: BASEBITS.PCK
@@ -186,4 +325,9 @@ extraSprites:
   - type: Flag0
     singleImage: true
     files:
-      0: Resources/Flags/00-USArmy.png
+      0: Resources/Flags/00-SRPA.png
+
+  - type: Flag1
+    singleImage: true
+    files:
+      0: Resources/Flags/01-USA.png

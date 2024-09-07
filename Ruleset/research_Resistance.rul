@@ -6,6 +6,10 @@ research:
     cost: 50
     points: 10
 
+  - name: STR_AMERICAN_VOLUNTEERS_RESEARCH
+    cost: 50
+    points: 10
+
   - name: STR_REESTABLISH_DIPLOMATIC_TIES
     cost: 180
     points: 20

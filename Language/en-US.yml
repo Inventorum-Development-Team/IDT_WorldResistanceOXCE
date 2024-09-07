@@ -282,6 +282,7 @@ en-US:
 # SOLDIER ARMORS
 
 
+  STR_SRPA_BLACK_OPS: "SRPA Black Ops"
   STR_SRPA_BLACK_OPS_UNIFORM_UC: "BLACK OPS TACTICAL SUIT"
   STR_SRPA_BLACK_OPS_UNIFORM: "Black Ops Tactical Suit"
   STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA: "Main battle dress of the Black Ops, the special operators of the SRPA. Includes a reinforced vest and special enclosed NBC (nuclear-biological-chemical) helmet to prevent infections by Chimeran airborne pathogens."

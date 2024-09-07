@@ -272,6 +272,7 @@ es-419:
 ######################
 # ARMADURAS DE SOLDADO
 
+  STR_SRPA_BLACK_OPS: "Black Ops de SRPA"
   STR_SRPA_BLACK_OPS_UNIFORM_UC: "TRAJE TÁCTICO BLACK OPS"
   STR_SRPA_BLACK_OPS_UNIFORM: "Traje táctico Black Ops"
   STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA: "Vestido de batalla principal de los Black Ops, los operadores especiales de la SRPA. Incluye un chaleco reforzado y un casco especial NBC (nuclear-biológico-químico) cerrado para prevenir infecciones por patógenos aéreos quimeranos."
