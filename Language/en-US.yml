@@ -23,7 +23,7 @@ en-US:
   STR_HANDGUNS: "Handguns"
   STR_SMGS: "SMGs"
   STR_SHOTGUNS: "Shotguns"
-  STR_ASSAULT_RIFLES: "Assault Rifle"
+  STR_ASSAULT_RIFLES: "Assault Rifles"
   STR_BATTLE_RIFLES_DMRS: "Marksman Rifles"
   STR_SNIPER_RIFLES: "Sniper Rifles"
   STR_LMGS: "Machine Guns"
@@ -42,6 +42,8 @@ en-US:
   STR_RUSSIAN_EQUIPMENT: "Russian Equipment"
   STR_SIBERIAN_EQUIPMENT: "Siberian Equipment"
   STR_CHIMERAN_EQUIPMENT: "Chimeran Equipment"
+  STR_REVERSE_ENGINEERED_EQUIPMENT: "Reverse-engineered Equipment"
+  
   STR_TANKS: "Tanks"
 
 ######################
