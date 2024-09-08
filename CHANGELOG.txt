@@ -28,6 +28,8 @@ Changes made:
     - Armor Plates
 * Updated Portuguese, French & Italian translations, by TigasZ8
 * Added Spanish (LATAM) translation, by efrenespartano
+* Added CMP Extended v0.8, by the Community Map Pack staff
+* Custom globeLabels and redesigned borders to better fit the lore of the games
 
 24-August-2024: World Resistance Alpha v0.1
 Changes made:
