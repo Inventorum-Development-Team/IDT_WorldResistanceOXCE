@@ -88,7 +88,7 @@ es-419:
   STR_HEDGEHOG_GRENADE_UFOPEDIA: ".." 
   STR_HUNTER_DMR: "Hunter DMR" 
   STR_HUNTER_DMR_BATTERY: "Batería Hunter DMR" 
-  STR_HUNTER_DMR_UFOPEDIA: "Rifle pesado especializado destinado a los tiradores de élite de las quimeras. Visto por primera vez en acción durante la excursión enemiga del año pasado en Nueva York. Los rayos de iones emitidos en ráfagas cortas lo convierten en un arma letal en las manos adecuadas, destruyendo coberturas y haciendo cosas similares."
+  STR_HUNTER_DMR_UFOPEDIA: "Rifle pesado especializado destinado a los tiradores de élite de las Quimeras. Visto por primera vez en acción durante la excursión enemiga del año pasado en Nueva York. Los rayos de iones emitidos en ráfagas cortas lo convierten en un arma letal en las manos adecuadas, destruyendo coberturas y haciendo cosas similares."
 
   STR_BRUTE_MINIGUN: "Minigun Brute"
   STR_BRUTE_MINIGUN_CELL: "Celda Minigun Brute" 
@@ -100,7 +100,7 @@ es-419:
 
   STR_HE44_MAGNUM: "Magnum HE.44" 
   STR_HE44_MAGNUM_AMMO: "Municiones de .44"
-  STR_HE44_MAGNUM_UFOPEDIA: "Potente y robusta arma de mano utilizada por operativos de las fuerzas especiales de la SRPA. La gran bala Magnum de .44 disparada por este revólver utiliza un compuesto especial de glicerina para explotar al contacto."
+  STR_HE44_MAGNUM_UFOPEDIA: "Potente y robusta arma de mano utilizada por operativos de las fuerzas especiales de la SRPA. La gran bala Magnum de calibre .44 disparada por este revólver utiliza un compuesto especial de glicerina para explotar al contacto."
 
   STR_THOMPSON_SMG: "Thompson M1 SMG" 
   STR_THOMPSON_SMG_DRUM: "Tambor Thompson SMG"
@@ -108,19 +108,19 @@ es-419:
   STR_THOMPSON_SMG_UFOPEDIA: "La primera arma de fuego comercializada como 'subametralladora', rápidamente ganó notoriedad por su diseño robusto y potencia de fuego, disparando balas .45 ACP. Utilizada por la mayoría de las unidades policiales estadounidenses, algunas se vendieron también al Reino Unido."
 
   STR_M2A1_CLOVIS: "M2A1 Clovis AR" 
-  STR_M2A1_CLOVIS_UFOPEDIA: "Rifle automático basado en el Folsom Carbine, con recámara para munición .303. Cuenta con un cañón más pesado, manija de carga y carcasa sintética. Destinado a ser utilizado para proporcionar 'fuego móvil' de apoyo ligero, de manera similar a cómo se utilizó el BAR en la década de 1920."
+  STR_M2A1_CLOVIS_UFOPEDIA: "Rifle automático basado en el Folsom Carbine, con recámara para munición .303 British. Cuenta con un cañón más pesado, manija de carga y carcasa sintética. Destinado a ser utilizado para proporcionar 'fuego móvil' de apoyo ligero, de manera similar a cómo se utilizó el BAR en la década de 1920."
 
   STR_HVAP_CHAINGUN: "Minigun Wraith HVAP" 
   STR_HVAP_CHAINGUN_DRUM: "Tambor de munición HVAP" 
   STR_HVAP_CHAINGUN_UFOPEDIA: "Ametralladora automática de alta velocidad que perfora blindajes. Una minigun potente y engorrosa completamente automática que dispara 1200 balas con revestimiento metálico por minuto. La fuerza cinética puede destrozar objetivos con blindaje ligero con facilidad. Es mejor usarla desde una posición estática, ya que su peso y su manejo deficiente son sus desventajas."
 
   STR_MARKSMAN_DMR: "Marksman-B DMR" 
-  STR_MARKSMAN_DMR_UFOPEDIA: "Rifle de francotirador de iones diseñado a la inversa, basado en el diseño de un arma enemiga capturada en Escocia. Adecuado para enfrentamientos de rango medio y configurado para disparos en ráfaga, equilibrando la potencia de fuego y la economía de munición. Emplea baterías Hunter."
+  STR_MARKSMAN_DMR_UFOPEDIA: "Rifle de francotirador de iones diseñado a la inversa, basado en el diseño de un arma enemiga capturada en Escocia. Adecuado para enfrentamientos de rango medio y configurado para disparos en ráfaga, equilibrando la potencia de fuego y la economía de munición. Emplea baterías del rifle de tirador Hunter."
 
   STR_MK6_CARBINE: "Carabina Mk.6" 
-  STR_MK6_CARBINE_UFOPEDIA: "Versión fabricada bajo licencia de la familia de carabinas Folsom, la Enfield No.6, Mark 6 Carbine sirve como el rifle de servicio estándar de las fuerzas británicas. Cuenta con un armazón de madera diferente para una mejor ergonomía y un soporte de bayoneta en lugar del lanzagranadas incorporado."
-  STR_303_AMMO: "Rifle de munición .303 (x20)" 
-  STR_303_RIFLE_AMMO_LARGE: "Rifle de munición .303 (x40)"
+  STR_MK6_CARBINE_UFOPEDIA: "Versión fabricada bajo licencia de la familia de carabinas Folsom, la 'Enfield No.6, Mark 6 Carbine' sirve como el rifle de servicio estándar de las fuerzas británicas. Cuenta con un armazón de madera diferente para una mejor ergonomía y un soporte de bayoneta en lugar del lanzagranadas incorporado."
+  STR_303_RIFLE_AMMO: "Munición calibre .303 (x20)" 
+  STR_303_RIFLE_AMMO_LARGE: "Munición calibre .303 (x40)"
 
   STR_L206_LAARK: "Lanzador L206 LAARK"
   STR_L206_LAARK_ROCKET: "Cohete antitanque Mk.48"
@@ -131,21 +131,21 @@ es-419:
   STR_ROSSMORE_COMBAT_SHOTGUN_UFOPEDIA: "El último desarrollo de la Armería Rossmore, el Modelo 238 carece de la sólida culata de los modelos anteriores. A pesar de esto, el retroceso se mantiene dentro de los parámetros esperados. Alimentado por cargador para recargas más rápidas."
 
   STR_WELGUN_SMG: "Ametralladora Welgun"
-  STR_WELGUN_SMG_UFOPEDIA: "Fabricada por Birmingham Small Arms en un esfuerzo por equipar a los agentes de inteligencia de campo del Special Operations Executive con un arma automática ligera y precisa. Menos costosa que las ametralladoras Thompson en servicio en el Ejército regular y lo suficientemente compacta para llevarla oculta. Utiliza los mismos cargadores de 9 mm que otros modelos europeos."
+  STR_WELGUN_SMG_UFOPEDIA: "Fabricada por la Birmingham Small Arms en un esfuerzo por equipar a los agentes de inteligencia de campo del Special Operations Executive con un arma automática ligera y precisa. Menos costosa que las ametralladoras Thompson en servicio en el Ejército regular y lo suficientemente compacta para llevarla oculta. Utiliza los mismos cargadores de 9mm que otros modelos europeos."
 
   STR_RAZOR_BM001: "Razor BM001"
   STR_RAZOR_BM001_UFOPEDIA: "Fabricado por la Royal Small Arms Factory a partir de rifles Bullseye capturados que quedaron abandonados tras la Batalla de Londres y la posterior liberación de las Islas Británicas. El 'Bullseye Modified 001' dispara rayos de plasma en forma de disco, con la opción de sobrecargar un solo disparo y agotar la mitad de la batería para causar más daño."
 
   STR_LONGBOW_1S1K: "Arco largo 1S-1K"
   STR_LONGBOW_1S1K_FLECHETTES: "Cargador de flechillas para arco largo"
-  STR_LONGBOW_1S1K_UFOPEDIA: "Creado por la Comisión de Defensa Militar (MDC) con el propósito explícito de contrarrestar la amenaza de las quimeras, es un poderoso cañón de riel que dispara flechillas de hierro a una velocidad increíble. Capaz de penetrar varias pulgadas de acero con facilidad. Había muy pocos disponibles cuando Europa cayó en 1950, pero desde entonces, los armeros restantes de la MDC en Luxemburgo han creado varios modelos."
+  STR_LONGBOW_1S1K_UFOPEDIA: "Creado por la Comisión de Defensa Militar (MDC) con el propósito explícito de contrarrestar la amenaza de las Quimeras, es un poderoso cañón de riel que dispara flechillas de hierro a una velocidad increíble. Capaz de penetrar varias pulgadas de acero con facilidad. Había muy pocos disponibles cuando Europa cayó en 1950, pero desde entonces, los armeros restantes de la MDC en Luxemburgo han creado varios modelos."
 
   STR_BERETTA_MAB38: "Beretta MAB-38 SMG"
   STR_9MM_SMG_MAG: "9mm SMG Mag"
   STR_BERETTA_MAB38_UFOPEDIA: "Una metralleta italiana finamente elaborada, casi hecha a mano. Su armazón de madera resistente y fuerte la convierte en un arma pesada, pero robusta y precisa. Utilizada y apreciada por las fuerzas especiales de toda Europa, fue un icono del Regio Esercito. Quedan muy pocas Berettas, algunas de las cuales se recuperaron de las ruinas de Génova y Nápoles."
 
   STR_ERMA_EMP44: "Erma EMP-44 SMG"
-  STR_ERMA_EMP44_UFOPEDIA: "Subametralladora extremadamente barata y fácil de fabricar, aunque un poco complicada de usar. Originalmente estaba pensada para ser utilizada por tropas de reserva como complemento de la MP-40 en caso de una invasión rusa repentina. Cuando llegó la Quimera y la mayoría de las reservas de armas modernas se perdieron o destruyeron, este diseño rudimentario se puso en servicio. Finalmente, los Maquis encontraron sus planos fuera de Múnich y la pusieron en producción de nuevo a toda prisa. Utiliza cargadores de 9 mm."
+  STR_ERMA_EMP44_UFOPEDIA: "Subametralladora extremadamente barata y fácil de fabricar, aunque un poco complicada de usar. Originalmente estaba pensada para ser utilizada por tropas de reserva como complemento de la MP-40 en caso de una invasión rusa repentina. Cuando llegó la Quimera y la mayoría de las reservas de armas modernas se perdieron o destruyeron, este diseño rudimentario se puso en servicio. Finalmente, los Maquis encontraron sus planos fuera de Múnich y la pusieron en producción de nuevo a toda prisa. Utiliza cargadores de 9mm."
 
   STR_SCHROTFLINTE_SHOTGUN: "Escopeta de combate Schlonflinte"
   STR_SCHROTFLINTE_SHOTGUN_SHELLS: "Cartuchos de escopeta calibre 12"
@@ -168,7 +168,7 @@ es-419:
   STR_IWAOR_TYPE_105_UFOPEDIA: "El cañón de cadena diseñado por Iwao Ryusaki se montó inicialmente en torretas fijas de aviones, y era muy apreciado por su fiabilidad. Contaba con un freno de boca especializado para disipar rápidamente el exceso de calor. La UED compró un depósito antes de la ruptura de la Cortina Roja en el 49. No fue posible realizar más compras debido a la pérdida de contacto con Japón."
 
   STR_FEDOROV_AVTOMAT: "Rifle automático Fedorov Avtomat"
-  STR_FEDOROV_AVTOMAT_MAG: "Rifle automático Fedorov Mag de 6,5 mm"
+  STR_FEDOROV_AVTOMAT_MAG: "Rifle automático Fedorov Mag de 6,5mm"
   STR_FEDOROV_AVTOMAT_UFOPEDIA: "El Fedorov Avtomat es un rifle automático de fuego selectivo y de servicio por tripulación, y también uno de los primeros rifles automáticos operativos del mundo, diseñado por Vladimir Grigoryevich Fyodorov en 1915 y producido en el Imperio ruso. Rápidamente demostró ser un arma eficaz en la Gran Guerra y, con el tiempo, se convertiría en un arma de referencia del ejército ruso, al entrar en producción en masa poco después de la fallida Guerra Civil Rusa; durante la Guerra de las Quimeras, varias unidades rusas fueron equipadas con el Fedorov. Sin embargo, a medida que la guerra se prolongaba, Rusia, debido a la falta de fábricas, se vio obligada a cesar la producción del Federov casi por completo, lo que provocó que el ejército comenzara a depender principalmente del Mosin-Nagant."
 
   STR_MOSIN_NAGANT: "Rifle Mosin-Nagant M1891"
@@ -176,11 +176,11 @@ es-419:
   STR_MOSIN_NAGANT_UFOPEDIA: "Rifle de servicio principal del Imperio ruso desde su incorporación en 1891 y el más numeroso en todo el arsenal. Esta variante está equipada con una mira telescópica y una envoltura de tela para facilitar su ocultación, y podría usarse para disparos de largo alcance."
 
   STR_SIMONOV_AVTOMAT: "Rifle Simonov AS-25P"
-  STR_SIMONOV_AVTOMAT_UFOPEDIA: "Avtomat Simonova 1925, Pehotnuy (Rifle Simonov de 1925, Infantería). Desarrollado en 1925, para reemplazar al rifle Fedorov Avtomat de 1916 y su variante modernizada de 1920. El AS-25P se presentó como más confiable, preciso y moderno. Pero el comienzo de la guerra con las Quimeras en 1927, detuvo efectivamente el rearme del Ejército Imperial Ruso y muy pocos cuerpos de ejército estaban equipados con este tipo de arma. Dispara el mismo cartucho de 6,5 mm que el FA."
+  STR_SIMONOV_AVTOMAT_UFOPEDIA: "Avtomat Simonova 1925, Pehotnuy (Rifle Simonov de 1925, Infantería). Desarrollado en 1925, para reemplazar al rifle Fedorov Avtomat de 1916 y su variante modernizada de 1920. El AS-25P se presentó como más confiable, preciso y moderno. Pero el comienzo de la guerra con las Quimeras en 1927, detuvo efectivamente el rearme del Ejército Imperial Ruso y muy pocos cuerpos de ejército estaban equipados con este tipo de arma. Dispara el mismo cartucho de 6,5mm que el FA."
 
   STR_KOROVIN_PISTOL: "Pistola Korovin KPK-29"
   STR_KOROVIN_PISTOL_MAG: "Cargador de pistola Korovin"
-  STR_KOROVIN_PISTOL_UFOPEDIA: "Pistola de alto calibre para oficiales estándar (con recámara de 10 mm), creada por Sergey Korovin. Aunque pesada, su agarre y manejo decentes la convirtieron en un arma preferida por el cuerpo de oficiales del Ejército Imperial."
+  STR_KOROVIN_PISTOL_UFOPEDIA: "Pistola de alto calibre para oficiales estándar (con recámara de 10mm), creada por Sergey Korovin. Aunque pesada, su agarre y manejo decentes la convirtieron en un arma preferida por el cuerpo de oficiales del Ejército Imperial."
 
   STR_TOKAREV_MACHINE_PISTOL: "Pistola automática Tokarev APBT"
   STR_TOKAREV_MACHINE_PISTOL_MAG: "Cargador corto APBT"
@@ -202,7 +202,7 @@ es-419:
 
   STR_M5A2_FOLSOM_CARBINE: "Carabina M5A2 Folsom"
   STR_303_RIFLE_AMMO: "Munición de rifle .303 (x30)"
-  STR_40MM_FRAG: "Granada de fragmentación de 40 mm"
+  STR_40MM_FRAG: "Granada de fragmentación de 40mm"
   STR_M5A2_FOLSOM_CARBINE_UFOPEDIA: "Potente rifle de diseño estadounidense, utilizado por todas las Fuerzas Armadas de EE. UU. Es producido bajo licencia por el Ejército británico como Mk.6 Carbine y algunos países europeos también tenían sus propias variantes de esta arma. Sin embargo, es muy pesado y engorroso debido a la carcasa de madera y al lanzagranadas integrado. Disparo alternativo: Lanzar granada"
 
   STR_L23_FAREYE_SNIPER_RIFLE: "L23 Fareye"
@@ -259,19 +259,19 @@ es-419:
   STR_FLARE_DISPENSER: "Dispensador de bengalas"
 
   STR_ARMOR_PLATES_UC: "PLACAS DE BLINDAJE"
-  STR_ARMOR_PLATES_UFOPEDIA: "Blindaje reforzado para aeronaves, fabricado con las mismas placas de acero Chimeran que se encuentran en las naves alienígenas. Intercambia algo de maniobrabilidad y velocidad por puntos de salud adicionales, muy útil para resistir el fuego enemigo."
+  STR_ARMOR_PLATES_UFOPEDIA: "Blindaje reforzado para aeronaves, fabricado con las mismas placas de acero Quimera que se encuentran en las naves alienígenas. Intercambia algo de maniobrabilidad y velocidad por puntos de salud adicionales, muy útil para resistir el fuego enemigo."
   STR_ARMOR_PLATES_LAUNCHER: "Placas de blindaje"
 
-  STR_20MM_CANNON_UC: "CAÑÓN DE 20 MM"
+  STR_20MM_CANNON_UC: "CAÑÓN DE 20MM"
   STR_20MM_CANNON_UFOPEDIA: "Un arma de aviación muy popular desde la Gran Guerra, tiene una elevada cadencia de fuego y proyectiles perforantes, perfectos para combates aéreos de alcance medio. Equilibrado entre potencia de fuego, alcance y precisión."
-  STR_20MM_CANNON_LAUNCHER: "Cañón de 20 mm"
+  STR_20MM_CANNON_LAUNCHER: "Cañón de 20mm"
 
-  STR_30MM_CANNON_UC: "CAÑÓN DE 30 MM"
+  STR_30MM_CANNON_UC: "CAÑÓN DE 30MM"
   STR_30MM_CANNON_UFOPEDIA: "A menudo se encuentra en los cazas de diseño ruso, la cadencia de fuego reducida permite una mejor precisión en distancias más largas. Las balas de gran impacto castigan lentamente a los cazas enemigos."
-  STR_30MM_CANNON_LAUNCHER: "Cañón de 30 mm"
+  STR_30MM_CANNON_LAUNCHER: "Cañón de 30mm"
 
   STR_50CAL_MACHINEGUN_UC: "AMETRALLADORA CAL.50"
-  STR_50CAL_MACHINEGUN_UFOPEDIA: "Cañón automático ampliamente utilizado, utilizado en vehículos navales, terrestres y aéreos. Muy apreciado por su alto volumen de fuego, el cartucho de 12,7 mm tiene algunos problemas para penetrar el grueso blindaje de los cazas Chimeran, pero sigue siendo un proyectil de uso común."
+  STR_50CAL_MACHINEGUN_UFOPEDIA: "Cañón automático ampliamente utilizado, utilizado en vehículos navales, terrestres y aéreos. Muy apreciado por su alto volumen de fuego, el cartucho de 12,7mm tiene algunos problemas para penetrar el grueso blindaje de los cazas Quimera, pero sigue siendo un proyectil de uso común."
   STR_50CAL_MACHINEGUN_LAUNCHER: "Ametralladora calibre .50"
 
   STR_AFTERBURNER_UC: "PROPULSOR A REACCIÓN EXPERIMENTAL"
@@ -345,7 +345,7 @@ es-419:
   STR_BRITISH_COOPERATION_1_RESEARCH_UFOPEDIA: "Nuestro reciente éxito con la Operación Morning Star significó la erradicación de las fuerzas enemigas en las islas británicas y están más que dispuestos a unirse a nosotros. Han permitido que voluntarios de cuerpos de élite como los Comandos de la Marina Real y los Paracaidistas se recluten en nuestras fuerzas, formando el {ALT}Equipo Fantasma{ALT}."
 
   STR_BRITISH_COOPERATION_2_RESEARCH: "Cooperación británica II"
-  STR_BRITISH_COOPERATION_2_RESEARCH_UFOPEDIA: "Las conversaciones adicionales dieron como resultado que nuestras fuerzas tuvieran más material de fabricación británica disponible. Además, ahora tenemos los planos del rifle de energía Razor, la versión mejorada del arma principal de infantería de Chimeran. Cualquier Bullseye capturado podría refabricarse para convertirse en el Razor, con una cantidad adicional de tecnología gris."
+  STR_BRITISH_COOPERATION_2_RESEARCH_UFOPEDIA: "Las conversaciones adicionales dieron como resultado que nuestras fuerzas tuvieran más material de fabricación británica disponible. Además, ahora tenemos los planos del rifle de energía Razor, la versión mejorada del arma principal de infantería de Quimera. Cualquier Bullseye capturado podría refabricarse para convertirse en el Razor, con una cantidad adicional de tecnología gris."
 
   STR_MAQUIS_COOPERATION_1_RESEARCH: "Cooperación Maquis I"
   STR_MAQUIS_COOPERATION_1_RESEARCH_UFOPEDIA: "Si bien no tenemos una diplomacia abierta con los Maquis, el grupo de resistencia europeo, sí tuvimos intercambio comercial y tecnológico con su predecesor, la UED. Algunos agentes de inteligencia, como el coronel James Grayson, han trabajado anteriormente con nosotros rastreando y recuperando activos alienígenas. Al brindarnos una ayuda muy necesaria, han acordado proporcionar voluntarios (a menudo con su propio armamento) a cambio de suministros y recursos. Ahora son parte del {ALT}Equipo Fantasma{ALT}."
@@ -418,23 +418,23 @@ es-419:
   STR_ARE_YOU_SURE_CYDONIA: "¿Estás seguro de que quieres enviar esta nave en una misión a Tunguska?"
   STR_CYDONIA: "TUNGUSKA"
 
-  STR_CONVERSION_CENTER_MISSION: "Incursión al centro de conversión"
+  STR_CONVERSION_CENTER_MISSION: "Incursión al Centro de conversión"
   STR_CONVERSION_CENTER_DEPLOYMENT: "INCURSIÓN AL CENTRO DE CONVERSIÓN"
-  STR_CONVERSION_CENTER_DESCRIPTION: "Las fuerzas aliadas han descubierto un centro de conversión de quimeras, utilizado para crear poderosas cepas alienígenas. Debemos tomar posesión de él, recuperar cualquier activo tecnológico alienígena valioso y destruir los reactores centrales para inutilizar la estructura de forma permanente. Ten cuidado, puede que haya una pequeña guarnición vigilándolo."
+  STR_CONVERSION_CENTER_DESCRIPTION: "Las fuerzas aliadas han descubierto un centro de conversión de Quimeras, utilizado para crear poderosas cepas alienígenas. Debemos tomar posesión de él, recuperar cualquier activo tecnológico alienígena valioso y destruir los reactores centrales para inutilizar la estructura de forma permanente. Ten cuidado, puede que haya una pequeña guarnición vigilándolo."
   STR_CONVERSION_CENTER_MARKER_NAME: "Centro de conversión detectado"
   STR_CONVERSION_CENTER_ALERT: "Centro de conversión"
 
   STR_CHIMERAN_TOWER_MISSION: "Asalto a la Torre Quimera"
   STR_CHIMERAN_TOWER_DEPLOYMENT: "ASALTO A LA TORRE QUIMERA"
   STR_CHIMERAN_TOWER_DESCRIPTION: "Las fuerzas aliadas han avistado una Torre Quimera, principal área logística y base de operaciones. Debemos tomarla, recuperar cualquier activo tecnológico alienígena valioso y destruir los reactores centrales para inutilizar la estructura de forma permanente. Ten cuidado, puede haber una guarnición considerable protegiéndola."
-  STR_CHIMERAN_TOWER_MARKER_NAME: "Torre Chimeran detectada"
-  STR_CHIMERAN_TOWER_ALERT: "Torre Chimeran"
+  STR_CHIMERAN_TOWER_MARKER_NAME: "Torre Quimera detectada"
+  STR_CHIMERAN_TOWER_ALERT: "Torre Quimera"
 
-  STR_CHIMERAN_HUB_TOWER_MISSION: "Ofensiva de la torre Chimeran"
-  STR_CHIMERAN_HUB_TOWER_DEPLOYMENT: "OFENSIVA DE LA TORRE CHIMERAN"
-  STR_CHIMERAN_HUB_TOWER_DESCRIPTION: "Las fuerzas aliadas han detectado una torre Chimeran, un importante cuartel general enemigo y un nodo de control en una gran zona. Debemos tomarla, recuperar cualquier activo tecnológico alienígena valioso y destruir los reactores centrales para inutilizar la estructura de forma permanente. Ten cuidado, puede que haya una gran guarnición reforzada protegiéndola."
-  STR_CHIMERAN_HUB_TOWER_MARKER_NAME: "Torre central Chimeran detectada"
-  STR_CHIMERAN_HUB_TOWER_ALERT: "Torre central Chimeran"
+  STR_CHIMERAN_HUB_TOWER_MISSION: "Ofensiva a Torre Central Quimera"
+  STR_CHIMERAN_HUB_TOWER_DEPLOYMENT: "OFENSIVA A TORRE CENTRAL QUIMERA"
+  STR_CHIMERAN_HUB_TOWER_DESCRIPTION: "Las fuerzas aliadas han detectado una Torre Central Quimera, un importante cuartel general enemigo y un nodo de control en una gran zona. Debemos tomarla, recuperar cualquier activo tecnológico alienígena valioso y destruir los reactores centrales para inutilizar la estructura de forma permanente. Ten cuidado, puede que haya una gran guarnición reforzada protegiéndola."
+  STR_CHIMERAN_HUB_TOWER_MARKER_NAME: "Torre Central Quimera detectada"
+  STR_CHIMERAN_HUB_TOWER_ALERT: "Torre Central Quimera"
 
   STR_OPERATION_OLYMPIC_MISSION: "Operación Olímpica"
   STR_OPERATION_OLYMPIC_DEPLOYMENT: "OPERACIÓN OLÍMPICA - FASE I"
@@ -465,7 +465,7 @@ es-419:
   STR_HAMMER_ARMOR: "Bipedal Exoframe"
   STR_HAMMER_CORPSE: "Hammer Wreck"
   STR_HAMMER_DESCRIPTION: "Hammer Intel"
-  STR_HAMMER_DESCRIPTION_UFOPEDIA: "El Hammer es una unidad de asalto mecanizada pesada, que se utiliza a menudo en combates cuerpo a cuerpo en centros urbanos. Se vio por primera vez en la Caída de Arnhem, donde un escuadrón completo eliminó a los defensores germano-holandeses a ambos lados del puente. Está equipado con una ametralladora avanzada, similar a la Brute Minigun"
+  STR_HAMMER_DESCRIPTION_UFOPEDIA: "El Hammer es una unidad de asalto mecanizada pesada, que se utiliza a menudo en combates cuerpo a cuerpo en centros urbanos. Se vio por primera vez en la Caída de Arnhem, donde un escuadrón completo eliminó a los defensores germano-holandeses a ambos lados del puente. Está equipado con una ametralladora avanzada, similar a la Minigun Brute."
 
   STR_STEELHEAD_SOLDIER: "Steelhead"
   STR_STEELHEAD_ARMOR: "Implantes blindados mejorados"
@@ -495,7 +495,7 @@ es-419:
   STR_FALLEN_KNIGHTS_LORE_UFOPEDIA: "A pesar de la destreza aérea alemana, la mayor parte de la Luftwaffe y las fuerzas aéreas europeas fueron rápidamente destruidas en las etapas iniciales del ataque de las Quimeras. En el Este, muchos pilotos ni siquiera llegaron a abordar sus aviones, ya que los misiles Spire cubrieron todas las bases militares que encontraron a su paso. A los escuadrones de Europa occidental les fue un poco mejor y se anotaron algunas victorias aéreas sobre el Benelux. Las alas de cazas UED fueron diezmadas por la gran cantidad de naves de combate Quimeras. Los llamados 'Caballeros del Aire' quedaron reducidos a escombros fundidos."
 
   STR_UED_FORCES_LORE: "Fuerzas UED"
-  STR_UED_FORCES_LORE_UFOPEDIA: "La mayor parte de las fuerzas de Defensa Europea Unida estaban compuestas por franceses, polacos, alemanes e italianos, además de brigadas reducidas de países más pequeños. Equipadas con equipo alemán de última generación, estaban entrenadas para defenderse de los ataques masivos rusos. Sin embargo, la dependencia de la UED de las defensas estáticas y la guerra de trincheras al estilo de la Gran Guerra la hicieron poco adecuada para los avances mecanizados de las quimeras. Las luchas políticas internas y la baja moral destrozaron la alianza incluso antes de que el enemigo alcanzara sus fronteras."
+  STR_UED_FORCES_LORE_UFOPEDIA: "La mayor parte de las fuerzas de Defensa Europea Unida estaban compuestas por franceses, polacos, alemanes e italianos, además de brigadas reducidas de países más pequeños. Equipadas con equipo alemán de última generación, estaban entrenadas para defenderse de los ataques masivos rusos. Sin embargo, la dependencia de la UED de las defensas estáticas y la guerra de trincheras al estilo de la Gran Guerra la hicieron poco adecuada para los avances mecanizados de las Quimeras. Las luchas políticas internas y la baja moral destrozaron la alianza incluso antes de que el enemigo alcanzara sus fronteras."
 
   STR_ACES_HIGH_LORE: "Ases de alto nivel"
   STR_ACES_HIGH_LORE_UFOPEDIA: "A diferencia de la mayoría de las potencias europeas, la Real Fuerza Aérea se centró principalmente en una gran flota de eficientes VTOL Kingfisher para proyectar su poder aéreo más hacia el interior. A pesar de estar en desarrollo desde 1937, fue solo después del anuncio del Me-262 en 1942 que el Mando de Cazas optó por reemplazar su flota de Spitfires por el Meteor. Aunque más lento y menos armado que la mayoría de sus pares, el caza fabricado en Gloster tenía un alcance operativo más largo. Como la mayoría se perdieron en misiones sobre Checoslovaquia en apoyo de la Línea de Bratislava, los últimos que quedaban se utilizaron en la defensa aérea de Gran Bretaña."
@@ -639,7 +639,7 @@ es-419:
   STR_GOOD_ENDING_1: "Hemos hecho retroceder al enemigo, nuestros esfuerzos bélicos han tenido éxito y los humanos de todas las partes del mundo están avanzando." 
   STR_GOOD_ENDING_2: "Nuestro progreso tecnológico ha aumentado enormemente gracias a los esfuerzos de toda la humanidad combinada, encabezados por SRPA."
   STR_GOOD_ENDING_3: "La destrucción de la Torre de Tunguska inició una reacción en cadena que terminó con la destrucción completa de la base principal de Daedalus en Holar, Islandia."
-  STR_GOOD_ENDING_4: "Descabezadas, las fuerzas quimeras se desorganizaron una vez más y la humanidad comenzó la recuperación del planeta. La guerra ya está ganada." 
+  STR_GOOD_ENDING_4: "Descabezadas, las fuerzas Quimeras se desorganizaron una vez más y la humanidad comenzó la recuperación del planeta. La guerra ya está ganada." 
 
   STR_BAD_ENDING_1: "El enemigo nos ha hecho retroceder, nuestra ofensiva se ha estancado y ha fracasado. Los contraataques quimeranos han aumentado y los grupos de resistencia están ahora rotos y dispersos."
   STR_BAD_ENDING_2: "Nuestros esfuerzos de recuperación de tecnología fueron en vano, ya que la Quimera siempre tuvo la sartén por el mango. No tuvimos ninguna oportunidad, a pesar de nuestros intentos de adaptar su tecnología."
