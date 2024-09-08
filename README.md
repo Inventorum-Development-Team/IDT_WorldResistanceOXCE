@@ -5,7 +5,7 @@ Credits by name:
 * ACHACOSO: RFC member, artistic support
 * Anthony_is_cool: RFC member, Siberian Guard lore writer & overall support 
 * bulletdesigner: VTOL map and tilesest
-* Brother^2: US Army Soldier code
+* Brother^2: IDT member, US Army Soldier code
 * efrenespartano: IDT lead developer, all the infantry weapons sprites, Chimera Hybrid sprites 
 * Ghartzay: IDT tester, Russian lore writer, overall support 
 * Insomniac Games: original franchise creators
@@ -16,6 +16,7 @@ Credits by name:
 * shreksnow: RFC member, overall support 
 * TigasZ8: Resistance Fans Community leader, main support; Portuguese, French, Italian & German translations
 * Wendi: RFC member, original XR-24 Spitter designer
+* wolwerin: IDT member, placeholder sprites for Repeater Pistol, Hunter DMR and Brute Minigun
 * _Brain322: HE.44 Magnum, HVAP Wraith sprites
 
 DISCLAIMER: 
