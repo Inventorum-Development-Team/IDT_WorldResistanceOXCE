@@ -3,20 +3,20 @@ ufopaedia:
 ########################################
 ######## AMMO CLIPS & MAGAZINES ########
 ########################################
-  - id: STR_M1911_COLT
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_M1911_COLT_UFOPEDIA
-    listOrder: 2000
-  - id: STR_M1911_COLT_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
+
+
+########### RIFLES ##############
+
+
   - id: STR_M5A2_FOLSOM_CARBINE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_M5A2_FOLSOM_CARBINE_UFOPEDIA
-    listOrder: 2000
+    #listOrder: 2000
   - id: STR_303_RIFLE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_303_RIFLE_AMMO_LARGE
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_40MM_FRAG
@@ -27,13 +27,21 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STORM_RIFLE_UFOPEDIA
-    listOrder: 2000
+    #listOrder: 2000
+
+  - id: STR_M2A1_CLOVIS
+    requires:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STORM_RIFLE_UFOPEDIA
+    #listOrder: 2000
 
   - id: STR_BULLSEYE_MK1
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BULLSEYE_MK1_UFOPEDIA
-#    listOrder: 2002
+#    #listOrder: 2002
   - id: STR_BULLSEYE_MK1_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -42,16 +50,29 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BULLSEYE_MK2_UFOPEDIA
-#    listOrder: 2002
+#    #listOrder: 2002
   - id: STR_BULLSEYE_MK2_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
+
+########## MACHINE GUNS ########
+
+  - id: STR_HVAP_CHAINGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HVAP_CHAINGUN_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_HVAP_CHAINGUN_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+######## SNIPER RIFLES #########
 
   - id: STR_L23_FAREYE_SNIPER_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA
-    listOrder: 2000
+    #listOrder: 2000
   - id: STR_303_SNIPER_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -60,7 +81,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUGER_MK1_UFOPEDIA
-#    listOrder: 2002
+#    #listOrder: 2002
   - id: STR_AUGER_MK1_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -69,24 +90,85 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUGER_MK2_UFOPEDIA
-#    listOrder: 2002
+#    #listOrder: 2002
   - id: STR_AUGER_MK2_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
+
+###### SHOTGUNS ########
+
+  - id: STR_ROSSMORE_COMBAT_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ROSSMORE_COMBAT_SHOTGUN_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_ROSSMORE_COMBAT_SHOTGUN_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+######### SUBMACHINE GUNS ########
+
+  - id: STR_THOMPSON_SMG
+    requires:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_THOMPSON_SMG_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_THOMPSON_SMG_MAG
+    requires:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_THOMPSON_SMG_DRUM
+    requires:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+##### PISTOLS AND SIDEARMS #######
+
+  - id: STR_M1911_COLT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M1911_COLT_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_M1911_COLT_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HE44_MAGNUM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HE44_MAGNUM_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_HE44_MAGNUM_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+###### GRENADES & LAUNCHERS #######
 
   - id: STR_HEDGEHOG_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEDGEHOG_GRENADE_UFOPEDIA
-#    listOrder: 2002
+#    #listOrder: 2002
 
+  - id: STR_L206_LAARK
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_L206_LAARK_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_L206_LAARK_ROCKET
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
 ################
 # Armors
   - id: STR_SRPA_BLACK_OPS_UNIFORM_UC
     type_id: 5
     section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 2
+    #listOrder: 2
     text: STR_SRPA_BLACK_OPS_UNIFORM_UFOPEDIA
 
   - id: STR_BDU_UC
@@ -94,7 +176,7 @@ ufopaedia:
     requires:
       - STR_AMERICAN_VOLUNTEERS_RESEARCH
     section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 2
+    #listOrder: 2
     text: STR_BDU_UC_UFOPEDIA
 
 ################
@@ -126,7 +208,7 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_RESEARCH_UC
     text: STR_GRAY_TECH_ITEM_UFOPEDIA
-#    listOrder: 2002
+#    #listOrder: 2002
 
   - id: STR_GRAY_TECH_THEORY
     type_id: 8
@@ -163,3 +245,33 @@ ufopaedia:
       - STR_LAUNCH_OPERATION_OLYMPIC
     text: STR_LAUNCH_OPERATION_OLYMPIC_UFOPEDIA
 
+################# LORE THERE IS NO LIST ORDER YET IF YOU HAVE A BETTER IDEA OF WERE TO PUT IT PLEASE TELL ME FOR NOW ALL ENTRIES HERE WILL BE ID 7 and be under
+#################################################################3STR_ALIEN_RESEARCH_UC ############################ WIP UNTIL I SAY SO ######################
+
+
+
+
+  - id: STR_JET_POWER_LORE
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_JET_POWER_LORE_UFOPEDIA
+
+  - id: STR_FALLEN_KNIGHTS_LORE
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_FALLEN_KNIGHTS_LORE_UFOPEDIA
+
+  - id: STR_UED_FORCES_LORE
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC 
+    text: STR_UED_FORCES_LORE_UFOPEDIA
+  
+  - id: STR_ACES_HIGH_LORE
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC 
+    text: STR_ACES_HIGH_LORE_UFOPEDIA
+
+  - id: STR_MAGNIFICENT_LIGHTNING_LORE
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC 
+    text: STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA

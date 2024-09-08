@@ -1,16 +1,815 @@
 items:
+##################################
+########### RIFLES ##############
+################################
+
+  - type: STR_M5A2_FOLSOM_CARBINE
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 160
+    floorSprite: 160
+    handSprite: 160
+    fireSound: 4
+    bulletSpeed: 5
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_303_RIFLE_AMMO, STR_303_RIFLE_AMMO_LARGE ]
+      1:
+        tuLoad: 20
+        tuUnload: 20
+        compatibleAmmo: [ STR_40MM_FRAG ]
+    confAimed:
+      shots: 1
+      name: STR_FIRE_GRENADE
+      ammoSlot: 1
+      arcing: true
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST_SHORT
+      followProjectiles: false
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAuto: 70
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuAuto: 30
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+
+
+
+  - type: STR_STORM_RIFLE
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
+    size: 0.3
+    requiresBuy:
+      - STR_MAQUIS_COOPERATION_1_RESEARCH
+    costBuy: 4000
+    costSell: 3500
+    weight: 6
+    bigSprite: 208
+    floorSprite: 208
+    handSprite: 208
+    fireSound: 4
+    bulletSpeed: 5
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST_SHORT
+      followProjectiles: false
+#    reloadSound: 302
+    compatibleAmmo:
+      - STR_303_RIFLE_AMMO
+      - STR_303_RIFLE_AMMO_LARGE
+    accuracyCloseQuarters: 70
+    accuracySnap: 55
+    accuracyAimed: 65
+    accuracyAuto: 45
+    tuSnap: 18
+    tuAimed: 35
+    tuAuto: 20
+    tuLoad: 13
+    snapRange: 16
+    aimRange: 24
+    autoRange: 15
+    dropoff: 6
+    powerRangeThreshold: 20
+    powerRangeReduction: 1
+    damageBonus:
+      firing: 1.3
+      reactions: 1.4
+    accuracyMultiplier:
+      firing: 1.2
+      reactions: 1.6
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    battleType: 1
+    ##listOrder: 2130    
+
+  - type: STR_M2A1_CLOVIS
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_LMGS, STR_AMERICAN_EQUIPMENT]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.2
+    costBuy: 6000
+    costSell: 5250
+    weight: 12
+    bigSprite: 232
+    floorSprite: 232
+    handSprite: 232
+    fireSound: 107
+    reloadSound: 307
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 10
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_303_RIFLE_AMMO
+      - STR_303_RIFLE_AMMO_LARGE
+    accuracyCloseQuarters: 75
+    kneelBonus: 300
+    accuracyAuto: 35
+    accuracySnap: 40
+    tuAuto: 30
+    tuSnap: 25
+    #autoShots: 4
+    minRange: 7
+    snapRange: 15
+    autoRange: 12
+    sprayWaypoints: 2
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    #listOrder: 2960
+    bulletSpeed: 17
+    
+  - type: STR_303_RIFLE_AMMO
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 2
+    bigSprite: 256
+    floorSprite: 256
+    bulletSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    power: 30
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    ##listOrder: 2025
+  - type: STR_303_RIFLE_AMMO_LARGE
+    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 264
+    floorSprite: 264
+    bulletSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    power: 30
+    damageType: 1
+    clipSize: 40
+    battleType: 2
+    armor: 12
+    ##listOrder: 2025
+
+  - type: STR_40MM_FRAG
+    categories: [STR_HUMAN_EQUIPMENT, STR_ARTILLERY, STR_GRENADES, STR_MAGAZINES]
+    size: 0.1
+    costBuy: 500
+    costSell: 470
+    weight: 1
+    bigSprite: 1344
+    floorSprite: 1344
+    hitSound: 0
+    hitAnimation: 0
+    power: 70
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 1.0
+      RandomWound: true
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 3
+    bulletSprite: 4
+    ##listOrder: 2026
+
+    
+  - type: STR_BULLSEYE_MK1
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 880
+    floorSprite: 880
+    handSprite: 880
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK1_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 40
+    accuracyAimed: 50
+    accuracyAuto: 35
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST_SHORT
+      followProjectiles: false    
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    ##listOrder: 2240
+
+  - type: STR_BULLSEYE_MK1_BATTERY
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 896
+    floorSprite: 896
+    hitSound: 19
+    bulletSprite: 27 # 35*27=945
+    hitAnimation: 90
+    bulletSpeed: 8
+    explosionSpeed: 10
+    power: 25
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    armor: 12
+    ##listOrder: 2245
+
+  - type: STR_BULLSEYE_MK2
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 904
+    floorSprite: 904
+    handSprite: 904
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK2_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 50
+    accuracyAimed: 60
+    accuracyAuto: 45
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST_SHORT
+      followProjectiles: false    
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    autoShots: 5
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    ##listOrder: 2250
+
+  - type: STR_BULLSEYE_MK2_BATTERY
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 920
+    floorSprite: 920
+    bulletSprite: 28 # 35*28=980
+    hitAnimation: 100
+    bulletSpeed: 10
+    explosionSpeed: 10
+    power: 50
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    armor: 12
+    ##listOrder: 2255
+
+#################################
+########## MACHINE GUNS ########
+###############################
+
+  - type: STR_HVAP_CHAINGUN
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_AMERICAN_EQUIPMENT]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 11000
+    costSell: 9000
+    weight: 13
+    bigSprite: 360
+    floorSprite: 360
+    handSprite: 360
+    fireSound: 103
+    reloadSound: 303
+    confSnap:
+      shots: 6
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 12
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_HVAP_CHAINGUN_DRUM
+    accuracyCloseQuarters: 55
+    kneelBonus: 300
+    accuracySnap: 42
+    accuracyAuto: 37
+    tuSnap: 30
+    tuAuto: 40
+    tuLoad: 20
+    minRange: 10
+    snapRange: 20
+    autoRange: 18
+    dropoff: 4
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    #autoShots: 6
+    sprayWaypoints: 2
+    attraction: 10
+    #listOrder: 3080
+
+  - type: STR_HVAP_CHAINGUN_DRUM
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_AMERICAN_EQUIPMENT]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 376
+    floorSprite: 376
+    handSprite: 376
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    explosionSpeed: 30
+    bulletSprite: 12 #Rifle bullet 35*12=420
+    power: 33
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
+    damageType: 1
+    clipSize: 200
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 2
+    attraction: 10
+    #listOrder: 3090
+
+#################################
+######## SNIPER RIFLES #########
+##############################
+
+  - type: STR_L23_FAREYE_SNIPER_RIFLE
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
+    size: 0.2
+    requiresBuy:
+      - STR_BRITISH_COOPERATION_1_RESEARCH
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 472
+    floorSprite: 472
+    handSprite: 472
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_303_SNIPER_AMMO
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.8
+      reactions: 1.5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    ##listOrder: 2070
+
+  - type: STR_303_SNIPER_AMMO
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
+    size: 0.1
+    requiresBuy:
+      - STR_BRITISH_COOPERATION_1_RESEARCH
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 488
+    floorSprite: 488
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 3
+    explosionSpeed: 10
+    power: 40
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+    ##listOrder: 2075
+
+  - type: STR_AUGER_MK1
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 928
+    floorSprite: 928
+    handSprite: 928
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_AUGER_MK1_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    ##listOrder: 2260
+
+  - type: STR_AUGER_MK1_BATTERY
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_BATTERIES]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 944
+    floorSprite: 944
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
+    bulletSpeed: 8
+    explosionSpeed: 10
+    hitSound: 19
+    power: 30
+    damageAlter:
+      ToTile: 2.0
+    damageType: 5
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    ##listOrder: 2265
+
+  - type: STR_AUGER_MK2
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 952
+    floorSprite: 952
+    handSprite: 952
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_AUGER_MK2_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 85
+    accuracyAimed: 100
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    ##listOrder: 2270
+
+  - type: STR_AUGER_MK2_BATTERY
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_BATTERIES]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 968
+    floorSprite: 968
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
+    bulletSpeed: 8
+    explosionSpeed: 10
+    hitSound: 19
+    power: 40
+    damageType: 5
+    damageAlter:
+      ToTile: 4.0
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    ##listOrder: 2275
+
+####################################
+###### SHOTGUNS ########
+##################################
+
+  - type: STR_ROSSMORE_COMBAT_SHOTGUN
+    categories: [STR_HUMAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_SHOTGUNS]
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_2_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 544
+    floorSprite: 544
+    handSprite: 544
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_ROSSMORE_COMBAT_SHOTGUN_MAG
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuLoad: 25
+    minRange: 2
+    snapRange: 12
+    aimRange: 16
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    #listOrder: 3160
+
+  - type: STR_ROSSMORE_COMBAT_SHOTGUN_MAG
+    categories: [STR_HUMAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAGAZINES, STR_SHOTGUNS]
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_2_RESEARCH
+    size: 0.01
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 560
+    floorSprite: 560
+    power: 45
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    #listOrder: 3190
+
 ###################################
-##### PISTOLS AND SIDEARS ########
+######### SUBMACHINE GUNS ########
+#################################
+
+  - type: STR_THOMPSON_SMG
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 4000
+    costSell: 3000
+    weight: 5
+    bigSprite: 592
+    floorSprite: 592
+    handSprite: 592
+    fireSound: 138
+    reloadSound: 338
+    sprayWaypoints: 2
+    confAuto:
+      shots: 7
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confSnap:
+      shots: 6
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_THOMPSON_SMG_MAG
+      - STR_THOMPSON_SMG_DRUM
+    accuracyCloseQuarters: 150
+    kneelBonus: 200
+    accuracySnap: 70
+    accuracyAuto: 50
+    tuSnap: 28
+    tuAuto: 24
+    tuLoad: 15
+    minRange: 2
+    snapRange: 16
+    aimRange: 10
+    autoRange: 14
+    dropoff: 4
+    twoHanded: true
+    oneHandedPenalty: 15
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    #listOrder: 2750
+
+  - type: STR_THOMPSON_SMG_MAG
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS, STR_MAGAZINES]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 616
+    floorSprite: 616
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 30
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 30
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    #listOrder: 2760
+  - type: STR_THOMPSON_SMG_DRUM
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS, STR_MAGAZINES]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 624
+    floorSprite: 624
+    handSprite: 624
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 30
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 2
+    invHeight: 2
+    clipSize: 30
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    #listOrder: 2760
+
+###################################
+##### PISTOLS AND SIDEARMS #######
 #################################
   - type: STR_M1911_COLT
-    categories: [STR_HUMAN_EQUIPMENT, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT]
     size: 0.1
     costBuy: 750
     costSell: 600
     weight: 5
-    bigSprite: 100
-    floorSprite: 100
-    handSprite: 100
+    bigSprite: 784
+    floorSprite: 784
+    handSprite: 784
     fireSound: 4
 #    reloadSound: 304
     compatibleAmmo:
@@ -31,15 +830,15 @@ items:
     armor: 35
     attraction: 12
     bulletSpeed: 5
-    #listOrder: 2000
+    ##listOrder: 2000
   - type: STR_M1911_COLT_CLIP
-    categories: [STR_HUMAN_EQUIPMENT, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_MAGAZINES]
     size: 0.025
     costBuy: 75
     costSell: 55
     weight: 2
-    bigSprite: 105
-    floorSprite: 2
+    bigSprite: 800
+    floorSprite: 800
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -54,429 +853,70 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 35
-    #listOrder: 2005
-
-##################################
-######## ASSAULT RIFLES #########
-#################################
-
-  - type: STR_M5A2_FOLSOM_CARBINE
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 120
-    floorSprite: 120
-    handSprite: 116
-    fireSound: 4
-    bulletSpeed: 5
-    ammo:
-      0:
-        tuLoad: 10
-        tuUnload: 20
-        compatibleAmmo: [ STR_303_RIFLE_AMMO ]
-      1:
-        tuLoad: 20
-        tuUnload: 20
-        compatibleAmmo: [ STR_40MM_FRAG ]
-    confAimed:
-      shots: 1
-      name: STR_FIRE_GRENADE
-      ammoSlot: 1
-      arcing: true
-    accuracyCloseQuarters: 65
-    accuracySnap: 75
-    accuracyAuto: 70
-    accuracyAimed: 90
-    tuSnap: 20
-    tuAimed: 35
-    tuAuto: 30
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    #listOrder: 2020
-
-  - type: STR_STORM_RIFLE
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
-    size: 0.3
-    costSell: 3500
-    weight: 6
-    bigSprite: 230
-    floorSprite: 230
-    handSprite: 204
-    fireSound: 4
-    bulletSpeed: 5
-#    reloadSound: 302
-    compatibleAmmo:
-      - STR_303_RIFLE_AMMO
-    accuracyCloseQuarters: 70
-    accuracySnap: 55
-    accuracyAimed: 65
-    tuSnap: 18
-    tuAimed: 35
-    tuLoad: 13
-    snapRange: 16
-    aimRange: 24
-    dropoff: 6
-    powerRangeThreshold: 20
-    powerRangeReduction: 1
-    damageBonus:
-      firing: 1.3
-      reactions: 1.4
-    accuracyMultiplier:
-      firing: 1.2
-      reactions: 1.6
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 15
-    attraction: 8
-    battleType: 1
-    #listOrder: 2130    
+    ##listOrder: 2005
     
-  - type: STR_303_RIFLE_AMMO
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
+  - type: STR_HE44_MAGNUM
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS]
+    size: 0.01
+    costBuy: 2500
+    costSell: 900
     weight: 3
-    bigSprite: 125
-    floorSprite: 4
-    bulletSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 30
-    damageType: 1
-    clipSize: 30
-    battleType: 2
-    armor: 12
-    #listOrder: 2025
+    bigSprite: 760
+    floorSprite: 760
+    handSprite: 760
+    fireSound: 100
+    reloadSound: 300
+    compatibleAmmo:
+      - STR_HE44_MAGNUM_AMMO
+    accuracySnap: 55
+    accuracyAimed: 75
+    accuracyCloseQuarters: 120
+    kneelBonus: 200
+    tuSnap: 10
+    tuAimed: 20
+    minRange: 2
+    snapRange: 12
+    aimRange: 22
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    #listOrder: 2440
 
-  - type: STR_40MM_FRAG
-    categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
-    size: 0.1
+  - type: STR_HE44_MAGNUM_AMMO
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS, STR_MAGAZINES]
+    size: 0.01
     costBuy: 500
-    costSell: 470
-    weight: 1
-    bigSprite: 126
-    floorSprite: 4
+    costSell: 150
+    weight: 2
+    bigSprite: 776
+    floorSprite: 776
+    power: 32
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+    blastRadius: 2
+    damageType: 3
+    bulletSpeed: 10
     hitSound: 0
     hitAnimation: 0
-    power: 70
-    damageAlter:
-      RandomType: 6
-      IgnoreSelfDestruct: true
-      ToTile: 0.8
-      ToWound: 1.0
-      RandomWound: true
-    damageType: 3
-    clipSize: 1
-    battleType: 2
-    armor: 20
-    blastRadius: 3
-    bulletSprite: 4
-    #listOrder: 2026
-
-  - type: STR_BULLSEYE_MK1
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 340
-    floorSprite: 340
-    handSprite: 292
-    fireSound: 4
-    bulletSpeed: 8
-#    reloadSound: 301
-    compatibleAmmo:
-      - STR_BULLSEYE_MK1_BATTERY
-    accuracyCloseQuarters: 85
-    accuracySnap: 40
-    accuracyAimed: 50
-    accuracyAuto: 35
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    tuAuto: 30
-    minRange: 15
-    snapRange: 24
-    aimRange: 20
-    autoRange: 11
-    autoShots: 5
-    sprayWaypoints: 2
-    dropoff: 10
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    clipSize: 6
+    invHeight: 1
     invWidth: 1
-    invHeight: 3
-    attraction: 8
-    #listOrder: 2240
-
-  - type: STR_BULLSEYE_MK1_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 345
-    floorSprite: 4
-    hitSound: 19
-    bulletSprite: 27 # 35*27=945
-    hitAnimation: 90
-    power: 40
-    damageType: 5
-    clipSize: 35
     battleType: 2
-    armor: 12
-    #listOrder: 2245
-
-  - type: STR_BULLSEYE_MK2
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 350
-    floorSprite: 350
-    handSprite: 300
-    fireSound: 4
-    bulletSpeed: 8
-#    reloadSound: 301
-    compatibleAmmo:
-      - STR_BULLSEYE_MK2_BATTERY
-    accuracyCloseQuarters: 85
-    accuracySnap: 50
-    accuracyAimed: 60
-    accuracyAuto: 45
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    tuAuto: 30
-    minRange: 15
-    snapRange: 24
-    aimRange: 20
-    autoRange: 11
-    autoShots: 5
-    sprayWaypoints: 2
-    dropoff: 10
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    attraction: 8
-    #listOrder: 2250
-
-  - type: STR_BULLSEYE_MK2_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 355
-    floorSprite: 4
-    bulletSprite: 28 # 35*28=980
-    hitAnimation: 100
-    power: 50
-    damageType: 5
-    clipSize: 35
-    battleType: 2
-    armor: 12
-    #listOrder: 2255
-    
-
-################################
-######## SNIPER RIFLES #########
-##############################
-
-  - type: STR_L23_FAREYE_SNIPER_RIFLE
-    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 170
-    floorSprite: 170
-    handSprite: 156
-    fireSound: 4
-    bulletSpeed: 5
-#    reloadSound: 301
-    compatibleAmmo:
-      - STR_303_SNIPER_AMMO
-    accuracyCloseQuarters: 65
-    confAuto:
-      shots: 1
-      name: STR_HEADSHOT
-    accuracySnap: 75
-    accuracyAimed: 90
-    accuracyAuto: 200
-    tuSnap: 20
-    tuAimed: 35
-    tuAuto: 50
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
-    damageBonus:
-      firing: 1.6
-      reactions: 1.3
-    accuracyMultiplier:
-      firing: 1.8
-      reactions: 1.5
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    #listOrder: 2070
-
-  - type: STR_303_SNIPER_AMMO
-    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 175
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    bulletSprite: 3
-    power: 40
-    damageType: 1
-    clipSize: 5
-    battleType: 2
-    armor: 12
-    #listOrder: 2075
+    armor: 250
+    #listOrder: 2450
 
 ####################################
-###### BATTLE RIFLES / DMR ########
-##################################
-
-  - type: STR_AUGER_MK1
-    categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 360
-    floorSprite: 360
-    handSprite: 308
-    fireSound: 4
-    bulletSpeed: 8
-#    reloadSound: 301
-    compatibleAmmo:
-      - STR_AUGER_MK1_BATTERY
-    accuracyCloseQuarters: 65
-    accuracySnap: 75
-    accuracyAimed: 90
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
-    damageAlter:
-      ToTile: 3.0
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 2
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    #listOrder: 2260
-
-  - type: STR_AUGER_MK1_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 365
-    floorSprite: 4
-    bulletSprite: 29 # 35*29=1015
-    hitAnimation: 110
-    hitSound: 19
-    power: 30
-    damageType: 5
-    clipSize: 20
-    battleType: 2
-    armor: 12
-    #listOrder: 2265
-
-  - type: STR_AUGER_MK2
-    categories: [STR_CHIMERAN_WEAPONS, STR_SNIPER_RIFLES, STR_CLIPS]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 370
-    floorSprite: 370
-    handSprite: 316
-    fireSound: 4
-    bulletSpeed: 8
-#    reloadSound: 301
-    compatibleAmmo:
-      - STR_AUGER_MK2_BATTERY
-    accuracyCloseQuarters: 65
-    accuracySnap: 85
-    accuracyAimed: 100
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
-    damageAlter:
-      ToTile: 4.0
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 2
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    #listOrder: 2270
-
-  - type: STR_AUGER_MK2_BATTERY
-    categories: [STR_CHIMERAN_WEAPONS, STR_RIFLES, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 375
-    floorSprite: 4
-    bulletSprite: 29 # 35*29=1015
-    hitAnimation: 110
-    hitSound: 19
-    power: 40
-    damageType: 5
-    clipSize: 20
-    battleType: 2
-    armor: 12
-    #listOrder: 2275
-
-
-
+###### GRENADES & LAUNCHERS #######
+#################################
 
   - type: STR_HEDGEHOG_GRENADE
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_GRENADES]
     size: 0.1
     costSell: 14850
     weight: 3
@@ -487,9 +927,61 @@ items:
     battleType: 4
     recoveryPoints: 1
     blastRadius: 5
-    #listOrder: 2330
+    ##listOrder: 2330
 
 
+  - type: STR_L206_LAARK
+    categories: [STR_HUMAN_EQUIPMENT, STR_ARTILLERY, STR_BRITISH_EQUIPMENT]
+    size: 0.04
+    costBuy: 16000
+    costSell: 10000
+    weight: 10
+    bigSprite: 832
+    floorSprite: 832
+    handSprite: 832
+    bulletSprite: 0
+    #fireSound: 152
+    compatibleAmmo:
+      - STR_L206_LAARK_ROCKET
+    accuracySnap: 55
+    accuracyAimed: 125
+    tuSnap: 45
+    tuAimed: 70
+    tuLoad: 20
+    battleType: 1
+    waypoints: 3
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    attraction: 8
+    #listOrder: 201630
+  - type: STR_L206_LAARK_ROCKET
+    categories: [STR_HUMAN_EQUIPMENT, STR_ARTILLERY, STR_BRITISH_EQUIPMENT, STR_MAGAZINES]
+    size: 0.02
+    costBuy: 1600
+    costSell: 1200
+    weight: 6
+    bigSprite: 848
+    floorSprite: 848
+    hitSound: 0
+    hitAnimation: 0
+    power: 85
+    damageAlter:
+      IgnoreOverKill: false
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToWound: 0.5
+      RandomWound: true
+      ToTile: 0.66
+    damageType: 3
+    clipSize: 2
+    blastRadius: 4
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    attraction: 9
+    #listOrder: 201660
 
 
 extraSprites:
@@ -498,25 +990,303 @@ extraSprites:
 #########################################
   - type: BIGOBS.PCK
     files:
-      100: Resources/AmericanWeapons/BigM1911.png
-      105: Resources/Ammo/Big45PistolAmmo.png
-      120: Resources/AmericanWeapons/BigM5A2Folsom.png
-      125: Resources/Ammo/Big303RifleAmmo.png
-      126: Resources/Ammo/Big40mmFragAmmo.png
-      170: Resources/BritishWeapons/BigL23Fareye.png
-      175: Resources/Ammo/Big303SniperAmmo.png
-      230: Resources/MaquisWeapons/BigStormRifle.png
+  # Rifles
+      160: Resources/HumanWeapons/Rifles/BigM5A2Folsom_nomag.png
+      168: Resources/HumanWeapons/Rifles/BigM5A2Folsom_ammo1.png
+      176: Resources/HumanWeapons/Rifles/BigM5A2Folsom_ammo2.png
+      184: Resources/HumanWeapons/Rifles/BigMk6Carbine_nomag.png
+      192: Resources/HumanWeapons/Rifles/BigMk6Carbine_ammo1.png
+      200: Resources/HumanWeapons/Rifles/BigMk6Carbine_ammo2.png
+      208: Resources/HumanWeapons/Rifles/BigStormRifle_nomag.png
+      216: Resources/HumanWeapons/Rifles/BigStormRifle_ammo1.png
+      224: Resources/HumanWeapons/Rifles/BigStormRifle_ammo2.png
+      232: Resources/HumanWeapons/Rifles/BigM2A1Clovis_nomag.png
+      240: Resources/HumanWeapons/Rifles/BigM2A1Clovis_ammo1.png
+      248: Resources/HumanWeapons/Rifles/BigM2A1Clovis_ammo2.png
+      256: Resources/HumanWeapons/Ammo/Big303RifleAmmo.png
+      264: Resources/HumanWeapons/Ammo/Big303RifleAmmoLarge.png
+      272: Resources/HumanWeapons/Rifles/BigArisakaType99_nomag.png
+      280: Resources/HumanWeapons/Rifles/BigArisakaType99_ammo1.png
+      288: Resources/HumanWeapons/Ammo/BigArisakaType99Ammo.png
+      #296: Resources/HumanWeapons/Rifles/BigHowaR1Rifle_nomag.png
+      #304: Resources/HumanWeapons/Rifles/BigHowaR1Rifle_ammo1.png
+      #312: Resources/HumanWeapons/Ammo/BigHowaR1RifleMag.png
+      320: Resources/HumanWeapons/Rifles/BigFedorovAvtomat_nomag.png
+      328: Resources/HumanWeapons/Rifles/BigFedorovAvtomat_ammo1.png
+      336: Resources/HumanWeapons/Ammo/BigFedorovAvtomat_Mag.png
+      344: Resources/HumanWeapons/Rifles/BigAS25P_nomag.png
+      352: Resources/HumanWeapons/Rifles/BigAS25P_ammo1.png
+  # Machine Guns    
+      360: Resources/HumanWeapons/MachineGuns/BigHVAP_nomag.png
+      368: Resources/HumanWeapons/MachineGuns/BigHVAP_ammo1.png
+      376: Resources/HumanWeapons/Ammo/BigHVAPAmmoDrum.png
+      #384: Resources/HumanWeapons/MachineGuns/BigMG42_nomag.png
+      #392: Resources/HumanWeapons/MachineGuns/BigMG42_ammo1.png
+      #400: Resources/HumanWeapons/Ammo/BigMG42AmmoDrum.png
+      #408: Resources/HumanWeapons/MachineGuns/BigIWAOR_nomag.png
+      #416: Resources/HumanWeapons/MachineGuns/BigIWAOR_ammo1.png
+      #424: Resources/HumanWeapons/Ammi/BigIWAORAmmoDrum.png
+      432: Resources/HumanWeapons/MachineGuns/BigDP28_nomag.png
+      440: Resources/HumanWeapons/MachineGuns/BigDP28_ammo1.png
+      448: Resources/HumanWeapons/MachineGuns/BigDP28_ammo2.png
+      456: Resources/HumanWeapons/Ammo/BigDP28AmmoPan.png
+      464: Resources/HumanWeapons/Ammo/BigDP28AmmoBox.png
+  # Sniper Rifles   
+      472: Resources/HumanWeapons/SniperRifles/BigL23Fareye_nomag.png
+      480: Resources/HumanWeapons/SniperRifles/BigL23Fareye_ammo1.png
+      488: Resources/HumanWeapons/Ammo/Big303SniperAmmo.png
+      #496: Resources/HumanWeapons/SniperRifles/BigFR1Fareye_nomag.png
+      #504: Resources/HumanWeapons/SniperRifles/BigFR1Fareye_ammo1.png
+      #512: Resources/HumanWeapons/Ammo/BigFR1FareyeAmmo.png
+      520: Resources/HumanWeapons/SniperRifles/BigMosinNagantSniper_nomag.png
+      528: Resources/HumanWeapons/SniperRifles/BigMosinNagantSniper_ammo1.png
+      536: Resources/HumanWeapons/Ammo/BigMosinNagantAmmo.png
+  # Shotguns
+      544: Resources/HumanWeapons/Shotguns/BigRossmore239Shotgun_nomag.png
+      552: Resources/HumanWeapons/Shotguns/BigRossmore239Shotgun_ammo1.png
+      560: Resources/HumanWeapons/Ammo/BigRossmore239ShotgunMag.png
+      568: Resources/HumanWeapons/Shotguns/BigSchrotflinteShotgun_nomag.png
+      576: Resources/HumanWeapons/Shotguns/BigSchrotflinteShotgun_ammo1.png
+      584: Resources/HumanWeapons/Ammo/BigSchrotflinteShotgunShells.png
+  # SMGs
+      592: Resources/HumanWeapons/SMGs/BigM1A1Thompson_nomag.png
+      600: Resources/HumanWeapons/SMGs/BigM1A1Thompson_ammo1.png
+      608: Resources/HumanWeapons/SMGs/BigM1A1Thompson_ammo2.png
+      616: Resources/HumanWeapons/Ammo/BigM1A1ThompsonMag.png
+      624: Resources/HumanWeapons/Ammo/BigM1A1ThompsonDrum.png
+      #632: Resources/HumanWeapons/SMGs/BigWelgun_nomag.png
+      #640: Resources/HumanWeapons/SMGs/BigWelgun_ammo1.png
+      648: Resources/HumanWeapons/SMGs/BigBerettaMAB34_nomag.png
+      656: Resources/HumanWeapons/SMGs/BigBerettaMAB34_ammo1.png
+      #664: Resources/HumanWeapons/SMGs/BigErmaEMP44_nomag.png
+      #672: Resources/HumanWeapons/SMGs/BigErmaEMP44_ammo1.png
+      680: Resources/HumanWeapons/Ammo/Big9mmSMGMag.png
+      #688: Resources/HumanWeapons/SMGs/BigNambuType2_nomag.png
+      #696: Resources/HumanWeapons/SMGs/BigNambuType2_ammo1.png
+      #704: Resources/HumanWeapons/Ammo/BigNambuType2Mag.png
+      712: Resources/HumanWeapons/SMGs/BigPPS43_nomag.png
+      720: Resources/HumanWeapons/SMGs/BigPPS43_ammo1.png
+      728: Resources/HumanWeapons/Ammo/BigPPS43Mag.png
+      736: Resources/HumanWeapons/SMGs/BigTokarevAPBT_nomag.png
+      744: Resources/HumanWeapons/SMGs/BigTokarevAPBT_ammo1.png
+      752: Resources/HumanWeapons/Ammo/BigTokarevLargeMag.png
+  # Pistols 
+      760: Resources/HumanWeapons/Pistols/BigHE44Magnum_nomag.png
+      768: Resources/HumanWeapons/Pistols/BigHE44Magnum_ammo1.png
+      776: Resources/HumanWeapons/Ammo/Big44MagnumClip.png
+      784: Resources/HumanWeapons/Pistols/BigColtM1911_nomag.png
+      792: Resources/HumanWeapons/Pistols/BigColtM1911_ammo1.png
+      800: Resources/HumanWeapons/Ammo/Big45PistolAmmo.png
+      #808: Resources/HumanWeapons/Pistols/BigKorovinKPK26_nomag.png
+      #816: Resources/HumanWeapons/Pistols/BigKorovinKPK26_ammo1.png
+      #824: Resources/HumanWeapons/Ammo/BigKorovinKPK26Mag.png
+  # Artillery 
+      832: Resources/HumanWeapons/Launchers/BigL209LAARK_nomag.png
+      840: Resources/HumanWeapons/Launchers/BigL209LAARK_ammo1.png
+      848: Resources/HumanWeapons/Ammo/BigL209LAARK_Rocket.png
+      #856: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo1.png
+      #864: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_ammo2.png
+      #872: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_Clip.png
+  # Chimera
+      880: Resources/ChimeraWeapons/BigBullseyeMk1_nomag.png
+      888: Resources/ChimeraWeapons/BigBullseyeMk1_nomag.png
+      896: Resources/ChimeraWeapons/Ammo/BigBullseyeMk1Battery.png
+      904: Resources/ChimeraWeapons/BigBullseyeMk2_nomag.png
+      912: Resources/ChimeraWeapons/BigBullseyeMk2_ammo1.png
+      920: Resources/ChimeraWeapons/Ammo/BigBullseyeMk2Battery.png
+      928: Resources/ChimeraWeapons/BigAugerMk1_nomag.png
+      936: Resources/ChimeraWeapons/BigAugerMk1_ammo1.png
+      944: Resources/ChimeraWeapons/Ammo/BigAugerMk1Battery.png
+      952: Resources/ChimeraWeapons/BigAugerMk2_nomag.png
+      960: Resources/ChimeraWeapons/BigAugerMk2_ammo1.png
+      968: Resources/ChimeraWeapons/Ammo/BigAugerMk2Battery.png
+      976: Resources/ChimeraWeapons/BigRepeaterPistol_nomag.png
+      984: Resources/ChimeraWeapons/BigRepeaterPistol_ammo1.png
+      992: Resources/ChimeraWeapons/Ammo/BigRepeaterPistolBattery.png
+      1000: Resources/ChimeraWeapons/BigHunterDMR_nomag.png
+      1008: Resources/ChimeraWeapons/BigHunterDMR_ammo1.png
+      1016: Resources/ChimeraWeapons/Ammo/BigHunterDMRBattery.png
+      1024: Resources/ChimeraWeapons/BigBruteMinigun_nomag.png
+      1032: Resources/ChimeraWeapons/BigBruteMinigun_ammo1.png
+      1040: Resources/ChimeraWeapons/Ammo/BigBruteMinigunBattery.png
+      
+      #1048: Resources/ChimeraWeapons/BigReaperCarbine_nomag.png
+      #1056: Resources/ChimeraWeapons/BigReaperCarbine_ammo1.png
+      #1064: Resources/ChimeraWeapons/Ammo/BigReaperCarbineBattery.png
+     
+      #1200: Resources/HumanWeapons/Energy/BigMarksmanB_nomag.png
+      #1208: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      #1216: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      1224: Resources/HumanWeapons/Energy/BigRazorBM001_nomag.png
+      1232: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
+      1240: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
+      1248: Resources/HumanWeapons/Energy/BigLongbow1S1K_nomag.png
+      1256: Resources/HumanWeapons/Energy/BigLongbow1S1K_ammo1.png
+      1264: Resources/HumanWeapons/Ammo/BigLongbow1S1KFlechetteMag.png
+      1272: Resources/HumanWeapons/Energy/BigXR24Spitter_nomag.png
+      1280: Resources/HumanWeapons/Energy/BigXR24Spitter_ammo1.png
+      1288: Resources/HumanWeapons/Ammo/BigXR24SpitterBattery.png
+      #1296: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_nomag.png
+      #1304: Resources/HumanWeapons/Energy/BigRussianEnergyWeapon_ammo1.png
+      #1312: Resources/HumanWeapons/Ammo/BigRussianEnergyWeaponBattery.png
+      1320: Resources/HumanWeapons/Energy/BigSiberianBullseye_nomag.png
+      1328: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.png
+      1336: Resources/HumanWeapons/Energy/BigSiberianBullseye_ammo1.png
+      1344: Resources/HumanWeapons/Ammo/Big40mmHE.png
+      #1352: Resources/HumanWeapons/Ammo/Big40mmINC.png
+      #1360: Resources/HumanWeapons/Ammo/Big40mmSMOKE.png
+      #1368: Resources/HumanWeapons/Ammo/Big40mmHERack.png
+      #1376: Resources/HumanWeapons/Ammo/Big40mmINCRack.png
+  
 
   - type: FLOOROB.PCK
     files:
-      100: Resources/AmericanWeapons/FloorM1911.png
-#      105: Resources/Ammo/Big45PistolAmmo.png
-      120: Resources/AmericanWeapons/FloorM5A2Folsom.png
-#      125: Resources/Ammo/Big303RifleAmmo.png
-#      126: Resources/Ammo/Big40mmFragAmmo.png
-      170: Resources/BritishWeapons/FloorL23Fareye.png
-#      175: Resources/Ammo/Big303SniperAmmo.png
-      230: Resources/MaquisWeapons/FloorStormRifle.png
+      160: Resources/HumanWeapons/Rifles/FloorM5A2Folsom_nomag.png
+      168: Resources/HumanWeapons/Rifles/FloorM5A2Folsom_ammo1.png
+      176: Resources/HumanWeapons/Rifles/FloorM5A2Folsom_ammo2.png
+      184: Resources/HumanWeapons/Rifles/FloorMk6Carbine_nomag.png
+      192: Resources/HumanWeapons/Rifles/FloorMk6Carbine_ammo1.png
+      200: Resources/HumanWeapons/Rifles/FloorMk6Carbine_ammo2.png
+      208: Resources/HumanWeapons/Rifles/FloorStormRifle_nomag.png
+      216: Resources/HumanWeapons/Rifles/FloorStormRifle_ammo1.png
+      224: Resources/HumanWeapons/Rifles/FloorStormRifle_ammo2.png
+      232: Resources/HumanWeapons/Rifles/FloorM2A1Clovis_nomag.png
+      240: Resources/HumanWeapons/Rifles/FloorM2A1Clovis_ammo1.png
+      248: Resources/HumanWeapons/Rifles/FloorM2A1Clovis_ammo2.png
+      256: Resources/HumanWeapons/Ammo/Floor303RifleAmmo.png
+      264: Resources/HumanWeapons/Ammo/Floor303RifleAmmoLarge.png
+      272: Resources/HumanWeapons/Rifles/FloorArisakaType99_nomag.png
+      280: Resources/HumanWeapons/Rifles/FloorArisakaType99_ammo1.png
+      288: Resources/HumanWeapons/Ammo/FloorArisakaType99Ammo.png
+      #296: Resources/HumanWeapons/Rifles/FloorHowaR1Rifle_nomag.png
+      #304: Resources/HumanWeapons/Rifles/FloorHowaR1Rifle_ammo1.png
+      #312: Resources/HumanWeapons/Ammo/FloorHowaR1RifleMag.png
+      320: Resources/HumanWeapons/Rifles/FloorFedorovAvtomat_nomag.png
+      328: Resources/HumanWeapons/Rifles/FloorFedorovAvtomat_ammo1.png
+      336: Resources/HumanWeapons/Ammo/FloorFedorovAvtomat_Mag.png
+      344: Resources/HumanWeapons/Rifles/FloorAS25P_nomag.png
+      352: Resources/HumanWeapons/Rifles/FloorAS25P_ammo1.png
+  # Machine Guns    
+      360: Resources/HumanWeapons/MachineGuns/FloorHVAP_nomag.png
+      368: Resources/HumanWeapons/MachineGuns/FloorHVAP_ammo1.png
+      376: Resources/HumanWeapons/Ammo/FloorHVAPAmmoDrum.png
+      #384: Resources/HumanWeapons/MachineGuns/FloorMG42_nomag.png
+      #392: Resources/HumanWeapons/MachineGuns/FloorMG42_ammo1.png
+      #400: Resources/HumanWeapons/Ammo/FloorMG42AmmoDrum.png
+      #408: Resources/HumanWeapons/MachineGuns/FloorIWAOR_nomag.png
+      #416: Resources/HumanWeapons/MachineGuns/FloorIWAOR_ammo1.png
+      #424: Resources/HumanWeapons/Ammi/FloorIWAORAmmoDrum.png
+      432: Resources/HumanWeapons/MachineGuns/FloorDP28_nomag.png
+      440: Resources/HumanWeapons/MachineGuns/FloorDP28_ammo1.png
+      448: Resources/HumanWeapons/MachineGuns/FloorDP28_ammo2.png
+      456: Resources/HumanWeapons/Ammo/FloorDP28AmmoPan.png
+      464: Resources/HumanWeapons/Ammo/FloorDP28AmmoBox.png
+  # Sniper Rifles   
+      472: Resources/HumanWeapons/SniperRifles/FloorL23Fareye_nomag.png
+      480: Resources/HumanWeapons/SniperRifles/FloorL23Fareye_ammo1.png
+      488: Resources/HumanWeapons/Ammo/Floor303SniperAmmo.png
+      #496: Resources/HumanWeapons/SniperRifles/FloorFR1Fareye_nomag.png
+      #504: Resources/HumanWeapons/SniperRifles/FloorFR1Fareye_ammo1.png
+      #512: Resources/HumanWeapons/Ammo/FloorFR1FareyeAmmo.png
+      520: Resources/HumanWeapons/SniperRifles/FloorMosinNagantSniper_nomag.png
+      528: Resources/HumanWeapons/SniperRifles/FloorMosinNagantSniper_ammo1.png
+      536: Resources/HumanWeapons/Ammo/FloorMosinNagantAmmo.png
+  # Shotguns
+      544: Resources/HumanWeapons/Shotguns/FloorRossmore239Shotgun_nomag.png
+      552: Resources/HumanWeapons/Shotguns/FloorRossmore239Shotgun_ammo1.png
+      560: Resources/HumanWeapons/Ammo/FloorRossmore239ShotgunMag.png
+      568: Resources/HumanWeapons/Shotguns/FloorSchrotflinteShotgun_nomag.png
+      576: Resources/HumanWeapons/Shotguns/FloorSchrotflinteShotgun_ammo1.png
+      584: Resources/HumanWeapons/Ammo/FloorSchrotflinteShotgunShells.png
+  # SMGs
+      592: Resources/HumanWeapons/SMGs/FloorM1A1Thompson_nomag.png
+      600: Resources/HumanWeapons/SMGs/FloorM1A1Thompson_ammo1.png
+      608: Resources/HumanWeapons/SMGs/FloorM1A1Thompson_ammo2.png
+      616: Resources/HumanWeapons/Ammo/FloorM1A1ThompsonMag.png
+      624: Resources/HumanWeapons/Ammo/FloorM1A1ThompsonDrum.png
+      #632: Resources/HumanWeapons/SMGs/FloorWelgun_nomag.png
+      #640: Resources/HumanWeapons/SMGs/FloorWelgun_ammo1.png
+      648: Resources/HumanWeapons/SMGs/FloorBerettaMAB34_nomag.png
+      656: Resources/HumanWeapons/SMGs/FloorBerettaMAB34_ammo1.png
+      #664: Resources/HumanWeapons/SMGs/FloorErmaEMP44_nomag.png
+      #672: Resources/HumanWeapons/SMGs/FloorErmaEMP44_ammo1.png
+      680: Resources/HumanWeapons/Ammo/Floor9mmSMGMag.png
+      #688: Resources/HumanWeapons/SMGs/FloorNambuType2_nomag.png
+      #696: Resources/HumanWeapons/SMGs/FloorNambuType2_ammo1.png
+      #704: Resources/HumanWeapons/Ammo/FloorNambuType2Mag.png
+      712: Resources/HumanWeapons/SMGs/FloorPPS43_nomag.png
+      720: Resources/HumanWeapons/SMGs/FloorPPS43_ammo1.png
+      728: Resources/HumanWeapons/Ammo/FloorPPS43Mag.png
+      736: Resources/HumanWeapons/SMGs/FloorTokarevAPBT_nomag.png
+      744: Resources/HumanWeapons/SMGs/FloorTokarevAPBT_ammo1.png
+      752: Resources/HumanWeapons/Ammo/FloorTokarevLargeMag.png
+  # Pistols 
+      760: Resources/HumanWeapons/Pistols/FloorHE44Magnum_nomag.png
+      768: Resources/HumanWeapons/Pistols/FloorHE44Magnum_ammo1.png
+      776: Resources/HumanWeapons/Ammo/Floor44MagnumClip.png
+      784: Resources/HumanWeapons/Pistols/FloorColtM1911_nomag.png
+      792: Resources/HumanWeapons/Pistols/FloorColtM1911_ammo1.png
+      800: Resources/HumanWeapons/Ammo/Floor45PistolAmmo.png
+      #808: Resources/HumanWeapons/Pistols/FloorKorovinKPK26_nomag.png
+      #816: Resources/HumanWeapons/Pistols/FloorKorovinKPK26_ammo1.png
+      #824: Resources/HumanWeapons/Ammo/FloorKorovinKPK26Mag.png
+  # Artillery 
+      832: Resources/HumanWeapons/Launchers/FloorL209LAARK_nomag.png
+      840: Resources/HumanWeapons/Launchers/FloorL209LAARK_ammo1.png
+      848: Resources/HumanWeapons/Ammo/FloorL209LAARK_Rocket.png
+      #856: Resources/HumanWeapons/SelfLoading/FloorCeiRigotti_ammo1.png
+      #864: Resources/HumanWeapons/SelfLoading/FloorCeiRigotti_ammo2.png
+      #872: Resources/HumanWeapons/SelfLoading/FloorCeiRigotti_Clip.png
+  # Chimera
+      880: Resources/ChimeraWeapons/FloorBullseyeMk1_nomag.png
+      888: Resources/ChimeraWeapons/FloorBullseyeMk1_nomag.png
+      896: Resources/ChimeraWeapons/Ammo/FloorBullseyeMk1Battery.png
+      904: Resources/ChimeraWeapons/FloorBullseyeMk2_nomag.png
+      912: Resources/ChimeraWeapons/FloorBullseyeMk2_ammo1.png
+      920: Resources/ChimeraWeapons/Ammo/FloorBullseyeMk2Battery.png
+      928: Resources/ChimeraWeapons/FloorAugerMk1_nomag.png
+      936: Resources/ChimeraWeapons/FloorAugerMk1_ammo1.png
+      944: Resources/ChimeraWeapons/Ammo/FloorAugerMk1Battery.png
+      952: Resources/ChimeraWeapons/FloorAugerMk2_nomag.png
+      960: Resources/ChimeraWeapons/FloorAugerMk2_ammo1.png
+      968: Resources/ChimeraWeapons/Ammo/FloorAugerMk2Battery.png
+      976: Resources/ChimeraWeapons/FloorRepeaterPistol_nomag.png
+      984: Resources/ChimeraWeapons/FloorRepeaterPistol_ammo1.png
+      992: Resources/ChimeraWeapons/Ammo/FloorRepeaterPistolBattery.png
+      1000: Resources/ChimeraWeapons/FloorHunterDMR_nomag.png
+      1008: Resources/ChimeraWeapons/FloorHunterDMR_ammo1.png
+      1016: Resources/ChimeraWeapons/Ammo/FloorHunterDMRBattery.png
+      1024: Resources/ChimeraWeapons/FloorBruteMinigun_nomag.png
+      1032: Resources/ChimeraWeapons/FloorBruteMinigun_ammo1.png
+      1040: Resources/ChimeraWeapons/Ammo/FloorBruteMinigunBattery.png
+      
+      #1048: Resources/ChimeraWeapons/FloorReaperCarbine_nomag.png
+      #1056: Resources/ChimeraWeapons/FloorReaperCarbine_ammo1.png
+      #1064: Resources/ChimeraWeapons/Ammo/FloorReaperCarbineBattery.png
+      
+      #1200: Resources/HumanWeapons/Energy/FloorMarksmanB_nomag.png
+      #1208: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      #1216: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      1224: Resources/HumanWeapons/Energy/FloorRazorBM001_nomag.png
+      1232: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
+      1240: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
+      1248: Resources/HumanWeapons/Energy/FloorLongbow1S1K_nomag.png
+      1256: Resources/HumanWeapons/Energy/FloorLongbow1S1K_ammo1.png
+      1264: Resources/HumanWeapons/Ammo/FloorLongbow1S1KFlechetteMag.png
+      1272: Resources/HumanWeapons/Energy/FloorXR24Spitter_nomag.png
+      1280: Resources/HumanWeapons/Energy/FloorXR24Spitter_ammo1.png
+      1288: Resources/HumanWeapons/Ammo/FloorXR24SpitterBattery.png
+      #1296: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_nomag.png
+      #1304: Resources/HumanWeapons/Energy/FloorRussianEnergyWeapon_ammo1.png
+      #1312: Resources/HumanWeapons/Ammo/FloorRussianEnergyWeaponBattery.png
+      1320: Resources/HumanWeapons/Energy/FloorSiberianBullseye_nomag.png
+      1328: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
+      1336: Resources/HumanWeapons/Energy/FloorSiberianBullseye_ammo1.png
+      1344: Resources/HumanWeapons/Ammo/Floor40mmHE.png
+      #1352: Resources/HumanWeapons/Ammo/Floor40mmINC.png
+      #1360: Resources/HumanWeapons/Ammo/Floor40mmSMOKE.png
+      #1368: Resources/HumanWeapons/Ammo/Floor40mmHERack.png
+      #1376: Resources/HumanWeapons/Ammo/Floor40mmINCRack.png
 
   - type: HANDOB.PCK
     width: 256
@@ -524,47 +1294,147 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      100: Resources/AmericanWeapons/HandM1911.png
-      116: Resources/AmericanWeapons/HandM5A2Folsom.png
-      156: Resources/BritishWeapons/HandL23Fareye.png
-      204: Resources/MaquisWeapons/HandStormRifle.png
+      160: Resources/HumanWeapons/Rifles/HandM5A2Folsom_nomag.png
+      168: Resources/HumanWeapons/Rifles/HandM5A2Folsom_ammo1.png
+      176: Resources/HumanWeapons/Rifles/HandM5A2Folsom_ammo2.png
+      184: Resources/HumanWeapons/Rifles/HandMk6Carbine_nomag.png
+      192: Resources/HumanWeapons/Rifles/HandMk6Carbine_ammo1.png
+      200: Resources/HumanWeapons/Rifles/HandMk6Carbine_ammo2.png
+      208: Resources/HumanWeapons/Rifles/HandStormRifle_nomag.png
+      216: Resources/HumanWeapons/Rifles/HandStormRifle_ammo1.png
+      224: Resources/HumanWeapons/Rifles/HandStormRifle_ammo2.png
+      232: Resources/HumanWeapons/Rifles/HandM2A1Clovis_nomag.png
+      240: Resources/HumanWeapons/Rifles/HandM2A1Clovis_ammo1.png
+      248: Resources/HumanWeapons/Rifles/HandM2A1Clovis_ammo2.png
+      #256: Resources/HumanWeapons/Ammo/Hand303RifleAmmo.png
+      #264: Resources/Human/Ammo/Hand303RifleAmmoLarge.png
+      272: Resources/HumanWeapons/Rifles/HandArisakaType99_nomag.png
+      280: Resources/HumanWeapons/Rifles/HandArisakaType99_ammo1.png
+      #288: Resources/HumanWeapons/Ammo/HandArisakaType99Ammo.png
+      #296: Resources/HumanWeapons/Rifles/HandHowaR1Rifle_nomag.png
+      #304: Resources/HumanWeapons/Rifles/HandHowaR1Rifle_ammo1.png
+      #312: Resources/HumanWeapons/Ammo/HandHowaR1RifleMag.png
+      320: Resources/HumanWeapons/Rifles/HandFedorovAvtomat_nomag.png
+      328: Resources/HumanWeapons/Rifles/HandFedorovAvtomat_ammo1.png
+      #336: Resources/HumanWeapons/Ammo/HandFedorovAvtomat_Mag.png
+      344: Resources/HumanWeapons/Rifles/HandAS25P_nomag.png
+      352: Resources/HumanWeapons/Rifles/HandAS25P_ammo1.png
+  # Machine Guns    
+      360: Resources/HumanWeapons/MachineGuns/HandHVAP_nomag.png
+      368: Resources/HumanWeapons/MachineGuns/HandHVAP_ammo1.png
+      #376: Resources/HumanWeapons/Ammo/HandHVAPAmmoDrum.png
+      #384: Resources/HumanWeapons/MachineGuns/HandMG42_nomag.png
+      #392: Resources/HumanWeapons/MachineGuns/HandMG42_ammo1.png
+      #400: Resources/HumanWeapons/Ammo/HandMG42AmmoDrum.png
+      #408: Resources/HumanWeapons/MachineGuns/HandIWAOR_nomag.png
+      #416: Resources/HumanWeapons/MachineGuns/HandIWAOR_ammo1.png
+      #424: Resources/HumanWeapons/Ammi/HandIWAORAmmoDrum.png
+      432: Resources/HumanWeapons/MachineGuns/HandDP28_nomag.png
+      440: Resources/HumanWeapons/MachineGuns/HandDP28_ammo1.png
+      448: Resources/HumanWeapons/MachineGuns/HandDP28_ammo2.png
+      #456: Resources/HumanWeapons/Ammo/HandDP28AmmoPan.png
+      #464: Resources/HumanWeapons/Ammo/HandDP28AmmoBox.png
+  # Sniper Rifles   
+      472: Resources/HumanWeapons/SniperRifles/HandL23Fareye_nomag.png
+      480: Resources/HumanWeapons/SniperRifles/HandL23Fareye_ammo1.png
+      #488: Resources/HumanWeapons/Ammo/Hand303SniperAmmo.png
+      #496: Resources/HumanWeapons/SniperRifles/HandFR1Fareye_nomag.png
+      #504: Resources/HumanWeapons/SniperRifles/HandFR1Fareye_ammo1.png
+      #512: Resources/HumanWeapons/Ammo/HandFR1FareyeAmmo.png
+      520: Resources/HumanWeapons/SniperRifles/HandMosinNagantSniper_nomag.png
+      528: Resources/HumanWeapons/SniperRifles/HandMosinNagantSniper_ammo1.png
+      #536: Resources/HumanWeapons/Ammo/HandMosinNagantAmmo.png
+  # Shotguns
+      544: Resources/HumanWeapons/Shotguns/HandRossmore239Shotgun_nomag.png
+      552: Resources/HumanWeapons/Shotguns/HandRossmore239Shotgun_ammo1.png
+      #560: Resources/HumanWeapons/Ammo/HandRossmore239ShotgunMag.png
+      568: Resources/HumanWeapons/Shotguns/HandSchrotflinteShotgun_nomag.png
+      576: Resources/HumanWeapons/Shotguns/HandSchrotflinteShotgun_ammo1.png
+      #584: Resources/HumanWeapons/Ammo/HandSchrotflinteShotgunShells.png
+  # SMGs
+      592: Resources/HumanWeapons/SMGs/HandM1A1Thompson_nomag.png
+      600: Resources/HumanWeapons/SMGs/HandM1A1Thompson_ammo1.png
+      608: Resources/HumanWeapons/SMGs/HandM1A1Thompson_ammo2.png
+      #616: Resources/HumanWeapons/Ammo/HandM1A1ThompsonMag.png
+      #624: Resources/HumanWeapons/Ammo/HandM1A1ThompsonDrum.png
+      #632: Resources/HumanWeapons/SMGs/HandWelgun_nomag.png
+      #640: Resources/HumanWeapons/SMGs/HandWelgun_ammo1.png
+      648: Resources/HumanWeapons/SMGs/HandBerettaMAB34_nomag.png
+      656: Resources/HumanWeapons/SMGs/HandBerettaMAB34_ammo1.png
+      #664: Resources/HumanWeapons/SMGs/HandErmaEMP44_nomag.png
+      #672: Resources/HumanWeapons/SMGs/HandErmaEMP44_ammo1.png
+      #680: Resources/HumanWeapons/Ammo/Hand9mmSMGMag.png
+      #688: Resources/HumanWeapons/SMGs/HandNambuType2_nomag.png
+      #696: Resources/HumanWeapons/SMGs/HandNambuType2_ammo1.png
+      #704: Resources/HumanWeapons/Ammo/HandNambuType2Mag.png
+      712: Resources/HumanWeapons/SMGs/HandPPS43_nomag.png
+      720: Resources/HumanWeapons/SMGs/HandPPS43_ammo1.png
+      #728: Resources/HumanWeapons/Ammo/HandPPS43Mag.png
+      736: Resources/HumanWeapons/SMGs/HandTokarevAPBT_nomag.png
+      744: Resources/HumanWeapons/SMGs/HandTokarevAPBT_ammo1.png
+      #: Resources/HumanWeapons/Ammo/HandTokarevLargeMag.png
+  # Pistols 
+      760: Resources/HumanWeapons/Pistols/HandHE44Magnum_nomag.png
+      768: Resources/HumanWeapons/Pistols/HandHE44Magnum_ammo1.png
+      #776: Resources/HumanWeapons/Ammo/HandMagnumAmmo.png
+      784: Resources/HumanWeapons/Pistols/HandColtM1911_nomag.png
+      792: Resources/HumanWeapons/Pistols/HandColtM1911_ammo1.png
+      #800: Resources/HumanWeapons/Ammo/Hand45PistolAmmo.png
+      #808: Resources/HumanWeapons/Pistols/HandKorovinKPK26_nomag.png
+      #816: Resources/HumanWeapons/Pistols/HandKorovinKPK26_ammo1.png
+      #824: Resources/HumanWeapons/Ammo/HandKorovinKPK26Mag.png
+  # Artillery 
+      832: Resources/HumanWeapons/Launchers/HandL209LAARK_nomag.png
+      840: Resources/HumanWeapons/Launchers/HandL209LAARK_ammo1.png
+      #848: Resources/HumanWeapons/Ammo/HandL209LAARK_Rocket.png
+      #856: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_ammo1.png
+      #864: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_ammo2.png
+      #872: Resources/HumanWeapons/SelfLoading/HandCeiRigotti_Clip.png
+  # Chimera
+      880: Resources/ChimeraWeapons/HandBullseyeMk1_nomag.png
+      888: Resources/ChimeraWeapons/HandBullseyeMk1_ammo1.png
+      #896: Resources/ChimeraWeapons/Ammo/HandBullseyeMk1Battery.png
+      904: Resources/ChimeraWeapons/HandBullseyeMk2_nomag.png
+      912: Resources/ChimeraWeapons/HandBullseyeMk2_ammo1.png
+      #920: Resources/ChimeraWeapons/Ammo/HandBullseyeMk2Battery.png
+      928: Resources/ChimeraWeapons/HandAugerMk1_nomag.png
+      936: Resources/ChimeraWeapons/HandAugerMk1_ammo1.png
+      #944: Resources/ChimeraWeapons/Ammo/HandAugerMk1Battery.png
+      952: Resources/ChimeraWeapons/HandAugerMk2_nomag.png
+      960: Resources/ChimeraWeapons/HandAugerMk2_ammo1.png
+      #968: Resources/ChimeraWeapons/Ammo/HandAugerMk2Battery.png
+      976: Resources/ChimeraWeapons/HandRepeaterPistol_nomag.png
+      984: Resources/ChimeraWeapons/HandRepeaterPistol_ammo1.png
+      #992: Resources/ChimeraWeapons/Ammo/HandRepeaterPistolBattery.png
+      1000: Resources/ChimeraWeapons/HandHunterDMR_nomag.png
+      1008: Resources/ChimeraWeapons/HandHunterDMR_ammo1.png
+      #1016: Resources/ChimeraWeapons/Ammo/HandHunterDMRBattery.png
+      1024: Resources/ChimeraWeapons/HandBruteMinigun_nomag.png
+      1032: Resources/ChimeraWeapons/HandBruteMinigun_ammo1.png
+      #1040: Resources/ChimeraWeapons/Ammo/HandBruteMinigunBattery.png
+      
+      #1048: Resources/ChimeraWeapons/HandReaperCarbine_nomag.png
+      #1056: Resources/ChimeraWeapons/HandReaperCarbine_ammo1.png
+      #1064: Resources/ChimeraWeapons/Ammo/HandReaperCarbineBattery.png
 
-#########################################
-########## CHIMERAN WEAPONS #############
-#########################################
-  - type: BIGOBS.PCK
-    files:
-      340: Resources/ChimeraWeapons/BigBullseyeMk1.png
-      345: Resources/Ammo/BigBullseyeMk1Battery.png
-      350: Resources/ChimeraWeapons/BigBullseyeMk2.png
-      355: Resources/Ammo/BigBullseyeMk2Battery.png
-      360: Resources/ChimeraWeapons/BigAugerMk1.png
-      365: Resources/Ammo/BigAugerMk1Battery.png
-      370: Resources/ChimeraWeapons/BigAugerMk2.png
-      375: Resources/Ammo/BigAugerMk2Battery.png
-
-  - type: FLOOROB.PCK
-    files:
-      340: Resources/ChimeraWeapons/BigBullseyeMk1.png
-#      345: Resources/ChimeraWeapons/BigBullseyeMk1Battery.png
-      350: Resources/ChimeraWeapons/BigBullseyeMk2.png
-#      355: Resources/ChimeraWeapons/BigBullseyeMk2Battery.png
-      360: Resources/ChimeraWeapons/BigAugerMk1.png
-#      365: Resources/ChimeraWeapons/BigAugerMk1Battery.png
-      370: Resources/ChimeraWeapons/BigAugerMk2.png
-#      375: Resources/ChimeraWeapons/BigAugerMk2Battery.png
-
-  - type: HANDOB.PCK
-    width: 256
-    height: 40
-    subX: 32
-    subY: 40
-    files:
-      292: Resources/ChimeraWeapons/HandBullseyeMk1.png
-      300: Resources/ChimeraWeapons/HandBullseyeMk2.png
-      308: Resources/ChimeraWeapons/HandAugerMk1.png
-      316: Resources/ChimeraWeapons/HandAugerMk2.png
-
+      #1200: Resources/HumanWeapons/Energy/HandMarksmanB_nomag.png
+      #1208: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      #1216: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      1224: Resources/HumanWeapons/Energy/HandRazorBM001_nomag.png
+      1232: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
+      1240: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
+      1248: Resources/HumanWeapons/Energy/HandLongbow1S1K_nomag.png
+      1256: Resources/HumanWeapons/Energy/HandLongbow1S1K_ammo1.png
+      #1264: Resources/HumanWeapons/Ammo/HandLongbow1S1KFlechetteMag.png
+      1272: Resources/HumanWeapons/Energy/HandXR24Spitter_nomag.png
+      1280: Resources/HumanWeapons/Energy/HandXR24Spitter_ammo1.png
+      #1288: Resources/HumanWeapons/Ammo/HandXR24SpitterBattery.png
+      #1296: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_nomag.png
+      #1304: Resources/HumanWeapons/Energy/HandRussianEnergyWeapon_ammo1.png
+      #1312: Resources/HumanWeapons/Ammo/HandRussianEnergyWeaponBattery.png
+      1320: Resources/HumanWeapons/Energy/HandSiberianBullseye_nomag.png
+      1328: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
+      1336: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
   - type: SMOKE.PCK
     height: 40
     width: 320
@@ -585,5 +1455,47 @@ extraSprites:
       945: Resources/BulletSprites/Bullseye_Projectile_Red.png # 27
       980: Resources/BulletSprites/Bullseye_Projectile_Blue.png # 28
       1015: Resources/BulletSprites/Auger_Projectile_Yellow.png # 29
+
+  - type: Projectiles
+    width: 105
+    height: 9
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/BulletSprites/Ballistic_Bullet.png #11, 12, 13
+      490: Resources/BulletSprites/Ballistic_Bullet_MM.png #14, 15, 16
+      595: Resources/BulletSprites/LightningBulletSprite.png #17
+      630: Resources/BulletSprites/WideRedLaser_Bullet.png #18
+      700: Resources/BulletSprites/FlameProjectile.png #20
+      735: Resources/BulletSprites/Rocket_Bullet.png #21
+      770: Resources/BulletSprites/Tank_Bullet.png #22
+
+  - type: HIT.PCK
+    height: 40
+    width: 128
+    subX: 32
+    subY: 40
+    files:
+      4: Resources/BulletSprites/CuttingHit.png
+      8: Resources/BulletSprites/FireHit.png
+
+  - type: X1.PCK # ignoreDuplicate
+    width: 1024
+    height: 64
+    subX: 128
+    subY: 64
+    files:
+      208: Resources/BulletSprites/Green_Skull_Explosion.png
+      216: Resources/BulletSprites/Grey_Skull_Explosion.png
+
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      290: Resources/BulletSprites/HumanElectric_Hit.png
+      220: Resources/BulletSprites/RedLaser_Hit.png
+      210: Resources/BulletSprites/HansFireHit.png
 
       

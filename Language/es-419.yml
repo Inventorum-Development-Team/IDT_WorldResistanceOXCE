@@ -47,16 +47,21 @@ es-419:
 
 ######################
 
-  STR_SHIELD_S: "¡El escudo está al {}%!"
+  STR_SHIELD_S: "¡El escudo está {}%!"
   STR_SHIELD_DOWN: "¡El escudo está caído!"
   STR_AIMED_BURST: "Ráfaga dirigida"
+  STR_AIMED_BURST_SHORT: "Ráfaga dirigida {0}"
   STR_BURST: "Ráfaga"
+  STR_BURST_SHORT: "Ráfaga {0}"
   STR_FULL_AUTO: "Automático"
+  STR_FULL_AUTO_SHORT: "Automático {0}"
   STR_SINGLE_SHOT: "Disparo único"
   STR_THRUST: "Impulso"
   STR_CUT: "Corte"
   STR_DOUBLE_TAP: "Doble toque"
   STR_SHORT_BURST: "Ráfaga corta"
+  STR_SUPPRESSION: "Supresión"
+  STR_SUPPRESSION_SHORT: "Supresión {0}"
 
 #################### 
 # ARMAS 

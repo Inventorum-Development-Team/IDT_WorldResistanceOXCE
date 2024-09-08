@@ -39,17 +39,22 @@ it:
   STR_CHIMERAN_EQUIPMENT: "Equipaggiamento chimera"
   STR_TANKS: "Carri armati"
 #######################
-  STR_SHIELD_S: "Lo scudo è {}%!"
 
+  STR_SHIELD_S: "Lo scudo è {0}%!"
   STR_SHIELD_DOWN: "Lo scudo è abbassato!"
   STR_AIMED_BURST: "Raffica mirata"
+  STR_AIMED_BURST_SHORT: "Raffica mirata {0}"
   STR_BURST: "Raffica"
+  STR_BURST_SHORT: "Raffica {0}"
   STR_FULL_AUTO: "Completamente automatico"
+  STR_FULL_AUTO_SHORT: "Completamente automatico {0}"
   STR_SINGLE_SHOT: "Colpo singolo"
   STR_THRUST: "Spinta"
   STR_CUT: "Taglio"
   STR_DOUBLE_TAP: "Doppio tocco"
   STR_SHORT_BURST: "Raffica breve"
+  STR_SUPPRESSION: "Soppressione"
+  STR_SUPPRESSION_SHORT: "Soppressione {0}"
 ########################
 # ARMI
   STR_DAMAGE_ARMOR_PIERCING: "PERFORANTE ARMATURA"

@@ -51,14 +51,21 @@ en-US:
   STR_SHIELD_S: "Shield is {}%!"
   STR_SHIELD_DOWN: "Shield is down!"
   STR_AIMED_BURST: "Aimed Burst"
+  STR_AIMED_BURST_SHORT: "Aimed Burst {0}"
   STR_BURST: "Burst"
+  STR_BURST_SHORT: "Burst {0}"
   STR_FULL_AUTO: "Full Auto"
+  STR_FULL_AUTO_SHORT: "Full Auto {0}"
   STR_SINGLE_SHOT: "Single Shot"
   STR_THRUST: "Thrust"
   STR_CUT: "Cut"
   STR_DOUBLE_TAP: "Double Tap"
   STR_SHORT_BURST: "Short Burst"
+  STR_SUPPRESSION: "Suppression"
+  STR_SUPPRESSION_SHORT: "Suppression {0}"
   
+  
+    
 
 ######################
 # WEAPONS

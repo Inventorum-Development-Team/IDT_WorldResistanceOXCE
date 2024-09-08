@@ -42,16 +42,21 @@ fr:
   STR_TANKS: "Chars"
 
 ######################
-  STR_SHIELD_S: "Le bouclier est à {} %!" 
-  STR_SHIELD_DOWN: "Le bouclier est en panne!" 
-  STR_AIMED_BURST: "Explosion ciblée" 
-  STR_BURST: "Explosion"
-  STR_FULL_AUTO: "Entièrement automatique" 
-  STR_SINGLE_SHOT: "Coup unique" 
+  STR_SHIELD_S: "Bouclier à {0}%!"
+  STR_SHIELD_DOWN: "Bouclier abaissé!"
+  STR_AIMED_BURST: "Rafale ciblée"
+  STR_AIMED_BURST_SHORT: "Rafale ciblée {0}"
+  STR_BURST: "Rafale"
+  STR_BURST_SHORT: "Rafale {0}"
+  STR_FULL_AUTO: "Auto intégral"
+  STR_FULL_AUTO_SHORT: "Auto intégral {0}"
+  STR_SINGLE_SHOT: "Coup unique"
   STR_THRUST: "Poussée"
-  STR_CUT: "Couper" 
-  STR_DOUBLE_TAP: "Appuyer deux fois" 
-  STR_SHORT_BURST: "Courte rafale"
+  STR_CUT: "Couper"
+  STR_DOUBLE_TAP: "Double appui"
+  STR_SHORT_BURST: "Rafale courte"
+  STR_SUPPRESSION: "Suppression"
+  STR_SUPPRESSION_SHORT: "Suppression {0}"
 
 ###################### # ARMES
 
