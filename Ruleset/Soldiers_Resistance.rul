@@ -125,7 +125,7 @@ soldiers:
 
 items:
 
-  - type: STR_CORPSE_BLACKOPS
+  - type: STR_CORPSE_BLACKOPS_DESERT
     name: STR_CORPSE
     weight: 24
     bigSprite: 3000
@@ -136,7 +136,7 @@ items:
     recover: false
     battleType: 11
 
-  - type: STR_CORPSE_BDU
+  - type: STR_CORPSE_BLACKOPS_NIGHT
     name: STR_CORPSE
     weight: 24
     bigSprite: 3001
@@ -147,25 +147,125 @@ items:
     recover: false
     battleType: 11
 
+  - type: STR_CORPSE_BLACKOPS_FOREST
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 3002
+    floorSprite: 3002
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+    battleType: 11
+
+  - type: STR_CORPSE_BDU
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 3010
+    floorSprite: 3010
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+    battleType: 11
+
 
 armors:
 
   - type: STR_SRPA_BLACK_OPS_UNIFORM_UC
-    spriteSheet: BLACKOPS_SPRITESHEET.PCK
-    spriteInv: MAN_BLACKOPS.SPK
+    spriteSheet: BLACKOPS_DESERT_SPRITESHEET.PCK
+    spriteInv: MAN_BLACKOPS_DESERT.SPK
     storeItem: STR_NONE
     corpseBattle:
-      - STR_CORPSE_BLACKOPS
+      - STR_CORPSE_BLACKOPS_DESERT
     loftempsSet: [ 3 ]
     frontArmor: 15
     sideArmor: 10
     rearArmor: 15
     underArmor: 6
-    visibilityAtDark: 7
+    visibilityAtDark: 10
     visibilityAtDay: 26
     stats:
       tu: 10
       stamina: 5
+      health: 0
+      bravery: 0
+      reactions: 5
+      firing: 5
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.2
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+    units:
+      - STR_SRPA_BLACK_OPS
+
+  - type: STR_SRPA_BLACK_OPS_NIGHT_UNIFORM_UC
+    spriteSheet: BLACKOPS_NIGHT_SPRITESHEET.PCK
+    spriteInv: MAN_BLACKOPS_NIGHT.SPK
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_BLACKOPS_NIGHT
+    loftempsSet: [ 3 ]
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 6
+    visibilityAtDark: 15
+    visibilityAtDay: 30
+    stats:
+      tu: 10
+      stamina: 5
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.2
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+    units:
+      - STR_SRPA_BLACK_OPS
+
+  - type: STR_SRPA_BLACK_OPS_FOREST_UNIFORM_UC
+    spriteSheet: BLACKOPS_FOREST_SPRITESHEET.PCK
+    spriteInv: MAN_BLACKOPS_FOREST.SPK
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_BLACKOPS_FOREST
+    loftempsSet: [ 3 ]
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 15
+    underArmor: 6
+    visibilityAtDark: 15
+    visibilityAtDay: 30
+    stats:
+      tu: 15
+      stamina: 12
       health: 0
       bravery: 0
       reactions: 0
@@ -277,33 +377,77 @@ extraSprites:
       0: Resources/AmericanUnits/AmericanSoldierSpritesheet.png
   - type: BIGOBS.PCK
     files:
-      3001: Resources/AmericanUnits/BigAmericanSoldierCorpse.png
+      3010: Resources/AmericanUnits/BigAmericanSoldierCorpse.png
   - type: FLOOROB.PCK
     files:
-      3001: Resources/AmericanUnits/FloorAmericanSoldierCorpse.png
+      3010: Resources/AmericanUnits/FloorAmericanSoldierCorpse.png
 
 #############################################
 
-  - type: MAN_BLACKOPS.SPK
+  - type: MAN_BLACKOPS_DESERT.SPK
     singleImage: true
     files:
-      0: Resources/HumanArmors/NPCs/BlackOps_Inventory.png
+      0: Resources/HumanArmors/NPCs/BlackOpsDesert_Inventory.png
 
-  - type: BLACKOPS_SPRITESHEET.PCK
-    width: 256
-    height: 1480
+  - type: BLACKOPS_DESERT_SPRITESHEET.PCK
+    width: 512
+    height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_SPRITESHEET.png
+      0: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_DESERT_SPRITESHEET.png
   - type: BIGOBS.PCK
     files:
-      3000: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_CORPSE_BIGOB.png
+      3000: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_DESERT_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      3000: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_CORPSE_FLOOROB.png
+      3000: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_DESERT_CORPSE_FLOOROB.png
+
+###
+  - type: MAN_BLACKOPS_NIGHT.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/NPCs/BlackOpsNight_Inventory.png
+
+  - type: BLACKOPS_NIGHT_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_NIGHT_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      3001: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_NIGHT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3001: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_NIGHT_CORPSE_FLOOROB.png
+
+###
+  - type: MAN_BLACKOPS_FOREST.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/NPCs/BlackOpsForest_Inventory.png
+
+  - type: BLACKOPS_FOREST_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_FOREST_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      3002: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_FOREST_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3002: Resources/HumanArmors/Battlescape/BlackOps/BLACKOPS_FOREST_CORPSE_FLOOROB.png
 
 
+
+
+
+##################################################
 
   - type: BASEBITS.PCK
     files:
