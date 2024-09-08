@@ -120,7 +120,7 @@ es-419:
   STR_MK6_CARBINE: "Carabina Mk.6" 
   STR_MK6_CARBINE_UFOPEDIA: "Versión fabricada bajo licencia de la familia de carabinas Folsom, la Enfield No.6, Mark 6 Carbine sirve como el rifle de servicio estándar de las fuerzas británicas. Cuenta con un armazón de madera diferente para una mejor ergonomía y un soporte de bayoneta en lugar del lanzagranadas incorporado."
   STR_303_AMMO: "Rifle de munición .303 (x20)" 
-  STR_303_AMMO_LARGE: "Rifle de munición .303 (x30)"
+  STR_303_RIFLE_AMMO_LARGE: "Rifle de munición .303 (x40)"
 
   STR_L206_LAARK: "Lanzador L206 LAARK"
   STR_L206_LAARK_ROCKET: "Cohete antitanque Mk.48"

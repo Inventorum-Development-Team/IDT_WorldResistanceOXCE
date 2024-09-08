@@ -131,6 +131,7 @@ en-US:
   STR_MK6_CARBINE_UFOPEDIA: "License-build version of the Folsom family of carbines, the Enfield No.6, Mark 6 Carbine serves as the standard service rifle of the British forces. It features a different wood furniture for improved ergonomics and a bayonet lug instead of the built-in grenade launcher."
   STR_303_AMMO: ".303 Rifle Ammo (x20)"
   STR_303_AMMO_LARGE: ".303 Rifle Ammo (x30)"
+  STR_303_RIFLE_AMMO_LARGE: ".303 Rifle Ammo (x40)"
 
   STR_L206_LAARK: "L206 LAARK Launcher" 
   STR_L206_LAARK_ROCKET: "Mk.48 AT Rocket"
