@@ -1024,7 +1024,7 @@ items:
 
 
   - type: STR_BRUTE_MINIGUN
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_LMGS]
     size: 0.2
     costSell: 43500
     weight: 24
@@ -1060,7 +1060,7 @@ items:
     armor: 50
     listOrder: 245
   - type: STR_BRUTE_MINIGUN_CELL
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_LMGS, STR_BATTERIES]
     size: 0.3
     costSell: 2400
     bulletSprite: 29
@@ -1126,7 +1126,7 @@ items:
     #listOrder: 2070
 
   - type: STR_303_SNIPER_AMMO
-    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
     requiresBuy:
       - STR_BRITISH_COOPERATION_1_RESEARCH
@@ -1147,14 +1147,7 @@ items:
     #listOrder: 2075
 
   - type: STR_MOSIN_NAGANT
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_RUSSIAN_EQUIPMENT]
     requiresBuy:
       - STR_RUSSIAN_COOPERATION_2_RESEARCH
     size: 0.02
@@ -1178,6 +1171,12 @@ items:
     minRange: 13
     snapRange: 23
     aimRange: 33
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.8
+      reactions: 1.5
     dropoff: 4
     battleType: 1
     twoHanded: true
@@ -1188,14 +1187,7 @@ items:
     listOrder: 2130
 
   - type: STR_MOSIN_NAGANT_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES, STR_PISTOLS,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_MAGAZINES]
     requiresBuy:
       - STR_RUSSIAN_COOPERATION_2_RESEARCH
     size: 0.01
@@ -1224,7 +1216,7 @@ items:
     listOrder: 2150    
 
   - type: STR_LONGBOW_1S1K
-    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_MAQUIS_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -1262,7 +1254,7 @@ items:
     #listOrder: 2070
 
   - type: STR_LONGBOW_1S1K_FLECHETTES
-    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, REV, STR_MAQUIS_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_MAGAZINES, STR_MAQUIS_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1282,7 +1274,7 @@ items:
     #listOrder: 2075
 
   - type: STR_HUNTER_DMR
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
     size: 0.2
     costSell: 31600
     weight: 11
@@ -1314,7 +1306,7 @@ items:
     armor: 50
     listOrder: 243
   - type: STR_HUNTER_DMR_BATTERY
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_REVERSE_ENGINEERED_EQUIPMENT, STR_BATTERIES]
     size: 0.1
     costSell: 1575
     weight: 3
@@ -1336,7 +1328,7 @@ items:
     listOrder: 244
 
   - type: STR_AUGER_MK1
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -1368,7 +1360,7 @@ items:
     #listOrder: 2260
 
   - type: STR_AUGER_MK1_BATTERY
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_BATTERIES]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1390,7 +1382,7 @@ items:
     #listOrder: 2265
 
   - type: STR_AUGER_MK2
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_CLIPS]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
