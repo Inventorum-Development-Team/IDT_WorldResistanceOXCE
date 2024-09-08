@@ -902,7 +902,7 @@ items:
     bulletSpeed: 10
     hitSound: 0
     hitAnimation: 0
-    explosionSpeed: 30
+    explosionSpeed: 5
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 6
     invHeight: 1

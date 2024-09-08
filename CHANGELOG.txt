@@ -1,3 +1,34 @@
+08-September-2021: World Resistance Beta 0.2
+Changes made:
+* Added SRPA Black Ops Soldier
+* Added three Black Ops suits (Tactical, Infiltration & Expeditionary), , sprites by efrenespartano & Dr. Hans Woofington
+* Added Human Weapons:
+    - M2A1 Clovis AR (US)
+    - M1A1 Thompson SMG (US)
+    - Rossmore Combat Shotgun (UK)
+    - L206 LAARK Launcher (UK)
+    - HE.44 Magnum (SRPA), by _Brain322
+    - HVAP Wraith Minigun (SRPA), _Brain322
+* Enabled campaign, added three missions (maps by Luke83):
+    - Conversion Center Raid
+    - Chimeran Tower Assault
+    - Chimeran Hub Tower Offensive
+* Added Gray Tech story arc, which leads to the endgame mission
+* Added lore reports, by efrenespartano & Lord_Kane
+* Added Human Crafts:
+    - F-86 Sabre (US), by efrenespartano
+    - VTOL (SRPA), by bulletdesigner
+* Added Craft Weapons, by efrenespartano:
+    - .50 Cal MG
+    - 20mm Cannon
+    - 30mm Cannon
+    - A-A Missile
+    - Fuel Tank
+    - Experimental Thurster
+    - Armor Plates
+* Updated Portuguese, French & Italian translations, by TigasZ8
+* Added Spanish (LATAM) translation, by efrenespartano
+
 24-August-2024: World Resistance Alpha v0.1
 Changes made:
 * Added Chimeran Hybrid, by efrenespartano 

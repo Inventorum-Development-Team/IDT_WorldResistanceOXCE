@@ -108,7 +108,7 @@ craftWeapons:
     projectileType: 2
     projectileSpeed: 15
 
-  - type: STR_SIDEWINDER_UC
+  - type: STR_SIDEWINDER
     sprite: 304
     sound: 5
     damage: 200
@@ -126,7 +126,7 @@ craftWeapons:
 
 # Auxilary
   - type: STR_FUEL_TANK_UC
-    weaponType: 1
+    #weaponType: 1
     hidePediaInfo: true
     sprite: 305
     sound: 0
@@ -147,7 +147,7 @@ craftWeapons:
       avoidBonus: -5
 
   - type: STR_ARMOR_PLATES_UC
-    weaponType: 1
+    #weaponType: 1
     sprite: 306
     hidePediaInfo: true
     sound: 0
@@ -168,7 +168,7 @@ craftWeapons:
       damageMax: 40
 
   - type: STR_AFTERBURNER_UC
-    weaponType: 1
+    #weaponType: 1
     sprite: 307
     hidePediaInfo: true
     sound: 0

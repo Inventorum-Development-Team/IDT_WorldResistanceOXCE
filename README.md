@@ -1,19 +1,22 @@
 # World Resistance
- Total Conversion for OpenXcom Extended created by the Inventorum Development Team and the Resistance Fans Community. Set in the world of Resistance, the PS3 FPS franchise. Lead an elite multinational squad, tasked to uncover the Chimera's deepest secrets to help humanity win the war.
+ Total Conversion for OpenXcom Extended created by the Inventorum Development Team and the Resistance Fans Community (RFC). Set in the world of Resistance, the PS3 FPS franchise. Lead an elite multinational squad, tasked to uncover the Chimera's deepest secrets to help humanity win the war.
 
 Credits by name:
-* Anthony_is_cool: Siberian Guard lore writer & overall support 
+* ACHACOSO: RFC member, artistic support
+* Anthony_is_cool: RFC member, Siberian Guard lore writer & overall support 
 * bulletdesigner: VTOL map and tilesest
 * Brother^2: US Army Soldier code
 * efrenespartano: IDT lead developer, all the infantry weapons sprites, Chimera Hybrid sprites 
 * Ghartzay: IDT tester, Russian lore writer, overall support 
 * Insomniac Games: original franchise creators
-* LegoLiam1803: Japanese lore writer and source lore support 
+* LegoLiam1803: RFC member, Japanese lore writer and source lore support 
 * Lord_Kane: IDT developer
+* Luke83: IDT member, Chimeran structures maps
 * RamoZ: US Army Soldier code
-* shreksnow: overall support 
+* shreksnow: RFC member, overall support 
 * TigasZ8: Resistance Fans Community leader, main support; Portuguese, French, Italian & German translations
-* widowmaker: original XR-24 Spitter designer
+* Wendi: RFC member, original XR-24 Spitter designer
+* _Brain322: HE.44 Magnum, HVAP Wraith sprites
 
 DISCLAIMER: 
 
