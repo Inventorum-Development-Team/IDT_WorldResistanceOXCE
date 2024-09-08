@@ -413,7 +413,7 @@ terrains:
       - MALE_CIVILIAN
       - FEMALE_CIVILIAN
     script: EXPANDED_TERROR
-    mapBlocks:
+    mapBlocks: &AnchorExpandedTerrorMapblocks
       - name: EXPANDEDTERROR00 #Landingzone Dirt 1
         width: 10
         length: 10
@@ -539,6 +539,19 @@ terrains:
         width: 10
         length: 10
 
+  - name: EXPANDED_TERROR_UFO #Thanks to HellRazor
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+      - MADDECOR
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: EXPANDED_TERROR_UFO
+    mapBlocks: *AnchorExpandedTerrorMapblocks
 
 #BEGIN EXPANDED UBASE
   - name: UBASE
@@ -4171,7 +4184,7 @@ terrains:
     civilianTypes:
       - MALE_CIVILIAN
       - FEMALE_CIVILIAN
-    script: URBAN
+    script: URBANUFO
     mapBlocks:
       - name: URBAN00
         width: 10

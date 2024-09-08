@@ -101,7 +101,7 @@ alienDeployments:
     #markerIcon 27
     terrains:
       - URBAN_RUINS
-      - EXPANDED_TERROR
+      - EXPANDED_TERROR_UFO
       - COMRCURBAN
       - INDUSTRIALSLUM
       - TMURBAN      

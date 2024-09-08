@@ -1,4 +1,8 @@
-08-September-2021: World Resistance Beta 0.2
+X-September-2024
+Changes made:
+* Fixed issue with Chimeran Conversion Center mission terrain list, reported by MitraLightbringer
+
+08-September-2024: World Resistance Beta 0.2
 Changes made:
 * Added SRPA Black Ops Soldier
 * Added three Black Ops suits (Tactical, Infiltration & Expeditionary), , sprites by efrenespartano & Dr. Hans Woofington
