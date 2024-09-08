@@ -56,7 +56,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    #listOrder: 2020
+    ##listOrder: 2020
 
   - type: STR_MK6_CARBINE
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_BRITISH_EQUIPMENT]
@@ -170,7 +170,7 @@ items:
     autoRange: 15
     attraction: 8
     battleType: 1
-    #listOrder: 2130    
+    ##listOrder: 2130    
 
   - type: STR_STORM_RIFLE
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
@@ -228,7 +228,7 @@ items:
     autoRange: 15
     attraction: 8
     battleType: 1
-    #listOrder: 2130    
+    ##listOrder: 2130    
 
   - type: STR_M2A1_CLOVIS
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_LMGS, STR_AMERICAN_EQUIPMENT]
@@ -275,7 +275,7 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    listOrder: 2960
+    #listOrder: 2960
     bulletSpeed: 17
     
   - type: STR_303_RIFLE_AMMO
@@ -295,7 +295,7 @@ items:
     clipSize: 20
     battleType: 2
     armor: 12
-    #listOrder: 2025
+    ##listOrder: 2025
   - type: STR_303_RIFLE_AMMO_LARGE
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
@@ -313,7 +313,7 @@ items:
     clipSize: 40
     battleType: 2
     armor: 12
-    #listOrder: 2025
+    ##listOrder: 2025
 
   - type: STR_40MM_FRAG
     categories: [STR_HUMAN_EQUIPMENT, STR_ARTILLERY, STR_GRENADES, STR_MAGAZINES]
@@ -338,7 +338,7 @@ items:
     armor: 20
     blastRadius: 3
     bulletSprite: 4
-    #listOrder: 2026
+    ##listOrder: 2026
 
   - type: STR_ARISAKA_TYPE_99
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_JAPANESE_EQUIPMENT]
@@ -428,7 +428,7 @@ items:
     invWidth: 2
     invHeight: 3
     attraction: 8
-    listOrder: 2000
+    #listOrder: 2000
 
   - type: STR_ARISAKA_TYPE_99_CLIP
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_JAPANESE_EQUIPMENT, STR_MAGAZINES]
@@ -456,7 +456,7 @@ items:
     clipSize: 10
     battleType: 2
     armor: 12
-    listOrder: 2010
+    #listOrder: 2010
 
   - type: STR_FEDOROV_AVTOMAT
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_SIBERIAN_EQUIPMENT]
@@ -513,7 +513,7 @@ items:
     invHeight: 3
     armor: 30
     attraction: 10
-    listOrder: 2340
+    #listOrder: 2340
 
   - type: STR_SIMONOV_AVTOMAT
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_RUSSIAN_EQUIPMENT]
@@ -570,7 +570,7 @@ items:
     invHeight: 3
     armor: 30
     attraction: 10
-    listOrder: 2340
+    #listOrder: 2340
 
   - type: STR_FEDOROV_AVTOMAT_MAG
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_SIBERIAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_MAGAZINES]
@@ -600,7 +600,7 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2350
+    #listOrder: 2350
 
   - type: STR_RAZOR_BM001
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_BRITISH_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
@@ -637,7 +637,7 @@ items:
     invWidth: 1
     invHeight: 3
     attraction: 8
-    #listOrder: 2240
+    ##listOrder: 2240
     
   - type: STR_FEDOROV_GROM
     categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
@@ -689,7 +689,7 @@ items:
     invWidth: 1
     invHeight: 3
     attraction: 8
-    #listOrder: 2240
+    ##listOrder: 2240
     
   - type: STR_BULLSEYE_MK1
     categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
@@ -740,7 +740,7 @@ items:
     invWidth: 1
     invHeight: 3
     attraction: 8
-    #listOrder: 2240
+    ##listOrder: 2240
 
   - type: STR_BULLSEYE_MK1_BATTERY
     categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
@@ -760,7 +760,7 @@ items:
     clipSize: 35
     battleType: 2
     armor: 12
-    #listOrder: 2245
+    ##listOrder: 2245
 
   - type: STR_BULLSEYE_MK2
     categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
@@ -811,7 +811,7 @@ items:
     invWidth: 1
     invHeight: 3
     attraction: 8
-    #listOrder: 2250
+    ##listOrder: 2250
 
   - type: STR_BULLSEYE_MK2_BATTERY
     categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
@@ -830,7 +830,7 @@ items:
     clipSize: 35
     battleType: 2
     armor: 12
-    #listOrder: 2255
+    ##listOrder: 2255
     
 #################################
 ########## MACHINE GUNS ########
@@ -882,7 +882,7 @@ items:
     #autoShots: 6
     sprayWaypoints: 2
     attraction: 10
-    listOrder: 3080
+    #listOrder: 3080
 
   - type: STR_HVAP_CHAINGUN_DRUM
     categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_AMERICAN_EQUIPMENT]
@@ -913,7 +913,7 @@ items:
     invWidth: 2
     invHeight: 2
     attraction: 10
-    listOrder: 3090
+    #listOrder: 3090
 
   - type: STR_DEGTYARYOV_LMG
     categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_SIBERIAN_EQUIPMENT]
@@ -961,7 +961,7 @@ items:
     #autoShots: 6
     sprayWaypoints: 2
     attraction: 10
-    listOrder: 3110
+    #listOrder: 3110
 
   - type: STR_DEGTYARYOV_LMG_PAN
     categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_SIBERIAN_EQUIPMENT]
@@ -991,7 +991,7 @@ items:
     invWidth: 1
     invHeight: 2
     attraction: 10
-    listOrder: 3120
+    #listOrder: 3120
   - type: STR_DEGTYARYOV_LMG_BELT
     categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_SIBERIAN_EQUIPMENT]
     requiresBuy:
@@ -1020,7 +1020,7 @@ items:
     invWidth: 2
     invHeight: 2
     attraction: 10
-    listOrder: 3130
+    #listOrder: 3130
 
 
   - type: STR_BRUTE_MINIGUN
@@ -1058,7 +1058,7 @@ items:
     invHeight: 3
     recoveryPoints: 5
     armor: 50
-    listOrder: 245
+    #listOrder: 245
   - type: STR_BRUTE_MINIGUN_CELL
     categories: [STR_CHIMERAN_EQUIPMENT, STR_LMGS, STR_BATTERIES]
     size: 0.3
@@ -1079,7 +1079,7 @@ items:
     clipSize: 10
     battleType: 2
     recoveryPoints: 1
-    listOrder: 246
+    #listOrder: 246
 
 #################################
 ######## SNIPER RIFLES #########
@@ -1123,7 +1123,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    #listOrder: 2070
+    ##listOrder: 2070
 
   - type: STR_303_SNIPER_AMMO
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
@@ -1144,7 +1144,7 @@ items:
     clipSize: 5
     battleType: 2
     armor: 12
-    #listOrder: 2075
+    ##listOrder: 2075
 
   - type: STR_MOSIN_NAGANT
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_RUSSIAN_EQUIPMENT]
@@ -1184,7 +1184,7 @@ items:
     invWidth: 1
     invHeight: 3
     attraction: 8
-    listOrder: 2130
+    #listOrder: 2130
 
   - type: STR_MOSIN_NAGANT_CLIP
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_MAGAZINES]
@@ -1213,7 +1213,7 @@ items:
     clipSize: 5
     battleType: 2
     armor: 12
-    listOrder: 2150    
+    #listOrder: 2150    
 
   - type: STR_LONGBOW_1S1K
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_MAQUIS_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
@@ -1251,7 +1251,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    #listOrder: 2070
+    ##listOrder: 2070
 
   - type: STR_LONGBOW_1S1K_FLECHETTES
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_MAGAZINES, STR_MAQUIS_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
@@ -1271,7 +1271,7 @@ items:
     clipSize: 5
     battleType: 2
     armor: 12
-    #listOrder: 2075
+    ##listOrder: 2075
 
   - type: STR_HUNTER_DMR
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
@@ -1304,7 +1304,7 @@ items:
     invHeight: 3
     recoveryPoints: 4
     armor: 50
-    listOrder: 243
+    #listOrder: 243
   - type: STR_HUNTER_DMR_BATTERY
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_REVERSE_ENGINEERED_EQUIPMENT, STR_BATTERIES]
     size: 0.1
@@ -1325,7 +1325,7 @@ items:
     clipSize: 33
     battleType: 2
     recoveryPoints: 1
-    listOrder: 244
+    #listOrder: 244
 
   - type: STR_AUGER_MK1
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
@@ -1357,7 +1357,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    #listOrder: 2260
+    ##listOrder: 2260
 
   - type: STR_AUGER_MK1_BATTERY
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_BATTERIES]
@@ -1379,7 +1379,7 @@ items:
     clipSize: 20
     battleType: 2
     armor: 12
-    #listOrder: 2265
+    ##listOrder: 2265
 
   - type: STR_AUGER_MK2
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
@@ -1411,7 +1411,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    #listOrder: 2270
+    ##listOrder: 2270
 
   - type: STR_AUGER_MK2_BATTERY
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_BATTERIES]
@@ -1433,7 +1433,7 @@ items:
     clipSize: 20
     battleType: 2
     armor: 12
-    #listOrder: 2275
+    ##listOrder: 2275
 
 ####################################
 ###### SHOTGUNS ########
@@ -1472,7 +1472,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 3160
+    #listOrder: 3160
 
   - type: STR_ROSSMORE_COMBAT_SHOTGUN_MAG
     categories: [STR_HUMAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAGAZINES, STR_SHOTGUNS]
@@ -1497,7 +1497,7 @@ items:
     shotgunSpread: 45
     battleType: 2
     armor: 250
-    listOrder: 3190
+    #listOrder: 3190
 
   - type: STR_SCHROTFLINTE_SHOTGUN
     categories: [STR_HUMAN_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_SHOTGUNS]
@@ -1533,7 +1533,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 3170
+    #listOrder: 3170
   - type: STR_SCHROTFLINTE_SHOTGUN_SHELLS
     categories: [STR_HUMAN_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES, STR_SHOTGUNS]
     requiresBuy:
@@ -1557,7 +1557,7 @@ items:
     shotgunSpread: 45
     battleType: 2
     armor: 250
-    listOrder: 3190
+    #listOrder: 3190
 
   - type: STR_XR24_SPITTER
     categories: [STR_HUMAN_EQUIPMENT, STR_JAPANESE_EQUIPMENT, STR_SHOTGUNS, STR_REVERSE_ENGINEERED_EQUIPMENT]
@@ -1604,7 +1604,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 3170
+    #listOrder: 3170
   - type: STR_XR24_SPITTER_BATTERY
     categories: [STR_HUMAN_EQUIPMENT, STR_JAPANESE_EQUIPMENT, STR_BATTERIES, STR_SHOTGUNS, STR_REVERSE_ENGINEERED_EQUIPMENT]
     requiresBuy:
@@ -1629,14 +1629,14 @@ items:
     shotgunSpread: 45
     battleType: 2
     armor: 250
-    listOrder: 3190
+    #listOrder: 3190
 
 ###################################
 ######### SUBMACHINE GUNS ########
 #################################
 
   - type: STR_THOMPSON_SMG
-    categories: [STR_HUMAN_EQUIPMENT, STR_JAPANESE_EQUIPMENT, STR_SMGS, STR_REVERSE_ENGINEERED_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS]
     requiresBuy:
       - STR_AMERICAN_VOLUNTEERS_RESEARCH
     #requiresBuy:
@@ -1689,17 +1689,10 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2750
+    #listOrder: 2750
 
   - type: STR_THOMPSON_SMG_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS, STR_MAGAZINES]
     requiresBuy:
       - STR_AMERICAN_VOLUNTEERS_RESEARCH
     #requiresBuy:
@@ -1729,16 +1722,9 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2760
+    #listOrder: 2760
   - type: STR_THOMPSON_SMG_DRUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS, STR_MAGAZINES]
     requiresBuy:
       - STR_AMERICAN_VOLUNTEERS_RESEARCH
     size: 0.025
@@ -1767,17 +1753,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2760
+    #listOrder: 2760
 
   - type: STR_BERETTA_MAB38
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_SMGS]
     requiresBuy:
       - STR_MAQUIS_COOPERATION_2_RESEARCH
     #requiresBuy:
@@ -1829,17 +1808,10 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2780
+    #listOrder: 2780
 
   - type: STR_9MM_SMG_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_SMGS]
     requiresBuy:
       - STR_9MM_SMG_MAG_AMMO_UNLOCK
     #requiresBuy:
@@ -1869,17 +1841,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2790
+    #listOrder: 2790
 
   - type: STR_PPS_43
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_SMGS]
     requiresBuy:
       - STR_RUSSIAN_COOPERATION_2_RESEARCH
     #requiresBuy:
@@ -1931,16 +1896,9 @@ items:
     invHeight: 2
     armor: 35
     attraction: 10
-    listOrder: 2780
+    #listOrder: 2780
   - type: STR_PPS_43_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [STR_HUMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_SMGS, STR_MAGAZINES]
     requiresBuy:
       - STR_RUSSIAN_COOPERATION_2_RESEARCH
     #requiresBuy:
@@ -1971,13 +1929,13 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2760
+    #listOrder: 2760
 
 ###################################
 ##### PISTOLS AND SIDEARMS #######
 #################################
   - type: STR_M1911_COLT
-    categories: [STR_HUMAN_EQUIPMENT, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT]
     size: 0.1
     costBuy: 750
     costSell: 600
@@ -2005,9 +1963,9 @@ items:
     armor: 35
     attraction: 12
     bulletSpeed: 5
-    #listOrder: 2000
+    ##listOrder: 2000
   - type: STR_M1911_COLT_CLIP
-    categories: [STR_HUMAN_EQUIPMENT, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_MAGAZINES]
     size: 0.025
     costBuy: 75
     costSell: 55
@@ -2028,11 +1986,10 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 35
-    #listOrder: 2005
+    ##listOrder: 2005
     
   - type: STR_HE44_MAGNUM
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS]
     size: 0.01
     costBuy: 2500
     costSell: 900
@@ -2057,10 +2014,10 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2440
+    #listOrder: 2440
 
   - type: STR_HE44_MAGNUM_AMMO
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_HUMAN_EQUIPMENT, STR_HANDGUNS, STR_MAGAZINES]
     size: 0.01
     costBuy: 500
     costSell: 150
@@ -2084,10 +2041,10 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2450
+    #listOrder: 2450
 
   - type: STR_PLASMA_REPEATER_PISTOL
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_HANDGUNS]
     size: 0.1
     costSell: 21000
     weight: 3
@@ -2100,18 +2057,13 @@ items:
     compatibleAmmo:
       - STR_PLASMA_REPEATER_PISTOL_BATTERY
     confAimed:
-      shots: 1
-      name: STR_STEADY_SHOT
-      ammoSlot: 0
-      arcing: false
-    aimRange: 60
-    accuracyAimed: 90
-    tuAimed: 55
+      shots: 3
+      name: STR_AIMED_BURST
+      shortName: STR_AIMED_BURST
     confSnap:
-      shots: 2
-      name: STR_DOUBLE_TAP
-      ammoSlot: 0
-      arcing: false
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST
     snapRange: 60
     accuracySnap: 65
     tuSnap: 40
@@ -2120,9 +2072,9 @@ items:
     invHeight: 2
     recoveryPoints: 3
     armor: 45
-    listOrder: 241
+    #listOrder: 241
   - type: STR_PLASMA_REPEATER_PISTOL_BATTERY
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_HANDGUNS, STR_MAGAZINES]
     size: 0.1
     costSell: 1110
     weight: 3
@@ -2139,13 +2091,14 @@ items:
     clipSize: 15
     battleType: 2
     recoveryPoints: 1
-    listOrder: 242
+    #listOrder: 242
 
 ####################################
 ###### GRENADES & LAUNCHERS #######
 #################################
 
   - type: STR_HEDGEHOG_GRENADE
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_GRENADES]
     size: 0.1
     costSell: 14850
     weight: 3
@@ -2156,18 +2109,10 @@ items:
     battleType: 4
     recoveryPoints: 1
     blastRadius: 5
-    #listOrder: 2330
+    ##listOrder: 2330
 
   - type: STR_L206_LAARK
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_NATO_TECH,
-        STR_ARTILLERY,
-        STR_FUSION
-      ]
-    
+    categories: [STR_HUMAN_EQUIPMENT, STR_ARTILLERY, STR_BRITISH_EQUIPMENT]
     size: 0.04
     costBuy: 16000
     costSell: 10000
@@ -2190,10 +2135,9 @@ items:
     invWidth: 2
     invHeight: 3
     attraction: 8
-    listOrder: 201630
+    #listOrder: 201630
   - type: STR_L206_LAARK_ROCKET
-    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_NATO_TECH, STR_CLIPS ]
-    
+    categories: [STR_HUMAN_EQUIPMENT, STR_ARTILLERY, STR_BRITISH_EQUIPMENT, STR_MAGAZINES]
     size: 0.02
     costBuy: 1600
     costSell: 1200
@@ -2217,7 +2161,7 @@ items:
     invWidth: 1
     invHeight: 2
     attraction: 9
-    listOrder: 201660
+    #listOrder: 201660
 
 
 extraSprites:
