@@ -12,14 +12,11 @@ items:
     battleType: 11
     armor: 26
 
-
-
-  - type: STR_TERRORIST_SOLDIER
+  - type: STR_HYBRID_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
-    costSell: 40000
-    listOrder: 14401
+    costSell: 60000
 
 
 armors:

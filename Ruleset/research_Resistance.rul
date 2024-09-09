@@ -181,6 +181,18 @@ research:
     points: 20
     needItem: true
 
+##########################
+##### LIVE ALIENS #######
+########################
+
+  - name: STR_HYBRID_SOLDIER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+
+################################
+
 items:
   - type: STR_GRAY_TECH_ITEM
     size: 0.1
