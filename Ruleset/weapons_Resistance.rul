@@ -579,19 +579,35 @@ items:
     armor: 12
     ##listOrder: 2075
 
-  - type: STR_HUNTER_DMR
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
+#################################
+######## MARKSMAN RIFLES #######
+##############################
+
+  - type: STR_MARKSMAN_DMR
+    categories: [STR_HUMAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 928
-    floorSprite: 928
-    handSprite: 928
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 1000
     fireSound: 4
 #    reloadSound: 301
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 3
+      name: STR_AIMED_BURST
+      shortName: STR_AIMED_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
     compatibleAmmo:
-      - STR_AUGER_MK1_BATTERY
+      - STR_HUNTER_DMR_BATTERY
     accuracyCloseQuarters: 65
     accuracySnap: 75
     accuracyAimed: 90
@@ -607,18 +623,59 @@ items:
     oneHandedPenalty: 40
     invWidth: 2
     invHeight: 3
-    autoRange: 11
     attraction: 8
     ##listOrder: 2260
 
-  - type: STR_AUGER_MK1_BATTERY
+  - type: STR_HUNTER_DMR
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 1000
+    fireSound: 4
+#    reloadSound: 301
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 3
+      name: STR_AIMED_BURST
+      shortName: STR_AIMED_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_HUNTER_DMR_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    attraction: 8
+    ##listOrder: 2260
+
+  - type: STR_HUNTER_DMR_BATTERY
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_BATTERIES]
     size: 0.1
-    costBuy: 150
-    costSell: 90
+    costSell: 9000
     weight: 3
-    bigSprite: 944
-    floorSprite: 944
+    bigSprite: 1016
+    floorSprite: 1016
     bulletSprite: 29 # 35*29=1015
     hitAnimation: 110
     bulletSpeed: 8
@@ -742,7 +799,7 @@ items:
     ##listOrder: 2275
 
 ####################################
-###### SHOTGUNS ########
+############# SHOTGUNS ############
 ##################################
 
   - type: STR_ROSSMORE_COMBAT_SHOTGUN
