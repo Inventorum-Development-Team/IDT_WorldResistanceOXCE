@@ -439,6 +439,81 @@ items:
     attraction: 10
     #listOrder: 3090
 
+  - type: STR_BRUTE_MINIGUN
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_LMGS]
+    size: 0.4
+    costBuy: 20000
+    weight: 20
+    bigSprite: 1024
+    floorSprite: 1024
+    handSprite: 1024
+    fireSound: 103
+    reloadSound: 303
+    confSnap:
+      shots: 8
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+      followProjectiles: false
+    confAuto:
+      shots: 20
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+      followProjectiles: false
+    compatibleAmmo:
+      - STR_BRUTE_MINIGUN_CELL
+    accuracyCloseQuarters: 55
+    kneelBonus: 300
+    accuracySnap: 42
+    accuracyAuto: 37
+    tuSnap: 30
+    tuAuto: 40
+    tuLoad: 20
+    minRange: 10
+    snapRange: 20
+    autoRange: 18
+    dropoff: 4
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    #autoShots: 6
+    sprayWaypoints: 2
+    attraction: 10
+    #listOrder: 3080
+
+  - type: STR_BRUTE_MINIGUN_CELL
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_LMGS, STR_BATTERIES]
+    size: 0.01
+    costSell: 12000
+    weight: 10
+    bigSprite: 1040
+    floorSprite: 1040
+    handSprite: 1040
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    explosionSpeed: 30
+    bulletSprite: 12 #Rifle bullet 35*12=420
+    power: 33
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
+    damageType: 1
+    clipSize: 200
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 2
+    attraction: 10
+    #listOrder: 3090
+
 #################################
 ######## SNIPER RIFLES #########
 ##############################
@@ -503,6 +578,60 @@ items:
     battleType: 2
     armor: 12
     ##listOrder: 2075
+
+  - type: STR_HUNTER_DMR
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 928
+    floorSprite: 928
+    handSprite: 928
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_AUGER_MK1_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    ##listOrder: 2260
+
+  - type: STR_AUGER_MK1_BATTERY
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS, STR_BATTERIES]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 944
+    floorSprite: 944
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
+    bulletSpeed: 8
+    explosionSpeed: 10
+    hitSound: 19
+    power: 30
+    damageAlter:
+      ToTile: 2.0
+    damageType: 5
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    ##listOrder: 2265
 
   - type: STR_AUGER_MK1
     categories: [STR_CHIMERAN_EQUIPMENT, STR_BATTLE_RIFLES_DMRS]
@@ -910,6 +1039,58 @@ items:
     battleType: 2
     armor: 250
     #listOrder: 2450
+
+  - type: STR_PLASMA_REPEATER_PISTOL
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_HANDGUNS]
+    size: 0.1
+    costSell: 6000
+    weight: 5
+    bigSprite: 976
+    floorSprite: 976
+    handSprite: 976
+    fireSound: 4
+#    reloadSound: 304
+    compatibleAmmo:
+      - STR_PLASMA_REPEATER_PISTOL_BATTERY
+    accuracyCloseQuarters: 130
+    accuracySnap: 75
+    accuracyAimed: 80
+    tuSnap: 18
+    tuAimed: 32
+    tuLoad: 15
+    aimRange: 20
+    kneelBonus: 105
+    costThrow:
+      energy: 10
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    attraction: 12
+    bulletSpeed: 5
+    ##listOrder: 2000
+  - type: STR_PLASMA_REPEATER_PISTOL_BATTERY
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_HANDGUNS, STR_BATTERIES]
+    size: 0.025
+    costSell: 5500
+    weight: 2
+    bigSprite: 992
+    floorSprite: 992
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    bulletSprite: 1
+    damageAlter:
+      ArmorEffectiveness: 0.3
+    clipSize: 7
+    costThrow:
+      energy: 4
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+    ##listOrder: 2005
 
 ####################################
 ###### GRENADES & LAUNCHERS #######
