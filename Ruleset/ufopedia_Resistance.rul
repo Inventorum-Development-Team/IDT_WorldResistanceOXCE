@@ -163,6 +163,24 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+############ GADGETS #############
+
+  - id: STR_BANDAGES
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BANDAGES_UFOPEDIA
+#    #listOrder: 2002
+  - id: STR_MEDICAL_BAG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MEDICAL_BAG_UFOPEDIA
+#    #listOrder: 2002
+  - id: STR_SYMBAC
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SYMBAC_UFOPEDIA
+#    #listOrder: 2002
+
 ################
 # Armors
   - id: STR_SRPA_BLACK_OPS_UNIFORM_UC

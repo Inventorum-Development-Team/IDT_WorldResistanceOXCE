@@ -4,7 +4,7 @@ items:
 ################################
 
   - type: STR_M5A2_FOLSOM_CARBINE
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_AMERICAN_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -60,7 +60,7 @@ items:
 
 
   - type: STR_STORM_RIFLE
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_MAQUIS_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_MAQUIS_EQUIPMENT]
     size: 0.3
     requiresBuy:
       - STR_MAQUIS_COOPERATION_1_RESEARCH
@@ -115,7 +115,7 @@ items:
     ##listOrder: 2130    
 
   - type: STR_M2A1_CLOVIS
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_LMGS, STR_AMERICAN_EQUIPMENT]
+    categories: [STR_HUMAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_LMGS, STR_AMERICAN_EQUIPMENT]
     requiresBuy:
       - STR_AMERICAN_VOLUNTEERS_RESEARCH
     #requiresBuy:
@@ -163,7 +163,7 @@ items:
     bulletSpeed: 17
     
   - type: STR_303_RIFLE_AMMO
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
+    categories: [STR_HUMAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -181,7 +181,7 @@ items:
     armor: 12
     ##listOrder: 2025
   - type: STR_303_RIFLE_AMMO_LARGE
-    categories: [STR_HUMAN_EQUIPMENT, STR_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
+    categories: [STR_HUMAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -226,7 +226,7 @@ items:
 
     
   - type: STR_BULLSEYE_MK1
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -272,7 +272,7 @@ items:
     ##listOrder: 2240
 
   - type: STR_BULLSEYE_MK1_BATTERY
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -292,7 +292,7 @@ items:
     ##listOrder: 2245
 
   - type: STR_BULLSEYE_MK2
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -338,7 +338,7 @@ items:
     ##listOrder: 2250
 
   - type: STR_BULLSEYE_MK2_BATTERY
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_BRITISH_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_REVERSE_ENGINEERED_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -446,8 +446,8 @@ items:
   - type: STR_L23_FAREYE_SNIPER_RIFLE
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT]
     size: 0.2
-    requiresBuy:
-      - STR_BRITISH_COOPERATION_1_RESEARCH
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_1_RESEARCH
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -486,8 +486,8 @@ items:
   - type: STR_303_SNIPER_AMMO
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
-    requiresBuy:
-      - STR_BRITISH_COOPERATION_1_RESEARCH
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_1_RESEARCH
     costBuy: 150
     costSell: 90
     weight: 3
@@ -916,7 +916,7 @@ items:
 #################################
 
   - type: STR_HEDGEHOG_GRENADE
-    categories: [STR_CHIMERAN_EQUIPMENT, STR_GRENADES]
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_GRENADES, STR_GADGETS]
     size: 0.1
     costSell: 14850
     weight: 3
@@ -983,6 +983,77 @@ items:
     attraction: 9
     #listOrder: 201660
 
+######################
+#### GADGETS ########
+####################
+
+  - type: STR_BANDAGES
+    categories: [STR_HUMAN_EQUIPMENT, STR_GADGETS, STR_MEDICAL]
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 1
+    bigSprite: 1384
+    floorSprite: 1384
+    handSprite: 1384
+    heal: 2
+    woundRecovery: 1
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    armor: 10
+    battleType: 6
+    flatRate: true
+    listOrder: 400
+  - type: STR_MEDICAL_BAG
+    categories: [STR_HUMAN_EQUIPMENT, STR_GADGETS, STR_MEDICAL]
+    size: 0.2
+    costBuy: 1800
+    costSell: 1500
+    weight: 8
+    bigSprite: 1392
+    floorSprite: 1392
+    handSprite: 1392
+    painKiller: 6
+    heal: 6
+    stimulant: 6   
+    woundRecovery: 2
+    healthRecovery: 3
+    stunRecovery: 5
+    energyRecovery: 15 
+    costUse:
+      time: 30
+      energy: -3
+    invWidth: 2
+    invHeight: 2
+    armor: 20
+    battleType: 6
+    flatRate: true
+    listOrder: 401
+
+  - type: STR_SYMBAC
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_GADGETS, STR_MEDICAL]
+    size: 0.1
+    costSell: 8000
+    weight: 1
+    bigSprite: 1400
+    floorSprite: 1400
+    handSprite: 1400
+    painKiller: 8
+    heal: 8
+    stimulant: 8  
+    woundRecovery: 4
+    healthRecovery: 6
+    costUse:
+      time: 30
+      energy: -3
+      stun: 5
+    isConsumable: true
+    medikitTargetSelf: true
+    armor: 10
+    battleType: 6
+    flatRate: true
+    listOrder: 400
 
 extraSprites:
 #########################################
@@ -1137,6 +1208,9 @@ extraSprites:
       #1360: Resources/HumanWeapons/Ammo/Big40mmSMOKE.png
       #1368: Resources/HumanWeapons/Ammo/Big40mmHERack.png
       #1376: Resources/HumanWeapons/Ammo/Big40mmINCRack.png
+      1384: Resources/HumanWeapons/BigBandages.png
+      1392: Resources/HumanWeapons/BigMedicalBag.png
+      1400: Resources/ChimeraWeapons/BigSymbac.png       
   
 
   - type: FLOOROB.PCK
@@ -1287,6 +1361,9 @@ extraSprites:
       #1360: Resources/HumanWeapons/Ammo/Floor40mmSMOKE.png
       #1368: Resources/HumanWeapons/Ammo/Floor40mmHERack.png
       #1376: Resources/HumanWeapons/Ammo/Floor40mmINCRack.png
+      1384: Resources/HumanWeapons/FloorBandages.png
+      1392: Resources/HumanWeapons/FloorMedicalBag.png
+      1400: Resources/ChimeraWeapons/FloorSymbac.png    
 
   - type: HANDOB.PCK
     width: 256
@@ -1435,6 +1512,10 @@ extraSprites:
       1320: Resources/HumanWeapons/Energy/HandSiberianBullseye_nomag.png
       1328: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
       1336: Resources/HumanWeapons/Energy/HandSiberianBullseye_ammo1.png
+      1384: Resources/HumanWeapons/HandBandages.png
+      1392: Resources/HumanWeapons/HandMedicalBag.png
+      1400: Resources/ChimeraWeapons/HandSymbac.png  
+
   - type: SMOKE.PCK
     height: 40
     width: 320

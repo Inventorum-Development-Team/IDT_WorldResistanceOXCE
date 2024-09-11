@@ -213,7 +213,7 @@ en-US:
   STR_M1911_COLT_UFOPEDIA: "Standard sidearm of SPRA and US Army units, it is reliable and easy to use. It's stopping power is enough to kill a Hybrid or two at point-blank."
 
   STR_M5A2_FOLSOM_CARBINE: "M5A2 Folsom Carbine"
-  STR_303_RIFLE_AMMO: ".303 Rifle Ammo (x30)"
+  STR_303_RIFLE_AMMO: ".303 Rifle Ammo (x20)"
   STR_40MM_FRAG: "40mm Frag Grenade"
   STR_M5A2_FOLSOM_CARBINE_UFOPEDIA: "Powerful rifle of US design, used by all the US Armed Forces. It is produced under-licence by the British Army as Mk.6 Carbine and some European countries had their own variants of this weapon as well. However, it's very heavy and cumbersome due the wood furniture and integrated grenade launcher. Alt fire: Launch Grenade"
 
@@ -224,6 +224,14 @@ en-US:
   STR_STORM_RIFLE: ".303 Storm Rifle"
   STR_STORM_RIFLE_UFOPEDIA: "Battle rifle designed by the German Armed Forces, was the standard rifle of the United European Defense (mostly used by Germans, French and Italians). Currently used by Maquis, most of them were recovered from a supply ship sunk near Olso. It's official name was '.303 Sturmgewehr'"
   
+  STR_BANDAGES: "Bandages"
+  STR_BANDAGES_UFOPEDIA: "A simple sterile cloth gaze used to patch small wounds and recover small amounts of health."
+
+  STR_MEDICAL_BAG: "Medical Bag"
+  STR_MEDICAL_BAG_UFOPEDIA: "Large and heavy bag, full of medical supplies. Recovers a medium amount of health and patches several wounds." 
+
+  STR_SYMBAC: "Sym-Bac Canister"
+  STR_SYMBAC_UFOPEDIA: "Short for 'Symbiotic-Bacteria', an alien canister full of a bright green fluid, used by the Chimera to quickly heal large amounts of health and many wounds. As a side effect, produces a limited stun effect when applied on humans."
   ###################### 
   # SOLDIERS
 

@@ -84,7 +84,7 @@ pt-PT:
   STR_HEDGEHOG_GRENADE: "Granada Ouriço"
   STR_HEDGEHOG_GRENADE_UFOPEDIA: "..."
       
-  STR_FIRE_GRENADE: "Granada de fogo"
+  STR_FIRE_GRENADE: "Atirar granada"
   STR_M1911_COLT: "M1911 Colt"
   STR_M1911_COLT_CLIP: "Carregador .45 ACP (x7)"
   STR_M1911_COLT_UFOPEDIA: "Arma secundária padrão das unidades SPRA e do Exército dos EUA, é confiável e fácil de usar. Seu poder de parada é suficiente para matar um ou dois híbridos à queima-roupa."
@@ -100,7 +100,15 @@ pt-PT:
 
   STR_STORM_RIFLE: ".303 Rifle de Tempestade"
   STR_STORM_RIFLE_UFOPEDIA: "O rifle de batalha projetado pelas Forças Armadas Alemãs era o rifle padrão da United European Defense (usado principalmente por alemães, franceses e italianos). Atualmente usado pela Maquis, a maioria deles foi recuperada de um navio de suprimentos afundado perto de Olso. Seu nome oficial era '.303 Sturmgewehr'"
+  
+  STR_BANDAGES: "Bandagens"
+  STR_BANDAGES_UFOPEDIA: "Um simples olhar de pano estéril usado para curar pequenas feridas e recuperar pequenas quantidades de saúde."
 
+  STR_MEDICAL_BAG: "Bolsa Médica"
+  STR_MEDICAL_BAG_UFOPEDIA: "Saco grande e pesado, cheio de material médico. Recupera uma quantidade média de saúde e cura vários ferimentos."
+
+  STR_SYMBAC: "Caixa Sym-Bac"
+  STR_SYMBAC_UFOPEDIA: "Abreviatura de 'Symbiotic-Bacteria', um recipiente alienígena cheio de um fluido verde brilhante, utilizado pela Quimera para curar rapidamente grandes quantidades de saúde e muitos ferimentos. Como efeito secundário, produz um efeito de atordoamento limitado quando aplicado em humanos"
   #####################
   # SOLDADOS
 

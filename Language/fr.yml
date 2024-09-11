@@ -84,7 +84,7 @@ fr:
 
   STR_HEDGEHOG_GRENADE: "Grenade Hérisson" 
   STR_HEDGEHOG_GRENADE_UFOPEDIA: ".."
-  STR_FIRE_GRENADE: "Grenade incendiaire" 
+  STR_FIRE_GRENADE: "Tirer à la grenade" 
   STR_M1911_COLT: "Colt M1911" 
   STR_M1911_COLT_CLIP: "Chargeur .45 ACP (x7)"
   STR_M1911_COLT_UFOPEDIA: "Arme de poing standard des unités SPRA et de l'armée américaine, elle est fiable et facile à utiliser. Sa puissance d'arrêt est suffisante pour tuer un ou deux hybrides à bout portant."
@@ -100,7 +100,15 @@ fr:
 
   STR_STORM_RIFLE: "Fusil Storm .303"
   STR_STORM_RIFLE_UFOPEDIA: "Fusil de combat conçu par les forces armées allemandes, était le fusil standard de la Défense européenne unie (principalement utilisé par les Allemands, les Français et les Italiens). Actuellement utilisé par les Maquisards, la plupart d'entre eux ont été récupérés sur un navire de ravitaillement coulé près d'Oslo. Son nom officiel était '.303 Sturmgewehr'"
+  
+  STR_BANDAGES: "Bandages"
+  STR_BANDAGES_UFOPEDIA: "Un simple regard en tissu stérile utilisé pour panser les petites blessures et récupérer de petites quantités de santé."
 
+  STR_MEDICAL_BAG: "Sac médical"
+  STR_MEDICAL_BAG_UFOPEDIA: "Sac grand et lourd, rempli de fournitures médicales. Récupère une quantité moyenne de santé et panse plusieurs blessures."
+
+  STR_SYMBAC: "Bidon Sym-Bac"
+  STR_SYMBAC_UFOPEDIA: "Abréviation de 'Symbiotic-Bacteria', un récipient extraterrestre rempli d'un liquide vert vif, utilisé par les Chimères pour soigner rapidement de grandes quantités de santé et de nombreuses blessures. Comme effet secondaire, produit un effet d'étourdissement limité lorsqu'il est appliqué sur des humains. "
 ###################### # SOLDATS
 
   STR_US_ARMY_SOLDIER: "Ranger de l'armée américaine"

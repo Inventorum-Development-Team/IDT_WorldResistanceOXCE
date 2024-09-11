@@ -210,6 +210,15 @@ es-419:
 
   STR_STORM_RIFLE: "Rifle de asalto .303"
   STR_STORM_RIFLE_UFOPEDIA: "Rifle de batalla diseñado por las Fuerzas Armadas alemanas, era el rifle estándar de la Defensa Europea Unida (utilizado principalmente por alemanes, franceses e italianos). Actualmente utilizado por los Maquis, la mayoría de ellos fueron recuperados de un barco de suministro hundido cerca de Oslo. Su nombre oficial era '.303 Sturmgewehr'"
+  
+  STR_BANDAGES: "Vendajes"
+  STR_BANDAGES_UFOPEDIA: "Una simple mirada de tela estéril utilizada para parchear pequeñas heridas y recuperar pequeñas cantidades de salud."
+
+  STR_MEDICAL_BAG: "Bolsa médica"
+  STR_BOLSA_MEDICA_UFOPEDIA: "Bolsa grande y pesada, llena de suministros médicos. Recupera una cantidad media de salud y parchea varias heridas."
+
+  STR_SYMBAC: "Contenedor Sym-Bac"
+  STR_SYMBAC_UFOPEDIA: "Abreviatura de “Symbiotic-Bacteria” (bacteria simbiótica, en inglés), un bote alienígena lleno de un fluido verde brillante, utilizado por la Quimera para curar rápidamente grandes cantidades de salud y muchas heridas. Como efecto secundario, produce un efecto de aturdimiento limitado cuando se aplica en humanos."
 
 ######################
 # SOLDADOS

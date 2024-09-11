@@ -77,7 +77,7 @@ it:
   STR_HEDGEHOG_GRENADE: "Granata a riccio"
   STR_HEDGEHOG_GRENADE_UFOPEDIA: .".."
 
-  STR_FIRE_GRENADE: "Granata incendiaria"
+  STR_FIRE_GRENADE: "Spara granata"
   STR_M1911_COLT: "M1911 Colt"
   STR_M1911_COLT_CLIP: "Caricatore .45 ACP (x7)"
   STR_M1911_COLT_UFOPEDIA: "Arma da fianco standard delle unità SPRA e dell'esercito statunitense, è affidabile e facile da usare. Il suo potere di arresto è sufficiente per uccidere uno o due ibridi a bruciapelo."
@@ -90,6 +90,16 @@ it:
   STR_L23_FAREYE_SNIPER_RIFLE_UFOPEDIA: "Uno dei preferiti di molti team dicecchini del Commando dei Royal Marine britannici, include un piccolo dispositivo a impulsi elettromagnetici pensato per aumentare l'attività neurale, aumentando così la precisione dei tiratori scelti. Fuoco alternativo: Headshot"
   STR_STORM_RIFLE: ."303 Storm Rifle"
   STR_STORM_RIFLE_UFOPEDIA: "Fucile da battaglia progettato dalle Forze armate tedesche, era il fucile standard della United European Defense (usato principalmente da tedeschi, francesi e italiani). Attualmente usato da Maquis,la maggior parte di loro sono stati recuperati da una nave di rifornimento affondata vicino a Oslo. Il suo nome ufficiale era '.303 Sturmgewehr'"
+  
+  STR_BANDAGES: "Bende"
+  STR_BANDAGES_UFOPEDIA: "Un semplice sguardo di stoffa sterile utilizzato per medicare piccole ferite e recuperare piccole quantità di salute."
+
+  STR_MEDICAL_BAG: "Borsa medica"
+  STR_MEDICAL_BAG_UFOPEDIA: "Borsa grande e pesante, piena di forniture mediche. Recupera una quantità media di salute e ripara diverse ferite."
+
+  STR_SYMBAC: "Contenitore Bac-Sim"
+  STR_SYMBAC_UFOPEDIA: "Abbreviazione di 'Batteri simbiotici', un contenitore alieno pieno di un fluido verde brillante, utilizzato dalla Chimera per curare rapidamente grandi quantità di salute e molte ferite. Come effetto collaterale, produce un effetto di stordimento limitato quando applicato sugli umani "
+
 #######################
 # SOLDIERS
   STR_US_ARMY_SOLDIER: "US Army Ranger"
