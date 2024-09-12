@@ -10,14 +10,17 @@ Credits by name:
 * Ghartzay: IDT tester, Russian lore writer, overall support 
 * Insomniac Games: original franchise creators
 * LegoLiam1803: RFC member, Japanese lore writer and source lore support 
+* Leonardo D: RFC member, beta tester
 * Lord_Kane: IDT developer
 * Luke83: IDT member, Chimeran structures maps
+* MitraLightbringer: IDT tester
+* NecroDiego: RFC member, beta tester
 * RamoZ: US Army Soldier code
 * shreksnow: RFC member, overall support 
-* TigasZ8: Resistance Fans Community leader, main support; Portuguese, French, Italian & German translations
+* TigasZ8: Resistance Fans Community leader, beta tester & main support; Portuguese, French, Italian & German translations
 * Wendi: RFC member, original XR-24 Spitter designer
-* wolwerin: IDT member, placeholder sprites for Repeater Pistol, Hunter DMR and Brute Minigun
-* _Brain322: HE.44 Magnum, HVAP Wraith sprites
+* wolwerin: IDT member, placeholder sprites for Repeater Pistol, Hunter DMR and Brute Minigun (unused)
+* _Brain322: HE.44 Magnum, HVAP Wraith, basis for Brute Minigun, Hunter DMR, Repeater Pistol, Marksman DMR sprites
 
 DISCLAIMER: 
 
