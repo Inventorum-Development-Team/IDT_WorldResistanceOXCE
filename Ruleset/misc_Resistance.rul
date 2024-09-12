@@ -141,7 +141,7 @@ itemCategories:
     listOrder: 190
   - type: STR_CHIMERAN_EQUIPMENT
     listOrder: 200
-  - type: STR_MISC
+  - type: STR_REVERSE_ENGINEERED_EQUIPMENT
     listOrder: 210
   - type: STR_ALIEN_TECH
     listOrder: 210

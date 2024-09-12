@@ -39,20 +39,28 @@ ufopaedia:
 
   - id: STR_BULLSEYE_MK1
     type_id: 4
+    requires:
+      - STR_BULLSEYE_MK1
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BULLSEYE_MK1_UFOPEDIA
 #    #listOrder: 2002
   - id: STR_BULLSEYE_MK1_BATTERY
     type_id: 4
+    requires:
+      - STR_BULLSEYE_MK1
     section: STR_NOT_AVAILABLE
 
   - id: STR_BULLSEYE_MK2
     type_id: 4
+    requires:
+      - STR_BULLSEYE_MK2
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BULLSEYE_MK2_UFOPEDIA
 #    #listOrder: 2002
   - id: STR_BULLSEYE_MK2_BATTERY
     type_id: 4
+    requires:
+      - STR_BULLSEYE_MK2
     section: STR_NOT_AVAILABLE
 
 ########## MACHINE GUNS ########
@@ -64,6 +72,18 @@ ufopaedia:
     #listOrder: 2000
   - id: STR_HVAP_CHAINGUN_DRUM
     type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BRUTE_MINIGUN
+    type_id: 4
+    requires:
+      - STR_BRUTE_MINIGUN
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BRUTE_MINIGUN_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_BRUTE_MINIGUN_CELL
+    type_id: 4
+    requires:
+      - STR_BRUTE_MINIGUN
     section: STR_NOT_AVAILABLE
 
 ######## SNIPER RIFLES #########
@@ -77,22 +97,48 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+  - id: STR_MARKSMAN_DMR
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MARKSMAN_DMR_UFOPEDIA
+#    #listOrder: 2002
+  - id: STR_HUNTER_DMR
+    type_id: 4
+    requires:
+      - STR_BRUTE_MINIGUN
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HUNTER_DMR_UFOPEDIA
+#    #listOrder: 2002
+  - id: STR_HUNTER_DMR_BATTERY
+    type_id: 4
+    requires:
+      - STR_BRUTE_MINIGUN
+    section: STR_NOT_AVAILABLE
+
   - id: STR_AUGER_MK1
     type_id: 4
+    requires:
+      - STR_AUGER_MK1
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUGER_MK1_UFOPEDIA
 #    #listOrder: 2002
   - id: STR_AUGER_MK1_BATTERY
     type_id: 4
+    requires:
+      - STR_AUGER_MK1
     section: STR_NOT_AVAILABLE
 
   - id: STR_AUGER_MK2
     type_id: 4
+    requires:
+      - STR_AUGER_MK2
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUGER_MK2_UFOPEDIA
 #    #listOrder: 2002
   - id: STR_AUGER_MK2_BATTERY
     type_id: 4
+    requires:
+      - STR_AUGER_MK2
     section: STR_NOT_AVAILABLE
 
 ###### SHOTGUNS ########
@@ -146,10 +192,25 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+  - id: STR_PLASMA_REPEATER_PISTOL
+    type_id: 4
+    requires:
+      - STR_PLASMA_REPEATER_PISTOL
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PLASMA_REPEATER_PISTOL_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_PLASMA_REPEATER_PISTOL_BATTERY
+    type_id: 4
+    requires:
+      - STR_PLASMA_REPEATER_PISTOL
+    section: STR_NOT_AVAILABLE
+
 ###### GRENADES & LAUNCHERS #######
 
   - id: STR_HEDGEHOG_GRENADE
     type_id: 4
+    requires:
+      - STR_HEDGEHOG_GRENADE
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEDGEHOG_GRENADE_UFOPEDIA
 #    #listOrder: 2002
@@ -177,6 +238,8 @@ ufopaedia:
 #    #listOrder: 2002
   - id: STR_SYMBAC
     type_id: 4
+    requires:
+      - STR_SYMBAC
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SYMBAC_UFOPEDIA
 #    #listOrder: 2002

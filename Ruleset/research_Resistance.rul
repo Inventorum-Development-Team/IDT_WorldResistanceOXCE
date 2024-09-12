@@ -145,39 +145,67 @@ research:
 #############################
 
   - name: STR_BULLSEYE_MK1
-    cost: 700
+    cost: 100
     points: 25
     needItem: true
   - name: STR_BULLSEYE_MK1_BATTERY
-    cost: 400
+    cost: 50
     points: 6
     needItem: true
   - name: STR_BULLSEYE_MK2
-    cost: 600
+    cost: 100
     points: 20
     needItem: true
   - name: STR_BULLSEYE_MK2_BATTERY
-    cost: 400
+    cost: 50
     points: 5
     needItem: true
+  - name: STR_HUNTER_DMR
+    cost: 100
+    points: 30
+    needItem: true
+  - name: STR_HUNTER_DMR_BATTERY
+    cost: 50
+    points: 10
+    needItem: true
   - name: STR_AUGER_MK1
-    cost: 900
+    cost: 100
     points: 10
     needItem: true
   - name: STR_AUGER_MK1_BATTERY
-    cost: 300
+    cost: 50
     points: 10
     needItem: true
   - name: STR_AUGER_MK2
-    cost: 550
+    cost: 100
     points: 30
     needItem: true
   - name: STR_AUGER_MK2_BATTERY
-    cost: 180
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_BRUTE_MINIGUN
+    cost: 100
+    points: 30
+    needItem: true
+  - name: STR_BRUTE_MINIGUN_CELL
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_PLASMA_REPEATER_PISTOL
+    cost: 100
+    points: 30
+    needItem: true
+  - name: STR_PLASMA_REPEATER_PISTOL_BATTERY
+    cost: 50
     points: 10
     needItem: true
   - name: STR_HEDGEHOG_GRENADE
-    cost: 200
+    cost: 100
+    points: 20
+    needItem: true
+  - name: STR_SYMBAC
+    cost: 100
     points: 20
     needItem: true
 

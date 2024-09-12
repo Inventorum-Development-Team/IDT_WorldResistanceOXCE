@@ -179,6 +179,9 @@ items:
   - type: STR_LONGBOW_1S1K_FLECHETTES # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_MARKSMAN_DMR #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
   - type: STR_HUNTER_DMR #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Rifles

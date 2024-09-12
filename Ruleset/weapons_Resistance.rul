@@ -589,9 +589,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 1000
-    floorSprite: 1000
-    handSprite: 1000
+    bigSprite: 1200
+    floorSprite: 1200
+    handSprite: 1200
     fireSound: 4
 #    reloadSound: 301
     confSnap:
@@ -621,7 +621,7 @@ items:
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
-    invWidth: 2
+    invWidth: 1
     invHeight: 3
     attraction: 8
     ##listOrder: 2260
@@ -1112,6 +1112,18 @@ items:
     accuracyCloseQuarters: 130
     accuracySnap: 75
     accuracyAimed: 80
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 3
+      name: STR_AIMED_BURST
+      shortName: STR_AIMED_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
     tuSnap: 18
     tuAimed: 32
     tuLoad: 15
@@ -1423,9 +1435,9 @@ extraSprites:
       #1056: Resources/ChimeraWeapons/BigReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/BigReaperCarbineBattery.png
      
-      #1200: Resources/HumanWeapons/Energy/BigMarksmanB_nomag.png
-      #1208: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
-      #1216: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      1200: Resources/HumanWeapons/Energy/BigMarksmanB_nomag.png
+      1208: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
+      1216: Resources/HumanWeapons/Energy/BigMarksmanB_ammo1.png
       1224: Resources/HumanWeapons/Energy/BigRazorBM001_nomag.png
       1232: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
       1240: Resources/HumanWeapons/Energy/BigRazorBM001_ammo1.png
@@ -1576,9 +1588,9 @@ extraSprites:
       #1056: Resources/ChimeraWeapons/FloorReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/FloorReaperCarbineBattery.png
       
-      #1200: Resources/HumanWeapons/Energy/FloorMarksmanB_nomag.png
-      #1208: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
-      #1216: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      1200: Resources/HumanWeapons/Energy/FloorMarksmanB_nomag.png
+      1208: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
+      1216: Resources/HumanWeapons/Energy/FloorMarksmanB_ammo1.png
       1224: Resources/HumanWeapons/Energy/FloorRazorBM001_nomag.png
       1232: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
       1240: Resources/HumanWeapons/Energy/FloorRazorBM001_ammo1.png
@@ -1732,9 +1744,9 @@ extraSprites:
       #1056: Resources/ChimeraWeapons/HandReaperCarbine_ammo1.png
       #1064: Resources/ChimeraWeapons/Ammo/HandReaperCarbineBattery.png
 
-      #1200: Resources/HumanWeapons/Energy/HandMarksmanB_nomag.png
-      #1208: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
-      #1216: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      1200: Resources/HumanWeapons/Energy/HandMarksmanB_nomag.png
+      1208: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
+      1216: Resources/HumanWeapons/Energy/HandMarksmanB_ammo1.png
       1224: Resources/HumanWeapons/Energy/HandRazorBM001_nomag.png
       1232: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
       1240: Resources/HumanWeapons/Energy/HandRazorBM001_ammo1.png
