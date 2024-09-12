@@ -94,7 +94,10 @@ en-US:
 
   STR_HEDGEHOG_GRENADE: "Hedgehog Grenade"
   STR_HEDGEHOG_GRENADE_UFOPEDIA: "..."
-
+  
+  STR_SIXEYE_SNIPER_RIFLE: "Sixeye Sniper Rifle"
+  STR_SIXEYE_SNIPER_RIFLE_UFOPEDIA: "A very-long range precision rifle, used by selected Chimeran sharpshooters. The plasma bolt travels faster than the barrier of sound and is able to eliminate targets several kilometers away. Its main drawback is the very slow rate of fire, thanks to the poorly optimized power cell that must cool off between shots."
+  STR_SIXEYE_SNIPER_RIFLE_BATTERY: "Sixeye Sniper Rifle Battery"
 
   STR_HUNTER_DMR: "Hunter DMR"
   STR_HUNTER_DMR_BATTERY: "Hunter DMR Battery"

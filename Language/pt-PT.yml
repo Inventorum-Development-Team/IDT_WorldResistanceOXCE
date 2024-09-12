@@ -436,7 +436,7 @@ pt-PT:
 
 
 
-  STR_HUNTER_DMR: "Caçador DMR"
+  STR_HUNTER_DMR: "Hunter DMR"
 
 
   STR_HUNTER_DMR_BATTERY: "Bateria Hunter DMR"
@@ -445,7 +445,9 @@ pt-PT:
   STR_HUNTER_DMR_UFOPEDIA: "Rifle pesado especializado fornecido para atiradores de elite Chimeran. Visto pela primeira vez em ação durante a incursão inimiga no ano passado em Nova York. Os raios de íons emitidos em rajadas curtas o tornam uma arma letal nas mãos corretas, destruindo coberturas e inimigos igualmente."
 
 
-
+  STR_SIXEYE_SNIPER_RIFLE: "Rifle do atirador Sixeye"
+  STR_SIXEYE_SNIPER_RIFLE_UFOPÓDIA: "Um espingarda de precisão de grande alcance, utilizada por atiradores Chimeran selecionados. O parafuso de plasma viaja mais rapidamente do que a barreira do som e é capaz de eliminar alvos a vários quilómetros de distância. A sua principal base é a taxa de incêndio muito lenta, graças a célula de potência mal otimizada que deve arrefecer entre os tiros."
+  STR_SIXEYE_SNIPER_RIFLE_BATTERY: "Bateria Rifle do atirador Sixeye"
 
   STR_BRUTE_MINIGUN: "Metralhadora giratória bruta"
 

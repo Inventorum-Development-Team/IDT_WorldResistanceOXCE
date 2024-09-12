@@ -179,6 +179,12 @@ items:
   - type: STR_LONGBOW_1S1K_FLECHETTES # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_SIXEYE_SNIPER_RIFLE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SIXEYE_SNIPER_RIFLE_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1  
   - type: STR_MARKSMAN_DMR #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Rifles

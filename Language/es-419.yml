@@ -86,10 +86,14 @@ es-419:
 
   STR_HEDGEHOG_GRENADE: "Granada de erizo" 
   STR_HEDGEHOG_GRENADE_UFOPEDIA: ".." 
+  
   STR_HUNTER_DMR: "Hunter DMR" 
   STR_HUNTER_DMR_BATTERY: "Batería Hunter DMR" 
   STR_HUNTER_DMR_UFOPEDIA: "Rifle pesado especializado destinado a los tiradores de élite de las Quimeras. Visto por primera vez en acción durante la excursión enemiga del año pasado en Nueva York. Los rayos de iones emitidos en ráfagas cortas lo convierten en un arma letal en las manos adecuadas, destruyendo coberturas y haciendo cosas similares."
-
+  
+  STR_SIXEYE_SNIPER_RIFLE: "Rifle de francotirador Sixeye"
+  STR_SIXEYE_SNIPER_RIFLE_UFOPEDIA: "Un rifle de precisión de muy largo alcance, utilizado por tiradores de élite Quimera seleccionados de entre los mejores de su raza. El rayo de plasma viaja más rápido que la barrera del sonido y puede eliminar objetivos a varios kilómetros de distancia. Su principal inconveniente es la lentitud de su velocidad de disparo, gracias a la celda de energía mal optimizada que debe enfriarse entre disparos."
+  STR_SIXEYE_SNIPER_RIFLE_BATTERY: "Batería de rifle de francotirador Sixeye"
   STR_BRUTE_MINIGUN: "Minigun Brute"
   STR_BRUTE_MINIGUN_CELL: "Celda Minigun Brute" 
   STR_BRUTE_MINIGUN_UFOPEDIA: "El arma de infantería más pesada del arsenal enemigo, utilizada por las tropas de choque. El flujo de energía continuo liberado por esta arma puede incluso desintegrar algunos objetivos con poca armadura. Su peso extremo hace que sea muy incómoda de llevar y usar por humanos de tamaño normal."

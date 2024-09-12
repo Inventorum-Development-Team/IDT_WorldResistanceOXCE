@@ -442,7 +442,11 @@ fr:
 
   STR_HUNTER_DMR_UFOPEDIA: "Fusil lourd spécialisé fourni aux tireurs d'élite chimérans. Vu pour la première fois en action lors de l'incursion ennemie l'année dernière à New York. Les faisceaux ioniques émis en courtes rafales en font une arme mortelle entre de bonnes mains, détruisant les abris et les ennemis."
 
+  STR_SIXEYE_SNIPER_RIFLE: "Fusil de précision Sixeye"
 
+  STR_SIXEYE_SNIPER_RIFLE_UFOPEDIA: "Un fusil de précision à très longue portée, utilisé par certains tireurs d'élite chimérans sélectionnés. Le projectile à plasma se déplace plus vite que la barrière du son et est capable d'éliminer des cibles à plusieurs kilomètres de distance. Son principal inconvénient est sa cadence de tir très lente, en raison de la cellule d'alimentation mal optimisée qui doit refroidir entre les tirs."
+
+  STR_SIXEYE_SNIPER_RIFLE_BATTERY: "Batterie de fusils de précision Sixeye"
 
 
   STR_BRUTE_MINIGUN: "Brute Minigun"

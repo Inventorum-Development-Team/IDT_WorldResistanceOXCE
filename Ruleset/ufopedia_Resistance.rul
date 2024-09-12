@@ -97,6 +97,21 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+  - id: STR_SIXEYE_SNIPER_RIFLE
+    type_id: 4
+    requires:
+      - STR_SIXEYE_SNIPER_RIFLE
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SIXEYE_SNIPER_RIFLE_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_SIXEYE_SNIPER_RIFLE_BATTERY
+    type_id: 4
+    requires:
+      - STR_SIXEYE_SNIPER_RIFLE
+    section: STR_NOT_AVAILABLE
+
+####### MARKSMAN RIFLES ########
+
   - id: STR_MARKSMAN_DMR
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT

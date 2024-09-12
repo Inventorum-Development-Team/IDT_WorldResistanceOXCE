@@ -427,7 +427,9 @@ it:
   STR_HUNTER_DMR_UFOPEDIA: "Fucile pesante specializzato in dotazione ai tiratori scelti Chimera. Visto per la prima volta in azione durante l'incursione nemica l'anno scorso a New York. I raggi ionici emessi in brevi raffiche lo rendono un'arma letale nelle mani giuste, in grado di distruggere sia la copertura che i nemici."
 
 
-
+  STR_SIXEYE_SNIPER_RIFLE: "Fucile da cecchino Sixeye"
+  STR_SIXEYE_SNIPER_RIFLE_UFOPEDIA: "Un fucile di precisione a lunghissimo raggio, utilizzato da tiratori scelti Chimera. Il proiettile al plasma viaggia più velocemente della barriera del suono ed è in grado di eliminare bersagli a diversi chilometri di distanza. Il suo principale svantaggio è la bassissima velocità di fuoco, dovuta alla cella di potenza scarsamente ottimizzata che deve raffreddarsi tra uno sparo e l'altro."
+  STR_SIXEYE_SNIPER_RIFLE_BATTERY: "Batteria per fucile da cecchino Sixeye"
 
   STR_BRUTE_MINIGUN: "Minigun brutale"
 

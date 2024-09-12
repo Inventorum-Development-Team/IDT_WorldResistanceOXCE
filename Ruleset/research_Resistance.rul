@@ -200,6 +200,14 @@ research:
     cost: 50
     points: 10
     needItem: true
+  - name: STR_SIXEYE_SNIPER_RIFLE
+    cost: 100
+    points: 30
+    needItem: true
+  - name: STR_SIXEYE_SNIPER_RIFLE_BATTERY
+    cost: 50
+    points: 10
+    needItem: true
   - name: STR_HEDGEHOG_GRENADE
     cost: 100
     points: 20
