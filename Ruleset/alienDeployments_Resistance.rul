@@ -17,79 +17,21 @@ alienDeployments:
         dQty: 5
         percentageOutsideUfo: 65
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 4
         lowQty: 1
         highQty: 1
         dQty: 1
         percentageOutsideUfo: 25
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 1
         lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 35
         itemSets:
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK2
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
     briefing:
       #textOffset: -16
       background: BACK01.SCR
@@ -125,79 +67,21 @@ alienDeployments:
         dQty: 5
         percentageOutsideUfo: 65
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 4
         lowQty: 1
         highQty: 1
         dQty: 1
         percentageOutsideUfo: 25
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 1
         lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 35
         itemSets:
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK2
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
     briefing:
       #textOffset: -16
       background: BACK01.SCR
@@ -236,79 +120,21 @@ alienDeployments:
         dQty: 5
         percentageOutsideUfo: 65
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 4
         lowQty: 1
         highQty: 1
         dQty: 1
         percentageOutsideUfo: 25
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 1
         lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 35
         itemSets:
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK2
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
     briefing:
       #textOffset: -16
       background: BACK01.SCR
@@ -343,79 +169,21 @@ alienDeployments:
         dQty: 5
         percentageOutsideUfo: 65
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 4
         lowQty: 1
         highQty: 1
         dQty: 1
         percentageOutsideUfo: 25
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 1
         lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 35
         itemSets:
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK2
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
 
 
   - type: STR_MARS_CYDONIA_LANDING
@@ -426,89 +194,27 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 60
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 1
         lowQty: 3
         highQty: 5
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 0
         lowQty: 3
         highQty: 5
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK2
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 6
         lowQty: 2
         highQty: 4
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
-          -
-            []
-          -
-            []
           -
             []
     width: 80
@@ -537,168 +243,48 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 1
         lowQty: 1
         highQty: 3
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 2
         lowQty: 3
         highQty: 5
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK2
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 3
         lowQty: 3
         highQty: 5
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK1
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_AUGER_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_AUGER_MK2
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_AUGER_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 4
         lowQty: 3
         highQty: 5
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 5
         lowQty: 3
         highQty: 5
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK1
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_BULLSEYE_MK1_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-          -
-            - STR_BULLSEYE_MK2
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_BULLSEYE_MK2_BATTERY
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
-            - STR_HEDGEHOG_GRENADE
+          - []
       - alienRank: 6
         lowQty: 1
         highQty: 4
         dQty: 0
         percentageOutsideUfo: 0
         itemSets:
-          -
-            []
-          -
-            []
           -
             []
     width: 60

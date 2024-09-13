@@ -11,8 +11,40 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
+  - type: STR_STEELHEAD_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 20
+    bigSprite: 3051
+    floorSprite: 3051
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_ADVANCED_HYBRID_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 20
+    bigSprite: 3052
+    floorSprite: 3052
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
 
   - type: STR_HYBRID_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_STEELHEAD_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ADVANCED_HYBRID_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
@@ -42,7 +74,50 @@ armors:
       - 1.0
       - 1.0
     loftempsSet: [ 3 ]
-
+  - type: STR_STEELHEAD_ARMOR
+    spriteSheet: STEELHEAD_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_STEELHEAD_CORPSE
+    spriteInv: STEELHEAD_INVENTORY
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 5
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_ADVANCED_HYBRID_ARMOR
+    spriteSheet: ADVANCED_HYBRID_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_ADVANCED_HYBRID_CORPSE
+    spriteInv: ADVANCED_HYBRID_INVENTORY
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 5
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
 
 units:
   - type: STR_HYBRID_SOLDIER
@@ -68,6 +143,117 @@ units:
     intelligence: 5
     aggression: 6
     canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_BULLSEYE_MK1
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+      - 
+        - STR_BULLSEYE_MK1
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+      - 
+        - STR_BULLSEYE_MK1
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+
+  - type: STR_STEELHEAD_SOLDIER
+    race: STR_STEELHEAD
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_STEELHEAD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 6
+    intelligence: 5
+    aggression: 6
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_BULLSEYE_MK1
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+      - 
+        - STR_BULLSEYE_MK1
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+      - 
+        - STR_BULLSEYE_MK1
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_BULLSEYE_MK1_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+
+  - type: STR_ADVANCED_HYBRID_SOLDIER
+    race: STR_ADVANCED_HYBRID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_ADVANCED_HYBRID_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 6
+    intelligence: 5
+    aggression: 6
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_BULLSEYE_MK2
+        - STR_BULLSEYE_MK2_BATTERY
+        - STR_BULLSEYE_MK2_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+      - 
+        - STR_BULLSEYE_MK2
+        - STR_BULLSEYE_MK2_BATTERY
+        - STR_BULLSEYE_MK2_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+      - 
+        - STR_BULLSEYE_MK2
+        - STR_BULLSEYE_MK2_BATTERY
+        - STR_BULLSEYE_MK2_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
 
 alienRaces:
 #Race Rank Reference
@@ -79,8 +265,8 @@ alienRaces:
 #alienRank: 0 - Commander
   - id: STR_HYBRID_SQUAD
     members:
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_STEELHEAD_SOLDIER
+      - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
@@ -90,9 +276,9 @@ alienRaces:
 
   - id: STR_STEELHEAD_SQUAD
     members:
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_STEELHEAD_SOLDIER
+      - STR_STEELHEAD_SOLDIER
+      - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
@@ -101,16 +287,20 @@ alienRaces:
 
   - id: STR_ADVANCED_HYBRID_SQUAD
     members:
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_ADVANCED_HYBRID_SOLDIER
+      - STR_ADVANCED_HYBRID_SOLDIER
+      - STR_ADVANCED_HYBRID_SOLDIER
+      - STR_STEELHEAD_SOLDIER
+      - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
 
 extraSprites:
+
+#########################
+######## HYBRID ########
+#######################
   - type: HYBRID_SPRITESHEET.PCK
     width: 512
     height: 720
@@ -132,3 +322,53 @@ extraSprites:
     height: 200
     files:
       0: Resources/ChimeraUnits/Inventory/HYBRID_INVENTORY.png
+
+#########################
+######## STEELHEAD ########
+#######################
+  - type: STEELHEAD_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ChimeraUnits/STEELHEAD_SPRITESHEET.png
+
+  - type: BIGOBS.PCK
+    files:
+      3051: Resources/ChimeraUnits/STEELHEAD_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3051: Resources/ChimeraUnits/STEELHEAD_CORPSE_FLOOROB.png
+
+  - type: STEELHEAD_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ChimeraUnits/Inventory/STEELHEAD_INVENTORY.png
+
+#########################
+######## ADVANCED_HYBRID ########
+#######################
+  - type: ADVANCED_HYBRID_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ChimeraUnits/ADVANCED_HYBRID_SPRITESHEET.png
+
+  - type: BIGOBS.PCK
+    files:
+      3052: Resources/ChimeraUnits/ADVANCED_HYBRID_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3052: Resources/ChimeraUnits/ADVANCED_HYBRID_CORPSE_FLOOROB.png
+
+  - type: ADVANCED_HYBRID_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ChimeraUnits/Inventory/ADVANCED_HYBRID_INVENTORY.png
