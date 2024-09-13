@@ -1,4 +1,4 @@
-﻿
+
 items:
   - type: STR_HYBRID_CORPSE
     size: 0.4
@@ -39,17 +39,31 @@ items:
     recover: true
     liveAlien: true
     costSell: 60000
+  - type: STR_HYBRID_SCOUT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000    
   - type: STR_STEELHEAD_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
+  - type: STR_STEELHEAD_SCOUT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000    
   - type: STR_ADVANCED_HYBRID_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
-
+  - type: STR_ADVANCED_HYBRID_SCOUT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
 
 armors:
   - type: STR_HYBRID_ARMOR
@@ -164,6 +178,53 @@ units:
         - STR_BULLSEYE_MK1_BATTERY
         - STR_HEDGEHOG_GRENADE
         - STR_SYMBAC
+  - type: STR_HYBRID_SCOUT
+    race: STR_HYBRID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_HYBRID_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 6
+    intelligence: 5
+    aggression: 6
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_PLASMA_REPEATER_PISTOL
+        - STR_PLASMA_REPEATER_PISTOL_BATTERY
+        - STR_PLASMA_REPEATER_PISTOL_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+      - 
+        - STR_PLASMA_REPEATER_PISTOL
+        - STR_PLASMA_REPEATER_PISTOL_BATTERY
+        - STR_PLASMA_REPEATER_PISTOL_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+        - STR_SYMBAC
+      - 
+        - STR_PLASMA_REPEATER_PISTOL
+        - STR_PLASMA_REPEATER_PISTOL_BATTERY
+        - STR_PLASMA_REPEATER_PISTOL_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+        - STR_SYMBAC
 
   - type: STR_STEELHEAD_SOLDIER
     race: STR_STEELHEAD
@@ -192,22 +253,64 @@ units:
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
       - 
-        - STR_BULLSEYE_MK1
-        - STR_BULLSEYE_MK1_BATTERY
-        - STR_BULLSEYE_MK1_BATTERY
-        - STR_HEDGEHOG_GRENADE
+        - STR_AUGER_MK1
+        - STR_AUGER_MK1_BATTERY
+        - STR_AUGER_MK1_BATTERY
         - STR_SYMBAC
       - 
-        - STR_BULLSEYE_MK1
-        - STR_BULLSEYE_MK1_BATTERY
-        - STR_BULLSEYE_MK1_BATTERY
-        - STR_HEDGEHOG_GRENADE
+        - STR_AUGER_MK1
+        - STR_AUGER_MK1_BATTERY
+        - STR_AUGER_MK1_BATTERY
+        - STR_SYMBAC
         - STR_SYMBAC
       - 
-        - STR_BULLSEYE_MK1
-        - STR_BULLSEYE_MK1_BATTERY
-        - STR_BULLSEYE_MK1_BATTERY
+        - STR_AUGER_MK2
+        - STR_AUGER_MK2_BATTERY
+        - STR_AUGER_MK2_BATTERY
         - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+        - STR_SYMBAC      
+  - type: STR_STEELHEAD_SCOUT
+    race: STR_STEELHEAD
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_STEELHEAD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 6
+    intelligence: 5
+    aggression: 6
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SIXEYE_SNIPER_RIFLE
+        - STR_SIXEYE_SNIPER_RIFLE_BATTERY
+        - STR_SIXEYE_SNIPER_RIFLE_BATTERY
+        - STR_SYMBAC
+      - 
+        - STR_SIXEYE_SNIPER_RIFLE
+        - STR_SIXEYE_SNIPER_RIFLE_BATTERY
+        - STR_SIXEYE_SNIPER_RIFLE_BATTERY
+        - STR_SYMBAC
+      - 
+        - STR_SIXEYE_SNIPER_RIFLE
+        - STR_SIXEYE_SNIPER_RIFLE_BATTERY
+        - STR_SIXEYE_SNIPER_RIFLE_BATTERY
+        - STR_SYMBAC
         - STR_SYMBAC
 
   - type: STR_ADVANCED_HYBRID_SOLDIER
@@ -254,6 +357,52 @@ units:
         - STR_BULLSEYE_MK2_BATTERY
         - STR_HEDGEHOG_GRENADE
         - STR_SYMBAC
+  - type: STR_ADVANCED_HYBRID_SCOUT
+    race: STR_ADVANCED_HYBRID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_ADVANCED_HYBRID_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 6
+    intelligence: 5
+    aggression: 6
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_HUNTER_DMR
+        - STR_HUNTER_DMR_BATTERY
+        - STR_HUNTER_DMR_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+        - STR_SYMBAC
+      - 
+        - STR_HUNTER_DMR
+        - STR_HUNTER_DMR_BATTERY
+        - STR_HUNTER_DMR_BATTERY
+        - STR_SYMBAC
+        - STR_SYMBAC
+      - 
+        - STR_HUNTER_DMR
+        - STR_HUNTER_DMR_BATTERY
+        - STR_HUNTER_DMR_BATTERY
+        - STR_HEDGEHOG_GRENADE
+        - STR_SYMBAC
+        - STR_SYMBAC
 
 alienRaces:
 #Race Rank Reference
@@ -265,10 +414,10 @@ alienRaces:
 #alienRank: 0 - Commander
   - id: STR_HYBRID_SQUAD
     members:
-      - STR_STEELHEAD_SOLDIER
+      - STR_STEELHEAD_SCOUT
       - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SCOUT
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
@@ -276,18 +425,18 @@ alienRaces:
 
   - id: STR_STEELHEAD_SQUAD
     members:
+      - STR_STEELHEAD_SCOUT
       - STR_STEELHEAD_SOLDIER
       - STR_STEELHEAD_SOLDIER
-      - STR_STEELHEAD_SOLDIER
+      - STR_HYBRID_SCOUT
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SCOUT
 
   - id: STR_ADVANCED_HYBRID_SQUAD
     members:
-      - STR_ADVANCED_HYBRID_SOLDIER
+      - STR_ADVANCED_HYBRID_SCOUT
       - STR_ADVANCED_HYBRID_SOLDIER
       - STR_ADVANCED_HYBRID_SOLDIER
       - STR_STEELHEAD_SOLDIER
