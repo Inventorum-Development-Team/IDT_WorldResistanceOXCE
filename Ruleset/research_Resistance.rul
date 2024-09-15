@@ -224,8 +224,104 @@ research:
   - name: STR_HYBRID_SOLDIER
     cost: 192
     points: 50
+    lookup: STR_HYBRID_DESCRIPTION
     needItem: true
     destroyItem: true
+  - name: STR_HYBRID_SCOUT
+    cost: 192
+    points: 50
+    lookup: STR_HYBRID_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_STEELHEAD_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_STEELHEAD_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_STEELHEAD_SCOUT
+    cost: 192
+    points: 50
+    lookup: STR_STEELHEAD_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_ADVANCED_HYBRID_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_ADVANCED_HYBRID_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_ADVANCED_HYBRID_SCOUT
+    cost: 192
+    points: 50
+    lookup: STR_ADVANCED_HYBRID_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_RAVAGER_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_RAVAGER_SOLDIER_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_HAMMER_UNIT
+    cost: 192
+    points: 50
+    lookup: STR_HAMMER_DESCRIPTION
+    needItem: true
+    destroyItem: true
+
+##########################
+##### DEAD ALIENS #######
+########################
+
+  - name: STR_HYBRID_CORPSE
+    cost: 192
+    points: 50
+    lookup: STR_HYBRID_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_STEELHEAD_CORPSE
+    cost: 192
+    points: 50
+    lookup: STR_STEELHEAD_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_ADVANCED_HYBRID_CORPSE
+    cost: 192
+    points: 50
+    lookup: STR_ADVANCED_HYBRID_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_RAVAGER_SOLDIER_CORPSE
+    cost: 192
+    points: 50
+    lookup: STR_RAVAGER_SOLDIER_DESCRIPTION
+    needItem: true
+    destroyItem: true
+  - name: STR_HAMMER_CORPSE
+    cost: 192
+    points: 50
+    lookup: STR_HAMMER_DESCRIPTION
+    needItem: true
+    destroyItem: true
+
+###############################
+
+  - name: STR_HYBRID_DESCRIPTION
+    points: 50
+    needItem: true
+  - name: STR_STEELHEAD_DESCRIPTION
+    points: 50
+    needItem: true
+  - name: STR_ADVANCED_HYBRID_DESCRIPTION
+    points: 50
+    needItem: true
+  - name: STR_RAVAGER_SOLDIER_DESCRIPTION
+    points: 50
+    needItem: true
+  - name: STR_HAMMER_DESCRIPTION
+    points: 50
+    needItem: true
 
 ################################
 

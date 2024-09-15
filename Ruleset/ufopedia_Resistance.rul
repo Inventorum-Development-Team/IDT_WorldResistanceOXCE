@@ -385,3 +385,78 @@ ufopaedia:
     type_id: 8
     section: STR_ALIEN_RESEARCH_UC 
     text: STR_MAGNIFICENT_LIGHTNING_LORE_UFOPEDIA
+
+################################
+
+  - id: STR_HYBRID_DESCRIPTION
+    type_id: 5
+    requires:
+      - STR_HYBRID_DESCRIPTION
+    section: STR_ALIEN_LIFE_FORMS
+    #listOrder: 2
+    text: STR_HYBRID_DESCRIPTION_UFOPEDIA
+  - id: STR_STEELHEAD_DESCRIPTION
+    type_id: 5
+    requires:
+      - STR_STEELHEAD_DESCRIPTION
+    section: STR_ALIEN_LIFE_FORMS
+    #listOrder: 2
+    text: STR_STEELHEAD_DESCRIPTION_UFOPEDIA
+  - id: STR_ADVANCED_HYBRID_DESCRIPTION
+    type_id: 5
+    requires:
+      - STR_ADVANCED_HYBRID_DESCRIPTION
+    section: STR_ALIEN_LIFE_FORMS
+    #listOrder: 2
+    text: STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA
+  - id: STR_RAVAGER_SOLDIER_DESCRIPTION
+    type_id: 5
+    requires:
+      - STR_RAVAGER_SOLDIER_DESCRIPTION
+    section: STR_ALIEN_LIFE_FORMS
+    #listOrder: 2
+    text: STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA
+  - id: STR_HAMMER_DESCRIPTION
+    type_id: 5
+    requires:
+      - STR_HAMMER_DESCRIPTION
+    section: STR_ALIEN_LIFE_FORMS
+    #listOrder: 2
+    text: STR_HAMMER_DESCRIPTION_UFOPEDIA
+
+extraSprites:
+
+############################
+###### CHIMERA ARMOR ######
+##########################
+
+  - type: HYBRID_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPedia/HYBRID_INVENTORY.png
+  - type: STEELHEAD_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPedia/STEELHEAD_INVENTORY.png
+  - type: ADVANCED_HYBRID_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPedia/ADVANCED_HYBRID_INVENTORY.png
+  - type: RAVAGER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPedia/RAVAGER_INVENTORY.png
+  - type: HAMMER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPedia/HAMMER_INVENTORY.png

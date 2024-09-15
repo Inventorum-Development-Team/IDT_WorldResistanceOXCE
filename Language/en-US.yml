@@ -499,11 +499,18 @@ en-US:
 
   STR_HYBRID_SQUAD: "Hybrid Squad"
   STR_HYBRID_SOLDIER: "Hybrid Soldier"
+  STR_HYBRID_SCOUT: "Hybrid Scout"
   STR_HYBRID_CORPSE: "Hybrid Corpse"
   
   STR_STEELHEAD_SQUAD: "Medium Chimera Platoon"
   STR_ADVANCED_HYBRID_SQUAD: "Heavy Chimera Platoon"
   STR_MIXED: "Mixed Chimera Platoon"
+  STR_CHIMERA_BASE_GARRISON: "Chimera Base Garrison"
+
+  STR_HYBRID: "Hybrid"
+  STR_STEELHEAD: "Steelhead"
+  STR_ADVANCED_HYBRID: "Advanced Hybrid"
+  STR_RAVAGER: "Ravager"
 
   STR_HYBRID_ARMOR: "Basic implants + light armor"
   STR_HYBRID_DESCRIPTION: "Hybrid Intel"
@@ -515,20 +522,22 @@ en-US:
   STR_HAMMER_DESCRIPTION: "Hammer Intel"
   STR_HAMMER_DESCRIPTION_UFOPEDIA: "The Hammer is a heavy mechanized assault unit, often used in close quarters combat inside urban centers. First seen in the Fall of Arnhem, where a full squad wiped out the German-Dutch defenders on both sides of the bridge. Equipped with an advanced chaingun, similar to the Brute Minigun"
 
-  STR_STEELHEAD_SOLDIER: "Steelhead" 
+  STR_STEELHEAD_SOLDIER: "Steelhead"
+  STR_STEELHEAD_SCOUT: "Steelhead Sniper" 
   STR_STEELHEAD_ARMOR: "Improved armored implants"
   STR_STEELHEAD_CORPSE: "Steelhead Corpse"
   STR_STEELHEAD_DESCRIPTION: "Steelhead Intel"
   STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "The commanding officers of the enemy ground forces. Their nickname was coined after their armored headgear. A larger and better cooling unit in the back, plus reinforced plates in the front, allows it to withstand more damage than their lesser brethren."
 
-  STR_ADVANCED_HYBRID_SOLDIER: "Advanced Hybrid" 
+  STR_ADVANCED_HYBRID_SOLDIER: "Advanced Hybrid"
+  STR_ADVANCED_HYBRID_SCOUT: "Advanced Hybrid Sharpshooter" 
   STR_ADVANCED_HYBRID_ARMOR: "Full body armor + implants"
   STR_ADVANCED_HYBRID_CORPSE: "Adv. Hybrid Corpse"
   STR_ADVANCED_HYBRID_DESCRIPTION: "Advanced Hybrid Intel"
   STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Something we could name a “commando” for the alien warriors, the Advanced Hybrids are high ranking enemy forces, seen only guarding important locations. Their full body armor makes them impervious to most damage, often requiring larger barrages of focused rifle fire in order to kill one."
 
   STR_RAVAGER_SOLDIER: "Ravager"
-  STR_RAVAGER_SOLDIER_ARMOR: "Mutated musculoskeletal"
+  STR_RAVAGER_SOLDIER_ARMOR: "Mutated musculoskeleton"
   STR_RAVAGER_SOLDIER_CORPSE: "Ravager Corpse"
   STR_RAVAGER_SOLDIER_DESCRIPTION: "Ravager Intel"
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "The most powerful strain of the Chimera, its large and muscular appearance often intimidates any human soldier unfortunate enough to find one in the battlefield. Extremely resistant and strong, they are the shock troopers of the enemy and carry heavy automatic weapons."

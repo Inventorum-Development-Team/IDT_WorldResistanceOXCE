@@ -66,7 +66,7 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-  - type: STR_RAVAGER_CORPSE
+  - type: STR_RAVAGER_SOLDIER_CORPSE
     size: 0.4
     costSell: 2000
     weight: 20
@@ -147,6 +147,11 @@ items:
     recover: true
     liveAlien: true
     costSell: 60000
+  - type: STR_RAVAGER_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
   - type: STR_HAMMER_UNIT
     size: 0.0
     costSell: 80000
@@ -223,7 +228,7 @@ armors:
   - type: STR_RAVAGER_SOLDIER_ARMOR
     spriteSheet: RAVAGER_SPRITESHEET.PCK
     corpseBattle:
-      - STR_RAVAGER_CORPSE
+      - STR_RAVAGER_SOLDIER_CORPSE
     spriteInv: RAVAGER_INVENTORY
     frontArmor: 12
     sideArmor: 10
@@ -640,8 +645,8 @@ alienRaces:
 
   - id: STR_STEELHEAD_SQUAD
     members:
+      - STR_RAVAGER_SOLDIER
       - STR_STEELHEAD_SCOUT
-      - STR_STEELHEAD_SOLDIER
       - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SCOUT
       - STR_HYBRID_SOLDIER
@@ -650,6 +655,17 @@ alienRaces:
       - STR_HYBRID_SCOUT
 
   - id: STR_ADVANCED_HYBRID_SQUAD
+    members:
+      - STR_ADVANCED_HYBRID_SCOUT
+      - STR_RAVAGER_SOLDIER
+      - STR_ADVANCED_HYBRID_SOLDIER
+      - STR_STEELHEAD_SOLDIER
+      - STR_STEELHEAD_SOLDIER
+      - STR_HYBRID_SOLDIER
+      - STR_HAMMER_UNIT
+      - STR_RAVAGER_SOLDIER
+
+  - id: STR_CHIMERA_BASE_GARRISON
     members:
       - STR_ADVANCED_HYBRID_SCOUT
       - STR_RAVAGER_SOLDIER

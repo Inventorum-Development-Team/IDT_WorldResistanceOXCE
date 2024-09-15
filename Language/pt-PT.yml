@@ -1091,93 +1091,50 @@ pt-PT:
   STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Abaixo da Tunguska Hub Tower, há um labirinto complexo de corredores e salas. Para colocar a Prometheus Bomb com segurança, precisamos desabilitar todos os Nós de controle  na base. Isso cortará a energia, então o inimigo não poderá enviar um sinal de SOS e solicitar reforços. Depois de fazer isso, extraia todo o pessoal da força-tarefa e siga em direção à zona do elevador e clique no botão {ALT}Abortar{ALT}. Temos apenas uma chance."
 
 
-
+  STR_HYBRID_SQUAD: "Esquadrão Híbrido"
+  STR_HYBRID_SOLDIER: "Soldado Híbrido"
+  STR_HYBRID_SCOUT: "Olheiro Híbrido"
+  STR_HYBRID_CORPSE: "Cadáver Híbrido"
 
   STR_STEELHEAD_SQUAD: "Pelotão Quimera Médio"
-
-
   STR_ADVANCED_HYBRID_SQUAD: "Pelotão Quimera Pesado"
+  STR_MIXED: "Pelotão Misto de Quimeras"
+  STR_CHIMERA_BASE_GARRISON: "Guarnição da Base Quimera"
 
-
-  STR_MIXED: "Pelotão Quimera Misto"
-
+  STR_HYBRID: "Híbrido"
+  STR_STEELHEAD: "Cabeça de Aço"
+  STR_ADVANCED_HYBRID: "Híbrido Avançado"
+  STR_RAVAGER: "Devastador"
 
   STR_HYBRID_ARMOR: "Implantes básicos + armadura leve"
-
-
   STR_HYBRID_DESCRIPTION: "Intel Híbrido"
-
-
-  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Os soldados regulares do inimigo, os Híbridos são ex-humanos infectados pelo vírus Quimeriano e mutilados em guerreiros destemidos e irracionais com o único objetivo de matar qualquer humano que os veja."
-
-
-
+  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Os soldados regulares do inimigo, os Híbridos são ex-humanos infectados pelo vírus Quimeriano e mutilados num guerreiro estúpido e destemido com o único objectivo de matar qualquer humano à vista."
 
   STR_HAMMER_UNIT: "Martelo"
-
-
-  STR_HAMMER_ARMOR: "Exoframe bípede"
-
-
+  STR_HAMMER_ARMOR: "Exoframe Bípede"
   STR_HAMMER_CORPSE: "Naufrágio do Martelo"
-
-
-  STR_HAMMER_DESCRIPTION: "Informações sobre o martelo"
-
-
-  STR_HAMMER_DESCRIPTION_UFOPEDIA: "O Hammer é uma unidade de assalto mecanizada pesada, frequentemente usada em combates de curta distância dentro de centros urbanos. Visto pela primeira vez na Queda de Arnhem, onde um esquadrão completo eliminou os defensores germano-holandeses em ambos os lados da ponte. Equipado com uma metralhadora avançada, semelhante à Brute Minigun"
-
-
-
+  STR_HAMMER_DESCRIPTION: "Martelo Intel"
+  STR_HAMMER_DESCRIPTION_UFOPEDIA: "O Hammer é uma unidade de assalto mecanizada pesada, frequentemente utilizada em combate corpo a corpo dentro dos centros urbanos. Visto pela primeira vez na Queda de Arnhem, onde um esquadrão completo eliminou os defensores germano-holandeses de ambos os lados da ponte."
 
   STR_STEELHEAD_SOLDIER: "Cabeça de Aço"
-
-
+  STR_STEELHEAD_SCOUT: "Atirador Cabeça de Aço"
   STR_STEELHEAD_ARMOR: "Implantes blindados melhorados"
+  STR_STEELHEAD_CORPSE: "Cadáver Cabeça de Aço"
+  STR_STEELHEAD_DESCRIPTION: "Intel Steelhead"
+  STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "Os comandantes das forças terrestres inimigas. A sua alcunha foi cunhada em homenagem ao seu capacete blindado. Uma unidade de arrefecimento maior e melhor na parte traseira, bem como placas reforçadas na frente, permite-lhe resistir a mais danos do que os seus irmãos menores."
 
-
-  STR_STEELHEAD_CORPSE: "Cadáver Steelhead"
-
-
-  STR_STEELHEAD_DESCRIPTION: "Informação Steelhead"
-
-
-  STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "Os oficiais comandantes das forças terrestres inimigas. O apelido deles foi cunhado em homenagem ao seu capacete blindado. Uma unidade de resfriamento maior e melhor na parte traseira, além de placas reforçadas na frente, permite que ele suporte mais danos do que seus irmãos menores."
-
-
-
-
-  STR_ADVANCED_HYBRID_SOLDIER: "Híbrido avançado"
-
-
-  STR_ADVANCED_HYBRID_ARMOR: "Armadura corporal completa + implantes"
-
-
-  STR_ADVANCED_HYBRID_CORPSE: "Cadáver Híbrido Avançado"
-
-
+  STR_ADVANCED_HYBRID_SOLDIER: "Híbrido Avançado"
+  STR_ADVANCED_HYBRID_SCOUT: "Atirador Híbrido Avançado"
+  STR_ADVANCED_HYBRID_ARMOR: "Armadura completa + implantes"
+  STR_ADVANCED_HYBRID_CORPSE: "Adv. Cadáver Híbrido"
   STR_ADVANCED_HYBRID_DESCRIPTION: "Intel Híbrido Avançado"
+  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Algo a que poderíamos chamar de “comando” para os guerreiros alienígenas, os Híbridos Avançados são forças inimigas de alto nível, apenas vistas a proteger locais importantes. A sua armadura completa torna-os imunes à maioria dos danos, exigindo muitas vezes barragens maiores de tiros de espingarda focados para matar um."
 
-
-  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Algo que poderíamos chamar de 'comando' para os guerreiros alienígenas, os Híbridos Avançados são forças inimigas de alto escalão, vistos apenas guardando locais importantes. Sua armadura corporal completa os torna imunes à maioria dos danos, geralmente exigindo grandes barragens de fogo de rifle focado para matar um."
-
-
-
-
-  STR_RAVAGER_SOLDIER: "Devastação"
-
-
-  STR_RAVAGER_SOLDIER_ARMOR: "Músculo-esquelético mutante"
-
-
-  STR_RAVAGER_SOLDIER_CORPSE: "Cadáver Devastado"
-
-
-  STR_RAVAGER_SOLDIER_DESCRIPTION: "Intel devastadora"
-
-
-  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "A mais poderosa linhagem da Quimera, sua aparência grande e musculosa frequentemente intimida qualquer soldado humano azarado o suficiente para encontrar um no campo de batalha. Extremamente resistentes e fortes, eles são as tropas de choque do inimigo e carregam armas automáticas pesadas."
- 
+  STR_RAVAGER_SOLDIER: "Devastador"
+  STR_RAVAGER_SOLDIER_ARMOR: "Músculo esqueleto mutante"
+  STR_RAVAGER_SOLDIER_CORPSE: "Cadáver Devastador"
+  STR_RAVAGER_SOLDIER_DESCRIPTION: "Intel Devastadora"
+  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "A linhagem mais poderosa da Quimera, a sua aparência grande e musculada intimida frequentemente qualquer soldado humano que tenha o azar de encontrar um no campo de batalha. Extremamente resistentes e fortes, são as tropas de choque do inimigo e transportam armas automáticas pesadas."
   STR_MT_RATING_EXEMPLARY: "Exemplar"
   STR_MT_RATING_EXCELLENT: "Excelente"
   STR_MT_RATING_GREAT: "Ótimo"

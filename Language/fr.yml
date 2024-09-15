@@ -1100,91 +1100,52 @@ fr:
 
 
 
-  STR_STEELHEAD_SQUAD: "Peloton Chimère Moyen"
+  STR_HYBRID_SQUAD: "Escadron hybride"
+  STR_HYBRID_SOLDIER: "Soldat hybride"
+  STR_HYBRID_SCOUT: "Éclaireur hybride"
+  STR_HYBRID_CORPSE: "Cadavre hybride"
 
+  STR_STEELHEAD_SQUAD: "Peloton chimère moyen"
+  STR_ADVANCED_HYBRID_SQUAD: "Peloton chimère lourd"
+  STR_MIXED: "Peloton chimère mixte"
+  STR_CHIMERA_BASE_GARRISON: "Garnison de base chimère"
 
-  STR_ADVANCED_HYBRID_SQUAD: "Peloton Chimère lourd"
-
-
-  STR_MIXED: "Peloton mixte de chimères"
-
-
-
+  STR_HYBRID: "Hybride"
+  STR_STEELHEAD: "Tête d'acier"
+  STR_ADVANCED_HYBRID: "Hybride avancé"
+  STR_RAVAGER: "Ravageur"
 
   STR_HYBRID_ARMOR: "Implants de base + armure légère"
-
-
-  STR_HYBRID_DESCRIPTION: "Intel hybride"
-
+  STR_HYBRID_DESCRIPTION: "Hybride Intel"
 
   STR_HYBRID_DESCRIPTION_UFOPEDIA: "Les fantassins réguliers de l'ennemi, les Hybrides sont d'anciens humains infectés par le virus Chimeran et mutilés en un guerrier insensé et intrépide avec pour seul objectif de tuer tout humain à vue."
 
+  STR_HAMMER_UNIT: "Hammer"
+  STR_HAMMER_ARMOR: "Bipedal Exoframe"
+  STR_HAMMER_CORPSE: "Hammer Wreck"
+  STR_HAMMER_DESCRIPTION: "Hammer Intel"
+  STR_HAMMER_DESCRIPTION_UFOPEDIA: "Le Hammer est une unité d'assaut mécanisée lourde, souvent utilisée dans les combats rapprochés dans les centres urbains. Apparu pour la première fois lors de la chute d'Arnhem, où une escouade complète a anéanti les défenseurs germano-hollandais des deux côtés du pont. Équipé d'un chaingun avancé, similaire au Brute Minigun"
 
-
-
-  STR_HAMMER_UNIT: "Marteau"
-
-
-  STR_HAMMER_ARMOR: "Exoframe bipède"
-
-
-  STR_HAMMER_CORPSE: "Épave du marteau"
-
-
-  STR_HAMMER_DESCRIPTION: "Renseignements sur le marteau"
-
-
-  STR_HAMMER_DESCRIPTION_UFOPEDIA: "Le Hammer est une unité d'assaut mécanisée lourde, souvent utilisée dans les combats rapprochés dans les centres urbains. Apparu pour la première fois lors de la chute d'Arnhem, où une escouade complète a anéanti les défenseurs germano-hollandais des deux côtés du pont. Équipé d'un chaingun avancé, similaire au Brute Minigun."
-
-
-
-
-  STR_STEELHEAD_SOLDIER: "Tête d'acier"
-
-
+  STR_STEELHEAD_SOLDIER: "Steelhead"
+  STR_STEELHEAD_SCOUT: "Steelhead Sniper"
   STR_STEELHEAD_ARMOR: "Implants blindés améliorés"
-
-
-  STR_STEELHEAD_CORPSE: "Cadavre de Steelhead"
-
-
-  STR_STEELHEAD_DESCRIPTION: "Renseignements sur Steelhead"
-
+  STR_STEELHEAD_CORPSE: "Steelhead Corpse"
+  STR_STEELHEAD_DESCRIPTION: "Steelhead Intel"
 
   STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "Les commandants des forces terrestres ennemies. Leur surnom a été inventé d'après leur casque blindé. Une unité de refroidissement plus grande et plus performante à l'arrière, ainsi que des plaques renforcées à l'avant, lui permettent de résister à plus de dégâts que leurs frères de moindre envergure."
 
-
   STR_ADVANCED_HYBRID_SOLDIER: "Hybride avancé"
+  STR_ADVANCED_HYBRID_SCOUT: "Tireur d'élite hybride avancé"
+  STR_ADVANCED_HYBRID_ARMOR: "Armure intégrale + implants"
+  STR_ADVANCED_HYBRID_CORPSE: "Corps hybride avancé"
+  STR_ADVANCED_HYBRID_DESCRIPTION: "Renseignements sur les hybrides avancés"
+  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Quelque chose que nous pourrions appeler un 'commando' pour les guerriers extraterrestres, les hybrides avancés sont des forces ennemies de haut rang, que l'on ne voit que garder des endroits importants. Leur armure intégrale les rend invulnérables à la plupart des dégâts, nécessitant souvent de plus gros barrages de tirs de fusils concentrés pour en tuer un."
 
-
-  STR_ADVANCED_HYBRID_ARMOR: "Armure corporelle complète + implants"
-
-
-  STR_ADVANCED_HYBRID_CORPSE: "Cadavre hybride avancé"
-
-
-  STR_ADVANCED_HYBRID_DESCRIPTION: "Intel Hybride avancé"
-
-
-  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Ce que nous pourrions appeler un 'commando' pour les guerriers extraterrestres, les Hybrides Avancés sont des forces ennemies de haut rang, que l'on voit uniquement garder des endroits importants. Leur armure intégrale les rend invulnérables à la plupart des dégâts, nécessitant souvent de plus gros barrages de tirs de fusils ciblés pour en tuer un."
-
-
-
-
-  STR_RAVAGER_SOLDIER: "Ravager"
-
-
-  STR_RAVAGER_SOLDIER_ARMOR: "Musculosquelettique muté"
-
-
-  STR_RAVAGER_SOLDIER_CORPSE: "Ravager Corpse"
-
-
-  STR_RAVAGER_SOLDIER_DESCRIPTION: "Ravager Intel"
-
-
-  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La souche la plus puissante de la Chimère, son apparence large et musclée intimide souvent tout soldat humain assez malchanceux pour en rencontrer une sur le champ de bataille. Extrêmement résistants et forts, ils sont les troupes de choc de l'ennemi et portent des armes automatiques lourdes."
-
+  STR_RAVAGER_SOLDIER: "Ravageur"
+  STR_RAVAGER_SOLDIER_ARMOR: "Musculosquelette muté"
+  STR_RAVAGER_SOLDIER_CORPSE: "Corps du ravageur"
+  STR_RAVAGER_SOLDIER_DESCRIPTION: "Ravageur Intel"
+  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La souche la plus puissante de la Chimère, son apparence large et musclée intimide souvent tout soldat humain assez malchanceux pour en rencontrer une sur le champ de bataille. Extrêmement résistants et forts, ils sont les soldats de choc de l'ennemi et portent des armes automatiques lourdes."
   STR_MT_RATING_EXEMPLARY: "Exemplaire"
   STR_MT_RATING_EXCELLENT: "Excellent"
   STR_MT_RATING_GREAT: "Excellent"

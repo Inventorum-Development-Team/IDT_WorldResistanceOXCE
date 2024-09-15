@@ -1071,96 +1071,50 @@ it:
 
   STR_OPERATION_OLYMPIC_UNDERGROUND_DESCRIPTION: "Sotto la Tunguska Hub Tower, si trova un complesso labirinto di corridoi e stanze. Per posizionare in sicurezza la bomba Prometheus, dobbiamo disattivare tutti i Nodi di controllo  nella base. Ciò taglierà la corrente, così il nemico non potrà inviare un segnale di SOS e richiedere rinforzi. Dopo averlo fatto, estrai tutto il personale della task force e dirigiti verso la zona dell'ascensore e clicca sul {ALT}pulsante Abort{ALT}. Abbiamo solo una possibilità."
 
-
-
+  STR_HYBRID_SQUAD: "Squadra ibrida"
+  STR_HYBRID_SOLDIER: "Soldato ibrido"
+  STR_HYBRID_SCOUT: "Esploratore ibrido"
+  STR_HYBRID_CORPSE: "Cadavere ibrido"
 
   STR_STEELHEAD_SQUAD: "Plotone Chimera medio"
-
-
   STR_ADVANCED_HYBRID_SQUAD: "Plotone Chimera pesante"
-
-
   STR_MIXED: "Plotone Chimera misto"
+  STR_CHIMERA_BASE_GARRISON: "Guarnigione base Chimera"
 
+  STR_HYBRID: "Ibrido"
+  STR_STEELHEAD: "Testa d'acciaio"
+  STR_ADVANCED_HYBRID: "Ibrido avanzato"
+  STR_RAVAGER: "Devastatore"
 
+  STR_HYBRID_ARMOR: "Impianti di base + armatura leggera"
+  STR_HYBRID_DESCRIPTION: "Intelligence ibrida"
+  STR_HYBRID_DESCRIPTION_UFOPEDIA: "I normali soldati a piedi del nemico, gli ibridi sono ex umani infettati dal virus Chimera e mutilati in guerrieri senza cervello e senza paura con l'unico obiettivo di uccidere qualsiasi umano a vista."
 
-
-  STR_HYBRID_ARMOR: "Impianti base + armatura leggera"
-
-
-  STR_HYBRID_DESCRIPTION: "Intel ibrido"
-
-
-  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Gli Ibridi, semplici soldati del nemico, sono ex umani infettati dal virus Chimera e mutilati in guerrieri senza cervello e senza paura, con l'unico obiettivo di uccidere qualsiasi essere umano a vista."
-
-
-
-
-  STR_HAMMER_UNIT: "Martello"
-
-
-  STR_HAMMER_ARMOR: "Exoframe bipede"
-
-
-  STR_HAMMER_CORPSE: "Relitto del martello"
-
-
-  STR_HAMMER_DESCRIPTION: "Intelligenza del martello"
-
-
+  STR_HAMMER_UNIT: "Hammer"
+  STR_HAMMER_ARMOR: "Bipedal Exoframe"
+  STR_HAMMER_CORPSE: "Hammer Wreck"
+  STR_HAMMER_DESCRIPTION: "Hammer Intel"
   STR_HAMMER_DESCRIPTION_UFOPEDIA: "L'Hammer è un'unità d'assalto meccanizzata pesante, spesso utilizzata in combattimenti ravvicinati all'interno dei centri urbani. Apparsa per la prima volta nella Caduta di Arnhem, dove un'intera squadra ha annientato i difensori tedesco-olandesi su entrambi i lati del ponte. Equipaggiata con una mitragliatrice avanzata, simile alla Brute Minigun"
 
-
-
-
-  STR_STEELHEAD_SOLDIER: "Testa d'acciaio"
-
-
+  STR_STEELHEAD_SOLDIER: "Steelhead"
+  STR_STEELHEAD_SCOUT: "Steelhead Sniper"
   STR_STEELHEAD_ARMOR: "Impianti corazzati migliorati"
-
-
-  STR_STEELHEAD_CORPSE: "Cadavere di Steelhead"
-
-
-  STR_STEELHEAD_DESCRIPTION: "Informazioni su Steelhead"
-
-
+  STR_STEELHEAD_CORPSE: "Steelhead Corpse"
+  STR_STEELHEAD_DESCRIPTION: "Steelhead Intel"
   STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "I comandanti delle forze di terra nemiche. Il loro soprannome è stato coniato in base al loro copricapo corazzato. Un'unità di raffreddamento più grande e migliore nella parte posteriore, più piastre rinforzate nella parte anteriore, gli consente di resistere a più danni rispetto ai loro fratelli minori."
 
-
-
-
-  STR_ADVANCED_HYBRID_SOLDIER: "Ibrido avanzato"
-
-
+  STR_ADVANCED_HYBRID_SOLDIER: "Advanced Hybrid"
+  STR_ADVANCED_HYBRID_SCOUT: "Advanced Hybrid Sharpshooter"
   STR_ADVANCED_HYBRID_ARMOR: "Armatura completa + impianti"
+  STR_ADVANCED_HYBRID_CORPSE: "Adv. Hybrid Corpse"
+  STR_ADVANCED_HYBRID_DESCRIPTION: "Advanced Hybrid Intel"
+  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Qualcosa che potremmo chiamare un 'commando' per i guerrieri alieni, gli Advanced Hybrid sono forze nemiche di alto rango, viste solo a guardia di posizioni importanti. La loro armatura completa li rende immuni alla maggior parte dei danni, spesso richiedendo raffiche più grandi di fuoco di fucile mirato per ucciderne uno."
 
-
-  STR_ADVANCED_HYBRID_CORPSE: "Cadavere ibrido avanzato"
-
-
-  STR_ADVANCED_HYBRID_DESCRIPTION: "Intel ibrido avanzato"
-
-
-  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Qualcosa che potremmo chiamare un 'commando' per i guerrieri alieni, gli Advanced Hybrids sono forze nemiche di alto rango, viste solo a guardia di posizioni importanti. La loro armatura completa li rende immuni alla maggior parte dei danni, spesso richiedendo raffiche più grandi di fuoco di fucile concentrato per ucciderne uno."
-
-
-
-
-  STR_RAVAGER_SOLDIER: "Devastazione"
-
-
-  STR_RAVAGER_SOLDIER_ARMOR: "Muscoloscheletrico mutato"
-
-
-  STR_RAVAGER_SOLDIER_CORPSE: "Cadavere devastante"
-
-
-  STR_RAVAGER_SOLDIER_DESCRIPTION: "Intelligence devastante"
-
-
-  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La varietà più potente della Chimera, il suo aspetto grande e muscoloso spesso intimidisce qualsiasi soldato umano abbastanza sfortunato da trovarne uno sul campo di battaglia. Estremamente resistenti e forti, sono le truppe d'assalto del nemico e trasportano pesanti armi automatiche."
-
+  STR_RAVAGER_SOLDIER: "Ravager"
+  STR_RAVAGER_SOLDIER_ARMOR: "Muscoloscheletro mutato"
+  STR_RAVAGER_SOLDIER_CORPSE: "Ravager Corpse"
+  STR_RAVAGER_SOLDIER_DESCRIPTION: "Ravager Intel"
+  STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La varietà più potente della Chimera, il suo aspetto grande e muscoloso spesso intimidisce qualsiasi soldato umano abbastanza sfortunato da trovarne uno sul campo di battaglia. Estremamente resistenti e forti, sono le truppe d'assalto del nemico e portano pesanti armi automatiche."
   STR_MT_RATING_EXEMPLARY: "Esemplare"
   STR_MT_RATING_EXCELLENT: "Eccellente"
   STR_MT_RATING_GREAT: "Ottimo"

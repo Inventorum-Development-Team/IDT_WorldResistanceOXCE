@@ -471,40 +471,48 @@ es-419:
 
   STR_HYBRID_SQUAD: "Escuadrón híbrido"
   STR_HYBRID_SOLDIER: "Soldado híbrido"
+  STR_HYBRID_SCOUT: "Explorador híbrido"
   STR_HYBRID_CORPSE: "Cadáver híbrido"
 
-  STR_STEELHEAD_SQUAD: "Pelotón Quimera mediano"
-  STR_ADVANCED_HYBRID_SQUAD: "Pelotón Quimera pesado"
-  STR_MIXED: "Pelotón Quimera mixto"
+  STR_STEELHEAD_SQUAD: "Pelotón de quimeras mediano"
+  STR_ADVANCED_HYBRID_SQUAD: "Pelotón de quimeras pesado"
+  STR_MIXED: "Pelotón de quimeras mixto"
+  STR_CHIMERA_BASE_GARRISON: "Guarnición de base de quimeras"
+
+  STR_HYBRID: "Híbrido"
+  STR_STEELHEAD: "Cabeza de acero"
+  STR_ADVANCED_HYBRID: "Híbrido avanzado"
+  STR_RAVAGER: "Devastador"
 
   STR_HYBRID_ARMOR: "Implantes básicos + armadura ligera"
   STR_HYBRID_DESCRIPTION: "Inteligencia híbrida"
-  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Los soldados rasos regulares del enemigo, los híbridos son antiguos humanos infectados por el virus Quimera y mutilados hasta convertirlos en seres sin mente. y un guerrero intrépido cuyo único objetivo es matar a cualquier ser humano que vea."
+  STR_HYBRID_DESCRIPTION_UFOPEDIA: "Los soldados rasos del enemigo, los híbridos, son antiguos humanos infectados por el virus Quimera y mutilados en guerreros sin mente y sin miedo con el único objetivo de matar a cualquier humano que vean."
 
   STR_HAMMER_UNIT: "Hammer"
   STR_HAMMER_ARMOR: "Bipedal Exoframe"
   STR_HAMMER_CORPSE: "Hammer Wreck"
   STR_HAMMER_DESCRIPTION: "Hammer Intel"
-  STR_HAMMER_DESCRIPTION_UFOPEDIA: "El Hammer es una unidad de asalto mecanizada pesada, que se utiliza a menudo en combates cuerpo a cuerpo en centros urbanos. Se vio por primera vez en la Caída de Arnhem, donde un escuadrón completo eliminó a los defensores germano-holandeses a ambos lados del puente. Está equipado con una ametralladora avanzada, similar a la Minigun Brute."
+  STR_HAMMER_DESCRIPTION_UFOPEDIA: "El Hammer es una unidad de asalto mecanizada pesada, que se utiliza a menudo en combates cuerpo a cuerpo en centros urbanos. Se vio por primera vez en la Caída de Arnhem, donde un escuadrón completo eliminó a los defensores germano-holandeses a ambos lados del puente. Está equipado con una ametralladora avanzada, similar a la ametralladora Brute"
 
   STR_STEELHEAD_SOLDIER: "Steelhead"
+  STR_STEELHEAD_SCOUT: "Sniper Steelhead"
   STR_STEELHEAD_ARMOR: "Implantes blindados mejorados"
-  STR_STEELHEAD_CORPSE: "Steelhead Corpse"
-  STR_STEELHEAD_DESCRIPTION: "Steelhead Intel"
+  STR_STEELHEAD_CORPSE: "Steelhead Cadáver"
+  STR_STEELHEAD_DESCRIPTION: "Información de Steelhead"
   STR_STEELHEAD_DESCRIPTION_UFOPEDIA: "Los oficiales al mando de las fuerzas terrestres enemigas. Su apodo se acuñó a raíz de su casco blindado. Una unidad de refrigeración más grande y mejor en la parte posterior, además de placas reforzadas en el frente, le permiten soportar más daño que sus hermanos menores."
 
   STR_ADVANCED_HYBRID_SOLDIER: "Híbrido avanzado"
-  STR_ADVANCED_HYBRID_ARMOR: "Armadura corporal completa + implantes"
+  STR_ADVANCED_HYBRID_SCOUT: "Tirador de precisión híbrido avanzado"
+  STR_ADVANCED_HYBRID_ARMOR: "Armadura de cuerpo completo + implantes"
   STR_ADVANCED_HYBRID_CORPSE: "Cadáver híbrido avanzado"
   STR_ADVANCED_HYBRID_DESCRIPTION: "Información híbrida avanzada"
-  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Algo que podríamos llamar un 'comando' para los guerreros alienígenas, los híbridos avanzados son fuerzas enemigas de alto rango, que solo se ven protegiendo ubicaciones importantes. Su armadura corporal completa los hace inmunes a la mayoría de los daños, y a menudo requieren ráfagas más grandes de fuego de rifle concentrado para matar a uno."
+  STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA: "Algo que podríamos llamar un 'comando' para los guerreros alienígenas, los híbridos avanzados son fuerzas enemigas de alto rango, que solo se ven protegiendo ubicaciones importantes. Su armadura de cuerpo completo los hace inmunes a la mayoría de los daños, y a menudo requieren ráfagas más grandes de fuego de rifle concentrado para matar a uno."
 
   STR_RAVAGER_SOLDIER: "Devastador"
-  STR_RAVAGER_SOLDIER_ARMOR: "Musculoesquelético mutado"
+  STR_RAVAGER_SOLDIER_ARMOR: "Músculoesqueleto mutado"
   STR_RAVAGER_SOLDIER_CORPSE: "Cadáver de devastador"
   STR_RAVAGER_SOLDIER_DESCRIPTION: "Información de devastador"
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La cepa más poderosa de las Quimeras, su apariencia grande y musculosa a menudo intimida a cualquier soldado humano que tenga la mala suerte de encontrar una en el campo de batalla. Extremadamente resistentes y fuertes, son las tropas de choque del enemigo y llevan armas automáticas pesadas."
-
 #######################
 # LORE
 
