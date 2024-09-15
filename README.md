@@ -6,7 +6,8 @@ Credits by name:
 * Anthony_is_cool: RFC member, Siberian Guard lore writer & overall support 
 * bulletdesigner: VTOL map and tilesest
 * Brother^2: IDT member, US Army Soldier code
-* efrenespartano: IDT lead developer, all the infantry weapons sprites, Chimera Hybrid sprites 
+* efrenespartano: IDT lead developer, all the infantry weapons sprites, Chimera units
+* Drages: Hammer sprites, bullet and hit animations
 * Ghartzay: IDT tester, Russian lore writer, overall support 
 * Insomniac Games: original franchise creators
 * LegoLiam1803: RFC member, Japanese lore writer and source lore support 
