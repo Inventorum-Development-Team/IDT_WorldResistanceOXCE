@@ -388,35 +388,35 @@ ufopaedia:
 
 ################################
 
-  - id: STR_HYBRID_DESCRIPTION
+  - id: STR_HYBRID_ARMOR
     type_id: 5
     requires:
       - STR_HYBRID_DESCRIPTION
     section: STR_ALIEN_LIFE_FORMS
     #listOrder: 2
     text: STR_HYBRID_DESCRIPTION_UFOPEDIA
-  - id: STR_STEELHEAD_DESCRIPTION
+  - id: STR_STEELHEAD_ARMOR
     type_id: 5
     requires:
       - STR_STEELHEAD_DESCRIPTION
     section: STR_ALIEN_LIFE_FORMS
     #listOrder: 2
     text: STR_STEELHEAD_DESCRIPTION_UFOPEDIA
-  - id: STR_ADVANCED_HYBRID_DESCRIPTION
+  - id: STR_ADVANCED_HYBRID_ARMOR
     type_id: 5
     requires:
       - STR_ADVANCED_HYBRID_DESCRIPTION
     section: STR_ALIEN_LIFE_FORMS
     #listOrder: 2
     text: STR_ADVANCED_HYBRID_DESCRIPTION_UFOPEDIA
-  - id: STR_RAVAGER_SOLDIER_DESCRIPTION
+  - id: STR_RAVAGER_SOLDIER_ARMOR
     type_id: 5
     requires:
       - STR_RAVAGER_SOLDIER_DESCRIPTION
     section: STR_ALIEN_LIFE_FORMS
     #listOrder: 2
     text: STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA
-  - id: STR_HAMMER_DESCRIPTION
+  - id: STR_HAMMER_ARMOR
     type_id: 5
     requires:
       - STR_HAMMER_DESCRIPTION
