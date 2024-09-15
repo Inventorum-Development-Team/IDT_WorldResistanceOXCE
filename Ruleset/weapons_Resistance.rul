@@ -493,7 +493,6 @@ items:
     weight: 10
     bigSprite: 1040
     floorSprite: 1040
-    handSprite: 1040
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -725,7 +724,7 @@ items:
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
-    invWidth: 2
+    invWidth: 1
     invHeight: 3
     attraction: 8
     ##listOrder: 2260
@@ -1471,7 +1470,7 @@ extraSprites:
       #872: Resources/HumanWeapons/SelfLoading/BigCeiRigotti_Clip.png
   # Chimera
       880: Resources/ChimeraWeapons/BigBullseyeMk1_nomag.png
-      888: Resources/ChimeraWeapons/BigBullseyeMk1_nomag.png
+      888: Resources/ChimeraWeapons/BigBullseyeMk1_ammo1.png
       896: Resources/ChimeraWeapons/Ammo/BigBullseyeMk1Battery.png
       904: Resources/ChimeraWeapons/BigBullseyeMk2_nomag.png
       912: Resources/ChimeraWeapons/BigBullseyeMk2_ammo1.png

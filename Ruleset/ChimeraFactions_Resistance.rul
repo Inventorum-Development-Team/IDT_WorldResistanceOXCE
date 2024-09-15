@@ -1,5 +1,38 @@
-
+﻿
 items:
+  - type: HAMMER_WEAPON
+    damageType: 5
+    battleType: 1
+    weight: 6
+    bigSprite: 1024
+    bulletSprite: 8
+    bulletSpeed: 10
+    fireSound: 18
+    hitSound: 22
+    hitAnimation: 26
+    accuracySnap: 50
+#    accuracyAuto: 50
+    snapRange: 28
+    minRange: 5
+    dropoff: 3
+    tuSnap: 50
+    confSnap:
+      shots: 2
+    clipSize: -1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    power: 75
+    damageAlter:
+      ArmorEffectiveness: 0.15
+      ToArmorPre: 0.15
+      ToArmor: 0
+      RandomType: 6
+      IgnoreOverKill: false
+    #vaporColorSurface: 3
+    #vaporDensitySurface: 30
+
   - type: STR_HYBRID_CORPSE
     size: 0.4
     costSell: 2000
@@ -33,6 +66,51 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
+  - type: STR_RAVAGER_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 20
+    bigSprite: 3053
+    floorSprite: 3053
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_HAMMER_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+    categories:
+      - STR_CORPSES
+  - type: HAMMER_CORPSE_1
+    name: STR_HAMMER_CORPSE
+    floorSprite: 3124
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+    categories:
+      - STR_CORPSES
+  - type: HAMMER_CORPSE_2
+    floorSprite: 3125
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HAMMER_CORPSE_3
+    floorSprite: 3126
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HAMMER_CORPSE_4
+    floorSprite: 3127
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
 
   - type: STR_HYBRID_SOLDIER
     size: 0.0
@@ -64,6 +142,16 @@ items:
     recover: true
     liveAlien: true
     costSell: 60000
+  - type: STR_ADVANCED_HYBRID_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_HAMMER_UNIT
+    size: 0.0
+    costSell: 80000
+    recover: false
+    liveAlien: true
 
 armors:
   - type: STR_HYBRID_ARMOR
@@ -132,6 +220,61 @@ armors:
       - 1.0
       - 1.0
     loftempsSet: [ 3 ]
+  - type: STR_RAVAGER_SOLDIER_ARMOR
+    spriteSheet: RAVAGER_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_RAVAGER_CORPSE
+    spriteInv: RAVAGER_INVENTORY
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 5
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_HAMMER_ARMOR
+    spriteSheet: HAMMER_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: HAMMER_INVENTORY.SPK
+    corpseBattle:
+      - HAMMER_CORPSE_1
+      - HAMMER_CORPSE_2
+      - HAMMER_CORPSE_3
+      - HAMMER_CORPSE_4
+    corpseGeo: STR_HAMMER_CORPSE
+    frontArmor: 54
+    sideArmor: 50
+    rearArmor: 42
+    underArmor: 40
+    drawingRoutine: 5
+    painImmune: true
+    size: 2
+    damageModifier: &SoftAlienMechDamageModifier
+      - 1.0 #none
+      - 1.1 #Balistic
+      - 1.0 #Incendiary
+      - 1.2 #HE
+      - 0.8 #Laser
+      - 0.7 #Plasma
+      - 1.0 #Stun
+      - 1.2 #Melee
+      - 0.8 #Acid
+      - 0.0 #Smoke
+      - 1.3 #Elerium Fusion
+      - 1.8 #Electric
+    loftempsSet: [ 92, 89, 90, 91 ]
+
 
 units:
   - type: STR_HYBRID_SOLDIER
@@ -404,6 +547,78 @@ units:
         - STR_SYMBAC
         - STR_SYMBAC
 
+  - type: STR_RAVAGER_SOLDIER
+    race: STR_RAVAGER
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_RAVAGER_SOLDIER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: 6
+    intelligence: 5
+    aggression: 6
+    canSurrender: false
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_BRUTE_MINIGUN
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_SYMBAC
+      - 
+        - STR_BRUTE_MINIGUN
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_SYMBAC
+      - 
+        - STR_BRUTE_MINIGUN
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_BRUTE_MINIGUN_CELL
+        - STR_SYMBAC
+  - type: STR_HAMMER_UNIT
+    race: STR_HAMMER_UNIT
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 150
+      health: 200
+      bravery: 110
+      reactions: 65
+      firing: 70
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 50
+      melee: 80
+    armor: STR_HAMMER_ARMOR
+    standHeight: 23
+    kneelHeight: 16
+    value: 30
+    deathSound: 5
+    intelligence: 3
+    aggression: 5
+    energyRecovery: 50
+    livingWeapon: true
+    capturable: false
+    liveAlien: ""
+    spotter: 5
+
 alienRaces:
 #Race Rank Reference
 #alienRank: 5 - Soldier
@@ -420,7 +635,7 @@ alienRaces:
       - STR_HYBRID_SCOUT
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_RAVAGER_SOLDIER
       - STR_HYBRID_SOLDIER
 
   - id: STR_STEELHEAD_SQUAD
@@ -431,19 +646,19 @@ alienRaces:
       - STR_HYBRID_SCOUT
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_RAVAGER_SOLDIER
       - STR_HYBRID_SCOUT
 
   - id: STR_ADVANCED_HYBRID_SQUAD
     members:
       - STR_ADVANCED_HYBRID_SCOUT
-      - STR_ADVANCED_HYBRID_SOLDIER
+      - STR_RAVAGER_SOLDIER
       - STR_ADVANCED_HYBRID_SOLDIER
       - STR_STEELHEAD_SOLDIER
       - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_HAMMER_UNIT
+      - STR_RAVAGER_SOLDIER
 
 extraSprites:
 
@@ -521,3 +736,54 @@ extraSprites:
     height: 200
     files:
       0: Resources/ChimeraUnits/Inventory/ADVANCED_HYBRID_INVENTORY.png
+
+##########################
+######## RAVAGER ########
+#######################
+  - type: RAVAGER_SPRITESHEET.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/ChimeraUnits/RAVAGER_SPRITESHEET.png
+
+  - type: BIGOBS.PCK
+    files:
+      3053: Resources/ChimeraUnits/RAVAGER_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      3053: Resources/ChimeraUnits/RAVAGER_CORPSE_FLOOROB.png
+
+  - type: RAVAGER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ChimeraUnits/Inventory/RAVAGER_INVENTORY.png
+
+##########################
+######## HAMMER ########
+#######################
+
+  - type: HAMMER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/ChimeraUnits/HAMMER_SPRITESHEET.png
+
+  - type: HAMMER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/ChimeraUnits/Inventory/HAMMER_INVENTORY.png
+
+  - type: FLOOROB.PCK
+    files:
+      3124: Resources/ChimeraUnits/HAMMER_CORPSE_1.png
+      3125: Resources/ChimeraUnits/HAMMER_CORPSE_2.png
+      3126: Resources/ChimeraUnits/HAMMER_CORPSE_3.png
+      3127: Resources/ChimeraUnits/HAMMER_CORPSE_4.png
