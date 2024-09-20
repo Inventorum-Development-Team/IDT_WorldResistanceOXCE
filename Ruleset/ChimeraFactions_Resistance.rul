@@ -1,4 +1,4 @@
-﻿
+
 items:
   - type: HAMMER_WEAPON
     damageType: 5
@@ -166,12 +166,12 @@ armors:
     spriteInv: HYBRID_INVENTORY
     frontArmor: 12
     sideArmor: 10
-    rearArmor: 10
+    rearArmor: 5
     underArmor: 5
     visibilityAtDark: 9
     damageModifier:
       - 1.0
-      - 1.0
+      - 0.9
       - 1.0
       - 1.0
       - 1.0
@@ -186,14 +186,14 @@ armors:
     corpseBattle:
       - STR_STEELHEAD_CORPSE
     spriteInv: STEELHEAD_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
-    rearArmor: 10
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 5
     underArmor: 5
     visibilityAtDark: 9
     damageModifier:
       - 1.0
-      - 1.0
+      - 0.8
       - 1.0
       - 1.0
       - 1.0
@@ -208,13 +208,14 @@ armors:
     corpseBattle:
       - STR_ADVANCED_HYBRID_CORPSE
     spriteInv: ADVANCED_HYBRID_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
+    frontArmor: 30
+    sideArmor: 20
     rearArmor: 10
-    underArmor: 5
+    underArmor: 10
     visibilityAtDark: 9
     damageModifier:
       - 1.0
+      - 0.6
       - 1.0
       - 1.0
       - 1.0
@@ -222,22 +223,21 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.0
-      - 1.0
+      - 0.0
     loftempsSet: [ 3 ]
   - type: STR_RAVAGER_SOLDIER_ARMOR
     spriteSheet: RAVAGER_SPRITESHEET.PCK
     corpseBattle:
       - STR_RAVAGER_SOLDIER_CORPSE
     spriteInv: RAVAGER_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
+    frontArmor: 45
+    sideArmor: 5
     rearArmor: 10
-    underArmor: 5
+    underArmor: 35
     visibilityAtDark: 9
     damageModifier:
       - 1.0
-      - 1.0
+      - 0.7
       - 1.0
       - 1.0
       - 1.0
@@ -276,8 +276,6 @@ armors:
       - 1.2 #Melee
       - 0.8 #Acid
       - 0.0 #Smoke
-      - 1.3 #Elerium Fusion
-      - 1.8 #Electric
     loftempsSet: [ 92, 89, 90, 91 ]
 
 
@@ -286,12 +284,12 @@ units:
     race: STR_HYBRID
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
-      stamina: 100
+      tu: 50
+      stamina: 80
       health: 40
       bravery: 60
       reactions: 50
-      firing: 20
+      firing: 25
       throwing: 40
       strength: 40
       psiStrength: 50
@@ -300,7 +298,7 @@ units:
     armor: STR_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
+    value: 10
     deathSound: 6
     intelligence: 5
     aggression: 6
@@ -330,12 +328,12 @@ units:
     race: STR_HYBRID
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
+      tu: 60
       stamina: 100
       health: 40
       bravery: 60
-      reactions: 50
-      firing: 20
+      reactions: 55
+      firing: 30
       throwing: 40
       strength: 40
       psiStrength: 50
@@ -344,10 +342,11 @@ units:
     armor: STR_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
+    value: 10
     deathSound: 6
-    intelligence: 5
+    intelligence: 6
     aggression: 6
+    spotter: 5
     canSurrender: false
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
@@ -380,22 +379,22 @@ units:
     stats:
       tu: 45
       stamina: 100
-      health: 40
+      health: 65
       bravery: 60
       reactions: 50
-      firing: 20
+      firing: 75
       throwing: 40
       strength: 40
       psiStrength: 50
       psiSkill: 0
-      melee: 70
+      melee: 40
     armor: STR_STEELHEAD_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
+    value: 16
     deathSound: 6
-    intelligence: 5
-    aggression: 6
+    intelligence: 7
+    aggression: 5
     canSurrender: false
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
@@ -424,22 +423,23 @@ units:
     stats:
       tu: 45
       stamina: 100
-      health: 40
+      health: 65
       bravery: 60
       reactions: 50
-      firing: 20
+      firing: 100
       throwing: 40
       strength: 40
       psiStrength: 50
       psiSkill: 0
-      melee: 70
+      melee: 20
     armor: STR_STEELHEAD_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
+    value: 16
     deathSound: 6
-    intelligence: 5
-    aggression: 6
+    intelligence: 7
+    aggression: 5
+    spotter: 5
     canSurrender: false
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
@@ -465,24 +465,24 @@ units:
     race: STR_ADVANCED_HYBRID
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
-      stamina: 100
-      health: 40
-      bravery: 60
-      reactions: 50
-      firing: 20
-      throwing: 40
-      strength: 40
-      psiStrength: 50
+      tu: 60
+      stamina: 70
+      health: 125
+      bravery: 80
+      reactions: 60
+      firing: 50
+      throwing: 60
+      strength: 70
+      psiStrength: 25
       psiSkill: 0
-      melee: 70
+      melee: 76
     armor: STR_ADVANCED_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
+    value: 24
     deathSound: 6
-    intelligence: 5
-    aggression: 6
+    intelligence: 9
+    aggression: 4
     canSurrender: false
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
@@ -509,24 +509,25 @@ units:
     race: STR_ADVANCED_HYBRID
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
-      stamina: 100
-      health: 40
-      bravery: 60
-      reactions: 50
-      firing: 20
-      throwing: 40
-      strength: 40
-      psiStrength: 50
+      tu: 60
+      stamina: 70
+      health: 125
+      bravery: 80
+      reactions: 60
+      firing: 80
+      throwing: 50
+      strength: 70
+      psiStrength: 25
       psiSkill: 0
-      melee: 70
+      melee: 20
     armor: STR_ADVANCED_HYBRID_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
+    value: 24
     deathSound: 6
-    intelligence: 5
-    aggression: 6
+    intelligence: 9
+    aggression: 4
+    spotter: 5
     canSurrender: false
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
@@ -556,24 +557,24 @@ units:
     race: STR_RAVAGER
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
-      stamina: 100
-      health: 40
-      bravery: 60
-      reactions: 50
-      firing: 20
+      tu: 50
+      stamina: 40
+      health: 180
+      bravery: 80
+      reactions: 60
+      firing: 50
       throwing: 40
-      strength: 40
-      psiStrength: 50
+      strength: 70
+      psiStrength: 25
       psiSkill: 0
-      melee: 70
+      melee: 120
     armor: STR_RAVAGER_SOLDIER_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
+    value: 25
     deathSound: 6
     intelligence: 5
-    aggression: 6
+    aggression: 9
     canSurrender: false
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
@@ -626,12 +627,15 @@ units:
 
 alienRaces:
 #Race Rank Reference
-#alienRank: 5 - Soldier
-#alienRank: 4 - Navigator
-#alienRank: 3 - Medic
-#alienRank: 2 - Engineer
-#alienRank: 1 - Leader
 #alienRank: 0 - Commander
+#alienRank: 1 - Leader
+#alienRank: 2 - Engineer
+#alienRank: 3 - Medic
+#alienRank: 4 - Navigator
+#alienRank: 5 - Soldier
+#alienRank: 6 - Easy Terrorist 
+#alienRank: 7 - Hard Terrorist 
+
   - id: STR_HYBRID_SQUAD
     members:
       - STR_STEELHEAD_SCOUT
@@ -640,8 +644,8 @@ alienRaces:
       - STR_HYBRID_SCOUT
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
-      - STR_RAVAGER_SOLDIER
-      - STR_HYBRID_SOLDIER
+      - STR_HYBRID_SCOUT
+      - STR_STEELHEAD_SCOUT
 
   - id: STR_STEELHEAD_SQUAD
     members:
@@ -651,30 +655,30 @@ alienRaces:
       - STR_HYBRID_SCOUT
       - STR_HYBRID_SOLDIER
       - STR_HYBRID_SOLDIER
+      - STR_STEELHEAD_SCOUT
       - STR_RAVAGER_SOLDIER
-      - STR_HYBRID_SCOUT
 
   - id: STR_ADVANCED_HYBRID_SQUAD
     members:
       - STR_ADVANCED_HYBRID_SCOUT
       - STR_RAVAGER_SOLDIER
       - STR_ADVANCED_HYBRID_SOLDIER
-      - STR_STEELHEAD_SOLDIER
+      - STR_STEELHEAD_SCOUT
       - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SOLDIER
-      - STR_HAMMER_UNIT
       - STR_RAVAGER_SOLDIER
+      - STR_HAMMER_UNIT
 
   - id: STR_CHIMERA_BASE_GARRISON
     members:
       - STR_ADVANCED_HYBRID_SCOUT
       - STR_RAVAGER_SOLDIER
       - STR_ADVANCED_HYBRID_SOLDIER
-      - STR_STEELHEAD_SOLDIER
+      - STR_ADVANCED_HYBRID_SOLDIER
       - STR_STEELHEAD_SOLDIER
       - STR_HYBRID_SOLDIER
       - STR_HAMMER_UNIT
-      - STR_RAVAGER_SOLDIER
+      - STR_HAMMER_UNIT
 
 extraSprites:
 
