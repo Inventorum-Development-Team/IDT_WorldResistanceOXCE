@@ -175,6 +175,9 @@ items:
     hitAnimation: 26
     explosionSpeed: 30
     power: 30
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.2
     damageType: 1
     clipSize: 20
     battleType: 2
@@ -193,6 +196,9 @@ items:
     hitAnimation: 26
     explosionSpeed: 30
     power: 30
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.2
     damageType: 1
     clipSize: 40
     battleType: 2
@@ -214,7 +220,7 @@ items:
       RandomType: 6
       IgnoreSelfDestruct: true
       ToTile: 0.8
-      ToWound: 1.0
+      ToWound: 0.3
       RandomWound: true
     damageType: 3
     clipSize: 1
@@ -285,6 +291,10 @@ items:
     bulletSpeed: 8
     explosionSpeed: 10
     power: 25
+    power: 30
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.4
     damageType: 5
     clipSize: 35
     battleType: 2
@@ -350,6 +360,12 @@ items:
     bulletSpeed: 10
     explosionSpeed: 10
     power: 50
+    power: 30
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.4
+      ToWound: 0.5
+      RandomWound: true
     damageType: 5
     clipSize: 35
     battleType: 2
@@ -501,9 +517,9 @@ items:
     power: 33
     damageAlter:
       RandomType: 3
-      IgnoreOverKill: true
-      ToArmorPre: 0.2
-      RandomWound: false
+      IgnoreOverKill: false
+      ToArmorPre: 0.3
+      RandomWound: true
     damageType: 1
     clipSize: 200
     battleType: 2
@@ -512,6 +528,8 @@ items:
     invHeight: 2
     attraction: 10
     #listOrder: 3090
+    vaporColorSurface: 1
+    vaporDensitySurface: 10
 
 #################################
 ######## SNIPER RIFLES #########
@@ -571,7 +589,10 @@ items:
     hitAnimation: 26
     bulletSprite: 3
     explosionSpeed: 10
-    power: 40
+    power: 50
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.5
     damageType: 1
     clipSize: 5
     battleType: 2
@@ -633,8 +654,11 @@ items:
     hitAnimation: 110
     explosionSpeed: 10
     power: 40
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.6
     damageType: 5
-    clipSize: 5
+    clipSize: 10
     battleType: 2
     armor: 12
     ##listOrder: 2075
@@ -677,7 +701,7 @@ items:
     minRange: 15
     snapRange: 24
     aimRange: 34
-    dropoff: 5
+    dropoff: 1
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
@@ -717,9 +741,9 @@ items:
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 18
+    snapRange: 26
+    aimRange: 36
     dropoff: 5
     battleType: 1
     twoHanded: true
@@ -799,6 +823,8 @@ items:
     power: 30
     damageAlter:
       ToTile: 2.0
+      ToArmorPre: 0.4
+      ToArmor: 0.4
     damageType: 5
     clipSize: 20
     battleType: 2
@@ -854,6 +880,8 @@ items:
     damageType: 5
     damageAlter:
       ToTile: 4.0
+      ToArmorPre: 0.6
+      ToArmor: 0.6
     clipSize: 20
     battleType: 2
     armor: 12
@@ -909,6 +937,11 @@ items:
     bigSprite: 560
     floorSprite: 560
     power: 45
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.4
+      ToWound: 0.4
+      RandomWound: true
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -1001,8 +1034,8 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.1
-      RandomWound: false
+      ToArmorPre: 0.2
+      RandomWound: true
     damageType: 1
     bulletSpeed: 10
     invWidth: 1
@@ -1032,8 +1065,8 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.1
-      RandomWound: false
+      ToArmorPre: 0.2
+      RandomWound: true
     damageType: 1
     bulletSpeed: 10
     invWidth: 2
@@ -1091,8 +1124,14 @@ items:
     power: 35
     damageType: 1
     bulletSprite: 1
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 30
     damageAlter:
-      ArmorEffectiveness: 0.3
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: true
     clipSize: 7
     costThrow:
       energy: 4
@@ -1142,8 +1181,10 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.1
-      RandomWound: false
+      ToArmorPre: 0.2
+      ToWound: 0.4
+      RandomWound: true
+      ToTile: 0.5
     blastRadius: 2
     damageType: 3
     bulletSpeed: 10
@@ -1213,6 +1254,7 @@ items:
     damageType: 5
     damageAlter:
       ArmorEffectiveness: 0.3
+      ToArmor: 0.4
     clipSize: 20
     costThrow:
       energy: 4
