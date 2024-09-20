@@ -628,12 +628,12 @@ items:
     weight: 3
     bigSprite: 1088
     floorSprite: 1088
-    hitSound: 22
-    hitAnimation: 26
-    bulletSprite: 3
+    hitSound: 19
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
     explosionSpeed: 10
     power: 40
-    damageType: 1
+    damageType: 5
     clipSize: 5
     battleType: 2
     armor: 12
@@ -741,9 +741,10 @@ items:
     bulletSpeed: 8
     explosionSpeed: 10
     hitSound: 19
-    power: 30
+    power: 40
     damageAlter:
       ToTile: 2.0
+      ToArmorPre: 0.5
     damageType: 5
     clipSize: 20
     battleType: 2
@@ -1205,14 +1206,14 @@ items:
     weight: 2
     bigSprite: 992
     floorSprite: 992
-    hitSound: 22
-    hitAnimation: 26
+    hitSound: 19
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
     power: 35
-    damageType: 1
-    bulletSprite: 1
+    damageType: 5
     damageAlter:
       ArmorEffectiveness: 0.3
-    clipSize: 7
+    clipSize: 20
     costThrow:
       energy: 4
     battleType: 2
