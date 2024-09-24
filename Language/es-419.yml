@@ -513,6 +513,25 @@ es-419:
   STR_RAVAGER_SOLDIER_CORPSE: "Cadáver de devastador"
   STR_RAVAGER_SOLDIER_DESCRIPTION: "Información de devastador"
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La cepa más poderosa de las Quimeras, su apariencia grande y musculosa a menudo intimida a cualquier soldado humano que tenga la mala suerte de encontrar una en el campo de batalla. Extremadamente resistentes y fuertes, son las tropas de choque del enemigo y llevan armas automáticas pesadas."
+
+#######################
+# VEHÍCULOS ENEMIGOS
+
+  STR_CHIMERAN_HORNET: "Avispón"
+  STR_CHIMERAN_HORNET_UFOPEDIA: "Pequeña nave de reconocimiento y suministro desarmada, utilizada principalmente para explorar el área por delante de las fuerzas principales."
+  STR_CHIMERAN_FIGHTER: "Caza"
+  STR_CHIMERAN_FIGHTER_UFOPEDIA: "Interceptor de combate fuertemente armado, utilizado por las Quimeras en misiones de superioridad aérea sobre zonas en disputa. Rápido y potente."
+  STR_CHIMERAN_SHUTTLE: "Transbordador"
+  STR_CHIMERAN_SHUTTLE_UFOPEDIA: "Pequeña nave de transporte, utilizada para transportar cantidades más pequeñas de tropas enemigas en distancias cortas. Mal armada, es un blanco fácil."
+  STR_CHIMERAN_DROPSHIP: "Nave de desembarco"
+  STR_CHIMERAN_DROPSHIP_UFOPEDIA: "Avión de transporte de tropas estandarizado, apodado 'buitres' y 'langostas' por su forma inusual. La combinación de densos blindajes y poderosos cañones lo convierten en un enemigo difícil de enfrentar en los cielos."
+  STR_CHIMERAN_BARGE: "Barcaza"
+  STR_CHIMERAN_BARGE_UFOPEDIA: "Nave alienígena de logística lenta, probablemente utilizada para almacenar y entregar suministros de una base a otra. Su cañón defensivo tiene un alcance muy limitado, pero lo compensa su fuerte blindaje."
+  STR_CHIMERAN_WALKER: "Caminante de transporte"
+  STR_CHIMERAN_WALKER_UFOPEDIA: "Transporte terrestre blindado torpe y lento. De manera similar a cómo se usaron las naves terrestres en la Gran Guerra, este caminante mecanizado parece diseñado para proteger a su tripulación del fuego enemigo hasta que sea entregado directamente en el frente."
+  STR_CHIMERAN_GOLIATH: "Goliath"
+  STR_CHIMERAN_GOLIATH_UFOPEDIA: "El arma suprema de terror terrestre de las Quimeras. Los temibles Goliath son enormes vehículos andantes, pesados y extremadamente bien protegidos. Una gran cantidad de infantería enemiga los sigue muy de cerca. Sus armas de asedio tienen un alcance muy amplio."
+
 #######################
 # LORE
 

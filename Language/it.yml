@@ -1115,6 +1115,25 @@ it:
   STR_RAVAGER_SOLDIER_CORPSE: "Ravager Corpse"
   STR_RAVAGER_SOLDIER_DESCRIPTION: "Ravager Intel"
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La varietà più potente della Chimera, il suo aspetto grande e muscoloso spesso intimidisce qualsiasi soldato umano abbastanza sfortunato da trovarne uno sul campo di battaglia. Estremamente resistenti e forti, sono le truppe d'assalto del nemico e portano pesanti armi automatiche."
+  
+######################
+# VEICOLI NEMICI
+
+  STR_CHIMERAN_HORNET: "Vespa"
+  STR_CHIMERAN_HORNET_UFOPEDIA: "Piccola imbarcazione da ricognizione e rifornimento non armata, usata principalmente per esplorare l'area davanti alle forze principali."
+  STR_CHIMERAN_FIGHTER: "Caccia"
+  STR_CHIMERAN_FIGHTER_UFOPEDIA: "Intercettore da combattimento pesantemente armato, usato dai Chimera nelle missioni di superiorità aerea su zone contese. Veloce e potente."
+  STR_CHIMERAN_SHUTTLE: "Navetta"
+  STR_CHIMERAN_SHUTTLE_UFOPEDIA: "Piccola imbarcazione da trasporto, usata per trasportare piccole quantità di truppe nemiche su brevi distanze. Scarsamente armata, è un bersaglio facile."
+  STR_CHIMERAN_DROPSHIP: "Dropship"
+  STR_CHIMERAN_DROPSHIP_UFOPEDIA: "Aereo da trasporto truppe standardizzato, soprannominato 'poiana' e 'aragosta' per la sua forma insolita. La combinazione di corazze dense e potenti cannoni lo rendono un nemico difficile da affrontare nei cieli."
+  STR_CHIMERAN_BARGE: "Barge"
+  STR_CHIMERAN_BARGE_UFOPEDIA: "Nave aliena dalla logistica lenta, molto probabilmente usata per immagazzinare e consegnare rifornimenti da una base all'altra. Il suo cannone difensivo ha una gittata molto limitata, ma è compensata dalla sua robusta corazza."
+  STR_CHIMERAN_WALKER: "Transport Walker"
+  STR_CHIMERAN_WALKER_UFOPEDIA: "Trasporto corazzato di terra ingombrante. Similmente a come le navi terrestri venivano usate nella Grande Guerra, questo camminatore meccanizzato sembra progettato per proteggere il suo equipaggio dal fuoco in arrivo fino a quando non viene consegnato direttamente in prima linea." 
+  STR_CHIMERAN_GOLIATH: "Goliath"
+  STR_CHIMERAN_GOLIATH_UFOPEDIA: "L'arma di terrore terrestre definitiva dei Chimera. I temibili Goliath sono enormi veicoli semoventi, pesanti ed estremamente ben protetti. Un vasto contingente di fanteria nemica li segue da vicino. Le loro armi d'assedio hanno una gittata molto lunga."
+  
   STR_MT_RATING_EXEMPLARY: "Esemplare"
   STR_MT_RATING_EXCELLENT: "Eccellente"
   STR_MT_RATING_GREAT: "Ottimo"

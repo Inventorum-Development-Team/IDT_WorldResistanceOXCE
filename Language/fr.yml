@@ -1146,6 +1146,25 @@ fr:
   STR_RAVAGER_SOLDIER_CORPSE: "Corps du ravageur"
   STR_RAVAGER_SOLDIER_DESCRIPTION: "Ravageur Intel"
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "La souche la plus puissante de la Chimère, son apparence large et musclée intimide souvent tout soldat humain assez malchanceux pour en rencontrer une sur le champ de bataille. Extrêmement résistants et forts, ils sont les soldats de choc de l'ennemi et portent des armes automatiques lourdes."
+  
+  ######################
+# VÉHICULES ENNEMIS
+
+  STR_CHIMERAN_HORNET: "Hornet"
+  STR_CHIMERAN_HORNET_UFOPEDIA: "Petit engin de reconnaissance et de ravitaillement non armé, principalement utilisé pour repérer la zone devant les forces principales."
+  STR_CHIMERAN_FIGHTER: "Chasseur"
+  STR_CHIMERAN_FIGHTER_UFOPEDIA: "Intercepteur de combat lourdement armé, utilisé par les Chimères dans les missions de supériorité aérienne au-dessus des zones contestées. Rapide et puissant."
+  STR_CHIMERAN_SHUTTLE: "Navette"
+  STR_CHIMERAN_SHUTTLE_UFOPEDIA: "Petit engin de transport, utilisé pour transporter de petites quantités de troupes ennemies sur de courtes distances. Mal armé, c'est une cible facile."
+  STR_CHIMERAN_DROPSHIP: "Dropship"
+  STR_CHIMERAN_DROPSHIP_UFOPEDIA: "Avion de transport de troupes standardisé, surnommé 'busards' et 'homards' pour sa forme inhabituelle. La combinaison de blindages denses et de canons puissants en fait un ennemi difficile à affronter dans les cieux."
+  STR_CHIMERAN_BARGE: "Barge"
+  STR_CHIMERAN_BARGE_UFOPEDIA: "Vaisseau extraterrestre logistique lent, très probablement utilisé pour stocker et livrer des fournitures d'une base à une autre. Son canon défensif a une portée très limitée, mais elle est compensée par son blindage solide."
+  STR_CHIMERAN_WALKER: "Transport blindé"
+  STR_CHIMERAN_WALKER_UFOPEDIA: "Transport terrestre blindé encombrant. De la même manière que les navires terrestres étaient utilisés pendant la Grande Guerre, ce marcheur mécanisé semble conçu pour protéger son équipage des tirs entrants jusqu'à ce qu'il soit livré directement sur les lignes de front."
+  STR_CHIMERAN_GOLIATH: "Goliath"
+  STR_CHIMERAN_GOLIATH_UFOPEDIA: "L'arme de terreur terrestre ultime des Chimères. Les redoutables Goliath sont d'énormes véhicules ambulants, lourds et extrêmement bien protégés. Un grand nombre d'infanterie ennemie le suit de très près. Ses armes de siège ont une très longue portée."
+  
   STR_MT_RATING_EXEMPLARY: "Exemplaire"
   STR_MT_RATING_EXCELLENT: "Excellent"
   STR_MT_RATING_GREAT: "Excellent"

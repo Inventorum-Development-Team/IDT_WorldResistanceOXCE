@@ -543,6 +543,24 @@ en-US:
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "The most powerful strain of the Chimera, its large and muscular appearance often intimidates any human soldier unfortunate enough to find one in the battlefield. Extremely resistant and strong, they are the shock troopers of the enemy and carry heavy automatic weapons."
 
 ######################
+# ENEMY VEHICLES
+
+  STR_CHIMERAN_HORNET: "Hornet"
+  STR_CHIMERAN_HORNET_UFOPEDIA: "Small unarmed recon and supply craft, mostly used to scout the area ahead the main forces."
+  STR_CHIMERAN_FIGHTER: "Fighter"
+  STR_CHIMERAN_FIGHTER_UFOPEDIA: "Heavily-armed combat interceptor, used by the Chimera in air superiority missions over contested zones. Fast and powerful."
+  STR_CHIMERAN_SHUTTLE: "Shuttle"
+  STR_CHIMERAN_SHUTTLE_UFOPEDIA: "Small transport craft, used to ferry smaller amounts of enemy troops in short distances. Poorly armed, it's an easy target."
+  STR_CHIMERAN_DROPSHIP: "Dropship"
+  STR_CHIMERAN_DROPSHIP_UFOPEDIA: "Standarized troop transport aircraft, nicknamed 'buzzards' and 'lobsters' for its unusual shape. The combination of dense armor platings and powerful cannons make it a tough enemy to engage in the skies."
+  STR_CHIMERAN_BARGE: "Barge"
+  STR_CHIMERAN_BARGE_UFOPEDIA: "Slow logistics alien ship, most likely used to storage and deliver supplies from one base to another. Its defensive gun has a very limited range, but it's compensated by its strong armor."
+  STR_CHIMERAN_WALKER: "Transport Walker"
+  STR_CHIMERAN_WALKER_UFOPEDIA: "Cumbersome ground armored transport. Similarly to how the landships were used in the Great War, this mechanized walker seems designed to protect its crew from incoming fire until delivered right into the frontlines."
+  STR_CHIMERAN_GOLIATH: "Goliath"
+  STR_CHIMERAN_GOLIATH_UFOPEDIA: "The ultimate Chimeran ground terror weapon. The fearsome Goliaths are huge walking vehicles, heavy and extremely well-protected. A large compliment of enemy infantry follows it very closely. Its siege weapons have very long range."
+
+######################
 # LORE
 
 

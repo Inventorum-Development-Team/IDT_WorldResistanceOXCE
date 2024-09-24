@@ -1135,6 +1135,25 @@ pt-PT:
   STR_RAVAGER_SOLDIER_CORPSE: "Cadáver Devastador"
   STR_RAVAGER_SOLDIER_DESCRIPTION: "Intel Devastadora"
   STR_RAVAGER_SOLDIER_DESCRIPTION_UFOPEDIA: "A linhagem mais poderosa da Quimera, a sua aparência grande e musculada intimida frequentemente qualquer soldado humano que tenha o azar de encontrar um no campo de batalha. Extremamente resistentes e fortes, são as tropas de choque do inimigo e transportam armas automáticas pesadas."
+  
+#####################
+# VEÍCULOS INIMIGOS
+
+  STR_CHIMERAN_HORNET: "Vespa"
+  STR_CHIMERAN_HORNET_UFOPEDIA: "Pequenas embarcações de reconhecimento e abastecimento desarmadas, utilizadas principalmente para explorar a área à frente das forças principais."
+  STR_CHIMERAN_FIGHTER: "Lutador"
+  STR_CHIMERAN_FIGHTER_UFOPEDIA: "Interceptador de combate fortemente armado, utilizado pela Quimera em missões de superioridade aérea em zonas contestadas. Rápido e poderoso."
+  STR_CHIMERAN_SHUTTLE: "Transporte"
+  STR_CHIMERAN_SHUTTLE_UFOPEDIA: "Pequena embarcação de transporte, utilizada para transportar pequenas quantidades de tropas inimigas a curtas distâncias. Mal armada, é um alvo fácil."
+  STR_CHIMERAN_DROPSHIP: "Dropship"
+  STR_CHIMERAN_DROPSHIP_UFOPEDIA: "Aeronave padronizada de transporte de tropas, apelidada de 'urubus' e 'lagostas' pelo seu formato invulgar. A combinação de blindagem densa e canhões poderosos torna-o um inimigo difícil de atacar nos céus."
+  STR_CHIMERAN_BARGE: "Barcaça"
+  STR_CHIMERAN_BARGE_UFOPEDIA: "Nave alienígena de logística lenta, provavelmente utilizada para armazenar e entregar mantimentos de uma base para outra. O seu canhão defensivo tem um alcance muito limitado, mas é compensado pela sua forte blindagem."
+  STR_CHIMERAN_WALKER: "Andador de Transporte"
+  STR_CHIMERAN_WALKER_UFOPEDIA: "Transporte blindado terrestre pesado. Da mesma forma que as naves terrestres foram utilizadas na Grande Guerra, este andarilho mecanizado parece concebido para proteger a sua tripulação do fogo até ser entregue directamente na linha da frente."
+  STR_CHIMERAN_GOLIATH: "Golias"
+  STR_CHIMERAN_GOLIATH_UFOPEDIA: "A derradeira arma de terror terrestre quimeriano. Os temíveis Golias são enormes veículos ambulantes, pesados e extremamente bem protegidos. Um grande grupo de infantaria inimiga segue-o de perto. As suas armas de cerco têm um alcance muito longo."
+  
   STR_MT_RATING_EXEMPLARY: "Exemplar"
   STR_MT_RATING_EXCELLENT: "Excelente"
   STR_MT_RATING_GREAT: "Ótimo"
