@@ -1,6 +1,158 @@
 alienDeployments:
   - delete: STR_MARS_CYDONIA_LANDING
 
+  - type: STR_CHIMERAN_HORNET
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 65
+        itemSets:
+          - []
+    width: 60
+    length: 60
+    height: 10
+  - type: STR_CHIMERAN_FIGHTER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 65
+        itemSets:
+          - []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+    width: 60
+    length: 60
+    height: 10
+  - type: STR_CHIMERAN_SHUTTLE
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          - []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          - []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+    width: 60
+    length: 60
+    height: 10
+  - type: STR_CHIMERAN_DROPSHIP
+    data:
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          - []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          - []
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          - []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          - []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+    width: 60
+    length: 60
+    height: 10
+  - type: STR_CHIMERAN_BARGE
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          - []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          - []
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          - []
+    width: 60
+    length: 60
+    height: 10
+
   - type: STR_CONVERSION_CENTER_DEPLOYMENT
     customUfo: STR_CONVERSION_CENTER_UFO
     height: 10

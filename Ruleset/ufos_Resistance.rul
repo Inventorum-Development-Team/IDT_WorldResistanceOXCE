@@ -1,4 +1,126 @@
 ufos:
+  - type: STR_CHIMERAN_HORNET
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 200
+    speedMax: 2400
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: UFO_110
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+      mapBlocks:
+        - name: UFO_110
+          width: 10
+          length: 10
+  - type: STR_CHIMERAN_FIGHTER 
+    #modSprite: Seraph_Interwin
+    size: STR_SMALL
+    damageMax: 200
+    speedMax: 650
+    power: 20
+    range: 30
+    score: 500
+    reload: 50
+    huntBehavior: 1
+    hunterKillerPercentage: 60
+    shieldCapacity: 100
+    shieldBleedThrough: 100
+    shieldRecharge: 50
+    breakOffTime: 50
+    battlescapeTerrainData:
+      name: UFO_120
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+      mapBlocks:
+        - name: UFO_120
+          width: 20
+          length: 20
+  - type: STR_CHIMERAN_SHUTTLE
+    #modSprite: Seraph_Interwin
+    size: STR_SMALL
+    damageMax: 200
+    speedMax: 650
+    power: 20
+    range: 30
+    score: 500
+    reload: 50
+    huntBehavior: 1
+    hunterKillerPercentage: 60
+    shieldCapacity: 100
+    shieldBleedThrough: 100
+    shieldRecharge: 50
+    breakOffTime: 50
+    battlescapeTerrainData:
+      name: UFO_120
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+      mapBlocks:
+        - name: UFO_120
+          width: 20
+          length: 20
+
+  - type: STR_CHIMERAN_DROPSHIP
+    size: STR_MEDIUM_UC
+    sprite: 3
+    damageMax: 500
+    speedMax: 4000
+    power: 40
+    range: 22
+    score: 250
+    reload: 48
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: UFO_130
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC2
+        - U_BITS
+      mapBlocks:
+        - name: UFO_130
+          width: 20
+          length: 20
+
+  - type: STR_CHIMERAN_BARGE
+    size: STR_MEDIUM_UC
+    sprite: 3
+    damageMax: 500
+    speedMax: 4000
+    power: 40
+    range: 22
+    score: 250
+    reload: 48
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: UFO_130
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_DISEC2
+        - U_BITS
+      mapBlocks:
+        - name: UFO_130
+          width: 20
+          length: 20
+
+###################################
+
   - type: STR_CONVERSION_CENTER_UFO #  Conversion center
     size: STR_MEDIUM
     modSprite: PlaceHolder

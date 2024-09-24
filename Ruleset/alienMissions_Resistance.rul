@@ -14,7 +14,11 @@ alienMissions:
         STR_HYBRID_SQUAD: 30
         STR_STEELHEAD_SQUAD: 10
     waves:
-      - ufo: STR_LARGE_SCOUT
+      - ufo: STR_CHIMERAN_HORNET
+        count: 3
+        trajectory: P4
+        timer: 9000
+      - ufo: STR_CHIMERAN_SHUTTLE
         count: 3
         trajectory: P4
         timer: 9000
@@ -27,12 +31,27 @@ alienMissions:
       0:
         STR_HYBRID_SQUAD: 100
       3:
+        STR_HYBRID_SQUAD: 50
+        STR_STEELHEAD_SQUAD: 50
+      6:
         STR_HYBRID_SQUAD: 30
-        STR_STEELHEAD_SQUAD: 10
+        STR_STEELHEAD_SQUAD: 70
     waves:
-      - ufo: STR_LARGE_SCOUT
-        count: 2
+      - ufo: STR_CHIMERAN_HORNET
+        count: 3
         trajectory: P4
+        timer: 9000
+      - ufo: STR_CHIMERAN_FIGHTER
+        count: 2
+        trajectory: P1
+        timer: 9000
+      - ufo: STR_CHIMERAN_BARGE
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_CHIMERAN_DROPSHIP
+        count: 1
+        trajectory: P7
         timer: 9000
         objective: true
 
@@ -103,11 +122,11 @@ alienMissions:
       8:
         STR_HYBRID_SQUAD: 100
     waves:
-      - ufo: STR_LARGE_SCOUT
+      - ufo: STR_CHIMERAN_HORNET
         count: 3
         trajectory: P2
         timer: 5000
-      - ufo: STR_LARGE_SCOUT
-        count: 3
+      - ufo: STR_CHIMERAN_FIGHTER
+        count: 5
         trajectory: P2
         timer: 5000

@@ -2,7 +2,7 @@ X-September-2024: World Resistance Beta v0.3
 Changes made:
 * Fixed issue with Chimeran Conversion Center mission terrain list, reported by MitraLightbringer
 * Solved issue with missing Hybrid live alien item, reported by NecroDiego
-* Added human (Bandages and Medical Bag) and Chimera (Sym-Bac) health items
+* Added human (Bandages and Medical Bag) and Chimera (Sym-Bac) health items, requested by Leonardo D. & NecroDiego
 * Added Chimeran Weapons, by efrenespartano & _Brain322
     - Sixeye Sniper Rifle
     - Hunter DMR
@@ -14,11 +14,12 @@ Changes made:
     - Ravager
     - Hammer, by drages
 * Added missing terrain strings, by TigasZ8
+* Small buff to Black Ops' bravery, stamina and TUs, suggested by TigasZ8
 
 08-September-2024: World Resistance Beta 0.2
 Changes made:
 * Added SRPA Black Ops Soldier
-* Added three Black Ops suits (Tactical, Infiltration & Expeditionary), , sprites by efrenespartano & Dr. Hans Woofington
+* Added three Black Ops suits (Tactical, Infiltration & Expeditionary), sprites by efrenespartano & Dr. Hans Woofington
 * Added Human Weapons:
     - M2A1 Clovis AR (US)
     - M1A1 Thompson SMG (US)

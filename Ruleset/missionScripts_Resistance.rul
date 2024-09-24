@@ -22,10 +22,10 @@ missionScripts:
         STR_HYBRID_SQUAD: 100
     startDelay: 120
 
-  - type: chimeranTerror
+  - type: recurringTerror
     missionWeights:
       0:
-        STR_ALIEN_TERROR_INDUSTRIAL: 100
+        STR_ALIEN_TERROR: 100
     useTable: false
     targetBaseOdds: 100
     startDelay: 150
