@@ -266,7 +266,6 @@ items:
     snapRange: 24
     aimRange: 20
     autoRange: 11
-    autoShots: 5
     sprayWaypoints: 2
     dropoff: 10
     battleType: 1
@@ -335,7 +334,6 @@ items:
     snapRange: 24
     aimRange: 20
     autoRange: 11
-    autoShots: 5
     sprayWaypoints: 2
     dropoff: 10
     battleType: 1
@@ -432,7 +430,6 @@ items:
     weight: 7
     bigSprite: 376
     floorSprite: 376
-    handSprite: 376
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -1054,7 +1051,6 @@ items:
     weight: 2
     bigSprite: 624
     floorSprite: 624
-    handSprite: 624
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 30
