@@ -83,7 +83,7 @@ pt-PT:
 
   STR_HEDGEHOG_GRENADE: "Granada Ouriço"
   STR_HEDGEHOG_GRENADE_UFOPEDIA: "..."
-      
+   
   STR_FIRE_GRENADE: "Atirar granada"
   STR_M1911_COLT: "M1911 Colt"
   STR_M1911_COLT_CLIP: "Carregador .45 ACP (x7)"
@@ -1156,23 +1156,25 @@ pt-PT:
   STR_BAD_ENDING_4: "Mas apesar disso, um buraco no céu apareceu e o futuro é incerto."
 
   STR_USA: "ESTADOS UNIDOS"
-  STR_RUSSIA: "RUSSIAN FRONT"
-  STR_UK: "Reino Unido"
-  STR_FRANCE: "FRANCE"
-  STR_GERMANY: "GERMANY"
-  STR_ITALY: "FRONTO ITÁLIANO"
-  STR_SPAIN: "IBÉRIANO FRONT"
+  STR_RUSSIA: "FRENTE RUSSA"
+  STR_UK: "REINO UNIDO"
+  STR_FRANCE: "FRANÇA"
+  STR_GERMANY: "ALEMANHA"
+  STR_ITALY: "FRENTE ITÁLIANO"
+  STR_SPAIN: "FRENTE IBÉRIANO"
   STR_CHINA: "FRONTE CHINESES"
-  STR_JAPAN: "JAPAN IMPERIAL"
-  STR_INDIA: "INDIA FRONT"
-  STR_BRAZIL: "FRONT AMAZONIAN"
-  STR_AUSTRALIA: "AUSTRALIA"
-  STR_NIGÉRIA: "FRONTURA DE RAINFESS"
-  STR_SOUTH_AFRICA: "AFRICA SOUTH"
-  STR_EGYPT: "SUEZ CANAL FRONT"
-  STR_CANADA: "CANADA"
+  STR_JAPAN: "JAPÃO IMPERIAL"
+  STR_INDIA: "FRENTE DA ÍNDIA"
+  STR_BRAZIL: "FRENTE AMAZÓNICA"
+  STR_AUSTRALIA: "AUSTRÁLIA"
+  STR_NIGERIA: "FRENTE DA FLORESTA TROPICAL"
+  STR_SOUTH_AFRICA: "ÁFRICA SUL"
+  STR_EGYPT: "FRENTE DO CANAL DE SUEZ"
+  STR_CANADA: "CANADÁ"
 
-  STR_LIBERTY_DEFENSE_PERIMETER: "PERÍMETRO DE DEFESA DA LIBERDADE"
+  STR_LIBERTY_DEFENSE_PERIMETER_1: "PERÍMETRO DE"
+  STR_LIBERTY_DEFENSE_PERIMETER_2: "DEFESA DA"
+  STR_LIBERTY_DEFENSE_PERIMETER_3: "LIBERDADE"
   STR_SIBERIA_GRAY_ZONE: "ZONA CINZENTA SIBERIANA"
   STR_MONGOLIA_GRAY_ZONE: "ZONA CINZENTA MONGOLIANA"
   STR_CENTRAL_AFRICA_GRAY_ZONE: "ZONA CINZENTA AFRICANA"
@@ -1181,3 +1183,502 @@ pt-PT:
   STR_CANADIAN_GRAY_ZONE: "ZONA CINZENTA CANADENSE"
   STR_MEXICAN_GRAY_ZONE: "ZONA CINZENTA MEXICANA"
   STR_ANDEAN_GRAY_ZONE: "ZONA CINZENTA ANDINA"
+
+  MAP_ACULTA: "Grama Gótica"
+  MAP_ACULTASNOW: "Neve Gótica"
+  MAP_ACULTASAND: "Areia Gótica"
+  MAP_MOUNT: "Montanhas Desertas"
+  MAP_MOUNTSNOW: "Montanhas de neve"
+  MAP_MOUNTMUDD: "Lama das Montanhas"
+  MAP_MOUNTGRASS: "Grama das Montanhas"
+  MAP_MOUNTSAND: "Areia das Montanhas"
+  MAP_MOUNTROCK: "Rochas das Montanhas"
+  MAP_MOUNTTROP: "Montanhas Tropicais"
+  MAP_PLANÍCIES: "Planícies Devastadas"
+  MAP_PLAINSSNOW: "Neve das Planícies"
+  MAP_PLAINSMUDD: "Lama das Planícies"
+  MAP_PLAINSGRASS: "Grama das Planícies"
+  MAP_PLANISSAND: "Areia das Planícies"
+  MAP_PLANINSROCK: "Rochas das Planícies"
+  MAP_PLANINSTROP: "Planícies Tropicais"
+  MAP_REFINERY: "Refinaria"
+  MAP_POLAR_BD: "Gelo Quebrado"
+  MAP_RICE_FARM: "Campos de arroz"
+  MAP_IDT_AIRPORT: "Aeroporto Militar"
+  MAP_IDT_SNOWVILLAGE: "Assentamento Rural de Neve"
+  MAP_IDT_SNOWFOREST: "Floresta de Neve Rural"
+  MAP_IDT_VILLAGE: "Assentamento Rural"
+  MAP_IDT_FOREST: "Floresta Rural"
+  MAP_CHEMTOWN: "Zona Química"
+  MAP_CHEMTOWN_ROADS: "Zona Química, Estradas"
+  MAP_EXPANDED_TERROR: "Site de Terror Expandido"
+  MAP_RURAL: "Vila"
+  MAP_COMRCURBAN: "Comercial"
+  MAP_INDUSTRIALSLUM: "Favelas Industriais"
+  MAP_PORTTFTD6: "Porta A"
+  MAP_PORTTFTD5: "Porta B"
+  MAP_PORTUFO: "Porto, Estradas"
+  MAP_ISLANDURBAN: "Ilha"
+  MAP_CRUISE_LINER: "Grande navio de cruzeiro"
+  MAP_LINERSHIP: "Pequeno navio de cruzeiro"
+  MAP_CARGOSHIP: "Navio de carga"
+  MAP_FORESTSWAMP: "Pântano da Floresta"
+  MAP_FOREST_SNOW: "Neve da Floresta"
+  MAP_FORESTSWAMP_SNOW: "Neve do pântano da floresta"
+  MAP_NOOBERIA: "Posto Avançado Ártico"
+  MAP_IDT_RED_FARM: "Fazenda de milho"
+  MAP_FMOUNT: "Monte da Floresta"
+  MAP_BMOUNT: "Monte no Deserto"
+  MAP_DURBAN: "Cidade Deserta (OVNI)"
+  MAP_PURBAN: "Cidade da Neve (OVNI)"
+  MAP_JURBAN: "Cidade da Selva (OVNI)"
+  MAP_MURBAN: "Cidade da Montanha (OVNI)"
+  MAP_TURBAN: "Cidade"
+  MAP_TPURBAN: "Cidade da Neve"
+  MAP_TJURBAN: "Cidade da Selva"
+  MAP_TMURBAN: "Cidade da Montanha"
+  
+########################################
+  STR_TERROR_MISSION: MISSÃO TERROR URBANA
+  STR_TERROR_MISSION_BRIEFING: "Uma cidade está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de todos os civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+  STR_TERROR_MISSION_INDUSTRIAL: MISSÃO TERROR INDUSTRIAL
+  STR_TERROR_MISSION_INDUSTRIAL_BRIEFING: "Um complexo industrial está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de todos os civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+  STR_TERROR_MISSION_SNOW: MISSÃO TERROR NEVE
+  STR_TERROR_MISSION_SNOW_BRIEFING: "Uma cidade fria está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de todos os civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+  STR_TERROR_MISSION_RURAL: MISSÃO TERROR RURAL
+  STR_TERROR_MISSION_RURAL_BRIEFING: "Um assentamento rural está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de todos os civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+  STR_TERROR_MISSION_ISLAND: ILHA DA MISSÃO TERROR
+  STR_TERROR_MISSION_ISLAND_BRIEFING: "Um centro turístico da ilha está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de todos os civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+  STR_TERROR_MISSION_PORT: PORTA DA MISSÃO TERROR
+  STR_TERROR_MISSION_PORT_BRIEFING: "Um porto está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de todos os civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+  STR_TERROR_MISSION_AIRPORT: AEROPORTO DE MISSÃO TERROR
+  STR_TERROR_MISSION_AIRPORT_BRIEFING: "Um aeroporto está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de todos os civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+  STR_TERROR_MISSION_SHIPPING_LINES: LINHAS DE NAVIO DE MISSÃO TERROR
+  STR_TERROR_MISSION_SHIPPING_LINES_BRIEFING: Um navio navegando no mar está sob ataque. A missão será bem-sucedida quando todas as unidades inimigas forem eliminadas ou neutralizadas. Você deve tentar salvar as vidas de quaisquer civis na área neutralizando a ameaça alienígena. Para abortar a missão, retorne os agentes X-Com ao veículo de transporte e clique no ícone 'Abortar Missão'."
+#########################################
+############### Missões subaquáticas abaixo ##########
+  MAP_VOLC: Fundo marinho vulcânico
+  MAP_CORAL: Fundo do Mar de Coral # TFTD
+  MAP_ATLAN: Ruínas de Atlântida # TFTD
+  MAP_PIPES: Estação de Pesquisa #TFTD
+  MAP_GAL: Galão naufragado #TFTD
+  MAP_SEABED: Fundo do mar
+  MAP_MSUNK: Carga Afundada
+  MAP_MU: Templo Maia
+  MAP_U_PLANE: Avião afundado
+#########################################
+  STR_MIXED_UNDERWATER: Misto (Subaquático)
+  STR_SECTOID_UNDERWATER: Sectoide (Subaquático)
+  STR_SNAKEMAN_UNDERWATER: Homem-cobra (subaquático)
+  STR_MUTON_UNDERWATER: Muton (Subaquático)
+  STR_FLOATER_UNDERWATER: Flutuador (Subaquático)
+  STR_ETHEREAL_UNDERWATER: Etéreo (Subaquático)
+  STR_SMALL_SCOUT_UNDERWATER: "Pequeno Batedor (Subaquático)"
+  STR_MEDIUM_SCOUT_UNDERWATER: "Patrulheiro médio (subaquático)"
+  STR_LARGE_SCOUT_UNDERWATER: "Grande Batedor (Subaquático)"
+  STR_HARVESTER_UNDERWATER: "Colheitadeira (subaquática)"
+  STR_ABDUCTOR_UNDERWATER: "Abdutor (Subaquático)"
+  STR_TERROR_SHIP_UNDERWATER: "Navio terrorista (subaquático)"
+  STR_BATTLESHIP_UNDERWATER: "Encouraçado (Subaquático)"
+  STR_SUPPLY_SHIP_UNDERWATER: "Navio de suprimentos (subaquático)"  
+#########################################
+## NOVAS REGIÕES
+  STR_NORTH_PACIFIC: Pacífico Norte
+  STR_SOUTH_PACIFIC: Pacífico Sul
+## NOVOS PAÍSES
+  STR_POLAND: "POLÔNIA"
+  STR_CUBA: "CUBA"
+  STR_MONGOLIA: "MONGÓLIA"
+  STR_ICELAND: "ISLÂNDIA"
+  STR_PORTUGAL: "PORTUGAL"
+  STR_MEXICO: "MÉXICO"
+  STR_IRELAND: "IRLANDA"
+  STR_UKRAINE: "UCRÂNIA"
+  STR_TURQUIA: "TURQUIA"
+  STR_ARGENTINA: "ARGENTINA"
+  STR_FINLAND: "FINLÂNDIA"
+  STR_LIBIA: "LÍBIA"
+  STR_SOUTH_KOREA: "COREIA DO SUL"
+  STR_ISRAEL: "ISRAEL"
+  STR_IRAN: "IRÃ"
+  STR_NEW_ZEALAND: "NOVA ZELÂNDIA"
+  STR_INDONÉSIA: "INDONÉSIA"
+## NOVAS CIDADES
+  STR_ATLANTA: "Atlanta"
+  STR_BOSTON: "Boston"
+  STR_CANCUN: "Cancún"
+  STR_CHARLESTON: "Charleston"
+  STR_CHIHUAHUA: "Chihuahua"
+  STR_CORPUSCHRISTI: "Corpus Christi"
+  STR_DENVER: "Denver"
+  STR_DETROIT: "Detroit"
+  STR_EDMONTON: "Edmonton"
+  STR_ELPASO: "El Paso"
+  STR_FORTSEVERN: "Forte Severn"
+  STR_GUADALAJARA: "Guadalajara"
+  STR_GUATEMALA: "Guatemala"
+  STR_HALIFAX: "Halifax"
+  STR_HOUSTON: "Houston"
+  STR_INDIANAPOLIS: "Indianápolis"
+  STR_INUVIK: "Inuvik"
+  STR_JAMAICA: "Jamaica"
+  STR_JUNEAU: "Junho"
+  STR_KANSASCITY: "Cidade do Kansas"
+  STR_LASVEGAS: "Las Vegas"
+  STR_MANAGUA: "Manágua"
+  STR_MEMPHIS: "Memphis"
+  STR_MIAMI: "Miami"
+  STR_MINNEAPOLIS: "Minneapolis"
+  STR_MONTERREY: "Monterrey"
+  STR_NEWORLEANS: "Nova Orleans"
+  STR_NORFOLK: "Norfolk"
+  STR_ORLANDO: "Orlando"
+  STR_PHILADELPHIA: "Filadélfia"
+  STR_PHOENIX: "Fênix"
+  STR_PORTLAND: "Portland"
+  STR_QUEBECCITY: "Cidade de Quebec"
+  STR_SALTLAKECITY: "Cidade do Lago Salgado"
+  STR_SAN_DIEGO: "San Diego"
+  STR_SANFRANCISCO: "São Francisco"
+  STR_SANTODOMINGO: "Santo Domingo"
+  STR_SASKATOON: "Saskatoon"
+  STR_SEATTLE: "Seattle"
+  STR_SEPT_ILES: "Sete Ilhas"
+  STR_TIJUANA: "Tijuana"
+  STR_TORONTO: "Toronto"
+  STR_WINNIPEG: "Winnipeg"
+  STR_YELLOWKNIFE: "Faca Amarela"
+
+
+
+
+# CIDADES DO ÁRTICO
+  STR_BARROW: "Carrinho de mão"
+  STR_CHURCHILL: "Churchill"
+  STR_HAMMERFEST: "Festa do Martelo"
+  STR_KAUJUITOQ: "Kaujuitoq"
+  STR_SVALBARD: "Svalbard"
+  STR_TIKSI: "Tiksi"
+
+
+
+
+# CIDADES SUL-AMERICANAS
+  STR_ASUNCION: "Assunção"
+  STR_BELEM: "Belém"
+  STR_BELOHORIZONTE: "Belo Horizonte"
+  STR_CARTAGENA: "Cartagena"
+  STR_CAYENNE: "Caiena"
+  STR_FORTALEZA: "Fortaleza"
+  STR_GEORGETOWN: "Georgetown"
+  STR_GUAYAQUIL: "Guayaquil"
+  STR_LAPAZ: "La Paz"
+  STR_MANAUS: "Manaus"
+  STR_MARACAIBO: "Maracaibo"
+  STR_NATAL: "Natal"
+  STR_PANAMA: "Panamá"
+  STR_PORTOALEGRE: "Porto Alegre"
+  STR_RECIFE: "Recife"
+  STR_SALVADOR: "Salvador"
+  STR_SAOPAULO: "São Paulo"
+
+
+
+
+# CIDADES EUROPEIAS
+  STR_ABERDEEN: "Aberdeen"
+  STR_ALEPPO: "Aleppo"
+  STR_AMSTERDAM: "Amsterdã"
+  STR_ANTALYA: "Antalya"
+  STR_ARCHANGEL: "Arkhangelsk"
+  STR_ASTRAKHAN: "Astracã"
+  STR_ATHENS: "Atenas"
+  STR_BAKU: "Baku"
+  STR_BELGRADE: "Belgrado"
+  STR_BARCELONA: "Barcelona"
+  STR_BELFAST: "Belfast"
+  STR_BIRMINGHAM: "Birmingham"
+  STR_BORDEAUX: "Bordéus"
+  STR_BREST: "Brest"
+  STR_BRUSSELS: "Bruxelas"
+  STR_BRYANSK: "Bryansk"
+  STR_BUCHAREST: "Bucareste"
+  STR_CARDIFF: "Cardiff"
+  STR_COLOGNE: "Colônia"
+  STR_COPENHAGEN: "Copenhague"
+  STR_CORK: "Cortiça"
+  STR_CRETE: "Creta"
+  STR_DUBLIN: "Dublin"
+  STR_FERROL: "Ferrol"
+  STR_FLORENCE: "Florença"
+  STR_GENEVA: "Genebra"
+  STR_GLASGOW: "Glasgow"
+  STR_HAMBURG: "Hamburgo"
+  STR_IZMIR: "Esmirna"
+  STR_KALININGRAD: "Kaliningrado"
+  STR_KAZAN: "Cazã"
+  STR_KHARKOV: "Carcóvia"
+  STR_KIEV: "Kiev"
+  STR_KRAKOW: "Cracóvia"
+  STR_LENINGRAD: "São Petersburgo"
+  STR_LISBON: "Lisboa"
+  STR_LUBECK: "Lubeck"
+  STR_LULEA: "Lulea"
+  STR_LVIV: "L'viv"
+  STR_LYON: "Lyon"
+  STR_MANCHESTER: "Manchester"
+  STR_MARSEILLE: "Marselha"
+  STR_MILAN: "Milão"
+  STR_MINSK: "Minsk"
+  STR_MUNICH: "Munique"
+  STR_MURMANSK: "Murmansk"
+  STR_NAPLES: "Nápoles"
+  STR_NOVGOROD: "Novgorod"
+  STR_NOVOROSSIYSK: "Novorossiysk"
+  STR_OSLO: "Oslo"
+  STR_PRAGUE: "Praga"
+  STR_REYKJAVIK: "Reykjavik"
+  STR_RIGA: "Riga"
+  STR_ROSTOV: "Rostov"
+  STR_SARAJEVO: "Sarajevo"
+  STR_SEVASTOPOL: "Sebastopol"
+  STR_SMOLENSK: "Smolensk"
+  STR_SOFIA: "Sófia"
+  STR_STALINGRAD: "Volgogrado"
+  STR_STOCKHOLM: "Estocolmo"
+  STR_STUTTGART: "Estugarda"
+  STR_TIRANA: "Tirana"
+  STR_TRONDHEIM: "Trondheim"
+  STR_TURKU: "Turco"
+  STR_VENICE: "Veneza"
+  STR_VIENNA: "Viena"
+  STR_WARSAW: "Varsóvia"
+  STR_ZAGREB: "Zagreb"
+  STR_VORKUTA: "Vorkuta"
+
+
+
+
+# CIDADES DO NORTE DA ÁFRICA
+  STR_ALGIERS: "Argel"
+  STR_ASWAN: "Assuão"
+  STR_BEIRUT: "Beirute"
+  STR_BENGHAZI: "Bengazi"
+  STR_DAMASCUS: "Damasco"
+  STR_DJIBOUTI: "Djibuti"
+  STR_JERUSALEM: "Jerusalém"
+  STR_KHARTOUM: "Cartum"
+  STR_NOUAKCHOTT: "Nouakchott"
+  STR_TRIPOLI: "Trípoli"
+  STR_TUNIS: "Tunis"
+
+
+
+
+# CIDADES SUL-AFRICANAS
+  STR_ABIDJAN: "Abidjã"
+  STR_ABUJA: "Abuja"
+  STR_ACCRA: "Acra"
+  STR_ADDISABABA: "Adis Abeba"
+  STR_ANTANANARIVO: "Antananarivo"
+  STR_BAMAKO: "Bamako"
+  STR_BENGUI: "Bengui"
+  STR_BISSAU: "Bissau"
+  STR_DAKAR: "Dacar"
+  STR_DARESSALAAM: "Dar es Salaam"
+  STR_DURBAN: "Durban"
+  STR_FREETOWN: "Cidade Livre"
+  STR_GABORONE: "Gaborone"
+  STR_HARARE: "Harare"
+  STR_KAMPALA: "Campala"
+  STR_KANO: "Kano"
+  STR_KIGALI: "Kigali"
+  STR_LIBREVILLE: "Libreville"
+  STR_LILONGUE: "Lilongue"
+  STR_LUANDA: "Luanda"
+  STR_LUSAKA: "Lusaca"
+  STR_MAPUTO: "Maputo"
+  STR_MOGADISHU: "Mogadíscio"
+  STR_MONROVIA: "Monróvia"
+  STR_NDJAMENA: "N'Djamena"
+  STR_NIAMEY: "Niamey"
+  STR_OUAGADOUGOU: "Ouagadougou"
+  STR_PORT_ELIZABETH: "Porto Elizabeth"
+  STR_PORT_HARCOURT: "Porto Harcourt"
+  STR_PORT_SAID: "Porto Said"
+  STR_WINDHOEK: "Windhoek"
+  STR_YAOUNDE: "Yaoundé"
+
+
+
+
+# CIDADES DA ÁSIA CENTRAL
+  STR_ALMATY: "Almaty"
+  STR_ASTANA: "Astana"
+  STR_ASHGABAT: "Ashgabat"
+  STR_BANGALORE: "Bangalore"
+  STR_BISHKEK: "Bisqueque"
+  STR_CHENNAI: "Chennai"
+  STR_DOHA: "Doha"
+  STR_DUBAI: "Dubai"
+  STR_DUSHAMBE: "Dushambe"
+  STR_GOA: "Goa"
+  STR_ISFAHAN: "Isfahan"
+  STR_ISLAMABAD: "Islamabad"
+  STR_ISTANBUL: "Istambul"
+  STR_KABUL: "Cabul"
+  STR_KATMANDU: "Catmandu"
+  STR_KUWAITCITY: "Cidade do Kuwait"
+  STR_LAHORE: "Lahore"
+  STR_MASHHAD: "Mashhad"
+  STR_MECCA: "Meca"
+  STR_MUSCAT: "Moscatel"
+  STR_RIYADH: "Riade"
+  STR_SANAA: "Sana'a"
+  STR_SHIRAZ: "Shiraz"
+  STR_SRI_LANKA: "Sri Lanka"
+  STR_TASHKENT: "Tashkent"
+  STR_TBILISI: "Tbilisi"
+  STR_YEREVAN: "Erevan"
+
+
+
+
+# CIDADES DO SUDESTE ASIÁTICO
+  STR_CHENGDU: "Chengdu"
+  STR_CHITTAGONG: "Chittagong"
+  STR_CHONGQING: "Chongqing"
+  STR_DAVAO: "Cidade de Davao"
+  STR_DALIAN: "Dalian"
+  STR_DHAKA: "Daca"
+  STR_GUANGZHOU: "Guangzhou"
+  STR_HAIKOU: "Haikou"
+  STR_HANOI: "Hanói"
+  STR_HARBIN: "Harbin"
+  STR_HIROSHIMA: "Hiroshima"
+  STR_KHABAROVSK: "Khabarovsk"
+  STR_KUALA: "Kuala Lumpur"
+  STR_LASSA: "Lassa"
+  STR_MEDAN: "Medan"
+  STR_NAGASAKI: "Nagasaki"
+  STR_OSAKA: "Osaka"
+  STR_RANGOON: "Rangum"
+  STR_SAIGON: "Cidade de Ho Chi Min"
+  STR_SAPPORO: "Sapporo"
+  STR_SENDAI: "Sendai"
+  STR_SHENYANG: "Shenyang"
+  STR_TAIPEI: "Taipé"
+  STR_TIANJIN: "Tianjin"
+  STR_ULANBATOR: "Ulan Bator"
+  STR_URUMQI: "Urumqi"
+  STR_VLADIVOSTOK: "Vladivostok"
+  STR_WUHAN: "Wuhan"
+  STR_XIAN: "Xian"
+
+
+
+
+# CIDADES SIBERIANAS
+  STR_CHEYLABINSK: "Cheilabinsk"
+  STR_IRKUTSK: "Irkutsk"
+  STR_KRASNOYARSK: "Krasnoiarsk"
+  STR_OMSK: "Omsk"
+  STR_PETROPAVLOVSK: "Petropavlovsk"
+  STR_YAKUTSK: "Yakutsk"
+  STR_YEKATERINBURG: "Ecaterimburgo"
+
+
+
+
+# CIDADES AUSTRALASIANAS
+  STR_ADELAIDE: "Adelaide"
+  STR_AUCKLAND: "Auckland"
+  STR_BRISBANE: "Brisbane"
+  STR_CHRISTCHURCH: "Cristânia"
+  STR_DARWIN: "Darwin"
+  STR_FIJI: "Fiji"
+  STR_MAKASSAR: "Makassar"
+  STR_NOUMEA: "Noumea"
+  STR_PORTMORESBY: "Porto Moresby"
+  STR_SAMARINDA: "Samarinda"
+  STR_SOLOMON_ISLAND: "Ilha Salomão"
+  STR_SURABAYA: "Surabaya"
+  STR_TASMANIA: "Tasmânia"
+  STR_TOWNSVILLE: "Cidade"
+  STR_WEIPA: "Weipa"
+
+
+
+
+
+
+
+
+# CIDADES DO PACÍFICO
+  STR_ANCHORAGE: "Ancoragem"
+  STR_EASTER_ISLAND: "Ilha de Páscoa"
+  STR_GALAPAGOS_ISLAND: "Ilha Galápagos"
+  STR_HAWAII: "Havaí"
+  STR_MIDWAY_ISLAND: "Ilha Midway"
+  STR_NOME: "Nome"
+  STR_STLAWRENCE_ISLAND: "São Lourenço"
+  STR_TONGA: "Tonga"
+
+
+
+
+# CIDADES DO ATLÂNTICO NORTE
+  STR_AZORES: "Açores"
+  STR_BERMUDA: "Bermudas"
+  STR_CANARY_ISLANDS: "Ilhas Canárias"
+  STR_FAROE_ISLAND: "Ilhas Faroé"
+  STR_GOOSEBAY: "Baía do Ganso"
+  STR_NUUK: "Nuuk"
+  STR_STJOHN: "São João"
+
+
+
+
+# CIDADES DO ATLÂNTICO SUL
+  STR_ASCENSION_ISLAND: "Ilha da Ascensão"
+  STR_FALKLAND_ISLAND: "Ilhas Falkland"
+  STR_TRINDADE_ISLAND: "Ilha da Trindade"
+
+
+
+
+# CIDADES DO OCEANO ÍNDICO
+  STR_MALDIVE_ISLAND: "Ilha Maldiva"
+  STR_MAURITIUS: "Maurício"
+  STR_SEYCHELLES_ISLAND: "Ilha Seychelles"
+
+
+
+
+# BASES/POSTOS AVANÇADOS ANTÁRTICOS
+  STR_VOSTOK: "Estação Vostok"
+  STR_MCMURDO: "Estação McMurdo"
+  STR_AMUNDSENSCOTT: "Estação Amundsen-Scott"
+  STR_BELLINGSHAUSEN: "Estação Bellingshausen"
+
+
+
+
+# CIDADES DO ATLÂNTICO/PACÍFICO/ÍNDIA
+
+
+
+
+  STR_GUAM: Guam
+  STR_KURIL_ISLANDS: Ilhas Curilas
+  STR_KIRIBATI: Quiribáti
+  STR_PITCAIRN: Pitcairn
+  STR_REUNION: Reunião
+  STR_NAURU: Nauru
+  STR_SAMOA: Samoa
+  STR_SAINT_HELENA: Santa Helena
+  STR_TRISTAN: Tristão
+  STR_SOUTH_GEORGIA: Geórgia do Sul
+  STR_COCOS_ISLANDS: Ilhas Cocos
+  STR_DIEGO_GARCIA: Diego Garcia
+#FIM NOMES DE CIDADES

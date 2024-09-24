@@ -291,7 +291,6 @@ items:
     bulletSpeed: 8
     explosionSpeed: 10
     power: 25
-    power: 30
     damageAlter:
       RandomType: 6
       ToArmorPre: 0.4
@@ -360,7 +359,6 @@ items:
     bulletSpeed: 10
     explosionSpeed: 10
     power: 50
-    power: 30
     damageAlter:
       RandomType: 6
       ToArmorPre: 0.4
@@ -1121,9 +1119,7 @@ items:
     floorSprite: 800
     hitSound: 22
     hitAnimation: 26
-    power: 35
     damageType: 1
-    bulletSprite: 1
     explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 30

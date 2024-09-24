@@ -7,28 +7,28 @@ items:
   - delete: STR_CANNON_ROUNDS_X50
 ####################################
   - type: STR_SIDEWINDER_LAUNCHER
-    categories: [STR_VEHICLES, STR_BVRAAM]
+    categories: [STR_VEHICLES, STR_AIRCRAFT_WEAPONS]
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
 
   - type: STR_20MM_CANNON_LAUNCHER
-    categories: [STR_VEHICLES, STR_AUTOCANNON]
+    categories: [STR_VEHICLES, STR_AIRCRAFT_WEAPONS]
     size: 1.5
     costBuy: 37500
     costSell: 35000
     transferTime: 48
 
   - type: STR_30MM_CANNON_LAUNCHER
-    categories: [STR_VEHICLES, STR_AUTOCANNON]
+    categories: [STR_VEHICLES, STR_AIRCRAFT_WEAPONS]
     size: 1.5
     costBuy: 37500
     costSell: 35000
     transferTime: 48
 
   - type: STR_50CAL_MACHINEGUN_LAUNCHER
-    categories: [STR_VEHICLES, STR_AUTOCANNON]
+    categories: [STR_VEHICLES, STR_AIRCRAFT_WEAPONS]
     size: 1.5
     costBuy: 37500
     costSell: 35000

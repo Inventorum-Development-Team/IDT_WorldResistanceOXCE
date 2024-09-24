@@ -204,7 +204,7 @@ startingBase:
           ammo: 200
         - type: STR_50CAL_MACHINEGUN_UC
           ammo: 200
-        - type: STR_SIDEWINDER_UC
+        - type: STR_SIDEWINDER
           ammo: 2
     - type: STR_SABRE
       id: 2
@@ -216,7 +216,7 @@ startingBase:
           ammo: 200
         - type: STR_50CAL_MACHINEGUN_UC
           ammo: 200
-        - type: STR_SIDEWINDER_UC
+        - type: STR_SIDEWINDER
           ammo: 2
     - type: STR_VTOL
       id: 1

@@ -410,7 +410,7 @@ mapScripts:
       size: 1
       executions: 1
       executionChances: 100
-      UFOName: STR_CONST_UFO
+      #UFOName: STR_CONST_UFO
     - type: addBlock
       size: 2
       executions: 4
