@@ -7,10 +7,10 @@ soldiers:
     costSalary: 20000
     flagOffset: 0
     minStats:
-      tu: 70
-      stamina: 60
+      tu: 75
+      stamina: 70
       health: 40
-      bravery: 30
+      bravery: 60
       reactions: 30
       firing: 80
       throwing: 50
@@ -19,10 +19,10 @@ soldiers:
       psiSkill: 0
       melee: 60
     maxStats:
-      tu: 80
-      stamina: 80
+      tu: 85
+      stamina: 90
       health: 50
-      bravery: 50
+      bravery: 70
       reactions: 45
       firing: 80
       throwing: 60
@@ -31,8 +31,8 @@ soldiers:
       psiSkill: 16
       melee: 70
     statCaps:
-      tu: 95
-      stamina: 100
+      tu: 105
+      stamina: 110
       health: 60
       bravery: 80
       reactions: 60
