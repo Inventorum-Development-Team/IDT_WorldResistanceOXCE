@@ -810,6 +810,7 @@ en-US:
   MAP_TPURBAN: "Snow City"
   MAP_TJURBAN: "Jungle City"
   MAP_TMURBAN: "Mountain City"
+  URBAN_RUINS: "Urban Ruins"
   
 #########################################
   STR_TERROR_MISSION: TERROR MISSION URBAN

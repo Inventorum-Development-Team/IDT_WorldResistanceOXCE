@@ -1268,6 +1268,7 @@ fr:
   MAP_TPURBAN: "Ville de neige" 
   MAP_TJURBAN: "Ville de jungle" 
   MAP_TMURBAN: "Ville de montagne" 
+  MAP_URBAN_RUINS: "Ruines urbaines"
   
 ########################################### 
   STR_TERROR_MISSION: MISSION TERRORISTE URBAINE

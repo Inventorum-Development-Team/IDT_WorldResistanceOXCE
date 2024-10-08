@@ -289,7 +289,7 @@ alienDeployments:
       - URBAN_RUINS
       - RURAL
       - IDT_SNOWVILLAGE
-      - TPURBAN
+      - PURBAN
       - FOREST_SNOW
       - FORESTSWAMP_SNOW
       - ACULTASNOW

@@ -1338,6 +1338,8 @@ it:
 
 
   MAP_TMURBAN: "Città della montagna"
+
+  MAP_URBAN_RUINS: "Rovine urbane"
   
 ############################################# 
   STR_TERROR_MISSION: MISSIONE TERRORISTICA URBANA
