@@ -1,9 +1,9 @@
-X-September-2024: World Resistance Beta v0.3
+08-October-2024: World Resistance Beta v0.3
 Changes made:
 * Fixed issue with Chimeran Conversion Center mission terrain list, reported by MitraLightbringer
 * Solved issue with missing Hybrid live alien item, reported by NecroDiego
 * Added human (Bandages and Medical Bag) and Chimera (Sym-Bac) health items, requested by Leonardo D. & NecroDiego
-* Added Chimeran Weapons, by efrenespartano & _Brain322
+* Added Chimeran Weapons, by efrenespartano & Brain64
     - Sixeye Sniper Rifle
     - Hunter DMR
     - Plasma Repeater Pistol
@@ -25,8 +25,8 @@ Changes made:
     - M1A1 Thompson SMG (US)
     - Rossmore Combat Shotgun (UK)
     - L206 LAARK Launcher (UK)
-    - HE.44 Magnum (SRPA), by _Brain322
-    - HVAP Wraith Minigun (SRPA), _Brain322
+    - HE.44 Magnum (SRPA), by Brain64
+    - HVAP Wraith Minigun (SRPA), Brain64
 * Enabled campaign, added three missions (maps by Luke83):
     - Conversion Center Raid
     - Chimeran Tower Assault

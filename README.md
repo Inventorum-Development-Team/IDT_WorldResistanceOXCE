@@ -21,7 +21,7 @@ Credits by name:
 * TigasZ8: Resistance Fans Community leader, beta tester & main support; Portuguese, French, Italian & German translations
 * Wendi: RFC member, original XR-24 Spitter designer
 * wolwerin: IDT member, placeholder sprites for Repeater Pistol, Hunter DMR and Brute Minigun (unused)
-* _Brain322: HE.44 Magnum, HVAP Wraith, basis for Brute Minigun, Hunter DMR, Repeater Pistol, Marksman DMR sprites
+* Brain64: HE.44 Magnum, HVAP Wraith, basis for Brute Minigun, Hunter DMR, Repeater Pistol, Marksman DMR sprites
 
 DISCLAIMER: 
 
