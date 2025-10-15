@@ -1,3 +1,11 @@
+# 14-October-2025: World Resistance Beta v0.4
+Changes made:
+* Updated to OXCE v8.4.0
+* Enabled Smoke Grenades
+* Spellcheck on en-US language file
+* Buffed damage of HE.44 Magnum (was 32, is now 45)
+* Colt M1911's ammo is now the same damage as M1A1 Thompson SMG's ammo (same caliber)
+
 08-October-2024: World Resistance Beta v0.3
 Changes made:
 * Fixed issue with Chimeran Conversion Center mission terrain list, reported by MitraLightbringer
