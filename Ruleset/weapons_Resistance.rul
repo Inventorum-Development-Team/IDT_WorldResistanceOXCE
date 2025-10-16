@@ -700,7 +700,7 @@ items:
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     attraction: 8
     ##listOrder: 2260
@@ -1118,7 +1118,7 @@ items:
     damageType: 1
     explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
-    power: 30
+    power: 35
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
@@ -1169,7 +1169,7 @@ items:
     weight: 2
     bigSprite: 776
     floorSprite: 776
-    power: 32
+    power: 45
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
