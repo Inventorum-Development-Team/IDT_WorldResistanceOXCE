@@ -54,7 +54,7 @@ regions:
         - [236.705, 236.705, -38.72, -38.72, -100, STR_SANFRANCISCO]
         - [290, 290, -18.5, -18.5, -100, STR_SANTODOMINGO]
         - [-66.383, -66.383, -50.216, -50.216, -100, STR_SEPT_ILES]
-        - [279.454, 279.454, -43.14, -43.14, -100, STR_TORONTO]     
+        - [279.454, 279.454, -43.14, -43.14, -100, STR_TORONTO]
 
         - [200.45, 200.45, -70.65, -70.65, -100, STR_BARROW]
         - [256.161, 256.161, -58.746, -58.746, -100, STR_CHURCHILL]
@@ -87,7 +87,7 @@ regions:
         - [324.65, 324.65, 8.07, 8.07, -100, STR_RECIFE]
         - [321.25, 321.25, 13, 13, -100, STR_SALVADOR]
         - [313.325, 313.325, 23.5, 23.5, -100, STR_SAOPAULO]
-#END NEW CITIES           
+#END NEW CITIES
 
 #BEGIN VANILLA CITIES
         - [13.375, 13.375, -52.5, -52.5, -100, STR_BERLIN]
@@ -295,7 +295,7 @@ regions:
         - [236.705, 236.705, -38.72, -38.72, -101, STR_SANFRANCISCO]
         - [290, 290, -18.5, -18.5, -101, STR_SANTODOMINGO]
         - [-66.383, -66.383, -50.216, -50.216, -101, STR_SEPT_ILES]
-        - [279.454, 279.454, -43.14, -43.14, -101, STR_TORONTO]     
+        - [279.454, 279.454, -43.14, -43.14, -100, STR_TORONTO]
 
         - [200.45, 200.45, -70.65, -70.65, -101, STR_BARROW]
         - [256.161, 256.161, -58.746, -58.746, -101, STR_CHURCHILL]
@@ -328,7 +328,7 @@ regions:
         - [324.65, 324.65, 8.07, 8.07, -101, STR_RECIFE]
         - [321.25, 321.25, 13, 13, -101, STR_SALVADOR]
         - [313.325, 313.325, 23.5, 23.5, -101, STR_SAOPAULO]
-#END NEW CITIES           
+#END NEW CITIES
 
 #BEGIN VANILLA CITIES
         - [13.375, 13.375, -52.5, -52.5, -101, STR_BERLIN]
@@ -536,7 +536,7 @@ regions:
         - [236.705, 236.705, -38.72, -38.72, -102, STR_SANFRANCISCO]
         - [290, 290, -18.5, -18.5, -102, STR_SANTODOMINGO]
         - [-66.383, -66.383, -50.216, -50.216, -102, STR_SEPT_ILES]
-        - [279.454, 279.454, -43.14, -43.14, -102, STR_TORONTO]     
+        - [279.454, 279.454, -43.14, -43.14, -102, STR_TORONTO]
 
         - [200.45, 200.45, -70.65, -70.65, -102, STR_BARROW]
         - [256.161, 256.161, -58.746, -58.746, -102, STR_CHURCHILL]
@@ -569,7 +569,7 @@ regions:
         - [324.65, 324.65, 8.07, 8.07, -102, STR_RECIFE]
         - [321.25, 321.25, 13, 13, -102, STR_SALVADOR]
         - [313.325, 313.325, 23.5, 23.5, -102, STR_SAOPAULO]
-#END NEW CITIES           
+#END NEW CITIES
 
 #BEGIN VANILLA CITIES
         - [13.375, 13.375, -52.5, -52.5, -102, STR_BERLIN]
@@ -738,4 +738,4 @@ regions:
         - [63.653, 63.653, -60.54, -60.54, -102, STR_YEKATERINBURG]
 #END NEW CITIES
 
-# END TERRORIST CHIMERAN_HUB_TOWER      
+# END TERRORIST CHIMERAN_HUB_TOWER
