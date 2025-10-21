@@ -338,6 +338,27 @@ items:
     battleType: 1
     ##listOrder: 2130
 
+  - type: STR_FEDOROV_AVTOMAT_MAG
+    categories: [STR_HUMAN_EQUIPMENT, STR_ASSAULT_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_MAGAZINES]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 2
+    bigSprite: 256
+    floorSprite: 256
+    bulletSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    power: 30
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.2
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    ##listOrder: 2025
 
   - type: STR_RAZOR_BM001
     categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES]
