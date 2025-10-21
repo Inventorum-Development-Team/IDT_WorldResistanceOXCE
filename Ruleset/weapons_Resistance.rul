@@ -230,7 +230,98 @@ items:
     bulletSprite: 4
     ##listOrder: 2026
 
-    
+  - type: STR_RAZOR_BM001
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 1224
+    floorSprite: 1224
+    handSprite: 1224
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK1_BATTERY
+      - STR_BULLSEYE_MK2_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 40
+    accuracyAimed: 50
+    accuracyAuto: 35
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST_SHORT
+      followProjectiles: false    
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    ##listOrder: 2240
+
+  - type: STR_FEDOROV_GROM
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 1320
+    floorSprite: 1320
+    handSprite: 1320
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_BULLSEYE_MK1_BATTERY
+      - STR_BULLSEYE_MK2_BATTERY
+    accuracyCloseQuarters: 85
+    accuracySnap: 40
+    accuracyAimed: 50
+    accuracyAuto: 35
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST_SHORT
+      followProjectiles: false    
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    tuAuto: 30
+    minRange: 15
+    snapRange: 24
+    aimRange: 20
+    autoRange: 11
+    sprayWaypoints: 2
+    dropoff: 10
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    ##listOrder: 2240
+
   - type: STR_BULLSEYE_MK1
     categories: [STR_CHIMERAN_EQUIPMENT, STR_ASSAULT_RIFLES]
     size: 0.2
@@ -590,6 +681,70 @@ items:
       ToArmorPre: 0.5
     damageType: 1
     clipSize: 5
+    battleType: 2
+    armor: 12
+    ##listOrder: 2075
+
+  - type: STR_LONGBOW_1S1K
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_SNIPER_RIFLES]
+    size: 0.2
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_1_RESEARCH
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 1072
+    floorSprite: 1072
+    handSprite: 1072
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_LONGBOW_1S1K_FLECHETTES
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.8
+      reactions: 1.5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    ##listOrder: 2070
+
+  - type: STR_LONGBOW_1S1K_FLECHETTES
+    categories: [STR_CHIMERAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BATTERIES]
+    size: 0.1
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_1_RESEARCH
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 1088
+    floorSprite: 1088
+    hitSound: 19
+    bulletSprite: 29 # 35*29=1015
+    hitAnimation: 110
+    explosionSpeed: 10
+    power: 40
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.6
+    damageType: 5
+    clipSize: 10
     battleType: 2
     armor: 12
     ##listOrder: 2075
