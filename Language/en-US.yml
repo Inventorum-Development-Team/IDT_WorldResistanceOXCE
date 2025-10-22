@@ -235,8 +235,8 @@ en-US:
   STR_SYMBAC: "Sym-Bac Canister"
   STR_SYMBAC_UFOPEDIA: "Short for 'Symbiotic Bacteria.' This alien canister contains a bright green fluid used by the Chimera to regenerate significant health and close major wounds. When applied to humans, it has restorative benefits but also induces brief disorientation."
   
-  STR_SIDE_LOADED_SMG: "Side-loaded SMG"
-  STR_SIDE_LOADED_SMG_UFOPEDIA: "A generic submachine gun with a lateral magazine well. Most of them are copies of the MP-18, "
+  STR_SIDE_LOADED_SMG: "Schmeisser-Pattern Submachine Gun"
+  STR_SIDE_LOADED_SMG_UFOPEDIA: "Generic term for the side-fed, open-bolt automatic weapons derived from early German compact gun designs of the interwar era (MP28, Lanchester, Type 100, etc). Known for simple blowback operation, wooden stocks, and stout construction, Schmeisser-pattern guns earned a reputation for reliability and easy manufacture. The type became the standard blueprint for military and police submachine guns across Europe prior to the Chimeran War."
 
   # SOLDIERS
 
