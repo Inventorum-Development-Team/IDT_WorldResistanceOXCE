@@ -167,7 +167,7 @@ en-US:
 
   STR_ARISAKA_TYPE_99: "Arisaka Type-99 Rifle"
   STR_ARISAKA_TYPE_99_CLIP: "Arisaka Ammo Clip"
-  STR_ARISAKA_TYPE_99_UFOPEDIA: "Introduced during the Japanese campaigns in China, the Type-99 replaced older Type-38 rifles. Solidly built, though the   STRonger cartridge and lighter frame result in higher recoil. Soldiers often carried 'good luck flags'—yosegaki hinomaru—as traditional talismans."
+  STR_ARISAKA_TYPE_99_UFOPEDIA: "Introduced during the Japanese campaigns in China, the Type-99 replaced older Type-38 rifles. Solidly built, though the stronger cartridge and lighter frame result in higher recoil. Soldiers often carried 'good luck flags'—yosegaki hinomaru—as traditional talismans."
 
   STR_XR24_SPITTER: "XR-24 Spitter Scattergun"
   STR_XR24_SPITTER_BATTERY: "Spitter Energy Cell"
@@ -234,6 +234,9 @@ en-US:
 
   STR_SYMBAC: "Sym-Bac Canister"
   STR_SYMBAC_UFOPEDIA: "Short for 'Symbiotic Bacteria.' This alien canister contains a bright green fluid used by the Chimera to regenerate significant health and close major wounds. When applied to humans, it has restorative benefits but also induces brief disorientation."
+  
+  STR_SIDE_LOADED_SMG: "Side-loaded SMG"
+  STR_SIDE_LOADED_SMG_UFOPEDIA: "A generic submachine gun with a lateral magazine well. Most of them are copies of the MP-18, "
 
   # SOLDIERS
 
