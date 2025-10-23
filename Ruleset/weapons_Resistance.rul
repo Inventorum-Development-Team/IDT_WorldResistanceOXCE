@@ -671,6 +671,114 @@ items:
     attraction: 10
     #listOrder: 3090
 
+  - type: STR_DEGTYARYOV_LMG
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_RUSSIAN_EQUIPMENT]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 11000
+    costSell: 9000
+    weight: 13
+    bigSprite: 360
+    floorSprite: 360
+    handSprite: 360
+    fireSound: 103
+    reloadSound: 303
+    confSnap:
+      shots: 6
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 12
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_DEGTYARYOV_LMG_BELT
+      - STR_DEGTYARYOV_LMG_PAN
+    accuracyCloseQuarters: 55
+    kneelBonus: 300
+    accuracySnap: 42
+    accuracyAuto: 37
+    tuSnap: 30
+    tuAuto: 40
+    tuLoad: 20
+    minRange: 10
+    snapRange: 20
+    autoRange: 18
+    dropoff: 4
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    #autoShots: 6
+    sprayWaypoints: 2
+    attraction: 10
+    #listOrder: 3080
+
+  - type: STR_DEGTYARYOV_LMG_BELT
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_RUSSIAN_EQUIPMENT]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 376
+    floorSprite: 376
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    explosionSpeed: 30
+    bulletSprite: 12 #Rifle bullet 35*12=420
+    power: 33
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
+    damageType: 1
+    clipSize: 200
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 2
+    attraction: 10
+    #listOrder: 3090
+  - type: STR_DEGTYARYOV_LMG_PAN
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_RUSSIAN_EQUIPMENT]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 376
+    floorSprite: 376
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    explosionSpeed: 30
+    bulletSprite: 12 #Rifle bullet 35*12=420
+    power: 33
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
+    damageType: 1
+    clipSize: 200
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 2
+    attraction: 10
+    #listOrder: 3090
+    
   - type: STR_BRUTE_MINIGUN
     categories: [STR_CHIMERAN_EQUIPMENT, STR_LMGS]
     size: 0.4
@@ -793,6 +901,70 @@ items:
 
   - type: STR_303_SNIPER_AMMO
     categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_BRITISH_EQUIPMENT, STR_MAQUIS_EQUIPMENT, STR_MAGAZINES]
+    size: 0.1
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_1_RESEARCH
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 488
+    floorSprite: 488
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 3
+    explosionSpeed: 10
+    power: 50
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.5
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+    ##listOrder: 2075
+    
+  - type: STR_MOSIN_NAGANT
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_RUSSIAN_EQUIPMENT]
+    size: 0.2
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_1_RESEARCH
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 472
+    floorSprite: 472
+    handSprite: 472
+    fireSound: 4
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_MOSIN_NAGANT_CLIP
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.8
+      reactions: 1.5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    ##listOrder: 2070
+
+  - type: STR_MOSIN_NAGANT_CLIP
+    categories: [STR_HUMAN_EQUIPMENT, STR_SNIPER_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_SIBERIAN_EQUIPMENT, STR_MAGAZINES]
     size: 0.1
     #requiresBuy:
     #  - STR_BRITISH_COOPERATION_1_RESEARCH
