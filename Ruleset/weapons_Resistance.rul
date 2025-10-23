@@ -1582,6 +1582,112 @@ items:
     attraction: 10
     #listOrder: 2750
 
+  - type: STR_ERMA_EMP44
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 4000
+    costSell: 3000
+    weight: 5
+    bigSprite: 592
+    floorSprite: 592
+    handSprite: 592
+    fireSound: 138
+    reloadSound: 338
+    sprayWaypoints: 2
+    confAuto:
+      shots: 7
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confSnap:
+      shots: 6
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_9MM_SMG_MAG
+    accuracyCloseQuarters: 150
+    kneelBonus: 200
+    accuracySnap: 70
+    accuracyAuto: 50
+    tuSnap: 28
+    tuAuto: 24
+    tuLoad: 15
+    minRange: 2
+    snapRange: 16
+    aimRange: 10
+    autoRange: 14
+    dropoff: 4
+    twoHanded: true
+    oneHandedPenalty: 15
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    #listOrder: 2750
+
+  - type: STR_SIDE_LOADED_SMG
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 4000
+    costSell: 3000
+    weight: 5
+    bigSprite: 592
+    floorSprite: 592
+    handSprite: 592
+    fireSound: 138
+    reloadSound: 338
+    sprayWaypoints: 2
+    confAuto:
+      shots: 7
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confSnap:
+      shots: 6
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_9MM_SMG_MAG
+    accuracyCloseQuarters: 150
+    kneelBonus: 200
+    accuracySnap: 70
+    accuracyAuto: 50
+    tuSnap: 28
+    tuAuto: 24
+    tuLoad: 15
+    minRange: 2
+    snapRange: 16
+    aimRange: 10
+    autoRange: 14
+    dropoff: 4
+    twoHanded: true
+    oneHandedPenalty: 15
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    #listOrder: 2750
+
   - type: STR_9MM_SMG_MAG
     categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS, STR_MAGAZINES]
     requiresBuy:
@@ -1613,7 +1719,7 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    #listOrder: 2760    
+    #listOrder: 2760
     
     
 
