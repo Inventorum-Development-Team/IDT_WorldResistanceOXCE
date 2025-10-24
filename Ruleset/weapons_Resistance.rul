@@ -778,6 +778,85 @@ items:
     invHeight: 2
     attraction: 10
     #listOrder: 3090
+
+  - type: STR_IWAOR_TYPE_105_DRUM
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_AMERICAN_EQUIPMENT]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 11000
+    costSell: 9000
+    weight: 13
+    bigSprite: 360
+    floorSprite: 360
+    handSprite: 360
+    fireSound: 103
+    reloadSound: 303
+    confSnap:
+      shots: 6
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 12
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_IWAOR_TYPE_105_DRUM
+    accuracyCloseQuarters: 55
+    kneelBonus: 300
+    accuracySnap: 42
+    accuracyAuto: 37
+    tuSnap: 30
+    tuAuto: 40
+    tuLoad: 20
+    minRange: 10
+    snapRange: 20
+    autoRange: 18
+    dropoff: 4
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    #autoShots: 6
+    sprayWaypoints: 2
+    attraction: 10
+    #listOrder: 3080
+
+  - type: STR_IWAOR_TYPE_105_DRUM
+    categories: [STR_HUMAN_EQUIPMENT, STR_LMGS, STR_MAGAZINES, STR_AMERICAN_EQUIPMENT]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 376
+    floorSprite: 376
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 10
+    explosionSpeed: 30
+    bulletSprite: 12 #Rifle bullet 35*12=420
+    power: 33
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
+    damageType: 1
+    clipSize: 200
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 2
+    attraction: 10
+    #listOrder: 3090
+
     
   - type: STR_BRUTE_MINIGUN
     categories: [STR_CHIMERAN_EQUIPMENT, STR_LMGS]
@@ -1721,7 +1800,92 @@ items:
     armor: 35
     #listOrder: 2760
     
-    
+  - type: STR_NAMBU_TYPE_2
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.01
+    costBuy: 4000
+    costSell: 3000
+    weight: 5
+    bigSprite: 592
+    floorSprite: 592
+    handSprite: 592
+    fireSound: 138
+    reloadSound: 338
+    sprayWaypoints: 2
+    confAuto:
+      shots: 7
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confSnap:
+      shots: 6
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_NAMBU_TYPE_2_MAG
+    accuracyCloseQuarters: 150
+    kneelBonus: 200
+    accuracySnap: 70
+    accuracyAuto: 50
+    tuSnap: 28
+    tuAuto: 24
+    tuLoad: 15
+    minRange: 2
+    snapRange: 16
+    aimRange: 10
+    autoRange: 14
+    dropoff: 4
+    twoHanded: true
+    oneHandedPenalty: 15
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    #listOrder: 2750
+
+  - type: STR_NAMBU_TYPE_2_MAG
+    categories: [STR_HUMAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_SMGS, STR_MAGAZINES]
+    requiresBuy:
+      - STR_AMERICAN_VOLUNTEERS_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 616
+    floorSprite: 616
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    power: 30
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: true
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 30
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    #listOrder: 2760
+
 
 ###################################
 ##### PISTOLS AND SIDEARMS #######
