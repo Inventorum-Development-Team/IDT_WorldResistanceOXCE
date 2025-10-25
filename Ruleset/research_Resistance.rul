@@ -5,7 +5,7 @@ research:
   - name: STR_EXPANDING_FRONTIERS
     cost: 50
     points: 10
-    requires:
+    dependencies:
       - STR_REESTABLISH_DIPLOMATIC_TIES
 
   - name: STR_AMERICAN_VOLUNTEERS_RESEARCH

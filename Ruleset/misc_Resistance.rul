@@ -146,6 +146,19 @@ itemCategories:
   - type: STR_ALIEN_TECH
     listOrder: 210
 
+customPalettes:
+  - type: PAL_BATTLESCAPE_DESATURATED_CUSTOM
+    target: PAL_BATTLESCAPE
+    file: Resources/Pals/PAL_BATTLE_DESATURATED3.pal
+  - type: PAL_BASESCAPE_DESATURATED_CUSTOM
+    target: PAL_BASESCAPE
+    file: Resources/Pals/PAL_BASESCAPE_DESATURATED1.pal
+  - type: PAL_GEOSCAPE_DESATURATED_CUSTOM
+    target: PAL_GEOSCAPE
+    file: Resources/Pals/PAL_GEOSCAPE_DESATURATED1.pal
+  - type: PAL_BATTLEPEDIA_DESATURATED_CUSTOM
+    target: PAL_BATTLEPEDIA
+    file: Resources/Pals/PAL_BATTLEPEDIA_DESATURATED1.pal
 
 startingBase:
   facilities:
