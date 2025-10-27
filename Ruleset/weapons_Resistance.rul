@@ -1487,6 +1487,135 @@ items:
     armor: 250
     #listOrder: 3190
 
+  - type: STR_SCHROTFLINTE_SHOTGUN
+    categories: [STR_HUMAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_SHOTGUNS]
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_2_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 544
+    floorSprite: 544
+    handSprite: 544
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_SCHROTFLINTE_SHOTGUN_SHELLS
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuLoad: 25
+    minRange: 2
+    snapRange: 12
+    aimRange: 16
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    #listOrder: 3160
+
+  - type: STR_SCHROTFLINTE_SHOTGUN_SHELLS
+    categories: [STR_HUMAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAGAZINES, STR_SHOTGUNS]
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_2_RESEARCH
+    size: 0.01
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 560
+    floorSprite: 560
+    power: 45
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.4
+      ToWound: 0.4
+      RandomWound: true
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    #listOrder: 3190
+
+  - type: STR_XR24_SPITTER
+    categories: [STR_HUMAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_SHOTGUNS]
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_2_RESEARCH
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.03
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 544
+    floorSprite: 544
+    handSprite: 544
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_XR24_SPITTER_BATTERY
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuLoad: 25
+    minRange: 2
+    snapRange: 12
+    aimRange: 16
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    #listOrder: 3160
+
+  - type: STR_XR24_SPITTER_BATTERY
+    categories: [STR_HUMAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_MAGAZINES, STR_SHOTGUNS]
+    #requiresBuy:
+    #  - STR_BRITISH_COOPERATION_2_RESEARCH
+    size: 0.01
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 560
+    floorSprite: 560
+    power: 45
+    damageAlter:
+      RandomType: 6
+      ToArmorPre: 0.4
+      ToWound: 0.4
+      RandomWound: true
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 30
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    #listOrder: 3190
 ###################################
 ######### SUBMACHINE GUNS ########
 #################################
