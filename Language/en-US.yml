@@ -237,6 +237,9 @@ en-US:
   
   STR_SIDE_LOADED_SMG: "Schmeisser-Pattern Submachine Gun"
   STR_SIDE_LOADED_SMG_UFOPEDIA: "Generic term for the side-fed, open-bolt automatic weapons derived from early German compact gun designs of the interwar era (MP28, Lanchester, Type 100, etc). Known for simple blowback operation, wooden stocks, and stout construction, Schmeisser-pattern guns earned a reputation for reliability and easy manufacture. The type became the standard blueprint for military and police submachine guns across Europe prior to the Chimeran War."
+  
+  STR_MAS48_SMG: "MAS-48 SMG"
+  STR_MAS48_SMG_UFOPEDIA: "Compact 9mm weapon developed by France for the United European Defense Forces. Blowback-operated with a distinctive L-shaped bolt running above the barrel, the MAS-48 combines minimal recoil with excellent balance. The trigger provides both semi and full-auto control by pressure sensitivity, with the safety integrated into the grip. Lightweight, reliable, and easily folded for transport, the MAS-48 became the standard close-quarters arm of UED airborne and armored crews."
 
   # SOLDIERS
 
