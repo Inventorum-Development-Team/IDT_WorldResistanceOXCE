@@ -423,7 +423,8 @@ en-US:
   STR_FACTION_OVERVIEW_UFOPEDIA: "SRPA is the leading human faction fighting the Chimera. But we aren't alone. Other human groups are fighting the good fight all across the world. Each group has its own technologies, equipment, and fighting styles. This is often a result of their diverse cultural background and military focus before and during the war."
   STR_SRPA_OVERVIEW: "SRPA Overview"
   STR_SRPA_OVERVIEW_UFOPEDIA: "The Special Research Projects Administration leads mankind's efforts for one single reason: we've been preparing for this. With the discovery of the Chimeran underground facilities in Bryce Canyon, the Administration has developed high-tech equipment and tactics for most of the decade. This gives us a clear advantage over the insane superiority of our enemies: what we lack in technology, we balance it with cunning."
-  STR_AMERICAN_OVERVIEW: "American "
+  STR_AMERICAN_OVERVIEW: "American Overview"
+  STR_AMERICAN_OVERVIEW_UFOPEDIA: "The US are, without any doubt, the most powerful nation in the world, thanks to its massive industrial power. Even after losing key areas with the retreat to rhe Liberty Defense Perimeter, the United States produce more weapons, bullets, and vehicles than other nations still remaining. This means that American units and equipment are {ALT} Cheaper and balanced {ALT}, with a decent "
 
 ######################
 # ENDGAME
