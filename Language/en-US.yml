@@ -235,12 +235,18 @@ en-US:
   STR_SYMBAC: "Sym-Bac Canister"
   STR_SYMBAC_UFOPEDIA: "Short for 'Symbiotic Bacteria.' This alien canister contains a bright green fluid used by the Chimera to regenerate significant health and close major wounds. When applied to humans, it has restorative benefits but also induces brief disorientation."
   
-  STR_SIDE_LOADED_SMG: "Schmeisser-Pattern Submachine Gun"
+  STR_SIDE_LOADED_SMG: "Schmeisser-Pattern SMG"
   STR_SIDE_LOADED_SMG_UFOPEDIA: "Generic term for the side-fed, open-bolt automatic weapons derived from early German compact gun designs of the interwar era (MP28, Lanchester, Type 100, etc). Known for simple blowback operation, wooden stocks, and stout construction, Schmeisser-pattern guns earned a reputation for reliability and easy manufacture. The type became the standard blueprint for military and police submachine guns across Europe prior to the Chimeran War."
   
   STR_MAS48_SMG: "MAS-48 SMG"
-  STR_MAS48_SMG_UFOPEDIA: "Compact 9mm weapon developed by France for the United European Defense Forces. Blowback-operated with a distinctive L-shaped bolt running above the barrel, the MAS-48 combines minimal recoil with excellent balance. The trigger provides both semi and full-auto control by pressure sensitivity, with the safety integrated into the grip. Lightweight, reliable, and easily folded for transport, the MAS-48 became the standard close-quarters arm of UED airborne and armored crews."
-
+  STR_MAS48_SMG_UFOPEDIA: "Compact 9mm weapon developed by France for the United European Defense Forces. Blowback-operated with a distinctive L-shaped bolt running above the barrel, the MAS-48 combines minimal recoil with excellent balance. The trigger provides both semi and full-auto control by pressure sensitivity, with the safety integrated into the grip. Lightweight, reliable, and easily folded for transport, the MAS-48 became the standard close-quarters weapon of UED airborne and armored crews."
+  
+  STR_L9A1_RIFLE: "L9A1 Jansen Rifle"
+  STR_L9A1_RIFLE_MAG: "Rifle, No. 9, Mk.1, also known as the 'Jansen Mk. 1', is an infantry firearm meant to use the intermediate caliber .280 British. Compared to the .303 round in service with most of the Western forces, the .280 had reduced raw damage but increased penetration on armor and terrain. The lighter round also helps to maintain accuracy during sustained automatic fire. Unfortunately, Britain fell before enough numbers could be field for the armed forces."
+  
+  STR_STG44_RIFLE: "StG-44(M) Rifle"
+  STR_STG44_RIFLE_MAG: "StG-44(M) Ammo"
+  STR_STG44_RIFLE_UFOPEDIA: "Designed by Hugo Schmeisser to equip the Reichwehr with a lightweight infantry automatic weapon, chambered in 7.92mm Kurz. Combining the close combat capabilities of a SMG with the accuracy of a carbine, it was first deployed on 1940. The introduction of the more powerful Sturmgewehr .303 in widespread European service relegated this rifle to rear-guard units."
   # SOLDIERS
 
   STR_US_ARMY_SOLDIER: "US Army Ranger"
