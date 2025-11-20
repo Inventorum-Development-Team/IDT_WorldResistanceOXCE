@@ -217,7 +217,7 @@ en-US:
   STR_M5A2_FOLSOM_CARBINE: "M5A2 Folsom Carbine"
   STR_303_RIFLE_AMMO: ".303 Rifle Ammo (x20)"
   STR_40MM_FRAG: "40mm Frag Grenade"
-  STR_M5A2_FOLSOM_CARBINE_UFOPEDIA: "A powerful U.S.-designed rifle used across all American armed forces. It is also produced under license by the British Army as the Mk.6 Carbine, with additional European variants. Though extremely durable, it is heavy and cumbersome due to its wood furniture and built-in grenade launcher. Alt fire: Launch Grenade."
+  STR_M5A2_FOLSOM_CARBINE_UFOPEDIA: "A powerful U.S.-designed rifle used across all American armed forces. It is also produced under license by the British Army as the Mk.6 Carbine, with additional European variants. Though extremely durable, it is heavy and cumbersome due to its wood furniture and built-in grenade launcher."
 
   STR_L23_FAREYE_SNIPER_RIFLE: "L23 Fareye"
   STR_303_SNIPER_AMMO: ".303 Mk 10 Sniper Ammo"
@@ -242,7 +242,8 @@ en-US:
   STR_MAS48_SMG_UFOPEDIA: "Compact 9mm weapon developed by France for the United European Defense Forces. Blowback-operated with a distinctive L-shaped bolt running above the barrel, the MAS-48 combines minimal recoil with excellent balance. The trigger provides both semi and full-auto control by pressure sensitivity, with the safety integrated into the grip. Lightweight, reliable, and easily folded for transport, the MAS-48 became the standard close-quarters weapon of UED airborne and armored crews."
   
   STR_L9A1_RIFLE: "L9A1 Jansen Rifle"
-  STR_L9A1_RIFLE_MAG: "Rifle, No. 9, Mk.1, also known as the 'Jansen Mk. 1', is an infantry firearm meant to use the intermediate caliber .280 British. Compared to the .303 round in service with most of the Western forces, the .280 had reduced raw damage but increased penetration on armor and terrain. The lighter round also helps to maintain accuracy during sustained automatic fire. Unfortunately, Britain fell before enough numbers could be field for the armed forces."
+  STR_L9A1_RIFLE_MAG: "Jansen Rifle Mag"
+  STR_L9A1_RIFLE_UFOPEDIA: "Rifle, No. 9, Mk.1, also known as the 'Jansen Mk. 1', is an infantry firearm meant to use the intermediate caliber .280 British. Compared to the .303 round in service with most of the Western forces, the .280 had reduced raw damage but increased penetration on armor and terrain. The lighter round also helps to maintain accuracy during sustained automatic fire. Known in trials as EM-2 'Mamba', it was meant to equip shock troop units, rather to replace the Mk. 6. Unfortunately, Britain fell before enough numbers could be field for the armed forces."
   
   STR_STG44_RIFLE: "StG-44(M) Rifle"
   STR_STG44_RIFLE_MAG: "StG-44(M) Ammo"
